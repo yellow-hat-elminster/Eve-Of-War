@@ -1,0 +1,282 @@
+
+
+//Spirit summons
+IF !GlobalTimerNotExpired("k9ghostspawn","GLOBAL") PartyHasItem("k9scrl3f")      !Exists("k9Gorion")  !Dead("IMOEN")  GlobalLT("Chapter","GLOBAL",3)
+
+THEN RESPONSE #12  
+
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[60.0])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+
+Continue()
+
+ RESPONSE #13   
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[-120.0])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #12  
+CreateCreatureObjectOffset("k9Gorion",Player1,[0.120])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13
+CreateCreatureObjectOffset("k9Gorion",Player1,[0.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+RESPONSE #12     
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[120.60])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #13     
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[60.-120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+      Continue()
+
+ RESPONSE #12     
+CreateCreatureObjectOffset("k9Gorion",Player1,[-60.120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+       Continue()
+
+ RESPONSE #13      
+CreateCreatureObjectOffset("k9Gorion",Player1,[-120.-60]) SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+       Continue()
+
+
+END
+
+IF !GlobalTimerNotExpired("k9ghostspawn","GLOBAL") PartyHasItem("k9scrl3f")       !Exists("k9Gorion")  !Exists("k9Imoen") Dead("IMOEN") GlobalLT("Chapter","GLOBAL",3)
+
+THEN RESPONSE #12  
+
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[60.0])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #13   
+
+CreateCreatureObjectOffset("k9Imoen",Player1,[-120.0]) SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #12  
+CreateCreatureObjectOffset("k9Imoen",Player1,[0.120]) SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+      Continue()
+
+ RESPONSE #13  
+CreateCreatureObjectOffset("k9Gorion",Player1,[0.-60]) SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+          Continue()
+
+RESPONSE #12     
+
+CreateCreatureObjectOffset("k9Imoen",Player1,[120.60])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+    Continue()
+
+ RESPONSE #13     
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[60.-120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+      Continue()
+
+ RESPONSE #12     
+CreateCreatureObjectOffset("k9Gorion",Player1,[-60.120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+     Continue()
+
+ RESPONSE #13      
+CreateCreatureObjectOffset("k9Imoen",Player1,[-120.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+    Continue()
+
+
+END
+
+IF !GlobalTimerNotExpired("k9ghostspawn","GLOBAL")  PartyHasItem("k9scrl3f")     !Exists("k9Gorion")  !Exists("k9Mulahe") !Exists("k9Davaeo") GlobalGT("Chapter","GLOBAL",2)  GlobalLT("Chapter","GLOBAL",5)
+
+THEN RESPONSE #12  
+
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[60.0])    SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #13   
+
+CreateCreatureObjectOffset("k9Mulahe",Player1,[-120.0])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+    Continue()
+
+ RESPONSE #12  
+CreateCreatureObjectOffset("k9Gorion",Player1,[0.120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13  
+CreateCreatureObjectOffset("k9Mulahe",Player1,[0.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+    Continue()
+
+RESPONSE #12     
+
+CreateCreatureObjectOffset("k9Mulahe",Player1,[120.60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13     
+
+CreateCreatureObjectOffset("k9Mulahe",Player1,[60.-120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #12     
+CreateCreatureObjectOffset("k9Gorion",Player1,[-60.120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13      
+CreateCreatureObjectOffset("k9Gorion",Player1,[-120.-60])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+    Continue()
+
+
+END
+
+IF !GlobalTimerNotExpired("k9ghostspawn","GLOBAL")  PartyHasItem("k9scrl3f")      !Exists("k9Gorion")  !Exists("k9Mulahe") !Exists("k9Davaeo") Global("Chapter","GLOBAL",5)
+
+THEN RESPONSE #12  
+
+
+CreateCreatureObjectOffset("k9Gorion",Player1,[60.0])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13   
+
+CreateCreatureObjectOffset("k9Mulahe",Player1,[-120.0])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #12  
+CreateCreatureObjectOffset("k9Davaeo",Player1,[0.120])    SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #13  
+CreateCreatureObjectOffset("k9Mulahe",Player1,[0.-60])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+RESPONSE #12     
+
+CreateCreatureObjectOffset("k9Davaeo",Player1,[120.60])    SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #13     
+
+CreateCreatureObjectOffset("k9Mulahe",Player1,[60.-120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #12     
+CreateCreatureObjectOffset("k9Gorion",Player1,[-60.120])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #13      
+CreateCreatureObjectOffset("k9Gorion",Player1,[-120.-60]) SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+
+END
+
+
+IF !GlobalTimerNotExpired("k9ghostspawn","GLOBAL")  PartyHasItem("k9scrl3f")     !Exists("k9Gorion")  !Exists("k9Mulahe") !Exists("k9Davaeo") !Exists("k9dopple") Global("Chapter","GLOBAL",6)
+
+THEN RESPONSE #12
+
+CreateCreatureObjectOffset("k9Dopple",Player1,[60.0]) SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #13   
+
+CreateCreatureObjectOffset("k9Mulahe",Player1,[-120.0])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #12  
+CreateCreatureObjectOffset("k9Davaeo",Player1,[0.120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+    Continue()
+
+ RESPONSE #13  
+CreateCreatureObjectOffset("k9Mulahe",Player1,[0.-60])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+RESPONSE #12     
+
+CreateCreatureObjectOffset("k9Davaeo",Player1,[120.60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #13     
+
+CreateCreatureObjectOffset("k9dopple",Player1,[60.-120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #12     
+CreateCreatureObjectOffset("k9Gorion",Player1,[-60.120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #13      
+CreateCreatureObjectOffset("k9Gorion",Player1,[-120.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+
+END
+
+
+
+IF !GlobalTimerNotExpired("k9ghostspawn","GLOBAL")  PartyHasItem("k9scrl3f")   !Exists("k9Gorion")  !Exists("k9Mulahe") !Exists("k9Davaeo") !Exists("k9dopple") !Exists("k9bhaal2") Global("Chapter","GLOBAL",7)   Global("k9bhaalknows","GLOBAL",1)
+
+THEN RESPONSE #12  
+
+
+CreateCreatureObjectOffset("k9Dopple",Player1,[60.0])    SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+
+ RESPONSE #12  
+CreateCreatureObjectOffset("k9Davaeo",Player1,[0.120]) SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #13  
+CreateCreatureObjectOffset("k9Mulahe",Player1,[0.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+
+ RESPONSE #13     
+
+CreateCreatureObjectOffset("k9dopple",Player1,[60.-120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #12     
+CreateCreatureObjectOffset("k9Gorion",Player1,[-60.120])  SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+ RESPONSE #13      
+CreateCreatureObjectOffset("k9Gorion",Player1,[-120.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+  Continue()
+
+
+END
+
+IF !GlobalTimerNotExpired("k9ghostspawn","GLOBAL")  PartyHasItem("k9scrl3f")     !Exists("k9Gorion")  !Exists("k9Mulahe") !Exists("k9Davaeo") !Exists("k9dopple") !Exists("k9bhaal") Global("Chapter","GLOBAL",7)   Global("k9bhaalknows","GLOBAL",0)
+
+
+THEN 
+ RESPONSE #12
+CreateCreatureObjectOffset("k9Davaeo",Player1,[0.120])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13  
+CreateCreatureObjectOffset("k9Mulahe",Player1,[0.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+    Continue()
+
+RESPONSE #12     
+
+CreateCreatureObjectOffset("k9bhaal",Player1,[120.60])    SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13     
+
+CreateCreatureObjectOffset("k9dopple",Player1,[60.-120])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+ Continue()
+
+ RESPONSE #12     
+CreateCreatureObjectOffset("k9Gorion",Player1,[-60.120])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+ RESPONSE #13
+CreateCreatureObjectOffset("k9Gorion",Player1,[-120.-60])   SetGlobalTimer("k9ghostspawn","GLOBAL",300)   SetGlobal("k9ghostspawnglobal","GLOBAL",1)
+   Continue()
+
+
+END

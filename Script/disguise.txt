@@ -1,0 +1,11 @@
+OR(4)
+CheckItemSlot(Player1,"sw1h04",SLOT_WEAPON0)
+CheckItemSlot(Player1,"sw1h04",SLOT_WEAPON1)
+CheckItemSlot(Player1,"sw1h04",SLOT_WEAPON2)
+CheckItemSlot(Player1,"sw1h04",SLOT_WEAPON3)
+
+CheckItemSlot(Player1,"helm09",SLOT_HELM)
+
+CheckItemSlot(Player1,"shld01",SLOT_SHIELD)
+
+CheckItemSlot(Player1,"plat01",ARMOR)

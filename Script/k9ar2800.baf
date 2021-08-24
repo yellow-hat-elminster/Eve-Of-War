@@ -1,0 +1,52 @@
+IF
+	Global("k9_ARwolves","ar2800",0)
+	DifficultyGT(EASY)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar2800",1)
+		CreateCreature("gibber2",[1000.1170],S)
+		CreateCreature("gibber2",[1083.1165],S)
+		CreateCreature("gibber2",[954.1210],S)
+
+		CreateCreature("wolf",[3630.1600],S)
+		CreateCreature("wolf",[3650.1350],S)
+		CreateCreature("wolf",[3475.1575],S)
+		Continue()
+END
+
+
+IF
+	DifficultyGT(EASY)
+    Global("k9ar2800spawn","GLOBAL",1)
+ THEN RESPONSE #100
+		CreateCreature("bandit",[2150.1984],W)
+		CreateCreature("bandit",[2200.2000],W)
+		CreateCreature("bandit",[2300.1850],W)   SetGlobal("k9ar2800spawn","GLOBAL",2)
+END
+
+IF
+    Global("k9ar2800spawn","GLOBAL",2)
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9ar2800spawn","GLOBAL",3)
+		CreateCreature("ironelit",[2120.2000],W)
+		Continue()
+END
+
+
+
+IF
+	Global("k9_ARwolvesHard","ar2800",0)
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolvesHard","ar2800",1)
+		CreateCreature("wolfdr",[185.235],S)
+		CreateCreature("ironelit",[3970.2650],NW)
+		CreateCreature("bandit",[4020.2750],NW)
+		CreateCreature("bandit",[4050.2610],W)
+		CreateCreature("gobgo2",[4060.2650],W)
+		CreateCreature("gobgo2",[4090.2700],W)
+		Continue()
+END

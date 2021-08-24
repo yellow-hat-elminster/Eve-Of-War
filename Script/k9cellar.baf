@@ -1,0 +1,35 @@
+
+
+IF
+	Global("k9friendlyinntrigger","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("tran1004",FALSE)
+		SetGlobal("k9friendlyinntrigger","GLOBAL",1)
+END
+
+IF
+Clicked([ANYONE])   Global("k9cyricclicked", "GLOBAL", 0)    GlobalLT("k9cyrictalk", "GLOBAL", 3)
+THEN
+	RESPONSE #100
+        		DisplayString(Player1,@130157)      SetGlobal("k9cyricclicked", "GLOBAL", 1)
+END
+
+
+IF
+Clicked([ANYONE])
+	Name("Unlock",Myself)
+	AreaCheck("ar2301")	Global("k9cyrictalk", "GLOBAL", 3)    Global("k9cyrictalkzt", "GLOBAL", 0)  Global("k9cyricclicked", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+        	Wait(6)	DisplayString(Player1,@130158)      SetGlobal("k9cyrictalkzt", "GLOBAL", 1)  TriggerActivation(Myself,FALSE)  TriggerActivation("tran1004",TRUE)
+END
+
+IF
+Clicked([ANYONE])
+	Name("Unlock",Myself)
+	AreaCheck("ar2301")	Global("k9cyrictalk", "GLOBAL", 3)    Global("k9cyrictalkzt", "GLOBAL", 0)  Global("k9cyricclicked", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+       DisplayString(Player1,@130157)  	Wait(6)	DisplayString(Player1,@130158)      SetGlobal("k9cyrictalkzt", "GLOBAL", 1)  TriggerActivation(Myself,FALSE)  TriggerActivation("tran1004",TRUE)
+END

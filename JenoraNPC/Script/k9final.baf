@@ -1,0 +1,9 @@
+IF
+	InParty("k9Jenor")
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SetGlobal("bd_jenora_party_epilogue","global",1)
+		ActionOverride("k9Jenor",LeaveParty())
+		ActionOverride("k9Jenor",DestroyAllFragileEquipment(ADAMANTINE))
+END

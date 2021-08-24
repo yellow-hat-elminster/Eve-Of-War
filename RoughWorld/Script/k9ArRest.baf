@@ -1,0 +1,304 @@
+
+
+
+
+
+IF
+	Global("k9_ARrest","AR1600",0)  AreaCheck("AR1600")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR1600",1)
+	        SetRestEncounterProbabilityDay(10)
+        	SetRestEncounterProbabilityNight(10)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR1600",0)     AreaCheck("AR1600")
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR1600",1)
+ 	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(18)
+                END
+
+
+                IF
+	Global("k9_ARrest","AR1700",0)  AreaCheck("AR1700")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR1700",1)
+	        SetRestEncounterProbabilityDay(10)
+        	SetRestEncounterProbabilityNight(10)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR1700",0)     AreaCheck("AR1700")
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR1700",1)
+ 	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(18)
+                END
+                
+                
+                
+
+                IF
+	Global("k9_ARrest","AR1800",0)  AreaCheck("AR1800")
+	DifficultyGT(NORMAL)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR1800",1)
+	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(14)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR1800",0)     AreaCheck("AR1800")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR1800",1)
+ 	        SetRestEncounterProbabilityDay(18)
+        	SetRestEncounterProbabilityNight(18)
+                END
+
+                IF
+	Global("k9_ARrest","AR1801",0)  AreaCheck("AR1801")
+	DifficultyGT(NORMAL)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR1801",1)
+	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(14)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR1801",0)     AreaCheck("AR1801")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR1801",1)
+ 	        SetRestEncounterProbabilityDay(18)
+        	SetRestEncounterProbabilityNight(18)
+                END
+
+                
+
+                IF
+	Global("k9_ARrest","AR1802",0)  AreaCheck("AR1802")
+	DifficultyGT(NORMAL)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR1802",1)
+	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(14)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR1802",0)     AreaCheck("AR1802")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR1802",1)
+ 	        SetRestEncounterProbabilityDay(18)
+        	SetRestEncounterProbabilityNight(18)
+                END
+              
+
+                IF
+	Global("k9_ARrest","AR1803",0)  AreaCheck("AR1803")
+	DifficultyGT(NORMAL)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR1803",1)
+	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(14)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR1803",0)     AreaCheck("AR1803")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR1803",1)
+ 	        SetRestEncounterProbabilityDay(18)
+        	SetRestEncounterProbabilityNight(18)
+                END
+                
+                IF
+	Global("k9_ARrest","AR1804",0)  AreaCheck("AR1804")
+	DifficultyGT(NORMAL)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR1804",1)
+	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(14)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR1804",0)     AreaCheck("AR1804")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR1804",1)
+ 	        SetRestEncounterProbabilityDay(18)
+        	SetRestEncounterProbabilityNight(18)
+                END
+                
+                
+                
+                  IF
+	Global("k9_ARrest","AR2100",0)  AreaCheck("AR2100")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR2100",1)
+	        SetRestEncounterProbabilityDay(8)
+        	SetRestEncounterProbabilityNight(12)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR2100",0)     AreaCheck("AR2100")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR2100",1)
+ 	        SetRestEncounterProbabilityDay(15)
+        	SetRestEncounterProbabilityNight(19)
+                END
+                
+                  IF
+	Global("k9_ARrest","AR2200",0)  AreaCheck("AR2200")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR2200",1)
+	        SetRestEncounterProbabilityDay(4)
+        	SetRestEncounterProbabilityNight(6)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR2200",0)     AreaCheck("AR2200")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR2200",1)
+ 	        SetRestEncounterProbabilityDay(8)
+        	SetRestEncounterProbabilityNight(12)
+                END
+                
+                
+
+
+IF
+	Global("k9_ARrest","AR5100",0)  AreaCheck("AR5100")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","AR5100",1)
+	        SetRestEncounterProbabilityDay(8)
+        	SetRestEncounterProbabilityNight(4)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","AR5100",0)     AreaCheck("AR5100")
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","AR5100",1)
+ 	        SetRestEncounterProbabilityDay(14)
+        	SetRestEncounterProbabilityNight(10)
+                END
+
+
+
+
+IF
+	Global("k9_ARrest","ar5402",0)  AreaCheck("AR5402")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","ar5402",1)
+	        SetRestEncounterProbabilityDay(4)
+        	SetRestEncounterProbabilityNight(4)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","ar5402",0)     AreaCheck("AR5402")
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","ar5402",1)
+ 	        SetRestEncounterProbabilityDay(8)
+        	SetRestEncounterProbabilityNight(8)
+                END
+
+
+
+
+
+
+
+IF
+	Global("k9_ARrest","ar5403",0)  AreaCheck("AR5403")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","ar5403",1)
+		                SetRestEncounterProbabilityDay(6)
+        	SetRestEncounterProbabilityNight(6)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","ar5403",0)     AreaCheck("AR5403")
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","ar5403",1)
+ 	        SetRestEncounterProbabilityDay(10)
+        	SetRestEncounterProbabilityNight(10)
+                END
+
+
+
+
+
+IF
+	Global("k9_ARrest","ar5404",0)  AreaCheck("AR5404")
+	DifficultyGT(EASY)
+	THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrest","ar5404",1)
+		                SetRestEncounterProbabilityDay(6)
+        	SetRestEncounterProbabilityNight(6)
+        	END
+        	
+        	
+IF
+	Global("k9_ARrestHard","ar5404",0)   AreaCheck("AR5404")
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARrestHard","ar5404",1)
+ 	        SetRestEncounterProbabilityDay(10)
+        	SetRestEncounterProbabilityNight(10)
+                END
+
+                

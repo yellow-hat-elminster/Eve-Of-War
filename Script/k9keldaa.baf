@@ -1,0 +1,16 @@
+IF Global("k9kelddathwalk", "GLOBAL", 1) Global("k9kelddathwalk2", "GLOBAL", 0)
+
+THEN RESPONSE #100
+ SetGlobal("k9kelddathwalk2", "GLOBAL", 1)
+ 	Dialogue([PC])
+
+END
+
+
+IF Global("k9kelddaththoughts", "GLOBAL", 1) Global("k9kelddathwalk3", "GLOBAL", 0)
+
+THEN RESPONSE #100
+ SetGlobal("k9kelddathwalk3", "GLOBAL", 1)
+ 	Dialogue([PC])
+
+END

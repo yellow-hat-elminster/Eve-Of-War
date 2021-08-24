@@ -1,0 +1,90 @@
+  //Nashkel additions from Eve of War
+
+
+IF
+	Global("k9scoutamn", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+        SetGlobal("k9scoutamn", "GLOBAL", 2)
+
+AddJournalEntry(@130132,QUEST)
+
+
+END
+
+
+IF
+	Global("k9trainber", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9trainber", "GLOBAL", 1)
+
+
+END
+
+
+
+IF
+	Global("k9Nashkel1", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9Nashkel1", "GLOBAL", 1)
+
+CreateCreature("k9Jasha",[2700.2480],6)
+Weather(SNOW)
+
+
+END
+
+
+IF
+GlobalGT("Chapter","GLOBAL",0) Global("k9Nashkel1", "GLOBAL", 1)
+THEN
+RESPONSE #100
+SetGlobal("k9Nashkel1", "GLOBAL", 2)
+
+RemoveMapNote ([1330.652], 16268)
+
+
+END
+
+
+ IF
+GlobalGT("Chapter","GLOBAL",0) Global("k9Nashkel1", "GLOBAL", 2)
+THEN
+RESPONSE #100
+SetGlobal("k9Nashkel1", "GLOBAL", 3)
+
+
+AddMapNoteColor([1330.652], @2060,DEFAULT)
+
+END
+
+
+
+
+
+
+//Nashkel Store Name
+
+IF
+GlobalGT("Chapter","GLOBAL",0) Global("k92", "GLOBAL", 0)
+THEN
+RESPONSE #100
+SetGlobal("k92", "GLOBAL", 1)
+
+RemoveMapNote ([1655.867], 16267)
+
+
+END
+
+IF
+GlobalGT("Chapter","GLOBAL",0) Global("k92", "GLOBAL", 1)
+THEN
+RESPONSE #100
+SetGlobal("k92", "GLOBAL", 2)
+
+
+AddMapNoteColor([1655.867], @2059,DEFAULT)
+END
+

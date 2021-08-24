@@ -1,0 +1,47 @@
+      IF                Global("Chapter","GLOBAL",5) Global("k9AttackedDrizzt","GLOBAL",1) GlobalGT("k9drizztcdie","GLOBAL",0)
+      !Dead("k9catti")  Global("k9Cattispawned","GLOBAL",0)
+      
+      THEN RESPONSE #100
+      
+		CreateCreature("k9catti",[4150.3175],SE)  SetGlobal("k9Cattispawned","GLOBAL",1)
+		
+END
+
+      IF          Global("k9AttackedDrizzt","GLOBAL",1)     GlobalGT("k9drizztcdie","GLOBAL",0)
+      !Dead("Drizzt")   Global("Chapter","GLOBAL",5)  Global("k9Drizztspawned","GLOBAL",0)
+      
+      THEN RESPONSE #100
+      
+		CreateCreature("Drizzt",[4200.3220],SE)
+		CreateCreature("k9guen",[4200.3220],SE) SetGlobal("k9Drizztspawned","GLOBAL",1)
+		
+END
+
+      IF       Global("k9AttackedDrizzt","GLOBAL",1)     GlobalGT("k9drizztcdie","GLOBAL",0)
+      !Dead("k9wulf") Global("Chapter","GLOBAL",5)  Global("k9wulfspawned","GLOBAL",0)
+
+      THEN RESPONSE #100
+
+		CreateCreature("k9wulf",[4060.3290],SE)  SetGlobal("k9wulfspawned","GLOBAL",1)
+		
+END
+
+
+      IF      Global("k9AttackedDrizzt","GLOBAL",1)     GlobalGT("k9drizztcdie","GLOBAL",0)
+      !Dead("k9bruen")   Global("Chapter","GLOBAL",5)   Global("k9bruenspawned","GLOBAL",0)
+
+      THEN RESPONSE #100
+      
+		CreateCreature("k9bruen",[4240.3270],SE)  SetGlobal("k9bruenspawned","GLOBAL",1)
+		
+END
+
+
+      IF     Global("k9AttackedDrizzt","GLOBAL",1)     GlobalGT("k9drizztcdie","GLOBAL",0)
+      !Dead("k9regis")  Global("Chapter","GLOBAL",5)    Global("k9regisspawned","GLOBAL",0)
+
+      THEN RESPONSE #100
+      
+		CreateCreature("k9regis",[4240.3270],SE)   SetGlobal("k9regisspawned","GLOBAL",1)
+		
+END

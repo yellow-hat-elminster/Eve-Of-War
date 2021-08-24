@@ -1,0 +1,15 @@
+  //Drizzt's companions addition from Eve of War
+
+IF
+	Global("k9Drizzt", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9Drizzt", "GLOBAL", 1)
+CreateCreature("k9BRUEN",[2538.2146],12)
+CreateCreature("K9CATTI",[2688.2171],12)
+CreateCreature("K9GUEN",[2592.2139],12)
+CreateCreature("K9REGIS",[2619.2269],12)
+CreateCreature("K9WULF",[2473.2219],12)
+
+
+END

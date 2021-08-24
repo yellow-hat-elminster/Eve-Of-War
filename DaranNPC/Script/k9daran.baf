@@ -1,0 +1,68 @@
+
+IF AreaCheck("BD0114")   	Global("k9daranspider","locals",0)
+
+THEN
+
+RESPONSE #100
+
+		DisplayStringHead(Myself,@8)   SetGlobal("k9daranspider","locals",1)
+END
+
+
+
+
+IF Global("k9DaranJoins","GLOBAL",1)      Global("k9DaranJoins3","GLOBAL",0)     AreaCheck("BD1000")
+
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9DaranJoins3","GLOBAL",1) 		StartDialog("k9DaranJ",[PC])
+
+END
+
+
+IF InParty("MKHIIN") InParty("BDDARAN")  Global("k9_Daran_mkhiin_join","global",0)     AreaCheck("BD1000")
+
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9_Daran_mkhiin_join","GLOBAL",1) 		StartDialog("k9DaranJ",[PC])
+END
+
+
+
+
+
+IF InParty("Baeloth")  InParty("BDDARAN") Global("k9_Daran_baeloth_join", "global",0)     AreaCheck("BD1000")
+
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9_Daran_baeloth_join","GLOBAL",1) 		StartDialog("k9DaranJ",[PC])
+END
+
+
+
+IF InParty("VICONIA") InParty("BDDARAN") Global("k9_Daran_viconia_join", "global",0)     AreaCheck("BD1000")
+
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9_Daran_viconia_join","GLOBAL",1) 		StartDialog("k9DaranJ",[PC])
+END
+
+
+
+
+IF AreaCheck("BD2000") Global("k9_Daran_BD2000","global",0)
+
+THEN 
+RESPONSE #100
+
+                  SetGlobal("k9_Daran_BD2000","global",1)
+                  StartDialog("k9DaranJ",[PC])
+END

@@ -1,0 +1,19 @@
+
+
+
+IF
+InParty("Sharteel")
+InParty("Corwin")
+See("Sharteel")
+See("Corwin")
+!ActuallyInCombat()
+Global("k9SharteelCorwin","GLOBAL",4)
+!RealGlobalTimerExpired("k9SharteelCorwinTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9SharteelCorwin","GLOBAL",5)
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelCorwinTalk","GLOBAL",1200)
+
+END
+

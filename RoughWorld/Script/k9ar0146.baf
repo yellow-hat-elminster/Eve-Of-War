@@ -1,0 +1,29 @@
+IF
+	Global("k9_ARwolves","ar0146",0)  	DifficultyGT(EASY)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar0146",1)
+                
+                 CreateCreature("dopple",[1530.2160],SW)
+                 CreateCreature("dopple",[1530.2200],SW)
+                 CreateCreature("dopple",[1510.2210],SW)
+
+                 CreateCreature("dopple",[1790.1150],SE)
+                 CreateCreature("dopple",[1770.1200],SE)
+                 CreateCreature("doppgr",[1835.1165],SE)
+END
+
+IF
+	Global("k9_ARwolves","ar0146",0)     DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar0146",1)
+
+                CreateCreature("doomgu",[2690.1750],W)
+                
+                CreateCreature("doppgr",[1925.200],SE)
+		CreateCreature("doppgr",[1870.230],SE)
+                CreateCreature("dopple",[1860.240],SE)
+
+END
+

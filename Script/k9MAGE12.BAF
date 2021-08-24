@@ -1,0 +1,170 @@
+IF Die() Global("k9snake","LOCALS",0)
+
+THEN RESPONSE #100
+
+SetGlobal("k9snake","LOCALS",1)   IncrementGlobal("k9snakecount","GLOBAL",1) AddJournalEntry(@66082,QUEST)  TriggerActivation("Talk",TRUE)
+
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("Prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(Myself,WIZARD_STONE_SKIN) // SPWI408.SPL (Stoneskin)
+		ApplySpell(Myself,WIZARD_MINOR_SPELL_TURNING) // SPWI522.SPL (Minor Spell Turning)
+		Spell(Myself,WIZARD_MIRROR_IMAGE) // SPWI212.SPL (Mirror Image)
+		SetGlobal("Prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STONE_SKIN) // SPWI408.SPL (Stoneskin)
+	CheckStatLT(Myself,1,STONESKINS)
+	Global("Prep","LOCALS",1)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,31523) // Contingency—Stoneskin
+		ApplySpell(Myself,WIZARD_STONE_SKIN) // SPWI408.SPL (Stoneskin)
+		SetGlobal("Prep","LOCALS",2)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	!StateCheck(Myself,STATE_REALLY_DEAD)
+	Global("SpellSequencer","LOCALS",0)
+THEN
+	RESPONSE #100
+		DisplayString(LastSeenBy(Myself),45462)
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_HASTE) // SPWI305.SPL (Haste)
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_IMPROVED_INVISIBILITY) // SPWI405.SPL (Improved Invisibility)
+		ReallyForceSpell(LastSeenBy(Myself),WIZARD_STRENGTH) // SPWI214.SPL (Strength)
+		SetGlobal("SpellSequencer","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+	HaveSpell(WIZARD_SECRET_WORD) // SPWI419.SPL (Secret Word)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_SECRET_WORD) // SPWI419.SPL (Secret Word)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	StateCheck(Myself,STATE_SILENCED)
+	HaveSpell(WIZARD_VOCALIZE) // SPWI219.SPL (Vocalize)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_VOCALIZE) // SPWI219.SPL (Vocalize)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_IMPROVED_INVISIBILITY) // SPWI405.SPL (Improved Invisibility)
+	See(NearestMyGroupOfType)
+	!StateCheck(LastSeenBy(Myself),STATE_IMPROVEDINVISIBILITY)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),WIZARD_IMPROVED_INVISIBILITY) // SPWI405.SPL (Improved Invisibility)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DEATH_SPELL) // SPWI605.SPL (Death Spell)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DEATH_SPELL) // SPWI605.SPL (Death Spell)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CHAOS) // SPWI508.SPL (Chaos)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CHAOS) // SPWI508.SPL (Chaos)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TRUE_SIGHT) // SPWI609.SPL (True Sight)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_TRUE_SIGHT) // SPWI609.SPL (True Sight)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SHADOW_DOOR) // SPWI505.SPL (Shadow Door)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_SHADOW_DOOR) // SPWI505.SPL (Shadow Door)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONFUSION) // SPWI401.SPL (Confusion)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CONFUSION) // SPWI401.SPL (Confusion)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DOMINATION) // SPWI506.SPL (Domination)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DOMINATION) // SPWI506.SPL (Domination)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
+THEN
+	RESPONSE #100
+		Spell(Myself,WIZARD_ANIMATE_DEAD) // SPWI501.SPL (Animate Dead)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+	HaveSpell(WIZARD_HOLD_PERSON) // SPWI306.SPL (Hold Person)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_HOLD_PERSON) // SPWI306.SPL (Hold Person)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_LIGHTNING_BOLT) // SPWI308.SPL (Lightning Bolt)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_LIGHTNING_BOLT) // SPWI308.SPL (Lightning Bolt)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SKULL_TRAP) // SPWI313.SPL (Skull Trap)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SKULL_TRAP) // SPWI313.SPL (Skull Trap)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+

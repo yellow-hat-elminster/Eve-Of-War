@@ -1,0 +1,7 @@
+IF Global("k9druidrest","GLOBAL",2)     !ActuallyInCombat()
+
+THEN RESPONSE #100
+ SetGlobal("k9druidrest","GLOBAL",3)
+DisplayStringHead(Player1,@9999978)
+SetAreaRestFlag(1)
+END

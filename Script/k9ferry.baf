@@ -1,0 +1,6 @@
+IF GlobalGT("bd_plot","global",293) Global("ferryspawn","global",0)
+THEN RESPONSE #100
+
+	CreateCreature("k9ferry",[2140.2270],S)   SetGlobal("ferryspawn","global",1)   
+
+	END

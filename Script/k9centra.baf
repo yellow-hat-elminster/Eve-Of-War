@@ -1,0 +1,24 @@
+IF Global("k9centralshops","GLOBAL",0)
+
+THEN RESPONSE #100
+
+CreateCreatureImpassable("Horse",[2679.2960],SE)
+CreateCreatureImpassable("Horse",[2113.1723],W)
+
+//Druid
+CreateCreature("k9SHOP15",[2471.2966],S)
+
+//Fine Goods
+CreateCreature("k9SHOP16",[3655.1350],SW)
+CreateCreature("k9SHOP17",[3560.1186],SE)
+CreateCreature("k9SHOP18",[1973.1661],S)
+CreateCreature("k9SHOP19",[2314.936],S)
+CreateCreature("k9SHOP20",[2862.657],SW)
+
+//Weapon
+CreateCreature("k9SHOP21",[2593.1305],SE)
+
+
+  SetGlobal("k9centralshops","GLOBAL",1)
+
+END

@@ -1,0 +1,9 @@
+IF Global("k9narlenletter","GLOBAL",2)
+
+THEN RESPONSE #100
+Wait(3) FadeFromColor([20.0],0)
+SetGlobal("k9narlenletter","GLOBAL",3)
+Dialogue([PC])
+
+
+END

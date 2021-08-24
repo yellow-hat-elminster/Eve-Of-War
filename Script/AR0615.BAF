@@ -1,0 +1,52 @@
+IF
+	OnCreation()
+	Global("Chapter","GLOBAL",7)
+	Global("CythanSpawn","GLOBAL",0)
+	!Exists("CYTHAN")
+THEN
+	RESPONSE #100
+		CreateCreature("CYTHAN",[881.774],S) // Cythandria
+		SetGlobal("CythanSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("EmitarDead","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("EmitarDead","GLOBAL",1)
+END
+
+IF
+	Global("SearchIronThrone","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SearchIronThrone","GLOBAL",1)
+END
+
+IF
+	Global("LettersFound","AR0615",0)    !Global("k9thiefhelps","GLOBAL",2)
+	OR(2)
+		PartyHasItem("SCRL3A") // Letter
+		PartyHasItem("SCRL3C") // Letter
+THEN
+	RESPONSE #100
+		SetGlobal("LettersFound","AR0615",1)
+		EraseJournalEntry(31456) // Eltan's Orders  Duke Eltan of Baldur's Gate has ordered us to investigate the Iron Throne. A good start would be their headquarters in the southern quadrant of the city.
+		AddJournalEntry(31456,QUEST_DONE) // Eltan's Orders  Duke Eltan of Baldur's Gate has ordered us to investigate the Iron Throne. A good start would be their headquarters in the southern quadrant of the city.
+		AddJournalEntry(31457,QUEST) // Investigating the Iron Throne  From my investigations I have learned that the true leaders of the Iron Throne are meeting within Candlekeep, my former home. I must inform Duke Eltan at once.
+END
+
+IF
+	Global("k9LettersFound","GLOBAL",0)  Global("k9thiefhelps","GLOBAL",2)
+	OR(2)
+		PartyHasItem("SCRL3A") // Letter
+		PartyHasItem("SCRL3C") // Letter
+THEN
+	RESPONSE #100
+		SetGlobal("k9LettersFound","GLOBAL",1)
+		AddJournalEntry(@66043, QUEST)
+                	END
+
+
+

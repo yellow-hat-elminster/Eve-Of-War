@@ -1,0 +1,6 @@
+IF        Global("k9refug3talk","GLOBAL",1)  Global("k9refug3talker","GLOBAL",0)
+
+THEN RESPONSE #100
+
+SetWorldmap("worldmap")  SetGlobal("k9refug3talker","GLOBAL",2)
+END

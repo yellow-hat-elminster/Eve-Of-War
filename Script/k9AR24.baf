@@ -1,0 +1,9 @@
+//Ghost
+IF
+	Global("k9ghost", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9ghost", "GLOBAL", 1)
+
+
+END

@@ -1,0 +1,6 @@
+
+IF    Global("k9thiefnotice","GLOBAL",0)     Global("k9thiefhelps","GLOBAL",3)   Global("Chapter","GLOBAL",7)
+
+THEN RESPONSE #100       AddJournalEntry(@660461,QUEST)       SetGlobal("k9thiefnotice","GLOBAL",1)
+
+END

@@ -1,0 +1,34 @@
+
+ IF
+
+Global("k9VoghilnJenoraDelay","GLOBAL",0)      InParty("Voghiln")    
+
+THEN RESPONSE #100
+
+SetGlobalTimer("k9JenoraVoghilnTalk","GLOBAL",2400)  SetGlobal("k9VoghilnJenoraDelay","GLOBAL",1)
+END
+
+
+
+IF
+InParty("k9jenor")
+InParty("Voghiln")
+See("k9jenor")
+See("Voghiln")
+!ActuallyInCombat()
+Global("k9JenoraVoghiln","GLOBAL",0)
+!GlobalTimerNotExpired("k9JenoraVoghilnTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraVoghiln","GLOBAL",1)  SetDialog("bk9vogje")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraVoghilnTalk","GLOBAL",500)  SetGlobal("k9JenoraVoghilnRevert","GLOBAL",0)
+
+END
+
+
+IF  Global("k9JenoraVoghiln","GLOBAL",2)    Global("k9JenoraVoghilnRevert","GLOBAL",0)
+THEN RESPONSE #100
+                   SetDialog("BDVOGHIJ")  SetGlobal("k9JenoraVoghilnRevert","GLOBAL",1)
+
+END

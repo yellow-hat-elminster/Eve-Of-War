@@ -1,0 +1,9 @@
+IF True()       Global("k9bhaalknowsbhaalknowsknows","GLOBAL",0)
+
+THEN RESPONSE #100
+		CutSceneId(Player1)     SetGlobal("k9bhaalknowsbhaalknowsknows","GLOBAL",1)
+CreateVisualEffect("SPSUMP",[1250.440])
+Wait(3)
+ActionOverride("k9deva",DestroySelf())
+        	EndCutSceneMode()
+END

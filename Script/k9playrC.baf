@@ -1,0 +1,36 @@
+IF
+	AreaCheck("ARk904")
+	Global("k9cyrictest2255","GLOBAL",0)   Global("k9incrementabideath","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("k9cyrictest2255","GLOBAL",1) ActionOverride("k9CYRIC",StartDialogueNoSet(Player1))
+		END
+
+
+
+ IF
+	AreaCheck("ARk904") GlobalTimerExpired("k9test2timer","GLOBAL")
+	Global("k9cyrictest2256","GLOBAL",0)   GlobalGT("k9incrementabideath","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9cyrictest2256","GLOBAL",1) ActionOverride("k9CYRIC",StartDialogueNoSet(Player1))
+		END
+ 
+ 
+  IF
+	AreaCheck("ARk904") GlobalTimerExpired("k9test2timer","GLOBAL")
+	Global("k9cyrictest2257","GLOBAL",0)   Global("k9incrementabideath","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9cyrictest2257","GLOBAL",1) ActionOverride("k9CYRIC",StartDialogueNoSet(Player1))
+		END
+
+
+
+  IF
+	AreaCheck("ARk904") Dead("k9abibla")
+	Global("k9cyrictest2257","GLOBAL",0)   Global("k9incrementabideath","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9cyrictest2257","GLOBAL",1) ActionOverride("k9CYRIC",StartDialogueNoSet(Player1))
+		END

@@ -1,0 +1,9 @@
+IF 
+
+Global("k9imoencandlekeep","GLOBAL",1)
+
+THEN RESPONSE #100
+
+CreateCreature("Imoen2",[1030.667],12)    SetGlobal("k9imoencandlekeep","GLOBAL",2)
+
+END

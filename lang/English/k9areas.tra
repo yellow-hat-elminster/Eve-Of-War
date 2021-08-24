@@ -1,0 +1,245 @@
+//Bodies in Cyric stronghold
+
+
+@12=~These bodies have been gutted and arranged side by side. It looks as though someone, or something, may be looking to drag them into the nearby cave.~
+
+@13=~The coals in this campfire still are hot.
+This encampment was likely raided very recently.~
+
+@14=~This wagon has clearly been overturned. It appears to have contained a random assortment of goods. It may have been the wagon of a merchant convoy that got lost while travelling through the blizzard-prone Fang Pass.~
+
+@15=~Unknown~
+
+
+
+@17=~There are humanoid footprints here that look recent. Cyricists may be nearby.~
+@18=~Noxious clouds erupt before your eyes killing everyone in the room.~
+
+//Temple of Auril
+
+@2024=~Temple of Auril~
+@2028=~Special Items~
+
+//Baldur's Gate sewers
+
+@16=~These bars look rusted and unkept. It would be best that you not risk climbing them.~
+@456780=~These bars are covered in feces and urine. It would be best if you found another exit.~
+@456781=~These bars look almost as if they are decades old. They could really use a repainting. In the meantime its probably best that you not use them - to help maintain their rustic look.~
+
+
+
+//Map names for Naskhel
+@2059=~Cloud Peaks Outfitters~
+@2060=~Northern Light Inn~
+
+//AR5200
+@15007=~In reviewing Bassilus's journal you quickly realize that this must be the waterfall he was referring to. The path towards this hidden stronghold of Cyric must begin just south of here.~
+
+@15014=~As you awaken you realize that you are back in front of the temple. A bit confused perhaps, but ready to move forward.~
+
+
+@130147=~As you move towards these stairs screams of pain and torment become increasingly loud. Perhaps its best after all not to climb them.~
+
+//AR2301
+@130157=~You notice the bottom flooring on this grill is removable. A pretty interesting feature for an otherwise bland stove.~
+@130158=~It dawns on you that you may want to investigate the removable floor in the grill. It may help to explain the cause of this tragedy.~
+@130170=~You remove the floor and make your way down a set of stairs. A thick layer of ashes covering the stairs makes walking down them a bit difficult at times. Given what has transpired you can't help but hope that these are just the remnants of Bentley's failed cooking.
+
+The passageway ends and you find yourself in a large otherwise empty room. The smoke that likely killed Bentley and the others still lingers here, and though it is less potent than before it still makes you and your party feel nauseous. Through the thick clouds you can make up the appearance of strange markings have been painted on the floor of this room. Their exact purpose here remains unclear, but they may be a key to solving this mystery.~
+
+
+@765000=~Food Merchant~
+@765001=~Weapon Merchant~
+@765002=~Merchant~
+@765003=~Pet Stall~
+@765004=~Druid Merchant~
+@765005=~Opulent Merchant~
+@765006=~These skulls appear to go as far back as you can see. Its clear now why this place is called the "Mountain of Skulls."~
+@765007=~This statue appears to be a depiction of Cyric during his mortal days.~
+@765008=~This table is covered in blood. Based on their appearance you suspect these tables are used for torturing.~
+@765009=~Based on their appearance you suspect these tables are used for torturing.~
+@765010=~This green fire glows brightly.~
+
+@765011=~Seniyad and his followers probably will not mind you resting here.~
+@765012=~Aldeth probably will not mind you resting here.~
+@765013=~Now that you've dealt with Amarande it should be safe for you to rest here.~
+
+@765014=~Hall of the Evening Flower~
+@765015=~The Dusty Dragon~
+@765016=~Mayor's House~
+@765017=~Hendern's Cabin~
+@765018=~Gravedigger's Shack~
+@765019=~Gord's Tower~
+@765020=~Belladonna's Home~
+@765021=~Venra's Herbs and Cures~
+@765022=~Shaja's Goods~
+
+
+//For BG chapter 7 world map (its meant to have no visible characters)
+@765023=~.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    .~
+
+@765024=~Unknown~
+@765025=~Someone took great care to conceal something underneath this stone slab. You would never find this cache without knowing exactly where to look.~
+
+@765026=~You find yourself overwhelmed by sudden feelings of panic and confusion. The cool, snowy banks of the Cloud Peaks have seemingly disappeared. Instead they have been replaced by a rather familiar sight - the welcoming hall of the Winthrop's Inn. How this came about remains unclear, however. There are no obvious traces of magic at work here, at least none that you can see, and you remain mystified over what powerful magic must be at work to send you so far in such a short period of time.
+
+Deciding to handle this unfolding situation at your own pace you take some time to clear the last of the snow off your boots. The snow melts quickly on the warm tavern floor and you find yourself looking around for an empty table. As you make your way around the room the taverns patrons seem as lively they usually are, though something still yet feels off about their behavior. They seem unaffected by your arrival, and even your best efforts at gaining their attention appears to have little effect.
+
+Perhaps out of instinct, or perhaps even out of panic, you find yourself taking a hard look around the room. Behind the counter stands a man lined from head to toe in pulsating fabrics. A curiosity indeed. 
+
+This man greets you with a sly smile. Something about the man however seems unusual - if not outright disturbing.
+
+With your boots now clear you are free to make your next move.~
+
+
+@765027=~You find yourself overwhelmed by sudden feelings of fear and dread. In their grasp you are held like a wick held in wax - helplessly falling into a darkened abyss.
+
+As you awaken you find yourself among some of the friendlier denizens of the Friendly Arm Inn. While the rest of the inn seems disinterested by your sudden arrival, not all that grace the inn seem equally unaware. As you remove the rest of the snow off your boots the sight of red eyes and a dark, brooding figure greet you from behind the inn's bar. Even you, with your limited experience in the unworldly, recognize this figure as an avatar of Bhaal. How a form of the dead Lord of Murder resurfaced a decade after Bhaal's death remains unclear - though given your own heritage its presence is unlikely to be a coicidence.~
+
+@765028=~Engraved at the bottom of this statue is the line "Aarebus, second of the deathstalkers.~
+@765029=~Engraved at the bottom of this statue is the line "Caern, third of the deathstalkers.~
+@765030=~Engraved at the bottom of this statue is the line "Brona, fourth of the deathstalkers.~
+@765031=~Engraved at the bottom of this statue is the line "Eoneda, fifth of the deathstalkers.~
+@765032=~Engraved at the bottom of this statue is the line "Joenas, sixth of the deathstalkers.~
+@765033=~Engraved at the bottom of this statue is the line "Kolomb, seventh of the deathstalkers.~
+@765034=~Here sits an engraving into the floor showing the symbol of Bhaal, Lord of Murder.~
+@765035=~Here sits an engraving into the floor showing the symbol of Bhaal, Lord of Murder. Its location is unlikely to be a coincidence. Knowing what you know of his priesthood its presence in the middle of the room symbolizes how Bhaal's priesthood coalesced around him - under the direct oversight of his high priestess.~
+@765036=~The floor in this temple is extremely dusty. Its likely that no one has stepped foot here in quite some time. Quite possibly since the Time of Troubles.~
+@765037=~The entrance to this temple has collapsed. Small pockets of light however seem to have found their way through - providing a limited degree of light to the temple.~
+
+@765038=~The entrance to the inn leads to nothing but a void of darkness.~
+@765039=~Your companions appear to be spellbound. There doesn't seem to be anything you can do for them - at least for the moment.~
+
+
+
+@765040=~Hendern's Supplies~
+@765041=~Belladonna's Goods~
+@765042=~Dusty Dragon~
+
+@765043=~The books here appear to be well used and are decades old.~
+@765044=~This is a statue dedicated to Chauntea.~
+@765045=~There is a crystal ball here suspended over a large tome. The writing in the tome itself is gibberish to you. In the crystal ball you see only swirling colorful clouds.~
+@765046=~A few closed books and a strange casing are on this desk. You can't get the casing opened. The books are also written in a language you can't understand.~
+@765047=~You try to look down the well. There doesn't look to be anything down there.~
+@765048=~These graves look to be a few months old. They were probably were dug before the frost settled in.~
+@765049=~Barrels are being stored in the carts here. Under the circumstances it's likely that they contain either water or perishables.~
+@765050=~From what you have gathered this bed of hay is where the town's corpses are stored during the long winter months.~
+@765051=~A fireplace crackles nearby. Through the walls behind it however a strange red light is coming out of a largely blocked off tunnel.~
+@765052=~Within these large vats you can make out the remains of human bones. It's not clear how old the bones are.~
+@765053=~A large tome rests here. It appears to be written in the language of the Yuan-Ti.~
+@765054=~Strange symbols decorate this room.~
+@765055=~This sarcophagus has been opened recently. Perhaps the Yuan-Ti had need of whatever, or whomever, once rested inside.~
+@765056=~This statue is certainly out of place in a temple dedicated to the Yuan-Ti. It's not clear what interest the Yuan-Ti would have in collecting human artifacts.~
+@765057=~You speak into a gap in the bricks and beg to be let free.
+
+The gravedigger responds "not til ye clear out the place. As agreed."~
+@765058=~You speak into a gap in the bricks and beg to be let free.
+
+The gravedigger responds "not til ye clear out the place. As agreed."~
+@765059=~This sarcophagus appears to have been opened quickly. It remains unclear what the Yuan-Ti would have wanted with its contents.~
+
+
+
+//Final Battle End Text
+
+//Best
+
+@765060=~With the death of Sarevok many among what remained of the leadership of Baldur's Gate hoped that the destruction he sought would be held at bay.
+
+Sadly, the murder of Duke Eltan, coupled with the discovery of blade marked by the Shadow Thieves next to him, left little in the way of any room to prevent the ensuing conflict between Baldur's Gate and Amn. With tensions high it became only a matter of time before a single spark set the region ablaze.
+
+That came within a week. While on patrol near Beregost several members of the Flaming Fist spotted an Amnish scouting party. Enraged at the death of their leaders the Flaming Fist attacked. 
+
+By nightfall word of the attack had reached Amn's forces in Nashkel and by daybreak Amn had marshalled its forces in Nashkel and started its long journey to strike at Beregost.
+
+Fortunately, Beregost was well prepared for the conflict. Its scouts had long since determined the size and capabilities of Amns forces and in doing so it had prepared several plans to counter these forces. 
+
+Effective defences had also been established that would block Amn's forces from taking immediate hold of the town, while the towns new supplies ensured the threat of any siege had been minimized.
+
+Making little headway, Amn's forces decided to fall back less than a week after their arrival. This put an end to one of the shortest - if not one of the more significant - conflicts ever faced by the forces of Baldur's Gate.~
+
+
+//Good
+
+@765061=~With the death of Sarevok many among what remained of the leadership of Baldur's Gate hoped that the destruction he sought would be held at bay.
+
+Sadly, the murder of Duke Eltan, coupled with the discovery of blade marked by the Shadow Thieves next to him, left little in the way of any room to prevent the ensuing conflict between Baldur's Gate and Amn. With tensions high it became only a matter of time before a single spark set the region ablaze.
+
+That came within a week. While on patrol near Beregost several members of the Flaming Fist spotted an Amnish scouting party. Enraged at the death of their leaders the Flaming Fist attacked. 
+
+By nightfall word of the attack had reached Amn's forces in Nashkel and by daybreak Amn had marshalled its forces in Nashkel and started its long journey to strike at Beregost.
+
+Fortunately, Beregost was largely prepared for the conflict. It's scouts had long since determined the size and capabilities of Amns forces and in doing so it had prepared several plans to counter these forces. 
+
+Effective defences had also been established that would block Amn's forces from taking immediate hold of the town, while the towns new supplies ensured the threat of any siege had been minimized.
+
+Making little headway, Amn's forces decided to fall back less than a week after their arrival. This put an end to one of the shortest - if not one of the more significant - conflicts ever faced by the forces of Baldur's Gate. 
+
+Yet for Beregost the impact of this event would prove to be far more reaching. Without agreements sufficient to handle the population should evacuation prove necessary many in the militia felt forced to fight against Amn - if only to ensure the safety of their loved ones. Within a week of the conflict several dozen families had left the town with the aim of resettling to safer territory.~
+
+
+@765062=~With the death of Sarevok many among what remained of the leadership of Baldur's Gate hoped that the destruction he sought would be held at bay.
+
+Sadly, the murder of Duke Eltan, coupled with the discovery of blade marked by the Shadow Thieves next to him, left little in the way of any room to prevent the ensuing conflict between Baldur's Gate and Amn. With tensions high it became only a matter of time before a single spark set the region ablaze.
+
+That came within a week. While on patrol near Beregost several members of the Flaming Fist spotted an Amnish scouting party. Enraged at the death of their leaders the Flaming Fist attacked. 
+
+By nightfall word of the attack had reached Amn's forces in Nashkel and by daybreak Amn had marshalled its forces in Nashkel and started its long journey to strike at Beregost.
+
+While Beregost was ill prepared for the conflict it's extensive treaties ensured that much of its population was evacuated to neighbouring communities. While eventually Amn's forces managed to capture the town the loss of life was ultimately minimized. 
+
+Lacking the forces to attack another settlement Amn's forces chose to sue for peace. In the ensuing days a cease fire was declared and control over the town fell again back to Kelddath and the other members of its town council.~
+
+
+//Middle
+
+@765063=~With the death of Sarevok many among what remained of the leadership of Baldur's Gate hoped that the destruction he sought would be held at bay.
+
+Sadly, the murder of Duke Eltan, coupled with the discovery of blade marked by the Shadow Thieves next to him, left little in the way of any room to prevent the ensuing conflict between Baldur's Gate and Amn. With tensions high it became only a matter of time before a single spark set the region ablaze.
+
+That came within a week. While on patrol near Beregost several members of the Flaming Fist spotted an Amnish scouting party. Enraged at the death of their leaders the Flaming Fist attacked. 
+
+By nightfall word of the attack had reached Amn's forces in Nashkel and by daybreak Amn had marshalled its forces in Nashkel and started its long journey to strike at Beregost.
+
+Fortunately, Beregost was reasonably prepared for the conflict. It's scouts had long since determined the size and capabilities of Amns forces and in doing so it had prepared several plans to counter these forces. 
+
+Unfortunately, what defences it had prepared were incomplete by the time the forces of Amn descended upon the town. While the town held its ground against the advancing Amn forces losses were much higher than expected. Morale among the men and women of the militia also suffered, as many were left concerned that Baldur's Gate was the only refuge available for fleeing refugees from the town. 
+
+With travel along the Trade Way still dangerous there was much talk before the battle that the militia were better off cutting their losses and deserting than face down the organized forces of Amn. A worsening supply situation only proved to feed this very real concern.
+
+Ultimately, after making only some headway, Amn's forces decided to fall back less than a week after their arrival. This put an end to one of the shortest - if not one of the more significant - conflicts ever faced by the forces of Baldur's Gate. 
+
+Yet for Beregost the impact of this event would prove to be far more reaching. Without agreements sufficient to handle the population should evacuation prove necessary many in the militia felt left down by Kelddath. Within a week of the conflict several dozen families had left the town with the aim of resettling to safer territory.~
+
+
+
+//Bad
+
+@765064=~With the death of Sarevok many among what remained of the leadership of Baldur's Gate hoped that the destruction he sought would be held at bay.
+
+Sadly, the murder of Duke Eltan, coupled with the discovery of blade marked by the Shadow Thieves next to him, left little in the way of any room to prevent the ensuing conflict between Baldur's Gate and Amn. With tensions high it became only a matter of time before a single spark set the region ablaze.
+
+That came within a week. While on patrol near Beregost several members of the Flaming Fist spotted an Amnish scouting party. Enraged at the death of their leaders the Flaming Fist attacked. 
+
+By nightfall word of the attack had reached Amn's forces in Nashkel and by daybreak Amn had marshalled its forces in Nashkel and started its long journey to strike at Beregost.
+
+Beregost was ill prepared for the coming conflict. In the end what little advice was provided to the town proved insufficient to deal with the battle ready horde of Amnian soldiers that soon stood upon its very doorsteps. 
+
+With the town unable to secure much, if any, agreements with nearby settlements the civilians of the town found themselves fleeing for their lives in every direction at the sight of Amn's forces. With little organized resistance remaining many of these citizens were cut down swiftly. 
+
+By weeks end Baldur's Gate and Amn had reached an agreement. The war would be over but it would come at a heavy cost. Amn's borders would be extended north into Beregost and Baldur's Gate would be forced to pay extensive reparations to Amn.~
+
+
+//All Hope Is Lost
+
+@765065=~With the death of Sarevok many among what remained of the leadership of Baldur's Gate hoped that the destruction he sought would be held at bay.
+
+Sadly, the murder of Duke Eltan, coupled with the discovery of blade marked by the Shadow Thieves next to him, left little in the way of any room to prevent the ensuing conflict between Baldur's Gate and Amn. With tensions high it became only a matter of time before a single spark set the region ablaze.
+
+That came within a week. While on patrol near Beregost several members of the Flaming Fist spotted an Amnish scouting party. Enraged at the death of their leaders the Flaming Fist attacked. 
+
+By nightfall word of the attack had reached Amn's forces in Nashkel and by daybreak Amn had marshalled its forces in Nashkel and started its long journey to strike at Beregost.
+
+Beregost was ill prepared for the coming conflict. In the end, the destruction that Sarevok sought would be carried out. With no advice, and no clear plan of escape, the people of Beregost were slaughtered by the advancing forces of Amn.
+
+With little resistance, Amn would continue pushing its forces north as far as the Friendly Arm Inn. There it would remain. By weeks end Baldur's Gate and Amn had reached an agreement. The war would be over but it would come at a heavy cost. Amn's borders would be extended north and it would take possession of all lands controlled by the Fist as far north as the Friendly Arm Inn. Baldur's Gate would also be forced to pay extensive reparations to Amn - reparations that it would not pay off for decades to come.~

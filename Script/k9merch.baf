@@ -1,0 +1,14 @@
+IF Global("k9beregostshops","GLOBAL",0)
+
+THEN RESPONSE #100
+
+CreateCreature("Horse",[2355.2899],E) 
+CreateCreature("k9SHOP01",[2432.2939],14)
+CreateCreature("k9SHOP02",[2229.3060],E)
+CreateCreature("k9SHOP03",[2644.2899],S)
+
+
+
+  SetGlobal("k9beregostshops","GLOBAL",1)
+
+END

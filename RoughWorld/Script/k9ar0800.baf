@@ -1,0 +1,12 @@
+IF	!IsOverMe(Player1)
+	!IsOverMe(Player2)
+	!IsOverMe(Player3)      Global("smugglermove","GLOBAL",3)
+	!IsOverMe(Player4)
+	!IsOverMe(Player5)
+	!IsOverMe(Player6)
+	
+	THEN RESPONSE #100
+	
+	RevealAreaOnMap("AR0800")     SetGlobal("smugglermove","GLOBAL",4)
+	
+	END

@@ -1,0 +1,29 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		CutSceneId(Player1)
+		StorePartyLocations()
+		Wait(3)
+		Rest()
+		ActionOverride(Player2,Rest())
+		ActionOverride(Player3,Rest())
+		ActionOverride(Player4,Rest())
+		ActionOverride(Player5,Rest())
+		ActionOverride(Player6,Rest())
+		LeaveAreaLUAPanic("ar9110","TRCDCRYP",[230.250],NE)
+		LeaveAreaLUA("ar9110","TRCDCRYP",[230.250],NE)
+		SetMasterArea("ark935")
+		SetGlobal("k9gravejump2","GLOBAL",1)
+		ActionOverride(Player2,LeaveAreaLUA("ar9110","TRCDCRYP",[265.270],NE)
+		ActionOverride(Player3,LeaveAreaLUA("ar9110","TRCDCRYP",[200.290],NE)
+		ActionOverride(Player4,LeaveAreaLUA("ar9110","TRCDCRYP",[245.300],NE)
+		ActionOverride(Player5,LeaveAreaLUA("ar9110","TRCDCRYP",[170.340],NE)
+		ActionOverride(Player6,LeaveAreaLUA("ar9110","TRCDCRYP",[220.360],NE)
+                MultiPlayerSync()
+		MoveViewPoint([295.280],INSTANT)
+		Wait(1)
+        	EndCutSceneMode()
+
+END

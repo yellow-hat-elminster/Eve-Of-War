@@ -1,0 +1,37 @@
+
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+
+		SetGlobal("k9cyrictesttalking","GLOBAL",1)
+		ActionOverride("k9CYRIC",ReallyForceSpellPointRES("k9fake3",[1100.650]))
+                Wait(2)
+                CreateCreature("k9demon",[1100.650],NW)
+                Wait(3)
+                ActionOverride("k9CYRIC",ReallyForceSpellPointRES("k9fake2",[735.400]))
+                Wait(2)
+                CreateCreature("k9artmge",[735.400],SE)
+                Wait(3)
+                                ActionOverride("k9CYRIC",ReallyForceSpellPointRES("k9fake",[770.630]))
+                                Wait(2)
+                CreateCreature("k9nobl9",[770.630],NE)
+                                ActionOverride("k9CYRIC",ReallyForceSpellPointRES("k9fake",[775.590]))
+                                Wait(2)
+                CreateCreature("k9demknt",[775.590],NE)
+
+                Wait(3)
+                		            		ApplySpell(Player2,INNATE_K9_SLEEP9)
+		ApplySpell(Player3,INNATE_K9_SLEEP9)
+		ApplySpell(Player4,INNATE_K9_SLEEP9)
+		ApplySpell(Player5,INNATE_K9_SLEEP9)
+		ApplySpell(Player6,INNATE_K9_SLEEP9)
+StartCutScene("k9cyrsu2")
+END
+
+
+
+
+

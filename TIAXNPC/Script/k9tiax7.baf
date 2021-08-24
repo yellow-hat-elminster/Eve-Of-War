@@ -1,0 +1,10 @@
+
+IF Global("k9tiax3","global",0)  Global("Chapter", "GLOBAL", 9)   AreaCheck("BD2000")
+
+  THEN
+  
+  RESPONSE #100
+
+SetGlobal("k9tiax3","global",1) 	StartDialog("k9tiax7",[PC])
+
+END

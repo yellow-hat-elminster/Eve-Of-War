@@ -1,0 +1,12 @@
+  //High Hedge additions from Eve of War
+
+IF
+	Global("k9HighHedge1", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9HighHedge1", "GLOBAL", 1)
+
+CreateCreature("k9aquelf",[191.700],9)
+
+
+END

@@ -1,0 +1,90 @@
+//Cook death
+
+
+
+IF  	Global("k9FriendlyArm", "GLOBAL", 0)
+
+OR(6)  Global("k9CookDead", "GLOBAL", 1)
+	Global("k9BentleyDead", "GLOBAL", 1)
+	Global("k9JopiDead", "GLOBAL", 1)
+	Global("k9NessieDead", "GLOBAL", 1)
+	Global("k9SurreyDead", "GLOBAL", 1)
+	Global("k9WhelpDead", "GLOBAL", 1)
+GlobalGT("k9CommonersDead", "GLOBAL", 9)
+THEN
+	RESPONSE #100
+	SetGlobal("k9FriendlyArm", "GLOBAL", 1)
+END
+
+
+
+IF  	Global("k9FriendlyArm", "GLOBAL", 1)   	Global("k9FriendlyDeath", "GLOBAL", 0)
+
+THEN
+	RESPONSE #100
+CreateCreature("k9messed",[1330.3385],S)
+	SetGlobal("k9FriendlyDeath", "GLOBAL", 1)
+END
+
+
+IF  OR(2) Global("chapter", "GLOBAL", 2)	Global("chapter", "GLOBAL", 3)  Global("k9FriendlyMerchant", "GLOBAL", 0)
+
+THEN 
+
+RESPONSE #100
+
+ CreateCreature("merch3",[2682.370],W)
+CreateCreature("k9horse",[4763.482],W)
+CreateCreature("shelley",[4883.568],W) SetGlobal("k9FriendlyMerchant", "GLOBAL", 1)
+
+END
+
+
+
+
+IF  	GlobalGT("chapter", "GLOBAL", 4)   	Global("k9FriendlyInnWar", "GLOBAL", 0)
+
+THEN
+	RESPONSE #100
+CreateCreature("k9fist",[2975.2515],N)
+CreateCreature("k9fist2",[2985.2525],S)
+
+
+CreateCreature("k9fist3",[1930.1690],N)
+CreateCreature("k9fist4",[1940.1700],S)
+
+CreateCreature("k9fist5",[2140.1700],N)
+CreateCreature("k9fist6",[2150.1710],S)
+
+CreateCreature("k9fist7",[1650.2100],S)
+
+CreateCreature("k9fist8",[2660.2235],S)
+
+
+CreateCreature("k9fist9",[1692.2251],E)
+CreateCreature("k9fist9",[1692.2271],E)
+CreateCreature("k9fist9",[1692.2291],E)
+CreateCreature("k9fist8",[1704.2261],E)
+CreateCreature("k9fist8",[1704.2281],E)
+CreateCreature("k9fist8",[1704.2301],E)
+
+CreateCreature("k9fist10",[1790.2263],W)
+
+
+	SetGlobal("k9FriendlyInnWar", "GLOBAL", 1) SetGlobal("k9FriendlyInnFight", "GLOBAL", 1)
+END
+
+
+IF
+Global("k9FriendlyArm", "GLOBAL", 2)   	Global("k9HOOD", "GLOBAL", 0)
+
+THEN
+
+RESPONSE #100
+
+CreateCreature("k9hood",[3280.2550],N) SetGlobal("k9HOOD", "GLOBAL", 1)
+
+
+END
+
+

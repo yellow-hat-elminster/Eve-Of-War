@@ -1,0 +1,102 @@
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
+IF
+	Detect([GOODCUTOFF])
+	!See([GOODCUTOFF])
+	HaveSpell(CLERIC_TRUE_SIGHT) // True Sight
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_TRUE_SIGHT) // True Sight
+END
+
+IF
+	HPPercentLT(Myself,30)
+	Range(NearestEnemyOf(Myself),5)
+	HaveSpell(CLERIC_CURE_CRITICAL_WOUNDS) // Cure Critical Wounds
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_CURE_CRITICAL_WOUNDS) // Cure Critical Wounds
+END
+
+IF
+	HPPercentLT(Myself,10)
+	Range(NearestEnemyOf(Myself),5)
+	HaveSpell(CLERIC_CURE_LIGHT_WOUNDS) // Cure Light Wounds
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_CURE_LIGHT_WOUNDS) // Cure Light Wounds
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_DRAW_UPON_HOLY_MIGHT) // Draw Upon Holy Might
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT) // Draw Upon Holy Might
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLY_WORD) // Holy Word
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLY_WORD) // Holy Word
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLY_SMITE) // Holy Smite
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLY_SMITE) // Holy Smite
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_RIGHTEOUS_MAGIC) // Righteous Magic
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_RIGHTEOUS_MAGIC) // Righteous Magic
+END
+
+
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLD_PERSON) // SPPR208.SPL (Hold Person)
+	!StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+	!StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON) // SPPR208.SPL (Hold Person)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_COMMAND) // SPPR102.SPL (Command)
+	!StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+	!StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_COMMAND) // SPPR102.SPL (Command)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+
+

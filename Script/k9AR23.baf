@@ -1,0 +1,52 @@
+//Ghost
+
+IF
+	Global("k9wanddeath","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ActionOverride(Player2,JumpToPoint([730.250]))
+		ActionOverride(Player3,JumpToPoint([690.285]))
+		ActionOverride(Player4,JumpToPoint([680.310]))
+		ActionOverride(Player5,JumpToPoint([745.280]))
+		ActionOverride(Player6,JumpToPoint([745.320]))
+		Wait(1)
+		ApplySpell(Player1,INNATE_K9_SLEEP3)
+		ApplySpell(Player2,INNATE_K9_SLEEP2)
+		ApplySpell(Player3,INNATE_K9_SLEEP2)
+		ApplySpell(Player4,INNATE_K9_SLEEP2)
+		ApplySpell(Player5,INNATE_K9_SLEEP2)
+		ApplySpell(Player6,INNATE_K9_SLEEP2)
+		
+				ApplySpell(Player2,INNATE_K9_SLEEP9)
+		ApplySpell(Player3,INNATE_K9_SLEEP9)
+		ApplySpell(Player4,INNATE_K9_SLEEP9)
+		ApplySpell(Player5,INNATE_K9_SLEEP9)
+		ApplySpell(Player6,INNATE_K9_SLEEP9)
+		
+
+		Wait(1)
+        	EndCutSceneMode()
+        		SetGlobal("k9wanddeath","GLOBAL",1)
+END
+
+
+IF
+	Global("k9ghost", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+        SetGlobal("k9ghost", "GLOBAL", 0)
+        SetGlobal("k9ghostfinished", "GLOBAL", 1) 	SetGlobal("k9cyricbanana","GLOBAL",1)
+
+END
+
+
+
+IF
+ Global("k9textshowCyric","GLOBAL",0)  Global("k9cyricbanana","GLOBAL",1)
+ 
+ THEN
+     RESPONSE #100
+    SetGlobal("k9textshowCyric","GLOBAL",1)
+    TextScreen("k9cyrtxt")
+    END

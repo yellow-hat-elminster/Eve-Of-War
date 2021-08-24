@@ -1,0 +1,43 @@
+ IF Global("k9SerpentCowlAttacked","GLOBAL",0)  GlobalLT("k9serpentsolved","GLOBAL",1)
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Enemy()
+		SetGlobal("k9SerpentCowlAttacked","GLOBAL",1)
+END
+
+
+IF Global("k9SerpentCowlAttacked","GLOBAL",1)  Global("k9SerpentCowlAttacked2","LOCALS",0)
+
+THEN RESPONSE #100  SetGlobal("k9SerpentCowlAttacked2","LOCALS",1)
+Enemy()
+
+END
+
+IF
+      Global("k9ShajaDetectEvil","GLOBAL",0)
+	See([ANYONE]) 	OR(3)
+		SpellCastInnate([ANYONE],PALADIN_DETECT_EVIL) // SPCL212.SPL (Detect Evil)
+		SpellCast([ANYONE],WIZARD_DETECT_EVIL) // SPWI202.SPL (Detect Evil)
+		SpellCastPriest([ANYONE],CLERIC_DETECT_EVIL) // SPPR104.SPL (Detect Evil)
+THEN RESPONSE #100
+ SetGlobal("k9ShajaDetectEvil","GLOBAL",1) IncrementGlobal("k9Jashaknow","GLOBAL",1)  AddJournalEntry(@66067,QUEST)
+ END
+
+
+IF
+      Global("k9ShajaDetectEvil","GLOBAL",0)
+	See([ANYONE]) 	OR(2)
+		SpellCast([ANYONE],WIZARD_KNOW_ALIGNMENT)
+		SpellCastPriest([ANYONE],CLERIC_KNOW_ALIGNMENT)
+THEN RESPONSE #100
+ SetGlobal("k9ShajaDetectEvil","GLOBAL",1) IncrementGlobal("k9Jashaknow","GLOBAL",1)  AddJournalEntry(@66068,QUEST)
+ END
+
+IF Global("k9serpentsolved","GLOBAL",3) Global("k9shajagone","LOCALS",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9shajagone","LOCALS",1)
+EscapeArea()
+
+END

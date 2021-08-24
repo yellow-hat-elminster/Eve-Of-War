@@ -1,0 +1,8 @@
+
+IF
+Global("k9comp4", "GLOBAL", 0)  NumInPartyLT(5)
+THEN
+	RESPONSE #100
+        		TriggerActivation(Myself,FALSE)  SetGlobal("k9comp4", "GLOBAL", 1)
+END
+

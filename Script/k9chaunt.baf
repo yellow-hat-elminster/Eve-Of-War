@@ -1,0 +1,10 @@
+IF
+	Global("k9ChauntSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9ChauntSpawn","GLOBAL",1)
+		CreateCreature("k9Chaunt",[350.500],SW)
+        	CreateCreature("k9monk2",[570.415],SW)
+	        CreateCreature("k9monk1",[725.320],NW)
+
+END

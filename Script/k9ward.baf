@@ -1,0 +1,7 @@
+IF !GlobalGT("Chapter","GLOBAL",5) Global("k9golemstone","GLOBAL",0)
+
+THEN RESPONSE #100
+
+CreateCreature("k9SHOP04",[3378.1200],S)   SetGlobal("k9golemstone","GLOBAL",1)
+
+END

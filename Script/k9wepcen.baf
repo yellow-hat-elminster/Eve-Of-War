@@ -1,0 +1,42 @@
+IF  Global("k9maketimerup551","GLOBAL",0)
+
+THEN RESPONSE #100
+RealSetGlobalTimer("k9centralweaponmerchanttimer","GLOBAL",1) SetGlobal("k9maketimerup551","GLOBAL",1)
+END
+
+
+
+ IF RealGlobalTimerExpired("k9centralweaponmerchanttimer","GLOBAL")    See(Player1)
+
+ THEN 
+ 
+ RESPONSE #25
+
+ RealSetGlobalTimer("k9centralweaponmerchanttimer","GLOBAL",11) DisplayStringHead("k9shop21", @666021)
+
+ RESPONSE #25
+
+ RealSetGlobalTimer("k9centralweaponmerchanttimer","GLOBAL",13) DisplayStringHead("k9shop21", @666022)
+
+  RESPONSE #25
+
+ RealSetGlobalTimer("k9centralweaponmerchanttimer","GLOBAL",14) DisplayStringHead("k9shop21", @666030)
+ 
+  RESPONSE #25
+
+ RealSetGlobalTimer("k9centralweaponmerchanttimer","GLOBAL",10) DisplayStringHead("k9shop21", @666029)
+
+ END
+
+
+  IF
+	StealFailed([ANYONE])
+THEN
+	RESPONSE #100
+		DialogInterrupt(FALSE)
+		Recoil()
+		SmallWait(6)
+		CreateCreature("FLAMEN",[2710.1542],N) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[2812.1592],N) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[2927.1535],N) // Flaming Fist Enforcer
+END

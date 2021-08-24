@@ -1,0 +1,121 @@
+
+@55001=~vermin slayer~
+@55002=~Vermin Slayer~
+@55003=~VERMIN SLAYER: The Vermin Slayer is a highly skilled specialist who enters the tunnel systems of monsters such as kobolds and goblins with the intention of eradicating them. Vermin Slayers are also adept at negotiating the constricted passages created by giant rats, centipedes, and other pests and vermin. They are used to fighting in confined spaces and are experts at hiding in shadows, where they wait to surprise their prey. Vermin Slayers are similar to Pest Controllers, but where a Pest Controller uses traps to catch his prey, Vermin Slayers actively hunt victims with light crossbows and other assorted weapons.
+
+Advantages:
+
+- Gets +1 Thac0 and +2 damage when attacking carrion crawlers, ankhegs, spiders, beetles, kobolds, goblins, and bugbears.
+- Gets +10% Hide in Shadows and +5% Find Traps
+
+Disadvantages:
+
+- Gets only 20 thief points each level at level up
+- Gets -10 to pickpocket
+
+Restrictions:
+
+- Must be a dwarf.
+- Must have at least 14 strength and 14 dexterity.~
+
+@55004=~This biography will never get used~
+@55005=~Daran Highhammer's kit~
+
+@55006=~Daran's Studded Leather +1~
+@55007=~Daran reportedly picked this armor up from a trader in Calimshan. Apparently it has minor magical enchantments placed on it that makes it somewhat more effective than other studded leather.
+
+STATISTICS:
+
+Armor Class: 6 (4 vs. slashing, 5 vs. piercing and missile)
+Requires:
+ 6 Strength
+
+Weight: 15~
+
+@55008=~Spiders...why'd it have t'be spiders?~
+
+//biography
+
+@55009=~When asked about his past, Daran comments that he isn't used to this kind of conversation. Most of the time his conversations involve customers who are far more concerned with his ability to get the kobolds running around their living space from "mukin up everthin." Daran describes how he is a Vermin Slayer, a professional group of fighter/thieves in dwarven society that train specifically to fight creatures like goblins, kobolds, bugbears, and spiders in confined spaces and passages that other dwarves would never dare fight in. As he explains it he isn't one to go "trotten about" looking for an adventure, but rather prefers to see people find him. It's no wonder that he seems quite happy to be assisting you on your quest to defeat Caelar.~
+
+
+
+
+//new dialogue in  k9daran.d
+
+@55019=~Aye what ye be wantin? That lich be dead yet?~
+@55020=~Yes we slew Coldhearth. Hope you got your pay.~
+@55021=~He be tradin' tales with Dumathoin himself. Well he would if he hadn't fallen to worshipping Abbathor.~
+@55022=~Yes the lich has fallen. Not that you were much help over here.~
+@55023=~Glad to hear y'got to em anyway. As fer the gold - Coldwreath gave most of it t'the lich. Jargh ilith arglar bedorn.~
+@55024=~"An idiot and a deal are fodder for liars." This is very true.~
+@55025=~"An idiot and a deal are fodder for liars." Aye, that is fair.~
+@55026=~Uhh what was that?~
+@55027=~Yes well, I'll be going now.~
+@55028=~Aye greed can be a jewel of a thing, at least at first. Too much greed is corrupting.~
+@55029=~If the luckmaiden smiles we'll all see more action our way. But today someone had t'stay back and keep the dead from gettin' out.~
+@55030=~So y'wanted something else of me?~
+@55031=~Would you like to join my party?~
+@55032=~Nothing for the moment.~
+@55033=~Aye. Can't say I like adventurin' as much as some, but yer quest seems worthy enough. From what I hear ye be travellin' with the Flamin Fist north to challenge Caelar. If half o' what I've heard of her is true can't say I like her much. Killin' demons and such be one thin' but if ye be puttin innocents in the way t'do it y'need to be stopped.~
+
+
+@55010=~Why would fighting undead be that much of an issue?~
+@55017=~Don't have the tools fer the job. A zombie don't care if it takes an arrow or two. Just keeps walkin' all the same. Ye need blunt weapons or fire fer this job. Brought a few burnin' arrows and potions, case we ran into a troll or two on the way up here, but didn't expect undead. Don't make much of a habit o'gettin' involved in those sorts of efforts anyways.~
+@55018=~Well you are obviously still here. What exactly was your job here?~
+
+
+//new dialogue in k9bddeep.d
+
+@55034=~He' sayin that be ta nature of t'work.~
+
+
+
+
+
+
+//Replacing Daran's existing dialogue
+
+@55011=~It was a straightforward contract—or so I thought. I was t'help with a remote dig organized by a talhund of Dumathoin. If his clerics met anything unpleasant in the tunnels, I'd take care of it.~
+
+@55012=~Done dozens, hundreds of these sorts o' things before without much trouble. A bugbear nest once, that was about the worst I ever had t'deal with, and dealing with it? Not so bad, compared t'what happened in this dig.~
+
+@55013=~Coldhearth went down first. Couldn't turn undead the way the clerics could, not that it helped them long—two blinks of a deaf man's eye an' half the order was gone. Me an' the others fell back. I told 'em to leave it an' come out, but Auchlin Deepvein, he wasn't goin' anywhere, not if it meant lettin' those beasties loose on the surface.~
+
+@55014=~Project like this isn't cheap. A friend o' Deepvein's, the wizard Gurn Coldhearth, he sunk more'n a little gold into the venture. Had a chest with 'im—bet there's plenty in it that'd be good fer ye.~
+
+@55015=~Did ye help them?~
+
+@55016=~Forgive me, my <PRO_LADYLORD>. I didn't realize I was such an irritant t'yer high and mightiness. I'll leave you to yer own company, then, yes? Yes. I'll do that.~
+
+
+
+
+//
+
+@55035=~I'll split ya in two!~ [DMF_04]
+@55036=~Die!~ [DMF_06]
+@55037=~Oh, when all else fails, put the dwarf up front.~ [DMF_08]
+@55038=~I've had enough fun fer one day... time to sleep now.~ [DMF_11]
+@55039=~What, do you expect our enemies to come to us?~ [DMF_13]
+@55040=~Uuuh... I'm needin' a healer.~ [DMF_14]
+@55041=~Uuuh... Ughh.~ [DMF_38]
+@55042=~We're done for!~ [DMF_01]
+@55043=~Ye really have no clue, do ya?~ [DMF_30]
+@55044=~That's right-keep pushin' it.~  [DMF_31]
+@55045=~Damn yer eyes.~  [DMF_32]
+@55046=~Easy as goblin pie.~ [DMF_29]
+@55047=~Is that all?~ [DMF_28]
+@55048=~This be a good day.~
+@55049=~I'll wash me beard in yer blood!~ [DMF_07]
+@55050=~C'mere, ya wretch!~ [DMF_05]
+@55051=~Aye?~ [DMF_16]
+@55052=~What?~ [DMF_17]
+@55053=~I'm here.~ [DMF_18]
+@55054=~Hmm?~ [DMF_19]
+@55055=~Ready.~ [DMF_20]
+@55056=~Rest ye now... brave friend.~ [DMF_39]
+@55057=~Ummm...err.~ [DMF_35]
+@55058=~It's in forests like this that spiders will get ye.~
+@55059=~Cities are a boon for business. Lots of bugs and little risk.~
+@55060=~In places like this its best to keep sharp.~

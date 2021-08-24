@@ -1,0 +1,52 @@
+IF
+	See([PC])
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		SmallWait(5)
+		Enemy()
+END
+
+IF
+	See([PC])
+	!Allegiance(Myself,ENEMY)
+	NumberOfTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+IF
+Global("k9hostilehendern","GLOBAL",1)
+THEN RESPONSE #100
+ SetGlobal("k9hostilehendern","GLOBAL",2) Dialogue([PC])
+ END
+
+
+
+IF
+      Global("k9HendernDetectEvil","GLOBAL",0)
+	See([ANYONE]) 	OR(3)
+		SpellCastInnate([ANYONE],PALADIN_DETECT_EVIL) // SPCL212.SPL (Detect Evil)
+		SpellCast([ANYONE],WIZARD_DETECT_EVIL) // SPWI202.SPL (Detect Evil)
+		SpellCastPriest([ANYONE],CLERIC_DETECT_EVIL) // SPPR104.SPL (Detect Evil)
+THEN RESPONSE #100
+ SetGlobal("k9HendernDetectEvil","GLOBAL",1) IncrementGlobal("k9Jashaknow","GLOBAL",1)  AddJournalEntry(@66065,QUEST)
+ END
+
+
+IF
+      Global("k9HendernDetectEvil","GLOBAL",0)
+	See([ANYONE]) 	OR(2)
+		SpellCast([ANYONE],WIZARD_KNOW_ALIGNMENT)
+		SpellCastPriest([ANYONE],CLERIC_KNOW_ALIGNMENT)
+THEN RESPONSE #100
+ SetGlobal("k9HendernDetectEvil","GLOBAL",1) IncrementGlobal("k9Jashaknow","GLOBAL",1)  AddJournalEntry(@66066,QUEST)
+ END
+
+IF
+      NumTimesTalkedToGT(0) Global("HendernMoved","GLOBAL",0)
+THEN RESPONSE #100
+ SetGlobal("HendernMoved","GLOBAL",1) MoveToPoint([315.635])  MoveToPoint([305.640])
+ END

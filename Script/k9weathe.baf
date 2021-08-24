@@ -1,0 +1,11 @@
+IF Global("k9weather","LOCALS",0)
+THEN RESPONSE #50
+
+Weather(FOG)  SetGlobal("k9weather","LOCALS",1)
+
+RESPONSE #50
+
+  SetGlobal("k9weather","LOCALS",1)
+END
+
+

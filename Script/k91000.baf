@@ -1,0 +1,47 @@
+
+
+
+
+  IF Global("k9cyrictalk", "GLOBAL", 3)  Global("k9templereveal","GLOBAL",0)
+  
+  THEN
+  
+  RESPONSE #100
+  
+  TriggerActivation("Infopoint05",TRUE)   SetGlobal("k9templereveal","GLOBAL",1)
+  
+  END
+
+
+  IF GlobalLT("k9cyrictalk", "GLOBAL", 3)  Global("k9templerevealz","GLOBAL",0)
+
+  THEN
+
+  RESPONSE #100
+  
+  TriggerActivation("Infopoint05",FALSE)    SetGlobal("k9templerevealz","GLOBAL",1)
+  
+  END
+
+
+
+
+
+IF Global("k9cyrictalk", "GLOBAL", 3)      Global("k9templevisited", "GLOBAL", 0)
+
+THEN RESPONSE #100
+
+	DisplayString(Myself,@15014)
+TriggerActivation("Travel to Cyric",FALSE)	 SetGlobal("k9cyricaccept", "GLOBAL", 2)  SetGlobal("k9templevisited", "GLOBAL", 1)
+
+END
+
+
+
+
+IF PartyHasItem("k9misc15") Global("k9tynnoshead", "GLOBAL", 0)
+
+THEN RESPONSE #100
+AddJournalEntry(@15018,QUEST)  SetGlobal("k9tynnoshead", "GLOBAL", 1)
+
+END

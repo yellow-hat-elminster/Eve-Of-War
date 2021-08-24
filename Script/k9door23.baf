@@ -1,0 +1,7 @@
+IF
+	Global("k9Beregostunlock","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Unlock("DOOR3320")
+		SetGlobal("k9Beregostunlock","GLOBAL",1)
+END

@@ -1,0 +1,10 @@
+IF
+	Global("k9GordSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9GordSpawn","GLOBAL",1)
+		CreateCreature("k9Gord",[350.350],SE)
+	
+	
+
+END

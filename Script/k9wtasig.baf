@@ -1,0 +1,40 @@
+
+
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
+IF
+	Heard([ANYONE],111)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf(Myself))
+END
+
+
+
+IF
+See("k9Abibla")
+	InWeaponRange(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+AttackedBy([ANYONE],DEFAULT)
+	InWeaponRange(LastAttackerOf(Myself))
+THEN
+	RESPONSE #100
+		Attack("k9Abibla")
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastSeenBy(Myself))
+END

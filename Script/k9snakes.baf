@@ -1,0 +1,7 @@
+IF Die() Global("k9snake","LOCALS",0)
+
+THEN RESPONSE #100
+
+SetGlobal("k9snake","LOCALS",1)   IncrementGlobal("k9snakecount","GLOBAL",1)
+
+END

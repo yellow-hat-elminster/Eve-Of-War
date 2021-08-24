@@ -1,0 +1,20 @@
+
+IF
+	GlobalGT("Chapter","GLOBAL",2) Global("k9supply", "GLOBAL", 3)    Global("k9gun5", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+      TakeItemReplace("Chan04","Leat01", "k9darren")
+      TakeItemReplace("k9sper01","Blun01", "k9darren")
+     SetGlobal("k9gun5", "GLOBAL", 1)
+EquipMostDamagingMelee()
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",2) Global("k9supply", "GLOBAL", 4)    Global("k9whatever95", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+      TakeItemReplace("Leat10","Leat01", "k9darren")
+     SetGlobal("k9whatever95", "GLOBAL", 1)
+
+END

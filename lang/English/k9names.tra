@@ -1,0 +1,192 @@
+
+//Cyric Worshipers
+
+@1=~Strifeleader of Cyric~
+@2=~Shadow of the Dark Sun~
+
+
+//Militia CRE file
+
+@100=~Town Watch~
+@101=~Janlynn~
+@102=~Cyrag Hammerbone~
+@19299=~Cyrag Hammerbone~
+@103=~Commander Darren~
+@104=~Watch Headquarters Guard~
+@1006=~Acolyte~
+@1007=~Injured Watchman~
+@1008=~Kelddath Ormlyr~
+@1009=~Apprentice~
+@1010=~Taerom Fuiruim~
+@1011=~Thalantyr's Familiar~
+@1012=~Sir Edward Filmarya~
+@1013=~Olbrimsur Thunderwood~
+@1014=~Blentra Whaelbuckler~
+@1015=~Baranta Chansil~
+@1016=~Baskor Tranth~
+@1017=~Nathlar~
+@1018=~Kid~
+@1019=~Laspeera Inthre~
+
+@15013=~Black Helm~
+@15027=~Albreda's Store~
+
+@15022=~Gorion?~
+@15023=~Imoen?~
+@15024=~Mulahey?~
+@15025=~Davaeorn?~
+@15026=~Doppleganger?~
+
+@15028=~???~
+
+
+//Flaming Fist
+
+
+
+
+//Drizzt's companions
+
+@30000=~Catti-Brie~
+@30001=~Bruenor~
+@30002=~Guenhwyvar~
+@30003=~Regis~
+@30004=~Wulfgar~
+
+@2002=~Jasha Istor~
+
+
+//   Innkeeper Nashkel
+
+@2033=~Ries Kensiddar~
+
+//Salla Pitontoes (shop owner in Nashkel)
+@2058=~Salla Pitontoes~
+@2059=~Cloud Peaks Outfitters~
+@2060=~Northern Light Inn~
+
+
+//High Hedge
+
+@2061=~Aquatic Elf~
+
+
+//Cloakwood Forest
+
+//Centeol
+
+@66000=~Centeol~
+@66010=~Flaming Fist Sergeant~
+
+
+@66020=~Hooded Man~
+
+
+@66028=~Necromancer~    
+@66029=~Tynnos Argrim~
+
+@66034=~Cyric~
+//Clay Golem Firewine
+
+@66037=~Lesser Clay Golem~
+
+//Flaming Fist Captain (corwin)
+
+@66038=~Flaming Fist Captain~
+
+//Flaming Fist Mage
+@66039=~Flaming Fist Mage~
+
+//Bandits
+
+@74000=~Blacktalon~
+@74001=~Grangor~
+@74002=~Chill Goblin~
+@74003=~Winter Wolves Rider~
+@74004=~Winter Wolves Lieutenant~
+@74005=~Cold Steel Orc~
+@74006=~Cold Steel Lieutenant~
+@74007=~Icicles Kobold Archer~
+@74008=~Icicles Lieutenant~
+@74009=~Frigid Fists Ogre~
+@74010=~Frigid Fists Lieutenant~
+@74043=~Bandit Mage~
+@74044=~Bandit~
+@74045=~Bandit Leader~
+
+//Baldur's gate
+@74011=~Tomlin the Smuggler~
+@74012=~Hick~
+@74013=~Junk Dealer~
+@74014=~Jiminy Jon Jansen~
+
+ //Serpent's Cowl
+@74015=~Jeb~
+@74016=~Mayor Tomlin~
+@74017=~Shaja~
+@74026=~Gord Sisyphus~
+@74027=~Telar~
+@74028=~Monk~
+@74029=~Belladonna~
+@74030=~Red~
+@74031=~Hendern~
+@74032=~Tommy~
+@74042=~Venra~
+
+
+//Cyric temple
+
+@74018=~Cultist~
+@74019=~Burnbones~
+@74020=~Banelich~
+
+//Cyric #2 quest
+
+@74034=~Amelyssan~
+@74035=~Aarebus~
+@74036=~Caern~
+@74037=~Brona~
+@74039=~Eoneda~
+@74040=~Joenas~
+@74041=~Kolomb~
+
+
+//Cloakwood
+
+@74021=~Small Spider~
+@74022=~Iron Throne Soldier~
+@74023=~Iron Throne Priest~
+//Shandalar's Simulacrum
+@74024=~Shandalar~
+
+@74025=~Refugee~
+@74026=~Lendali Firehair~
+
+
+//Others
+
+@130130=~Flaming Fist Sergeant~
+
+@130148=~Shade~
+@13014811=~Celestial~
+@13014812=~Old Man~
+@13014813=~Death Knight~
+@13014814=~Gravedigger~
+@13014815=~Yuan-ti~
+@13014816=~Greater Yuan-ti~
+@13014817=~Yuan-ti Mage~
+@13014818=~Giant Snake~
+@13014819=~"Dusty" Helmspoke~
+@13014820=~Atad Yelloweyes~
+@13014821=~Delwyn Whitedyke~
+@13014822=~Aluena Halacanter~
+
+@130159=~Remhoraz~
+
+
+@130171=~Watch Sergeant~
+
+@130177=~Recruit~
+@130178=~Watch Sergeant~
+//Bartenders
+

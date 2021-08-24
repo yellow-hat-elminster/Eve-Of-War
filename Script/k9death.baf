@@ -1,0 +1,149 @@
+//Cook dead
+
+IF   Global("k9CookDead", "GLOBAL", 1)   True()
+
+THEN
+	RESPONSE #100
+Kill("k9Cook")     SetGlobal("k9CookDead", "GLOBAL", 2)
+END
+
+
+//Bentley Death
+IF
+	Global("k9BentleyDead", "GLOBAL", 1)  True()
+THEN
+	RESPONSE #100    SetGlobal("k9BentleyDead", "GLOBAL", 2)
+Kill("Bentley")
+END
+
+
+
+//Jopi dead
+
+IF
+	Global("k9JopiDead", "GLOBAL", 1)         True()
+THEN
+	RESPONSE #100
+Kill("JOPI")                SetGlobal("k9JopiDead", "GLOBAL", 2)
+END
+
+
+//Nessie dead
+
+IF
+	Global("k9NessieDead", "GLOBAL", 1)    True()
+THEN
+	RESPONSE #100
+Kill("NESSIE")            SetGlobal("k9NessieDead", "GLOBAL", 2)
+END
+
+//Surrey dead
+
+IF
+	Global("k9SurreyDead", "GLOBAL", 1)    True()
+THEN
+	RESPONSE #100
+Kill("SURREY")      SetGlobal("k9SurreyDead", "GLOBAL", 2)
+END
+
+//Whelp dead
+
+IF
+	Global("k9WhelpDead", "GLOBAL", 1)    True()
+THEN
+	RESPONSE #100
+Kill("WHELP")        SetGlobal("k9WhelpDead", "GLOBAL", 2)
+END
+
+//Commoner death
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner")   SetGlobal("k9DeadTrigger", "GLOBAL", 1)
+END
+
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger2", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner2")   SetGlobal("k9DeadTrigger2", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger3", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner3")   SetGlobal("k9DeadTrigger3", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger4", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner4")   SetGlobal("k9DeadTrigger4", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger5", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner5")   SetGlobal("k9DeadTrigger5", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger6", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner6")   SetGlobal("k9DeadTrigger6", "GLOBAL", 1)
+END
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger7", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner7")   SetGlobal("k9DeadTrigger7", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger8", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner8")   SetGlobal("k9DeadTrigger8", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger9", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner9")   SetGlobal("k9DeadTrigger9", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger10", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner10")   SetGlobal("k9DeadTrigger10", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger11", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner11")   SetGlobal("k9DeadTrigger11", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger12", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner12")   SetGlobal("k9DeadTrigger12", "GLOBAL", 1)
+END
+
+IF
+	GlobalLT("k9CommonersDead", "GLOBAL", 13) Global("k9DeadTrigger13", "GLOBAL", 0)  True()
+THEN
+	RESPONSE #100
+Kill("k9Commoner13")   SetGlobal("k9DeadTrigger13", "GLOBAL", 1)   SetGlobal("k9CommonersDead", "GLOBAL", 13)
+END

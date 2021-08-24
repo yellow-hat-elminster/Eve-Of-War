@@ -1,0 +1,35 @@
+IF
+	Global("k9_ARwolves","ar5404",0)
+	DifficultyGT(EASY)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar5404",1)
+		CreateCreature("kobold",[1400.1250],W)
+		CreateCreature("kobold",[1390.1285],W)
+		CreateCreature("kobold",[1370.1200],W)
+		CreateCreature("kobold",[1420.1235],W)
+                SetRestEncounterProbabilityDay(6)
+        	SetRestEncounterProbabilityNight(6)
+
+
+END
+
+IF
+	Global("k9_ARwolvesHard","ar5404",0)
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolvesHard","ar5404",1)
+		CreateCreature("kobcomm",[1467.1434],W)
+		CreateCreature("kobcomm",[1400.1440],W)
+		CreateCreature("kobolda",[1490.1460],W)
+		CreateCreature("kobcomm",[1380.1465],W)
+		CreateCreature("kobolda",[1420.1480],W)
+	
+        	CreateCreature("jellgr",[2810.615],NW)
+        	CreateCreature("jellgr",[2840.600],NW)
+		CreateCreature("jellgr",[2815.645],NW)
+		
+ 	        SetRestEncounterProbabilityDay(10)
+        	SetRestEncounterProbabilityNight(10)
+END

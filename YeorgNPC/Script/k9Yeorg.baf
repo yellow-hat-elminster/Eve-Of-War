@@ -1,0 +1,133 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+
+END
+
+
+
+//Dialogue related
+//In Gullykin
+IF
+	Global("k9YE_Gullykin","GLOBAL",0)
+	OR (2)
+		AreaCheck("AR4000")
+		AreaCheck("AR4001")
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_Gullykin","GLOBAL",1)
+END
+
+IF
+	Global("k9YE_Gullykin","GLOBAL",1)
+	!ActuallyInCombat()
+	OR (2)
+		AreaCheck("AR4000")
+		AreaCheck("AR4001")
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_Gullykin","GLOBAL",2) SetDialog("k9yeorgj")
+                StartDialogNoSet([pc])
+
+END
+
+
+
+//Durlag's Tower exterior/initial interior Dialogue
+IF
+	Global("k9YE_DURLAG","GLOBAL",0)
+	OR (2)
+		AreaCheck("AR0500")
+		AreaCheck("AR0502")
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_DURLAG","GLOBAL",1)
+END
+
+IF
+	Global("k9YE_DURLAG","GLOBAL",1)
+	!ActuallyInCombat()
+	OR(2)
+		AreaCheck("AR0500")
+		AreaCheck("AR0502")
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_DURLAG","GLOBAL",2) SetDialog("k9yeorgj")
+                StartDialogNoSet([pc])
+
+END
+
+IF
+	Global("k9YE_DURLAG","GLOBAL",3)
+	OR (2)
+		AreaCheck("AR0501")
+		AreaCheck("AR0503")
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_DURLAG","GLOBAL",4) SetDialog("k9yeorgj")
+                StartDialogNoSet([pc])
+
+END
+
+
+IF
+	Global("k9YE_DURLAG","GLOBAL",5)
+		AreaCheck("AR0511")
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_DURLAG","GLOBAL",6) SetDialog("k9yeorgj")
+                StartDialogNoSet([pc])
+
+END
+
+IF
+	Global("k9YE_DURLAG","GLOBAL",7)
+		AreaCheck("AR0513")         PartyHasItem("k9staf22")
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_DURLAG","GLOBAL",8) SetDialog("k9yeorgj")
+                StartDialogNoSet([pc])
+
+END
+
+
+IF
+	Global("k9YE_DURLAG","GLOBAL",9)
+		AreaCheck("AR0513")         PartyHasItem("k9staf22")
+	!ActuallyInCombat()
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_DURLAG","GLOBAL",10) SetDialog("k9yeorgj")
+                StartDialogNoSet([pc])
+
+END
+
+
+
+
+//Firewine Bridge
+IF
+	Global("k9YE_FIREWINE_B","GLOBAL",0)
+		AreaCheck("AR4500")
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_FIREWINE_B","GLOBAL",1)
+END
+
+IF
+	Global("k9YE_FIREWINE_B","GLOBAL",1)
+	!ActuallyInCombat()
+		AreaCheck("AR4500")
+THEN
+	RESPONSE #100
+		SetGlobal("k9YE_FIREWINE_B","GLOBAL",2) SetDialog("k9yeorgj")
+                StartDialogNoSet([pc])
+
+END
+

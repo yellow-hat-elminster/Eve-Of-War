@@ -1,0 +1,15 @@
+
+
+IF
+	Global("k9celesttest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ActionOverride("k9deva",ChangeAnimation("k9devaev"))
+		SetGlobal("k9celesttest","GLOBAL",1) SetGlobal("k9Celestial","GLOBAL",5) SetGlobal("k9ShadowSpawn","GLOBAL",1)	  
+        	EndCutSceneMode()
+END
+
+
+
+

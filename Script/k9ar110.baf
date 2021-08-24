@@ -1,0 +1,21 @@
+
+IF    Global("k9blackl","GLOBAL",0)     Global("k9thiefhelps","GLOBAL",4)
+
+THEN RESPONSE #100       CreateCreature("k9blackl",[1400.1510],13)       SetGlobal("k9blackl","GLOBAL",1)
+
+END
+
+
+
+IF    Global("k9rashadappear","GLOBAL",0)     TimeOfDay("NIGHT")  !Dead("RASHAD")
+
+THEN RESPONSE #100       CreateCreature("k9rashad",[1535.1385],13)       SetGlobal("k9rashadappear","GLOBAL",1)
+
+END
+
+
+IF    Global("k9rashadappear","GLOBAL",1)     !TimeOfDay("NIGHT")   !Dead("RASHAD")
+
+THEN RESPONSE #100           SetGlobal("k9rashadappear","GLOBAL",0)
+
+END

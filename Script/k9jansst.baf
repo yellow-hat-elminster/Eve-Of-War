@@ -1,0 +1,4 @@
+IF      Global("k9jiminyknow","GLOBAL",1)
+THEN RESPONSE #100
+
+SetGlobal("k9jiminyknow","GLOBAL",2) SetName(@74014) END

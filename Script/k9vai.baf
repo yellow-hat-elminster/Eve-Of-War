@@ -1,0 +1,12 @@
+IF AreaCheck("AR3304")     GlobalGT("Chapter","GLOBAL",5)   Exists("Vai")
+
+THEN RESPONSE #100
+   ActionOverride("Vai",DestroySelf())
+END
+
+IF AreaCheck("AR0800")     GlobalGT("Chapter","GLOBAL",5)   !Exists("k9Vai")  !Dead("Vai")   !Dead("k9Vai")  Global("k9negotiations","GLOBAL",1)
+
+THEN RESPONSE #100
+    CreateCreature("k9Vai",[1735.2400],2)
+END
+

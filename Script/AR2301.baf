@@ -1,0 +1,97 @@
+
+IF Global("k9bye","GLOBAL",6)
+
+THEN 
+
+RESPONSE #100
+
+CreateCreature("Mtowfrst",[798.464],0)
+CreateCreature("Mtowfrs2",[853.498],4)
+CreateCreature("Mtowfrs3",[580.684],0)
+CreateCreature("Mtowfrs4",[553.743],8)
+CreateCreature("Mtowfrsc",[987.637],0)
+CreateCreature("Mtowfrs5",[1019.846],4)
+   SetGlobal("k9bye","GLOBAL",7)
+END
+
+
+//AR2301 cutscene
+
+
+IF Global("k9FriendlyArm", "GLOBAL", 1)  True()
+
+THEN
+
+    RESPONSE #100
+ClearAllActions()
+CreateCreature("k9cutid",[342.686],S)
+CreateCreature("k9cutid2",[830.777],S)
+CreateCreature("k9cutid3",[950.900],S)
+StartCutsceneMode()
+StartCutscene("k9death")
+ActionOverride("k9cutid",ReallyForceSpellRES("k9death2","k9cutid"))
+ActionOverride("k9cutid2",ReallyForceSpellRES("k9death","k9cutid2"))
+ActionOverride("k9cutid3",DisplayStringHead(Myself,@17))
+Wait(3)
+Kill("k9Cook")
+Kill("JOPI")
+Wait(2)
+Kill("NESSIE")
+Kill("k9Commoner")
+Kill("k9Commoner2")
+Wait(1)
+Kill("WHELP")
+Kill("k9Commoner3")
+Kill("k9Commoner4")
+Kill("k9Commoner5")
+Kill("k9Commoner6")
+Kill("k9Commoner7")
+Wait(2)
+Kill("SURREY")
+Kill("k9Commoner8")
+Kill("k9Commoner9")
+Kill("k9Commoner10")
+Kill("k9Commoner11")
+Wait(1)
+Kill("k9Commoner12")
+Kill("k9Commoner13")
+Kill("k9Commoner14")
+Kill("Bentley")
+ActionOverride("k9cutid3",DisplayStringHead(Myself,@18))
+
+EndCutsceneMode()
+SetGlobal("k9FriendlyArm", "GLOBAL", 2)
+
+
+END
+
+
+IF       Global("k9FriendlyArm", "GLOBAL", 2)    Global("k9DornFriendlyArm", "GLOBAL", 0) 
+	InActiveArea("DORN")
+	!InParty("DORN")
+	!BeenInParty("DORN")
+THEN
+	RESPONSE #100
+Kill("DORN")    SetGlobal("k9DornFriendlyArm", "GLOBAL", 1)
+END
+
+
+IF       Global("k9FriendlyArm", "GLOBAL", 2)    Global("k9JaheiraFriendlyArm", "GLOBAL", 0)
+	InActiveArea("Jaheira")
+	!InParty("Jaheira")
+	!BeenInParty("Jaheira")
+THEN
+	RESPONSE #100
+Kill("Jaheira")    SetGlobal("k9JaheiraFriendlyArm", "GLOBAL", 1)
+END
+
+
+IF       Global("k9FriendlyArm", "GLOBAL", 2)    Global("k9KhalidFriendlyArm", "GLOBAL", 0)
+	InActiveArea("Khalid")
+	!InParty("Khalid")
+	!BeenInParty("Khalid")
+THEN
+	RESPONSE #100
+Kill("Khalid")    SetGlobal("k9KhalidFriendlyArm", "GLOBAL", 1)
+END
+

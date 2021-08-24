@@ -1,0 +1,19 @@
+IF
+	Global("k9_ARwolves","ar2215",0)    Global("SeniyadXP","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar2215",1)
+		
+DisplayStringHead(Player1,@9999976)
+SetAreaRestFlag(1)
+END
+
+IF
+	Global("k9_ARwolves","ar2215",0)    Global("AldethMove","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar2215",1)
+		
+DisplayStringHead(Player1,@9999977)
+SetAreaRestFlag(1)
+END

@@ -1,0 +1,32 @@
+IF GlobalGT("Chapter","GLOBAL",2)  Global("k9bertraintest","LOCALS",0)
+
+THEN
+
+RESPONSE #100
+SetGlobal("k9trainber","GLOBAL",3) SetGlobal("k9bertraintest","LOCALS",1)
+DestroySelf()
+
+END
+
+
+IF Global("k9milsertalkedcleric","GLOBAL",1) Global("k9milserevilcleric","GLOBAL",0) Global("k9clericonce","GLOBAL",0)
+
+THEN
+	RESPONSE #100
+
+Wait(3) DisplayStringHead("k9mili5", @130183) SetGlobal("k9milsertalkedcleric","GLOBAL",2)  SetGlobal("k9clericonce","GLOBAL",1)
+
+END
+
+
+
+
+
+IF Global("k9milsertalkedcleric","GLOBAL",1) Global("k9milserevilcleric","GLOBAL",1)  Global("k9clericevilonce","GLOBAL",1)
+
+THEN
+	RESPONSE #100
+
+Wait(3) DisplayStringHead("k9mili5", @130184) SetGlobal("k9milsertalkedcleric","GLOBAL",2)   SetGlobal("k9clericevilonce","GLOBAL",1)
+
+END

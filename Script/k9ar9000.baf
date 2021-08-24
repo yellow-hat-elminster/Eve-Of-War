@@ -1,0 +1,114 @@
+
+IF
+	Global("k9_Hidden_Cache","AR9000",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_Hidden_Cache","AR9000",1)
+		ContainerEnable("Hidden_Cache",FALSE)
+END
+
+
+
+IF
+	Global("k9_Hidden_Cache","AR9000",1)
+        OR(3)
+        SpellCastInnate([ANYONE],PALADIN_DETECT_EVIL)
+        SpellCast([ANYONE],WIZARD_DETECT_EVIL)
+        SpellCastPriest([ANYONE],CLERIC_DETECT_EVIL)
+
+THEN
+	RESPONSE #100
+		SetGlobal("k9_Hidden_Cache","AR9000",2)
+		AddMapNoteColor([230.260],@765024,DEFAULT)
+		ContainerEnable("Hidden_Cache",TRUE)
+END
+
+IF
+	Global("k9_Hidden_Cache","AR9000",2)
+	NextTriggerObject("Hidden_Cache")
+	Range([PC],12)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_Hidden_Cache","AR9000",3)
+		DisplayStringHead("Hidden_Cache",@765025)
+END
+
+
+
+IF
+	Global("k9_phylactery_cast","GLOBAL",0)
+OR(24)
+CheckItemSlot(Player1,"k9phylac",SLOT_WEAPON0)
+CheckItemSlot(Player2,"k9phylac",SLOT_WEAPON0)
+CheckItemSlot(Player3,"k9phylac",SLOT_WEAPON0)
+CheckItemSlot(Player4,"k9phylac",SLOT_WEAPON0)
+CheckItemSlot(Player5,"k9phylac",SLOT_WEAPON0)
+CheckItemSlot(Player6,"k9phylac",SLOT_WEAPON0)
+
+CheckItemSlot(Player1,"k9phylac",SLOT_WEAPON1)
+CheckItemSlot(Player2,"k9phylac",SLOT_WEAPON1)
+CheckItemSlot(Player3,"k9phylac",SLOT_WEAPON1)
+CheckItemSlot(Player4,"k9phylac",SLOT_WEAPON1)
+CheckItemSlot(Player5,"k9phylac",SLOT_WEAPON1)
+CheckItemSlot(Player6,"k9phylac",SLOT_WEAPON1)
+
+CheckItemSlot(Player1,"k9phylac",SLOT_WEAPON2)
+CheckItemSlot(Player2,"k9phylac",SLOT_WEAPON2)
+CheckItemSlot(Player3,"k9phylac",SLOT_WEAPON2)
+CheckItemSlot(Player4,"k9phylac",SLOT_WEAPON2)
+CheckItemSlot(Player5,"k9phylac",SLOT_WEAPON2)
+CheckItemSlot(Player6,"k9phylac",SLOT_WEAPON2)
+
+CheckItemSlot(Player1,"k9phylac",SLOT_WEAPON3)
+CheckItemSlot(Player2,"k9phylac",SLOT_WEAPON3)
+CheckItemSlot(Player3,"k9phylac",SLOT_WEAPON3)
+CheckItemSlot(Player4,"k9phylac",SLOT_WEAPON3)
+CheckItemSlot(Player5,"k9phylac",SLOT_WEAPON3)
+CheckItemSlot(Player6,"k9phylac",SLOT_WEAPON3)
+
+THEN
+	RESPONSE #100
+		SetGlobal("k9_phylactery_cast","GLOBAL",1)
+		DisplayStringHead(Myself,@99990101)       TakePartyItemAll("k9phylac")
+END
+
+
+ IF 
+ 
+ !Exists("k9lich01") Global("k9_phylactery_cast","GLOBAL",1)
+
+ THEN RESPONSE #100
+
+ 	      CreateVisualEffectObject("spdeath3",Player1)  PlaySound("EFF_M07")
+		Wait(3)  AddJournalEntry(@66062,INFO)   SetGlobal("k9_phylactery_cast","GLOBAL",2)  SetGlobal("k9_lichkillable","GLOBAL",1) AddexperienceParty(26000)
+
+
+		END
+		
+IF
+ Exists("k9lich01") Global("k9_phylactery_cast","GLOBAL",1)
+
+ THEN RESPONSE #100
+ 
+ 	      CreateVisualEffectObject("spdeath3",Player1)  PlaySound("EFF_M07")
+		Wait(3)  AddJournalEntry(@66062,INFO)   SetGlobal("k9_phylactery_cast","GLOBAL",2)  SetGlobal("k9_lichkillable","GLOBAL",2) ActionOverride("k9lich01",Kill(Myself)) AddexperienceParty(26000)
+
+
+		END
+		
+IF
+ Exists("k9lich02") Global("k9_phylactery_cast","GLOBAL",1)
+
+ THEN RESPONSE #100
+ 
+ 	      CreateVisualEffectObject("spdeath3",Player1)  PlaySound("EFF_M07")
+		Wait(3)  AddJournalEntry(@66062,INFO)   SetGlobal("k9_phylactery_cast","GLOBAL",2)  SetGlobal("k9_lichkillable","GLOBAL",2) ActionOverride("k9lich02",Kill(Myself)) AddexperienceParty(26000)
+
+
+		END
+
+IF Global("k9lichdead","GLOBAL",1)  !GlobalTimerNotExpired("k9lichdeads","GLOBAL") GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9Lich02")
+THEN RESPONSE #100
+       CreateCreature("k9lich02",[230.260],E) SetGlobal("lichdead","GLOBAL",0)
+END
+

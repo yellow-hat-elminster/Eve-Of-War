@@ -1,0 +1,19 @@
+IF Global("k9MineOwned","GLOBAL",1)    Global("k9MineOwnedAmbushtimer1","GLOBAL",0)
+THEN RESPONSE #100
+SetGlobalTimer("k9_ambush_timer2","GLOBAL",15)  SetGlobal("k9MineOwnedAmbushtimer1","GLOBAL",1)
+
+END
+
+
+IF Global("k9MineOwned","GLOBAL",1)    Global("k9MineOwnedAmbushBandit","GLOBAL",0)  Global("k9MineOwnedAmbushtimer1","GLOBAL",1) !GlobalTimerNotExpired("k9_ambush_timer2","GLOBAL")
+
+THEN RESPONSE #100
+
+
+		SetGlobal("k9MineOwnedAmbushBandit","GLOBAL",1)
+
+  CreateCreatureObjectOffset("k9ammage",Player1,[220.200])
+  CreateCreatureObjectOffset("k9amblaf",Player1,[180.150])
+  CreateCreatureObjectOffset("k9amband",Player1,[100.150])
+  CreateCreatureObjectOffset("k9amblam",Player1,[250.175])
+END

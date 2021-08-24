@@ -1,0 +1,352 @@
+IF Global("k9_lichkillable","GLOBAL",1)
+
+THEN RESPONSE #100   Kill(Myself)  SetGlobal("k9_lichkillable","GLOBAL",2)   Continue()
+
+END
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,1)  Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",TWO_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,2)   Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",THREE_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,3) Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",FOUR_DAYS)
+END     
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,4)    Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",FIVE_DAYS)
+END
+
+
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,5)   Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",SIX_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,6)   Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",SEVEN_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,7) Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",EIGHT_DAYS)
+END     
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,8)  Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",NINE_DAYS)
+END
+
+
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,9)  Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",TEN_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,10) Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",ELEVEN_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,11)  Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",TWELVE_DAYS)
+END     
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,12)  Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",THIRTEEN_DAYS)
+END
+
+
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,13)  Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",FOURTEEN_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,14) Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",FIFTEEN_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,15) Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",SIXTEEN_DAYS)
+END     
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,16)   Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",SEVENTEEN_DAYS)
+END
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,17) Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",EIGHTEEN_DAYS)
+END   
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,18)  Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",NINETEEN_DAYS)
+END     
+
+
+
+IF Die() GlobalLT("k9_lichkillable","GLOBAL",1) !Exists("k9lich02")  RandomNum(19,19) Global("lichdead","GLOBAL",0)
+
+THEN RESPONSE #100
+            SetGlobal("k9lichdead","GLOBAL",1) SetGlobalTimer("k9lichdeads","GLOBAL",TWENTY_DAYS)
+END
+
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("prep","LOCALS",1)
+		ApplySpell(Myself,CLERIC_FREE_ACTION)
+		ForceSpell(Myself,CLERIC_BLADE_BARRIER)
+		Continue()
+END
+
+IF
+	HPLT(Myself,20)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_UNHOLY_WORD)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_UNHOLY_WORD)
+		Continue()
+END
+
+IF
+	HPPercentLT(Myself,50)
+	Global("Recoup","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Recoup","LOCALS",1)
+		ForceSpell(Myself,CLERIC_SANCTUARY)
+		ForceSpell(Myself,CLERIC_HEAL)
+		Spell(Myself,CLERIC_PROTECTION_FROM_FIRE)
+        	Spell(Myself,CLERIC_PHYSICAL_MIRROR)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SYMBOL_DEATH)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_SYMBOL_DEATH)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ANIMATE_DEAD)
+	Global("dead","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_ANIMATE_DEAD)
+		SetGlobal("dead","LOCALS",1)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HARM) // SPPR608.SPL (Harm)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_HARM)
+		AttackOneRound(NearestEnemyOf(Myself))
+		Continue()
+END
+
+IF
+	HPPercentLT(Myself,40)
+	Global("Recoup","LOCALS",1)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,CLERIC_SANCTUARY)
+		Spell(Myself,CLERIC_HEAL)
+		SetGlobal("Recoup","LOCALS",2)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_FLAME_STRIKE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+		Continue()
+END
+
+IF
+	Detect(NearestEnemyOf(Myself))
+	!See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_TRUE_SIGHT)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_TRUE_SIGHT)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SLAY_LIVING)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_SLAY_LIVING)
+		AttackOneRound(NearestEnemyOf(Myself))
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_FLAME_STRIKE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_ANIMATE_DEAD)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_BLADE_BARRIER)
+	Global("blade","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(Myself,NPC_BLADE_BARRIER) // SPPR698.SPL (Blade Barrier)
+		SetGlobal("blade","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_SILENCE_15_FOOT)
+	OR(2)
+		See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+	!Range(LastSeenBy(Myself),20)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SILENCE_15_FOOT)
+		Continue()
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLD_PERSON) // SPPR208.SPL (Hold Person)
+	!StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON) // SPPR208.SPL (Hold Person)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,20)
+	HaveSpell(CLERIC_HEAL) // SPPR607.SPL (Heal)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_HEAL) // SPPR607.SPL (Heal)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),10)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(LastSeenBy(Myself),10)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+		Continue()
+END

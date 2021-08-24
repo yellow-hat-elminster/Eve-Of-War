@@ -1,0 +1,27 @@
+IF
+	See("k9milit6")
+	Global("k9milit6","GLOBAL",1)
+THEN
+	RESPONSE #100
+		MoveToObject("k9milit6") SetGlobal("k9milit6","GLOBAL",2)
+END
+
+IF      Global("k9kidfound","GLOBAL",1)
+	See([PC])
+THEN
+	RESPONSE #100
+		MoveToObject([PC])
+END
+
+IF Global("k9postgirlwalk","GLOBAL",1)
+THEN RESPONSE #100
+
+	MoveToPointNoInterrupt([3454.2005])    SetGlobal("k9postgirlwalk","GLOBAL",2)
+	END
+	
+IF Global("k9postgirlwalk","GLOBAL",2)
+THEN RESPONSE #100
+
+	MoveToPointNoInterrupt([3460.2025])    SetGlobal("k9postgirlwalk","GLOBAL",3)
+	END
+	

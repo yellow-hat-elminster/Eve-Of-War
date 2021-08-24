@@ -1,0 +1,61 @@
+IF
+
+Global("k9cyricname","GLOBAL",1)  Global("k9cyricname22","LOCALS",0)
+
+THEN RESPONSE #100
+
+SetName(@66034) SetGlobal("k9cyricname22","LOCALS",1)
+END
+
+
+
+IF
+
+!Global("k9cyricname","GLOBAL",0)  AreaCheck("ARk904")       Global("k9cyricname2","GLOBAL",0)
+
+THEN RESPONSE #100
+
+SetName(@66034) SetGlobal("k9cyricname2","GLOBAL",1)
+END
+
+
+
+IF AreaCheck("ARk903")   Global("k9cyrictesttalking","GLOBAL",1)
+
+THEN RESPONSE #100      SetGlobal("k9cyrictesttalking","GLOBAL",2)        StartDialogueNoSet(Player1)
+
+END
+
+IF
+
+Global("k9cyricname","GLOBAL",2)   AreaCheck("ark903")
+
+THEN RESPONSE #100
+
+SetName(@66034) SetGlobal("k9cyricname","GLOBAL",3)
+END
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+IF
+	AreaCheck("ARk904")
+	Global("k9cyrictesttalking22","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9cyrictesttalking22","GLOBAL",1)
+		StartDialogueNoSet(Player1)
+END
+
+
+
+

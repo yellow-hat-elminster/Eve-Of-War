@@ -1,0 +1,76 @@
+//Cook death
+
+APPEND AR2301
+
+IF   Global("k9CookDead", "GLOBAL", 1)
+
+THEN
+	RESPONSE #100
+Kill("k9Cook")
+END
+
+
+//Bentley Death
+IF
+	Global("k9BentleyDead", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+Kill("Bentley")
+END
+
+
+//Commoner death
+
+IF
+	Global("k9CommonersDead", "GLOBAL", 11)
+THEN
+	RESPONSE #100
+Kill("k9Commoner")
+END
+
+
+//Jopi dead
+
+IF
+	Global("k9JopiDead", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+Kill("JOPI")
+END
+
+
+//Nessie dead
+
+IF
+	Global("k9NessieDead", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+Kill("NESSIE")
+END
+
+//Surrey dead
+
+IF
+	Global("k9SurreyDead", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+Kill("SURREY")
+END
+
+//Whelp dead
+
+IF
+	Global("k9WhelpDead", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+Kill("WHELP")
+END
+
+//Commoners dead
+
+IF
+	Global("k9CommonersDead", "GLOBAL", 11)
+THEN
+	RESPONSE #100
+Kill("k9commoner")
+END

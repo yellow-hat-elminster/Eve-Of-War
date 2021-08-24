@@ -1,0 +1,25 @@
+IF
+	Global("k9_ARwolves","ar5506",0)  	DifficultyGT(EASY)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar5506",1)
+                CreateCreature("basill",[860.1790],N)
+                CreateCreature("spidph",[200.1540],N)
+                CreateCreature("spidph",[80.1505],N)
+END
+
+IF
+	Global("k9_ARwolves","ar5506",0)     DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar5506",1)
+
+                CreateCreature("spidphas",[1775.1215],W)
+		CreateCreature("spidwr",[1785.1250],W)
+
+                CreateCreature("spidphas",[330.700],S)
+		CreateCreature("spidph",[360.800],S)
+		
+		CreateCreature("smspid02",[1585.685],N)
+END
+

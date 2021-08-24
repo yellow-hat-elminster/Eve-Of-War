@@ -1,0 +1,18 @@
+IF
+	See([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+
+END
+
+
+IF
+
+	NumTimesTalkedTo(1)
+THEN
+	RESPONSE #100
+EscapeArea()
+
+END

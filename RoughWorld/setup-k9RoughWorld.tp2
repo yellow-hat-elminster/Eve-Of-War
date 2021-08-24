@@ -1,0 +1,389 @@
+BACKUP ~k9RoughWorld/Backup~
+AUTHOR ~elminster (elminster.sage@gmail.com)~
+
+
+VERSION ~BETA 1.3~
+
+LANGUAGE
+    ~English~                                                                           
+    ~English~
+    ~k9RoughWorld/Lang/English/k9Setup.tra~
+
+LANGUAGE
+    ~Polish~
+    ~Polish~
+    ~\lang\pl_PL\dialog.tlk~
+    ~\lang\pl_PL\dialogf.tlk~
+    ~k9RoughWorld/Lang/Polish/k9PolSetup.tra~
+
+
+ BEGIN @1
+ GROUP @59
+ 
+        ACTION_IF GAME_IS ~BG2 BG2EE IWDEE~ THEN BEGIN
+		FAIL @3
+	END
+EXTEND_TOP ~AR0123.bcs~ ~k9RoughWorld/Script/k9ar0123.baf~
+EXTEND_TOP ~AR0146.bcs~ ~k9RoughWorld/Script/k9ar0146.baf~
+EXTEND_TOP ~AR1600.bcs~ ~k9RoughWorld/Script/k9ar1600.baf~
+EXTEND_TOP ~AR1700.bcs~ ~k9RoughWorld/Script/k9ar1700.baf~
+EXTEND_TOP ~AR1800.bcs~ ~k9RoughWorld/Script/k9ar1800.baf~
+EXTEND_TOP ~AR1802.bcs~ ~k9RoughWorld/Script/k9ar1802.baf~
+EXTEND_TOP ~AR1804.bcs~ ~k9RoughWorld/Script/k9ar1804.baf~
+EXTEND_TOP ~AR2100.bcs~ ~k9RoughWorld/Script/k9ar2100.baf~
+EXTEND_TOP ~AR2200.bcs~ ~k9RoughWorld/Script/k9ar2200.baf~
+EXTEND_TOP ~AR2300.bcs~ ~k9RoughWorld/Script/k9ar2300.baf~
+EXTEND_TOP ~AR2615.bcs~ ~k9RoughWorld/Script/k9ar2615.baf~
+EXTEND_TOP ~AR2619.bcs~ ~k9RoughWorld/Script/k9ar2619.baf~
+EXTEND_TOP ~AR2700.bcs~ ~k9RoughWorld/Script/k9ar2700.baf~
+EXTEND_TOP ~AR2800.bcs~ ~k9RoughWorld/Script/k9ar2800.baf~
+EXTEND_TOP ~AR3800.bcs~ ~k9RoughWorld/Script/k9ar3800.baf~
+EXTEND_TOP ~Baldur.bcs~ ~k9RoughWorld/Script/k9ar4300.baf~
+EXTEND_TOP ~AR5100.bcs~ ~k9RoughWorld/Script/k9ar5100.baf~
+EXTEND_TOP ~AR5402.bcs~ ~k9RoughWorld/Script/k9ar5402.baf~
+EXTEND_TOP ~AR5403.bcs~ ~k9RoughWorld/Script/k9ar5403.baf~
+EXTEND_TOP ~AR5404.bcs~ ~k9RoughWorld/Script/k9ar5404.baf~
+EXTEND_TOP ~AR5506.bcs~ ~k9RoughWorld/Script/k9ar5506.baf~
+
+
+COPY ~k9RoughWorld/CRE/k9shamb.cre~ ~override/k9shamb.cre~
+
+
+
+COPY ~k9RoughWorld/CRE/k9korde.cre~ ~override/k9korde.cre~
+    SAY NAME1 @10
+    SAY NAME2 @10
+
+COPY ~k9RoughWorld/CRE/k9korde2.cre~ ~override/k9korde2.cre~
+    SAY NAME1 @10
+    SAY NAME2 @10
+
+COPY ~k9RoughWorld/CRE/k9korme9.cre~ ~override/k9korme9.cre~
+    SAY NAME1 @11
+    SAY NAME2 @11
+
+COPY ~k9RoughWorld/CRE/k9rsgob.cre~ ~override/k9rsgob.cre~
+COPY ~k9RoughWorld/CRE/k9hobgob.cre~ ~override/k9hobgob.cre~
+    SAY NAME1 #6318
+    SAY NAME2 #6318
+
+COPY ~k9RoughWorld/CRE/k9orc01.cre~ ~override/k9orc01.cre~
+    SAY NAME1 @12
+    SAY NAME2 @12
+
+ COMPILE ~k9RoughWorld/Dialog/k9aoln.d~
+ COMPILE ~k9RoughWorld/Dialog/k9drasus.d~
+
+
+//small spider
+COPY ~k9RoughWorld/BAM/MSPSG1.BAM~ ~override/MSPSG1.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG2.BAM~ ~override/MSPSG2.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG11.BAM~ ~override/MSPSG11.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG12.BAM~ ~override/MSPSG12.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG13.BAM~ ~override/MSPSG13.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG14.BAM~ ~override/MSPSG14.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG15.BAM~ ~override/MSPSG15.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG21.BAM~ ~override/MSPSG21.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG22.BAM~ ~override/MSPSG22.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG23.BAM~ ~override/MSPSG23.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG24.BAM~ ~override/MSPSG24.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG25.BAM~ ~override/MSPSG25.BAM~
+COPY ~k9RoughWorld/BAM/MSPSG26.BAM~ ~override/MSPSG26.BAM~
+
+COPY ~k9RoughWorld/CRE/SPIDSM01.cre~ ~override/SPIDSM01.cre~
+    SAY NAME1 @13
+    SAY NAME2 @13
+
+    //small spider items
+COPY ~k9RoughWorld/ITM/spidsw1.itm~ ~override/spidsw1.itm~
+
+
+
+APPEND ~EXTANIM.2da~
+~32559 0 1 1 0 0 0 47 0 0 none none none 14 5 MSPS none 0 0 none~
+
+APPEND ~EXTSPEED.2da~
+~32559 8~
+
+APPEND ~ANIMATE.IDS~
+~0xEA43 IC_SMALL_SPIDER~
+
+
+
+ BEGIN @2
+ GROUP @59
+ 
+        ACTION_IF GAME_IS ~BG2 BG2EE IWDEE~ THEN BEGIN
+		FAIL @3
+	END
+EXTEND_TOP ~AR1601.bcs~ ~k9RoughWorld/Script/k9ar1601.baf~
+EXTEND_TOP ~AR1602.bcs~ ~k9RoughWorld/Script/k9ar1602.baf~
+EXTEND_TOP ~AR2215.bcs~ ~k9RoughWorld/Script/k9ar2215.baf~
+EXTEND_TOP ~BALDUR.bcs~ ~k9RoughWorld/Script/k9arrest.baf~
+
+
+BEGIN @5 
+GROUP @59
+//Baldur's Gate chapter 7 (city disappearing on map)
+
+EXTEND_BOTTOM ~Baldur.bcs~ ~k9RoughWorld/Script/k9baldur.baf~
+ COMPILE ~k9RoughWorld/Script/k9ar0800.baf~
+
+ //Bridge script to make AR0800 appear
+COPY_EXISTING ~AR0900.are~ ~override~
+  PATCH_IF (SOURCE_SIZE > 0x11b) BEGIN  // checking for valid ARE resource
+    LPF fj_are_structure
+      INT_VAR
+        fj_type               = 0                       // 1: info region
+        // bounding box of region
+        fj_box_left           = 0
+        fj_box_top            = 400
+        fj_box_right          = 500
+        fj_box_bottom         = 3830
+        fj_flags              = 0                       // optional region flags
+        // Actual coordinates of region polygon (required!). Specify combined X and Y coordinates.
+        fj_vertex_0           = 0 + (400 << 16)
+        fj_vertex_1           = 500 + (400 << 16)
+        fj_vertex_2           = 0 + (3830 << 16)
+        fj_vertex_3           = 500 + (3830 << 16)
+      STR_VAR
+        fj_structure_type     = region                  // ARE structure type
+        fj_name               = "AR0800"      // region name
+        fj_reg_script         = "k9AR0800.bcs"
+    END
+END
+
+//Smuggler
+COPY ~k9RoughWorld/CRE/SMUGGL.cre~ ~override/SMUGGL.CRE~
+ COMPILE ~k9RoughWorld/Dialog/k9smuggl.d~
+ COMPILE ~k9RoughWorld/Script/k9smuggl.baf~
+
+ STRING_SET 27437    @30
+
+COPY ~k9RoughWorld/CRE/k9FF0100.cre~ ~override/k9FF0100.cre~
+COPY ~k9RoughWorld/CRE/k9FF0101.cre~ ~override/k9FF0101.cre~
+
+COPY ~k9RoughWorld/CRE/k9FF0200.cre~ ~override/k9FF0200.cre~
+COPY ~k9RoughWorld/CRE/k9FF0201.cre~ ~override/k9FF0201.cre~
+COPY ~k9RoughWorld/CRE/k9FF0202.cre~ ~override/k9FF0202.cre~
+
+COPY ~k9RoughWorld/CRE/k9FF0300.cre~ ~override/k9FF0300.cre~
+COPY ~k9RoughWorld/CRE/k9FF0301.cre~ ~override/k9FF0301.cre~
+
+
+COPY ~k9RoughWorld/CRE/k9FF0600.cre~ ~override/k9FF0600.cre~
+COPY ~k9RoughWorld/CRE/k9FF0601.cre~ ~override/k9FF0601.cre~
+
+COPY ~k9RoughWorld/CRE/k9FF0700.cre~ ~override/k9FF0700.cre~
+COPY ~k9RoughWorld/CRE/k9FF0701.cre~ ~override/k9FF0701.cre~
+COPY ~k9RoughWorld/CRE/k9FF0702.cre~ ~override/k9FF0702.cre~
+COPY ~k9RoughWorld/CRE/k9FF0703.cre~ ~override/k9FF0703.cre~
+
+COPY ~k9RoughWorld/CRE/k9FF0800.cre~ ~override/k9FF0800.cre~
+COPY ~k9RoughWorld/CRE/k9FF0801.cre~ ~override/k9FF0801.cre~
+COPY ~k9RoughWorld/CRE/k9FF0802.cre~ ~override/k9FF0802.cre~
+
+COPY ~k9RoughWorld/CRE/k9FF1100.cre~ ~override/k9FF1100.cre~
+COPY ~k9RoughWorld/CRE/k9FF1101.cre~ ~override/k9FF1101.cre~
+COPY ~k9RoughWorld/CRE/k9FF1102.cre~ ~override/k9FF1102.cre~
+
+
+COPY ~k9RoughWorld/CRE/k9FF1200.cre~ ~override/k9FF1200.cre~
+COPY ~k9RoughWorld/CRE/k9FF1201.cre~ ~override/k9FF1201.cre~
+COPY ~k9RoughWorld/CRE/k9FF1202.cre~ ~override/k9FF1202.cre~
+
+COPY ~k9RoughWorld/CRE/k9FF1300.cre~ ~override/k9FF1300.cre~
+COPY ~k9RoughWorld/CRE/k9FF1301.cre~ ~override/k9FF1301.cre~
+
+COMPILE ~k9RoughWorld/Script/k9FF0100.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0101.baf~
+
+COMPILE ~k9RoughWorld/Script/k9FF0200.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0201.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0202.baf~
+
+
+COMPILE ~k9RoughWorld/Script/k9FF0300.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0301.baf~
+
+
+COMPILE ~k9RoughWorld/Script/k9FF0600.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0601.baf~
+
+COMPILE ~k9RoughWorld/Script/k9FF0700.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0701.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0702.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0703.baf~
+
+COMPILE ~k9RoughWorld/Script/k9FF0800.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0801.baf~
+COMPILE ~k9RoughWorld/Script/k9FF0802.baf~
+
+COMPILE ~k9RoughWorld/Script/k9FF1100.baf~
+COMPILE ~k9RoughWorld/Script/k9FF1101.baf~
+COMPILE ~k9RoughWorld/Script/k9FF1102.baf~
+
+COMPILE ~k9RoughWorld/Script/k9FF1200.baf~
+COMPILE ~k9RoughWorld/Script/k9FF1201.baf~
+COMPILE ~k9RoughWorld/Script/k9FF1202.baf~
+
+COMPILE ~k9RoughWorld/Script/k9FF1300.baf~
+COMPILE ~k9RoughWorld/Script/k9FF1301.baf~
+
+
+EXTEND_TOP ~AR0100.bcs~ ~k9RoughWorld/Script/k9arFF01.baf~
+EXTEND_TOP ~AR0200.bcs~ ~k9RoughWorld/Script/k9arFF02.baf~
+EXTEND_TOP ~AR0300.bcs~ ~k9RoughWorld/Script/k9arFF03.baf~
+EXTEND_TOP ~AR0600.bcs~ ~k9RoughWorld/Script/k9arFF06.baf~
+EXTEND_TOP ~AR0700.bcs~ ~k9RoughWorld/Script/k9arFF07.baf~
+EXTEND_TOP ~AR0800.bcs~ ~k9RoughWorld/Script/k9arFF08.baf~
+EXTEND_TOP ~AR1100.bcs~ ~k9RoughWorld/Script/k9arFF11.baf~
+EXTEND_TOP ~AR1200.bcs~ ~k9RoughWorld/Script/k9arFF12.baf~
+EXTEND_TOP ~AR1300.bcs~ ~k9RoughWorld/Script/k9arFF13.baf~
+
+
+
+
+//Beggars
+BEGIN @6
+GROUP @59
+
+COPY ~k9RoughWorld/CRE/beggba.cre~ ~override/beggba.cre~
+COPY ~k9RoughWorld/CRE/BEGBAX_A.cre~ ~override/BEGBAX_A.cre~
+COPY ~k9RoughWorld/CRE/BEGBAX_B.cre~ ~override/BEGBAX_B.cre~
+COPY ~k9RoughWorld/CRE/BEGBAX_C.cre~ ~override/BEGBAX_C.cre~
+COPY ~k9RoughWorld/CRE/BEGBAX_D.cre~ ~override/BEGBAX_D.cre~
+COPY ~k9RoughWorld/CRE/BEGGBA_A.cre~ ~override/BEGGBA_A.cre~
+COPY ~k9RoughWorld/CRE/BEGGBA_B.cre~ ~override/BEGGBA_B.cre~
+COPY ~k9RoughWorld/CRE/BEGGBA_C.cre~ ~override/BEGGBA_C.cre~
+COPY ~k9RoughWorld/CRE/BEGGBA_D.cre~ ~override/BEGGBA_D.cre~
+COPY ~k9RoughWorld/CRE/BEGGBAX.cre~ ~override/BEGGBAX.cre~
+COPY ~k9RoughWorld/CRE/BEGGNA.cre~ ~override/BEGGNA.cre~
+
+COPY ~k9RoughWorld/VVC/k9flies.VVC~ ~override/k9flies.VVC~
+COPY ~k9RoughWorld/EFF/k9flies.EFF~ ~override/k9flies.EFF~
+
+COMPILE ~k9RoughWorld/Dialog/k9beggar.d~
+
+
+//Renamed Reputation
+BEGIN @7
+GROUP @59
+
+COPY ~k9RoughWorld/2da/reptxt.2da~ ~override/reptxt.2da~
+        REPLACE ~99999~ @50
+        REPLACE ~99998~ @51
+        REPLACE ~99997~ @52
+        REPLACE ~99996~ @53
+        REPLACE ~99995~ @54
+        REPLACE ~99994~ @55
+        REPLACE ~99993~ @56
+
+
+ //Changes a whole bunch of things. Really well loved characters can kill a single innocent person without losing half their reputation (since its such a rough world its assumed that they did it out of necessity)
+ //Reputation levels start more balanced. So they only vary between 9 and 11
+ //Giving money to a church has been changed in terms of cost for evil characters in particular.
+
+//Reputation Rebalanced
+BEGIN @8
+GROUP @59
+COPY ~k9RoughWorld/2da/rmodrep.2da~ ~override/rmodrep.2da~
+COPY ~k9RoughWorld/2da/repstart.2da~ ~override/repstart.2da~
+COPY ~k9RoughWorld/2da/reputati.2da~ ~override/reputati.2da~
+COPY ~k9RoughWorld/2da/repmodst.2da~ ~override/repmodst.2da~
+
+
+//Innocence Reconcieved
+ //Changes who the game considers to be "innocent", meaning that killing people found in obscure locations (defined as being either a diagonal location or more than one (e,w,s,n) area away from an urban area) will not result in a reputation loss.
+//Also makes it so that if you are a paladin that kills an innocent person you lose your paladin status.
+BEGIN @9
+GROUP @59
+//change to thief
+COPY_EXISTING ~Brevli.cre~ ~override/Brevli.cre~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_BYTE 0x273 "4"
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+ COMPILE ~k9RoughWorld/Script/k9fallen.baf~
+ EXTEND_BOTTOM ~Shout.bcs~  ~k9RoughWorld/Script/k9innoce.baf~
+
+//change to paladin
+COPY_EXISTING ~laurel.cre~ ~override/laurel.cre~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_BYTE 0x273 "6"
+     WRITE_ASCII 0x0248 ~k9fallen.bcs~
+      END
+  BUT_ONLY_IF_IT_CHANGES
+
+//Change to fighter
+COPY_EXISTING ~aoln.cre~ ~override/aoln.cre~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_BYTE 0x273 "2"
+     WRITE_ASCII 0x0248 ~k9fallen.bcs~
+      END
+  BUT_ONLY_IF_IT_CHANGES
+
+//Change to bard
+COPY_EXISTING ~poe.cre~ ~override/poe.cre~
+
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_BYTE 0x273 "5"
+    WRITE_ASCII 0x0248 ~k9fallen.bcs~
+      END
+  BUT_ONLY_IF_IT_CHANGES
+
+
+//Change to cleric
+COPY_EXISTING ~chanth.cre~  ~Override/chanth.cre~
+              ~bentan.cre~  ~Override/bentan.cre~
+              ~chanth.cre~  ~Override/chanth.cre~
+
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_BYTE 0x273 "3"
+     WRITE_ASCII 0x0248 ~k9fallen.bcs~
+      END
+  BUT_ONLY_IF_IT_CHANGES
+
+  //Change to no class
+COPY_EXISTING ~kissiq.cre~ ~override/kissiq.cre~
+              ~roger.cre~  ~override/roger.cre~
+              ~ardrou.cre~  ~override/ardrou.cre~
+              ~beldin.cre~  ~override/beldin.cre~
+              ~binkos.cre~  ~Override/binkos.cre~
+               ~cantic.cre~ ~override/cantic.cre~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_BYTE 0x273 "255"
+      WRITE_ASCII 0x0248 ~k9fallen.bcs~
+  END
+  BUT_ONLY_IF_IT_CHANGES
+
+
+ //Change to reputation for killing good and neutral priests
+COPY_EXISTING ~nalin.cre~ ~override/nalin.cre~
+              ~alvanh.cre~ ~override/alvanh.cre~
+  PATCH_IF (SOURCE_SIZE > 0x2d3) THEN BEGIN // protects against invalid files
+    WRITE_BYTE 0x7f "-2"
+      WRITE_ASCII 0x0248 ~k9fallen.bcs~
+      END
+  BUT_ONLY_IF_IT_CHANGES
+
+
+
+
+
+
+
+BEGIN @4
+GROUP @60
+
+
+COPY_EXISTING_REGEXP GLOB ~.*\.cre~ override
+WRITE_LONG 0x10 (THIS | BIT22)
+BUT_ONLY
+
+BEGIN @61
+GROUP @63
+COPY_EXISTING_REGEXP GLOB ~.*\.are~ override
+WRITE_SHORT 0x0014 (THIS | BIT0)
+BUT_ONLY

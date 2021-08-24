@@ -1,0 +1,9 @@
+IF
+      	Global("k9lichtalk","global",0)
+	See([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSet(Player1) SetGlobal("k9lichtalk","global",1)
+END
+
+

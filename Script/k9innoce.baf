@@ -1,0 +1,22 @@
+
+	IF      Class(Myself,INNOCENT)
+	
+	OR (6)
+                HitBy(Player1,CRUSHING)
+        	HitBy(Player2,CRUSHING)
+		HitBy(Player3,CRUSHING)
+		HitBy(Player4,CRUSHING)
+		HitBy(Player5,CRUSHING)
+		HitBy(Player6,CRUSHING)
+
+		Die()
+	
+        THEN RESPONSE #100
+        
+
+          ActionOverride(Player1,RemovePaladinHood()
+          ActionOverride(Player2,RemovePaladinHood()
+          ActionOverride(Player3,RemovePaladinHood()
+          ActionOverride(Player4,RemovePaladinHood()
+          ActionOverride(Player5,RemovePaladinHood()
+          ActionOverride(Player6,RemovePaladinHood() 	END

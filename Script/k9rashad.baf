@@ -1,0 +1,15 @@
+IF        Global("k9rashadmove","LOCALS",0)    AreaCheck("AR1100")
+
+THEN RESPONSE #100
+
+SetGlobal("k9rashadmove","LOCALS",1)		MoveToPoint([1395.2215])  EscapeArea()
+		
+END
+
+IF        Global("k9Rashadspawn","GLOBAL",1)    AreaCheck("AR0608")   TimeOfDay("NIGHT")
+
+THEN RESPONSE #100
+
+SetGlobal("k9Rashadspawn","GLOBAL",0)	DestroySelf()
+		
+END

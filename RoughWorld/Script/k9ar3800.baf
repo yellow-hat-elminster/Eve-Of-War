@@ -1,0 +1,13 @@
+
+IF
+    Global("k9ar3800spawn","GLOBAL",0)
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9ar3800spawn","GLOBAL",1)
+		CreateCreature("ogregr",[3905.1440],N)
+		CreateCreature("ogre",[4005.1470],N)
+		Continue()
+END
+
+

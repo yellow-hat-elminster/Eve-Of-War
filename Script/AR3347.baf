@@ -1,0 +1,14 @@
+
+
+//Militia headquarters
+IF
+           Global("k9BeregostEve2", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+           SetGlobal("k9BeregostEve2", "GLOBAL", 1)
+//Darren
+                CreateCreature("k9darren",[397.318],13)
+
+ END
+
+

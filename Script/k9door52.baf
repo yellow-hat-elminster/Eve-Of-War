@@ -1,0 +1,10 @@
+
+IF
+Clicked([ANYONE])
+	Name("Infopoint05",Myself)
+	AreaCheck("ar5200")	!Global("k9cyrictalk", "GLOBAL", 3)    Global("k9cyrictalkz", "GLOBAL", 0)    PartyHasItem("k9scrl3f")
+THEN
+	RESPONSE #100
+        		DisplayString(Player1,@15007)      SetGlobal("k9cyrictalkz", "GLOBAL", 1)  TriggerActivation(Myself,FALSE)  TriggerActivation("Infopoint04",TRUE)
+END
+

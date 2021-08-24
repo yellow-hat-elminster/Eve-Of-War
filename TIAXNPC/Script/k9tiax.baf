@@ -1,0 +1,9 @@
+
+IF Global("k9tiax","global",0)  GlobalGT("Chapter", "GLOBAL", 0)   AreaCheck("BD1000")
+
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9tiax","global",1) 	 CreateCreature("k9TIAX7",[377.3460],2)
+END

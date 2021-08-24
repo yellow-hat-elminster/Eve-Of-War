@@ -1,0 +1,114 @@
+BACKUP ~k9SharteelNPC/Backup~
+AUTHOR ~elminster (elminster.sage@gmail.com)~
+
+
+VERSION ~v1.1~
+
+LANGUAGE
+    ~English~                                                                           
+    ~English~
+    ~k9SHarteelNPC/tra/k9Setup.tra~
+
+
+
+    //Shar Teel
+  BEGIN @99971
+
+
+//creature files
+COPY "k9SHarteelNPC\CRE\k9sharte.cre" "override"
+
+COPY "k9SHarteelNPC\CRE\k9sodfis.cre" "override"
+
+COPY "k9SHarteelNPC\CRE\k9narlen.cre" "override" 
+
+
+ //scripts
+  EXTEND_TOP ~bd0020.bcs~ ~k9SHarteelNPC\script\k9narspa.baf~
+ EXTEND_TOP ~bd0104.bcs~ ~k9SHarteelNPC\script\k9sharte.baf~
+ EXTEND_TOP ~bdcut61.bcs~ ~k9SHarteelNPC\script\k9final.baf~
+   COMPILE "k9SHarteelNPC\script\k9shar.baf"
+  COMPILE "k9SHarteelNPC\script\k9narlen.baf"
+ 
+ 
+ EXTEND_BOTTOM ~bdCORWIN.bcs~ ~k9SHarteelNPC\script\k9corsha.baf~
+ EXTEND_BOTTOM ~bdDORN.bcs~ ~k9SHarteelNPC\script\k9dorsha.baf~
+ 
+
+ //Dialog
+ COMPILE "k9SHarteelNPC\dialog\bdsharte.d"
+ COMPILE "k9SHarteelNPC\dialog\bdshartj.d"
+ COMPILE "k9SHarteelNPC\dialog\bdshartp.d"
+ COMPILE "k9SHarteelNPC\dialog\bk9shart.d"
+ COMPILE "k9SHarteelNPC\dialog\k9bdelta.d"
+ COMPILE "k9SHarteelNPC\dialog\k9sodfis.d"
+ COMPILE "k9SHarteelNPC\dialog\k9sodnar.d"
+ COMPILE "k9SHarteelNPC\dialog\bk9corsh.d"
+ COMPILE "k9SHarteelNPC\dialog\bk9dorsh.d"
+
+ //stores
+
+
+ 
+ APPEND ~BDDIALOG.2da~
+~BDSHARTE             BDShartp         BDSharj~
+UNLESS ~SHART~
+
+APPEND ~Interdia.2da~
+~SHARTE              Bk9shart~
+UNLESS ~SHART~
+
+APPEND ~Interdia.2da~
+~BDEDWIN              BEdwin~
+UNLESS ~BDEDWI~
+
+
+
+
+ADD_JOURNAL @665565 @665566 @665567 @665568 @665569 @665570 USING ~Lang\English\k9journa.tra~
+
+
+
+COPY_EXISTING ~BD0103.are~ ~override/BD0103.are~
+  PATCH_IF (SOURCE_SIZE > 0x11b) BEGIN  // checking for valid ARE resource
+   LPF fj_are_structure
+    INT_VAR
+    fj_type        = 5
+    fj_flags       = 6
+    fj_loc_x       = 940
+    fj_loc_y       = 685
+    fj_box_left    = 925
+    fj_box_top     = 610
+    fj_box_right   = 980
+    fj_box_bottom  = 650
+    fj_vertex_0    = 925 + (638 << 16)
+    fj_vertex_1    = 964 + (610 << 16)
+    fj_vertex_2    = 981 + (622 << 16)
+    fj_vertex_3    = 942 + (650 << 16)
+    STR_VAR
+    fj_structure_type = container
+    fj_name           = ~k9table~
+  END
+    LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1 // a new container will be last in the file
+    fj_flags          = 0 // identified
+    STR_VAR
+    fj_name           = k9eltlet
+    fj_structure_type = itm
+  END
+
+  END
+
+
+  COPY "k9SHarteelNPC\ITM\k9eltlet.itm" "override"
+SAY NAME1 @99990122
+SAY NAME2 @99990122
+SAY UNIDENTIFIED_DESC  @99990123
+SAY DESC @99990123
+
+  COPY "k9SHarteelNPC\ITM\k9eltle2.itm" "override"
+SAY NAME1 @99990124
+SAY NAME2 @99990124
+SAY UNIDENTIFIED_DESC  @99990125
+SAY DESC @99990125

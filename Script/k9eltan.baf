@@ -1,0 +1,5 @@
+
+IF Global("k9thiefhelps","GLOBAL",4) Die()
+
+THEN RESPONSE #100 SetGlobal("k9deadduke","GLOBAL",1)
+END

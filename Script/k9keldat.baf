@@ -1,0 +1,19 @@
+IF Global("k9bassilusmessengersend", "GLOBAL", 1) XPGT(Player1,89999)      Global("k9bassilusmessengersendsend", "GLOBAL", 0)   Global("k9bassilusmessengerbook", "GLOBAL", 0)
+
+THEN RESPONSE #100
+
+CreateCreatureObjectOffset("k9messed",Player1,[100.100])    SetGlobal("k9bassilusmessengersend", "GLOBAL", 2)   SetGlobal("k9bassilusmessengersendsend", "GLOBAL", 1)
+
+END
+
+
+
+
+
+IF Global("k9bassilusmessengerbook", "GLOBAL", 0) XPGT(Player1,89999) Global("BassilusDead","GLOBAL",2)   Global("k9bassilusmessengersend", "GLOBAL", 0)
+
+THEN RESPONSE #100
+
+CreateCreatureObjectOffset("k9messed",Player1,[100.100])    SetGlobal("k9bassilusmessengerbook", "GLOBAL", 1)  
+
+END

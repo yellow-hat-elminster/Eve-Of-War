@@ -1,0 +1,10 @@
+IF
+	Global("Chapter","GLOBAL",7) !GlobalTimerNotExpired("k9ff0100spawn","GLOBAL")  GlobalLT("DukeThanks","GLOBAL",1) !Exists("k9ff0100")  !Exists("k9ff0101")
+THEN
+	RESPONSE #40
+                CreateCreature("k9ff0100",[2335.3170],NE)  SetGlobal("k9ar0100West","GLOBAL",1) SetGlobalTimer("k9ff0100spawn","GLOBAL",TWO_MINUTES)
+
+	RESPONSE #40
+                CreateCreature("k9ff0101",[4270.1655],SW)  SetGlobal("k9ar0100East","GLOBAL",1)  SetGlobalTimer("k9ff0100spawn","GLOBAL",TWO_MINUTES)
+
+END

@@ -1,0 +1,26 @@
+  IF
+
+Global("k9SharteelDornDelay","GLOBAL",0)    InParty("Sharteel")    InParty("Dorn")
+
+THEN RESPONSE #100
+
+RealSetGlobalTimer("k9SharteelDornTalk","GLOBAL",1500)  SetGlobal("k9SharteelDornDelay","GLOBAL",1)
+END
+
+
+IF
+InParty("Sharteel")
+InParty("Dorn")
+See("Sharteel")
+See("Dorn")
+!ActuallyInCombat()
+Global("k9SharteelDorn","GLOBAL",0)
+RealGlobalTimerExpired("k9SharteelDornTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9SharteelDorn","GLOBAL",1)
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelDornTalk","GLOBAL",1200)
+
+END
+

@@ -1,0 +1,107 @@
+//Final Cutscene Text Script
+ //Best Outcome
+IF     Dead("Sarevok")
+        Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",1)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+        
+         Global("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		TextScreen("k9best")
+
+END
+
+
+//Good Outcomes
+
+IF         Dead("Sarevok")
+        Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",1)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+        
+        GlobalLT("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		TextScreen("k9good")
+
+END
+
+IF         Dead("Sarevok")
+        Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",1)
+   OR(5)     Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+
+        Global("k9BeregostHelp","GLOBAL",8)
+
+THEN
+	RESPONSE #100
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		TextScreen("k9good2")
+		
+END
+
+// Middle Outcome
+IF         Dead("Sarevok")
+      Global("k9textshowfinal","GLOBAL",0)           Global("k9EltanMurdered","GLOBAL",1)
+      GlobalGT("k9beregostprepared","GLOBAL",2)    
+        GlobalLT("k9beregostprepared","GLOBAL",5)
+
+        Global("k9BeregostHelp","GLOBAL",4)
+      THEN
+	RESPONSE #100
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		TextScreen("k9middle")
+		
+END
+
+//Bad Outcome
+
+
+IF        Dead("Sarevok")
+        Global("k9textshowfinal","GLOBAL",0)           Global("k9EltanMurdered","GLOBAL",1)
+  OR(5)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		TextScreen("k9bad")
+		
+END
+
+
+//All is lost
+
+IF         Dead("Sarevok")
+        Global("k9textshowfinal","GLOBAL",0)          Global("k9EltanMurdered","GLOBAL",1)
+        Global("k9magicteach","GLOBAL",0)
+        Global("k9defenceteach","GLOBAL",0)
+        Global("k9moraleteach","GLOBAL",0)
+        Global("k9politicsteach","GLOBAL",0)
+        Global("k9scoutteach","GLOBAL",0)
+       
+          GlobalLT("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		TextScreen("k9worst")
+		
+END

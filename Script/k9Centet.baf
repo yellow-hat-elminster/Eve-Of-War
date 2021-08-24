@@ -1,0 +1,8 @@
+IF
+ Global("k9whateveritis", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+		SetGlobal("k9whateveritis", "GLOBAL", 2)
+		Wait(3)
+		Dialogue([PC])
+END

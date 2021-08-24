@@ -1,0 +1,318 @@
+
+
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",0)
+
+THEN RESPONSE #100
+
+HideAreaOnMap("AR0100")
+HideAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+HideAreaOnMap("AR0400")
+
+HideAreaOnMap("AR0600")
+HideAreaOnMap("AR0700")
+HideAreaOnMap("AR0800")
+
+HideAreaOnMap("AR1100")
+HideAreaOnMap("AR1200")
+HideAreaOnMap("AR1300")
+
+ SetGlobal("k9hiddencity","GLOBAL",1)
+END
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",1)   Global("k9revealedcity","GLOBAL",0)
+
+THEN RESPONSE #100
+
+RevealAreaOnMap("AR0100")
+RevealAreaOnMap("AR0200")
+RevealAreaOnMap("AR0300")
+RevealAreaOnMap("AR0400")
+
+RevealAreaOnMap("AR0600")
+RevealAreaOnMap("AR0700")
+RevealAreaOnMap("AR0800")
+RevealAreaOnMap("AR0900")
+RevealAreaOnMap("AR1100")
+RevealAreaOnMap("AR1200")
+RevealAreaOnMap("AR1300")
+ SetGlobal("k9revealedcity","GLOBAL",1)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   AreaCheck("AR0900")   Global("k9bridge","GLOBAL",0)
+
+THEN RESPONSE #100
+
+OpenDoor("DoorDraw")            SetGlobal("k9bridge","GLOBAL",1)
+
+END
+
+
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   AreaCheck("AR0900")   Global("k9hiddencity","GLOBAL",1)    Global("k9hiddencityBridge","GLOBAL",0)
+
+THEN RESPONSE #100
+
+RevealAreaOnMap("AR0400")
+HideAreaOnMap("AR0700")
+HideAreaOnMap("AR0300")
+HideAreaOnMap("AR1300")
+DisplayStringNoName(Player1,@9999987)             SetGlobal("k9hiddencityBridge","GLOBAL",1)
+END
+
+
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",1)   Global("k9revealedcity","GLOBAL",1) AreaCheck("AR0900")
+
+THEN RESPONSE #100
+
+CloseDoor("DoorDraw")       SetGlobal("k9revealedcity","GLOBAL",2)
+
+END
+
+
+
+
+
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR0100") Global("k9hiddencityNW","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+RevealAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+HideAreaOnMap("AR0400")
+
+RevealAreaOnMap("AR0600")
+HideAreaOnMap("AR0700")
+HideAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+HideAreaOnMap("AR1100")
+HideAreaOnMap("AR1200")
+HideAreaOnMap("AR1300")   DisplayStringNoName(Player1,@9999987) SetGlobal("k9hiddencityNW","GLOBAL",1)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)      SetGlobal("k9hiddenfarm","GLOBAL",0)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR0200") Global("k9hiddencityN","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+RevealAreaOnMap("AR0100")
+RevealAreaOnMap("AR0300")
+HideAreaOnMap("AR0400")
+
+HideAreaOnMap("AR0600")
+RevealAreaOnMap("AR0700")
+HideAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+HideAreaOnMap("AR1100")
+HideAreaOnMap("AR1200")
+HideAreaOnMap("AR1300")   DisplayStringNoName(Player1,@9999987) SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",1) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)   SetGlobal("k9hiddenfarm","GLOBAL",0)
+END
+
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR0300") Global("k9hiddencityNE","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+HideAreaOnMap("AR0100")
+RevealAreaOnMap("AR0200")
+HideAreaOnMap("AR0400")
+
+HideAreaOnMap("AR0600")
+HideAreaOnMap("AR0700")
+RevealAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+HideAreaOnMap("AR1100")
+HideAreaOnMap("AR1200")
+HideAreaOnMap("AR1300") DisplayStringNoName(Player1,@9999987)   SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",1)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)    SetGlobal("k9hiddenfarm","GLOBAL",0)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR0400") Global("k9hiddenfarm","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+HideAreaOnMap("AR0100")
+HideAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+
+HideAreaOnMap("AR0600")
+HideAreaOnMap("AR0700")
+HideAreaOnMap("AR0800")
+RevealAreaOnMap("AR0900")
+HideAreaOnMap("AR1100")
+HideAreaOnMap("AR1200")
+HideAreaOnMap("AR1300")  DisplayStringNoName(Player1,@9999987)  SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)      SetGlobal("k9hiddenfarm","GLOBAL",1)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR0600") Global("k9hiddencityW","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+RevealAreaOnMap("AR0100")
+HideAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+
+HideAreaOnMap("AR0400")
+RevealAreaOnMap("AR0700")
+HideAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+RevealAreaOnMap("AR1100")
+HideAreaOnMap("AR1200")
+HideAreaOnMap("AR1300")  DisplayStringNoName(Player1,@9999987)  SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",1)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)      SetGlobal("k9hiddenfarm","GLOBAL",1)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR0700") Global("k9hiddencityC","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+HideAreaOnMap("AR0100")
+RevealAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+
+HideAreaOnMap("AR0400")
+RevealAreaOnMap("AR0600")
+RevealAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+HideAreaOnMap("AR1100")
+RevealAreaOnMap("AR1200")
+HideAreaOnMap("AR1300")  DisplayStringNoName(Player1,@9999987)  SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",1)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)      SetGlobal("k9hiddenfarm","GLOBAL",1)
+END
+
+
+
+
+
+
+
+
+
+
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR0800") Global("k9hiddencityE","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+HideAreaOnMap("AR0100")
+HideAreaOnMap("AR0200")
+RevealAreaOnMap("AR0300")
+
+HideAreaOnMap("AR0400")
+HideAreaOnMap("AR0600")
+RevealAreaOnMap("AR0700")
+RevealAreaOnMap("AR0900")
+HideAreaOnMap("AR1100")
+HideAreaOnMap("AR1200")
+RevealAreaOnMap("AR1300")   DisplayStringNoName(Player1,@9999987) SetGlobal("k9hiddencityBridge","GLOBAL",0) SetGlobal("k9testtest","GLOBAL",1) SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",1) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)    SetGlobal("k9hiddenfarm","GLOBAL",0)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR1100") Global("k9hiddencitySW","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+HideAreaOnMap("AR0100")
+HideAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+HideAreaOnMap("AR0400")
+RevealAreaOnMap("AR0600")
+HideAreaOnMap("AR0700")
+HideAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+
+RevealAreaOnMap("AR1200")
+HideAreaOnMap("AR1300")   DisplayStringNoName(Player1,@9999987) SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",1)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",0)      SetGlobal("k9hiddenfarm","GLOBAL",0)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR1200") Global("k9hiddencityS","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+HideAreaOnMap("AR0100")
+HideAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+
+HideAreaOnMap("AR0400")
+
+HideAreaOnMap("AR0600")
+RevealAreaOnMap("AR0700")
+HideAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+RevealAreaOnMap("AR1100")
+RevealAreaOnMap("AR1300")  DisplayStringNoName(Player1,@9999987)  SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",1)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",0)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",0) SetGlobal("k9hiddencityS","GLOBAL",1)      SetGlobal("k9hiddenfarm","GLOBAL",0)
+END
+
+
+IF
+
+Global("Chapter","GLOBAL",7)    Global("DukeThanks","GLOBAL",0)   Global("k9hiddencity","GLOBAL",1)   AreaCheck("AR1300") Global("k9hiddencitySE","GLOBAL",0)
+
+THEN RESPONSE #100
+
+
+HideAreaOnMap("AR0100")
+HideAreaOnMap("AR0200")
+HideAreaOnMap("AR0300")
+
+HideAreaOnMap("AR0400")
+
+HideAreaOnMap("AR0600")
+HideAreaOnMap("AR0700")
+RevealAreaOnMap("AR0800")
+HideAreaOnMap("AR0900")
+HideAreaOnMap("AR1100")
+RevealAreaOnMap("AR1200")
+  DisplayStringNoName(Player1,@9999987)  SetGlobal("k9hiddencityNW","GLOBAL",0)   SetGlobal("k9hiddencityNE","GLOBAL",0)   SetGlobal("k9hiddencityN","GLOBAL",0) SetGlobal("k9hiddencityW","GLOBAL",0)     SetGlobal("k9hiddencityE","GLOBAL",0) SetGlobal("k9hiddencityC","GLOBAL",1)       SetGlobal("k9hiddencitySW","GLOBAL",0)    SetGlobal("k9hiddencitySE","GLOBAL",1) SetGlobal("k9hiddencityS","GLOBAL",0)      SetGlobal("k9hiddenfarm","GLOBAL",0)
+END
+
+
+

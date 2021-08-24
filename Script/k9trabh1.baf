@@ -1,0 +1,6 @@
+IF
+	CheckStatGT(Player1,15,WIS)  Global("k9wisdombhaalcheck","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation(Myself,FALSE) SetGlobal("k9wisdombhaalcheck","GLOBAL",1)
+END

@@ -1,0 +1,7 @@
+IF PartyHasItem("k9bookyu") Global("k9yuantibookhas","GLOBAL",0)
+
+THEN RESPONSE #100
+
+SetGlobal("k9yuantibookhas","GLOBAL",1)   AddJournalEntry(@66083,QUEST)  
+
+END

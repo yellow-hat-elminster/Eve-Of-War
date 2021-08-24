@@ -1,0 +1,20 @@
+IF Global("k9Belt","GLOBAL",1) Global("k9BeltRe","GLOBAL",0) THEN RESPONSE #100
+
+    CreateCreature("k9fisce",[913.520],6)
+     CreateCreature("k9mage",[860.590],6)
+
+SetGlobal("k9Belt","GLOBAL",2)      SetGlobal("k9BeltRe","GLOBAL",1)
+
+END
+
+
+
+
+IF Global("k9Belt","GLOBAL",0)  PartyHasItem("MISC55") Global("k9Duke","GLOBAL",1) THEN RESPONSE #100
+
+  DestroyItem("Misc55")   CreateCreatureObject("Deltan2",Player1,6,0,0)
+       CreateCreature("k9mage",[860.590],6)
+
+SetGlobal("k9Belt","GLOBAL",2)            SetGlobal("k9BeltRe","GLOBAL",2)
+
+END

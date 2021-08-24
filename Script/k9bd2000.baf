@@ -1,0 +1,3 @@
+IF AreaCheck("BD2000") Global("k9serpentreveal","GLOBAL",0)
+THEN RESPONSE #100   SetGlobal("k9serpentreveal","GLOBAL",1) RevealAreaOnMap("ar9100")
+END

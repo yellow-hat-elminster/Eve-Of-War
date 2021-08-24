@@ -1,0 +1,448 @@
+IF
+
+	Global("k9Sharteel_Talk","GLOBAL",1)  Global("k9Sharteel_Talk_Talk","GLOBAL",0)
+THEN
+	RESPONSE #100     SetGlobal("k9Sharteel_Talk_Talk","GLOBAL",1)
+StartDialogNoSet([PC])
+END
+
+
+IF
+       InParty("Sharteel") AreaCheck("BD0104")
+	Global("k9Sharteel_Party_Talk","GLOBAL",0)
+THEN
+	RESPONSE #100
+	SetGlobal("k9Sharteel_Party_Talk","GLOBAL",1)	StartDialogNoSet([PC])
+END
+
+
+IF
+Global("k9Sharteel_Talk_ELTAN","GLOBAL",1)    Global("k9Sharteel_Talk_ELTAN22","GLOBAL",0)     !AreaCheck("BD0102")
+
+THEN
+	RESPONSE #100
+    StartDialogNoSet([PC])                                          SetGlobal("k9Sharteel_Talk_ELTAN22","GLOBAL",1)
+
+END
+
+
+IF
+Global("k9Sharteel_Talk_BRIDGE","GLOBAL",0)    GlobalGT("bd_plot","global",154)  Global("bd_ff_scouts","bd1000",1)
+
+THEN
+	RESPONSE #100    SetGlobal("k9Sharteel_Talk_BRIDGE","GLOBAL",1)
+    StartDialogNoSet([PC])
+
+END
+
+IF 
+
+Global("bd_sdd201_missing_keherram_lever","GLOBAL",1) Global("k9Sharteel_Talk_LEVER","GLOBAL",0)    Global("bd_sdd201_missing_keherram","GLOBAL",1)
+
+THEN
+	RESPONSE #100    SetGlobal("k9Sharteel_Talk_LEVER","GLOBAL",1)
+    StartDialogNoSet([PC])
+
+END
+
+
+IF
+Global("bd_sdd201_missing_door","GLOBAL",2)  Global("k9Sharteel_Talk_LEVER_FREE","GLOBAL",0)
+
+THEN
+	RESPONSE #100    SetGlobal("k9Sharteel_Talk_LEVER_FREE","GLOBAL",1)
+    StartDialogNoSet([PC])
+
+END
+
+
+
+ //Dynaheir Sharteel banter about Minsc
+IF
+
+Global("k9SharteelDynaheirDelay","GLOBAL",0) InParty("Minsc")   InParty("Dynaheir")    InParty("Sharteel")
+
+THEN RESPONSE #100
+
+RealSetGlobalTimer("k9SharteelDynaheirTalk","GLOBAL",1100)  SetGlobal("k9SharteelDynaheirDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("Sharteel")  
+InParty("Minsc")
+InParty("Dynaheir")
+See("Sharteel")
+See("Minsc")
+See("Dynaheir")
+!ActuallyInCombat()
+Global("k9sharteeldynaheir","GLOBAL",0)
+!RealGlobalTimerNotExpired("k9SharteelDynaheirTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteeldynaheir","GLOBAL",1)  SetDialog("BDShartJ")
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelDynaheirTalk","GLOBAL",1100)
+
+END
+
+
+ //Edwin Sharteel banter
+
+ IF
+
+Global("k9SharteelEdwinDelay","GLOBAL",0)    InParty("Sharteel")    InParty("Edwin")
+
+THEN RESPONSE #100
+
+RealSetGlobalTimer("k9SharteelEdwinTalk","GLOBAL",1100)  SetGlobal("k9SharteelEdwinDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("Sharteel")  
+InParty("Edwin")
+See("Sharteel")
+See("Edwin")
+!ActuallyInCombat()
+Global("k9sharteelEdwin","GLOBAL",0)
+!RealGlobalTimerNotExpired("k9SharteelEdwinTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelEdwin","GLOBAL",1)  SetDialog("BDShartJ")
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelEdwinTalk","GLOBAL",1100)
+
+END
+
+
+
+
+ //Mhkiin Sharteel banter
+
+ IF
+
+Global("k9SharteelMkhiinDelay","GLOBAL",0)    InParty("Sharteel")    InParty("Mkhiin")
+
+THEN RESPONSE #100
+
+RealSetGlobalTimer("k9SharteelMkhiinTalk","GLOBAL",1100)  SetGlobal("k9SharteelMkhiinDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("Sharteel")  
+InParty("Mkhiin")
+See("Sharteel")
+See("Mkhiin")
+!ActuallyInCombat()
+Global("k9sharteelMkhiin","GLOBAL",0)
+!RealGlobalTimerNotExpired("k9SharteelMkhiinTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelMkhiin","GLOBAL",1)  SetDialog("BDShartJ")
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelMkhiinTalk","GLOBAL",1100)
+
+END
+
+
+
+
+
+
+
+ //Corwin Sharteel banter
+
+ IF
+
+Global("k9SharteelCorwinDelay","GLOBAL",0)    InParty("Sharteel")    InParty("Corwin")
+
+THEN RESPONSE #100
+
+RealSetGlobalTimer("k9SharteelCorwinTalk","GLOBAL",1100)  SetGlobal("k9SharteelCorwinDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("Sharteel")  
+InParty("Corwin")
+See("Sharteel")
+See("Corwin")
+!ActuallyInCombat()
+Global("k9sharteelCorwin","GLOBAL",0)
+!RealGlobalTimerNotExpired("k9SharteelCorwinTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelCorwin","GLOBAL",1)  SetDialog("BDShartJ")
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelCorwinTalk","GLOBAL",1500)
+
+END
+
+
+
+
+
+
+ IF
+InParty("Sharteel")
+InParty("Corwin")
+See("Sharteel")
+See("Corwin")
+!ActuallyInCombat()
+Global("k9sharteelCorwin","GLOBAL",2)
+!RealGlobalTimerNotExpired("k9SharteelCorwinTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelCorwin","GLOBAL",3)  SetDialog("BDShartJ")
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelCorwinTalk","GLOBAL",1100)
+
+END
+
+
+
+
+
+ //Jaheira Khalid Sharteel banter
+
+ IF
+
+Global("k9SharteelJaheiraDelay","GLOBAL",0)    InParty("Sharteel")    InParty("Jaheira")    InParty("Khalid")
+
+THEN RESPONSE #100
+
+RealSetGlobalTimer("k9SharteelJaheiraTalk","GLOBAL",900)  SetGlobal("k9SharteelJaheiraDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("Sharteel")  
+InParty("Jaheira")
+InParty("Khalid")
+See("Khalid")
+See("Sharteel")
+See("Jaheira")
+!ActuallyInCombat()
+Global("k9sharteelJaheira","GLOBAL",0)
+!RealGlobalTimerNotExpired("k9SharteelJaheiraTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelJaheira","GLOBAL",1)  SetDialog("BDShartJ")
+		StartDialogueNoSet([PC]) RealSetGlobalTimer("k9SharteelJaheiraTalk","GLOBAL",1100)
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ IF
+	Global("BD_JOINXP","LOCALS",0)
+	InParty(Myself)
+	XPGT(Player1,249999)
+	XPLT(Myself,250000)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("BD_JOINXP","LOCALS",1)
+		ChangeStat(Myself,XP,250000,SET)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("BD_JOINXP","LOCALS",0)
+	InParty(Myself)
+	XPGT(Player1,199999)
+	XPLT(Myself,200000)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("BD_JOINXP","LOCALS",1)
+		ChangeStat(Myself,XP,200000,SET)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("BD_JOINXP","LOCALS",0)
+	InParty(Myself)
+	XPGT(Player1,160999)
+	XPLT(Myself,161000)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("BD_JOINXP","LOCALS",1)
+		ChangeStat(Myself,XP,161000,SET)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("BD_JOINXP","LOCALS",0)
+	InParty(Myself)
+	XPGT(Player1,134999)
+	XPLT(Player1,161000)
+	XPLT(Myself,135000)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("BD_JOINXP","LOCALS",1)
+		ChangeStat(Myself,XP,135000,SET)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("BD_JOINXP","LOCALS",0)
+	InParty(Myself)
+	XPGT(Player1,109999)
+	XPLT(Player1,135000)
+	XPLT(Myself,110000)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("BD_JOINXP","LOCALS",1)
+		ChangeStat(Myself,XP,110000,SET)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("BD_JOINXP","LOCALS",0)
+	InParty(Myself)
+	XPGT(Player1,89999)
+	XPLT(Player1,110000)
+	XPLT(Myself,90000)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("BD_JOINXP","LOCALS",1)
+		ChangeStat(Myself,XP,90000,SET)
+		SetInterrupt(TRUE)
+END
+
+IF
+	Global("BD_JOINXP","LOCALS",0)
+	InParty(Myself)
+	XPLT(Player1,90000)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		SetGlobal("BD_JOINXP","LOCALS",1)
+		SetInterrupt(TRUE)
+END
+
+
+IF
+Class(Myself,THIEF_ALL)   AreaCheck("BD0104")
+Global("k9sharteelthief","GLOBAL",0)
+	XPLT(Myself,64001)  	XPLT(Player1,90000) XPGT(Player1,63999)
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelthief","GLOBAL",1)  
+ChangeStat(Myself,XP,26000,SET)
+
+END
+
+
+IF
+Class(Myself,THIEF_ALL)
+Global("k9sharteelthief","GLOBAL",0) AreaCheck("BD0104")
+	XPLT(Myself,64001)  	XPGT(Player1,89999)
+	XPLT(Player1,110000)
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelthief","GLOBAL",1)  
+ChangeStat(Myself,XP,26000,SET)
+
+END
+
+
+IF
+Class(Myself,THIEF_ALL)
+Global("k9sharteelthief","GLOBAL",0) AreaCheck("BD0104")
+	XPLT(Myself,64001)  	
+        XPGT(Player1,109999)
+	XPLT(Player1,135000)
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelthief","GLOBAL",1)  
+ChangeStat(Myself,XP,46000,SET)
+
+END
+
+
+
+IF
+Class(Myself,THIEF_ALL)
+Global("k9sharteelthief","GLOBAL",0) AreaCheck("BD0104")
+	XPLT(Myself,64001)  	
+	XPGT(Player1,134999)
+	XPLT(Player1,161000)
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelthief","GLOBAL",1)  
+ChangeStat(Myself,XP,71000,SET)
+
+END
+
+
+
+IF
+Class(Myself,THIEF_ALL)
+Global("k9sharteelthief","GLOBAL",0) AreaCheck("BD0104")
+	XPLT(Myself,64001)  	
+	XPGT(Player1,160999)
+	XPLT(Player1,190000)
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelthief","GLOBAL",1)  
+ChangeStat(Myself,XP,115000,SET)
+
+END
+
+
+
+IF
+Class(Myself,THIEF_ALL)
+Global("k9sharteelthief","GLOBAL",0) AreaCheck("BD0104")
+	XPLT(Myself,64001)  	
+	XPGT(Player1,189999)
+	XPLT(Player1,220000)
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelthief","GLOBAL",1)  
+ChangeStat(Myself,XP,154000,SET)
+
+END
+
+
+IF
+Class(Myself,THIEF_ALL)
+Global("k9sharteelthief","GLOBAL",0) AreaCheck("BD0104")
+	XPLT(Myself,64001)  	
+	XPGT(Player1,219999)
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelthief","GLOBAL",1)  
+ChangeStat(Myself,XP,204000,SET)
+
+END
+
+

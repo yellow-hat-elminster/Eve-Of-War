@@ -1,0 +1,5 @@
+IF AreaCheck("BD1000") Global("k9serpenhid","GLOBAL",0)
+THEN RESPONSE #100
+
+HideAreaOnMap("AR9100")  SetGlobal("k9serpenhid","GLOBAL",1)
+END

@@ -1,0 +1,90 @@
+IF
+InParty("k9jenor")  
+InParty("Neera")
+See("k9jenor")
+See("Neera")
+!ActuallyInCombat()
+Global("k9JenoraNeera","GLOBAL",4)
+!GlobalTimerNotExpired("k9JenoraNeeraTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraNeera","GLOBAL",1)  SetDialog("bk9nerje") ActionOverride("k9jenor",SetDialog("bk9Jenor"))
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraNeeraTalk","GLOBAL",500) SetGlobal("k9JenoraNeeraRevert","GLOBAL",0)
+
+END
+
+IF  Global("k9JenoraNeera","GLOBAL",5)    Global("k9JenoraNeeraRevert","GLOBAL",0)
+THEN RESPONSE #100
+                   SetDialog("BDNEERAJ")  SetGlobal("k9JenoraNeeraRevert","GLOBAL",1)
+                   
+END
+
+
+
+
+IF  Global("k9JenoraNeera","GLOBAL",6)    Global("k9NeeraJenoraCheck","GLOBAL",0)
+THEN RESPONSE #100
+ SetDialog("BDNEERJ") ActionOverride("k9jenor",SetDialog("k9JenorJ"))  SetGlobal("k9NeeraJenoraCheck","GLOBAL",1)
+ END
+
+
+
+IF
+InParty("k9jenor")
+InParty("Neera")
+See("k9jenor")
+See("Neera")
+!ActuallyInCombat()
+Global("k9JenoraNeera","GLOBAL",6)
+!GlobalTimerNotExpired("k9JenoraNeeraTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraNeera","GLOBAL",1)  SetDialog("BDNEERAJ")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraNeeraTalk","GLOBAL",500)
+
+END
+
+
+ 
+
+IF
+InParty("k9jenor")
+InParty("Neera")
+See("k9jenor")
+See("Neera")
+!ActuallyInCombat()
+Global("k9JenoraNeera","GLOBAL",8)
+!GlobalTimerNotExpired("k9JenoraNeeraTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraNeera","GLOBAL",1)  SetDialog("BDNEERAJ") 
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraNeeraTalk","GLOBAL",500)
+
+END
+
+
+IF
+InParty("k9jenor")  
+InParty("Neera")
+See("k9jenor")
+See("Neera")
+!ActuallyInCombat()
+Global("k9JenoraNeera","GLOBAL",10)
+!GlobalTimerNotExpired("k9JenoraNeeraTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraNeera","GLOBAL",1)  SetDialog("bk9nerje") ActionOverride("k9jenor",SetDialog("bk9Jenor"))
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraNeeraTalk","GLOBAL",500) SetGlobal("k9JenoraNeeraRevert","GLOBAL",0)
+
+END
+
+
+IF  Global("k9JenoraNeera","GLOBAL",11)    Global("k9JenoraNeeraRevert","GLOBAL",0)
+THEN RESPONSE #100
+                   SetDialog("BDNEERAJ")  SetGlobal("k9JenoraNeeraRevert","GLOBAL",1)
+                   
+END

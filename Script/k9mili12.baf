@@ -1,0 +1,10 @@
+IF Global("k9postwalk","GLOBAL",1)        Global("k9postwalk1","GLOBAL",0)
+THEN RESPONSE #100
+ 	MoveToPointNoInterrupt([3385.2230])  SetGlobal("k9postwalk1","GLOBAL",1) Wait(3)
+
+ END
+ 
+  IF   Global("k9postwalk1","GLOBAL",1)
+ THEN RESPONSE #100   	MoveToPointNoInterrupt([3407.2234])
+  SetGlobal("k9postwalk1","GLOBAL",2)
+END

@@ -1,0 +1,87 @@
+
+ IF PartyHasItem("k9alatos")   Global("k9dukesword","GLOBAL",0)
+ THEN RESPONSE #100     SetGlobal("k9dukesword","GLOBAL",1)
+ END
+
+
+ IF Global("k9deadduke","GLOBAL",1)   Global("k9dukesword","GLOBAL",1)   !PartyHasItem("k9alatos")
+ THEN RESPONSE #100
+ SetGlobal("k9dukesword","GLOBAL",2)
+ END
+ 
+ IF PartyHasItem("k9alatos")   Global("k9dukesword","GLOBAL",2)
+ THEN RESPONSE #100     SetGlobal("k9dukesword","GLOBAL",1)
+ END
+ 
+ IF
+ 	Global("Rashadspawn","GLOBAL",0)
+ 	THEN RESPONSE #100
+ SetGlobal("Rashadspawn","GLOBAL",1)
+ END
+ 
+ IF
+ 
+	Global("Chapter","GLOBAL",7)
+	Global("k9eltanspawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9eltanspawn","GLOBAL",1)
+		ActionOverride("ELTAN",DestroySelf())
+		CreateCreatureImpassable("DELTAN2",[581.268],NW) // Duke Eltan
+		Continue()
+END
+
+ IF
+	    !TimeOfDay("NIGHT")
+	Global("Chapter","GLOBAL",7)
+	Global("k9Rashadspawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9Rashadspawn","GLOBAL",1)
+CreateCreature("RASHAD",[568.293],NNE) // Rashad
+		Continue()
+END
+
+
+
+IF
+	OnCreation()
+	Global("Chapter","GLOBAL",7)
+	Global("KentSpawn","GLOBAL",0)
+	!Exists("KENT")
+THEN
+	RESPONSE #100
+		CreateCreature("KENT",[302.235],S) // Kent
+		SetGlobal("KentSpawn","GLOBAL",1)
+		Continue()
+END
+
+IF
+	OnCreation()
+	Global("Chapter","GLOBAL",7)
+	Global("Rashadspawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Rashadspawn","GLOBAL",1)
+		CreateCreature("RASHAD",[568.293],NNE) // Rashad
+		ActionOverride("ELTAN",DestroySelf())
+		CreateCreatureImpassable("DELTAN2",[581.268],NW) // Duke Eltan
+		Continue()
+END
+
+IF
+	Global("ScarKilled","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateCreature("DELTAN",[250.414],N) // Duke Eltan
+		SetGlobal("ScarKilled","GLOBAL",2)
+END
+
+IF
+	Global("GuardTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("GuardTalk","GLOBAL",1)
+END
+
+

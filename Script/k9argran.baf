@@ -1,0 +1,7 @@
+IF Dead("Ardenor")    Global("k9grango","GLOBAL",0) 	
+
+THEN RESPONSE #100
+                 SetGlobal("k9grango","GLOBAL",1)
+	CreateCreature("k9Grango",[517.508],S)
+	
+END

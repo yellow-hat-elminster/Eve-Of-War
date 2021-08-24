@@ -1,0 +1,45 @@
+IF 
+
+Global("k9ferrytalk","GLOBAL",0) !Global("k9helpedferry","GLOBAL",1)
+
+THEN RESPONSE #100
+
+DisplayStringHead(Myself, @666047)  Wait(10) SetGlobal("k9ferrytalk","GLOBAL",1)
+
+END
+
+
+
+IF 
+
+Global("k9ferrytalk","GLOBAL",1)    !Global("k9helpedferry","GLOBAL",1)
+
+THEN RESPONSE #100
+
+DisplayStringHead(Myself, @666048)  Wait(10) SetGlobal("k9ferrytalk","GLOBAL",2)
+
+END
+
+
+
+
+IF 
+
+GlobalLT("k9ferrytalk","GLOBAL",99)  !Global("k9helpedferry","GLOBAL",1)
+
+THEN RESPONSE #34
+
+DisplayStringHead(Myself, @666049)
+Wait(20) IncrementGlobal("k9ferrytalk","GLOBAL",1)
+
+ RESPONSE #33
+
+DisplayStringHead(Myself, @666049)
+Wait(10) IncrementGlobal("k9ferrytalk","GLOBAL",1)
+
+ RESPONSE #33
+
+DisplayStringHead(Myself, @666049)  
+Wait(15) IncrementGlobal("k9ferrytalk","GLOBAL",1)
+
+END

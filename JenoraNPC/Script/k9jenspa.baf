@@ -1,0 +1,8 @@
+  IF Global("k9Jenoraspawn","GLOBAL",0) THEN
+  
+  RESPONSE #100
+  
+  CreateCreature("k9Jenor",[455.725],NE) SetGlobal("k9Jenoraspawn","GLOBAL",1)
+
+  END
+  

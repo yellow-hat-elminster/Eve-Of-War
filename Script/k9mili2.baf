@@ -1,0 +1,9 @@
+IF GlobalGT("Chapter","GLOBAL",2)   Global("k9bertraintest","LOCALS",0)
+
+THEN
+
+RESPONSE #100
+SetGlobal("k9trainber","GLOBAL",3)   SetGlobal("k9bertraintest","LOCALS",1)
+DestroySelf()
+
+END

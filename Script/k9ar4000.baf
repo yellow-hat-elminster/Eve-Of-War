@@ -1,0 +1,7 @@
+IF  Global("k9negotiations","GLOBAL",1)    Global("k9gullykinjournaladd","GLOBAL",1)
+
+THEN RESPONSE #100
+
+AddJournalEntry(@15036,QUEST)  SetGlobal("k9gullykinjournaladd","GLOBAL",2)
+
+END

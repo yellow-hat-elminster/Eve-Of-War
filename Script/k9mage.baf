@@ -1,0 +1,25 @@
+
+		IF
+	See("Sarevok")  Global("SarevokBehavior","GLOBAL",4)    HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+	Spell("Sarevok",WIZARD_MAGIC_MISSILE)
+END
+
+		IF
+	See("GDOPP72")  HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+	Spell("GDOPP72",WIZARD_MAGIC_MISSILE)
+END
+
+
+
+
+
+IF Global("SarevokBehavior","GLOBAL",1) Global("k9bananadialog","GLOBAL",0)  THEN RESPONSE #100
+
+SetGlobal("k9bananadialog","GLOBAL",1)	Wait(2)	Dialogue([PC])
+		
+		END
+

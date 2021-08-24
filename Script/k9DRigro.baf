@@ -1,0 +1,110 @@
+IF
+AreaCheck("AR0900") See(Player1)  Global("k9drizztshout","LOCALS",0)
+THEN RESPONSE #100
+ DisplayStringHead(Myself, @666052)  SetGlobal("k9drizztshout","LOCALS",1)
+  Enemy()
+END
+
+
+IF Die()
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9drizztcdie","GLOBAL",1)
+END
+
+IF GlobalGT("k9drizztcdie","GLOBAL",1)
+
+THEN RESPONSE #100
+          SetGlobal("k9AttackedDrizzt","GLOBAL",1)
+EscapeArea()
+
+END
+
+IF
+	See([0.0.GNOLL])
+	Global("k9attackgnoll","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Attack([0.0.GNOLL])
+END
+
+
+
+IF
+	See([0.0.GNOLL])
+	Detect([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		Attack([0.0.GNOLL]) SetGlobal("k9attackgnoll","GLOBAL",1)
+END
+
+
+
+IF Global("k9Drizzts","GLOBAL",1)
+THEN RESPONSE #100
+
+ Enemy()      	Attack(NearestEnemyOf(Myself))
+ END
+
+
+
+IF
+	AttackedBy([PC],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100 		SetGlobal("k9AttackedDrizzt","GLOBAL",1)
+END
+
+
+
+IF
+Global("k9AttackedDrizzt", "GLOBAL", 1)  Global("k9AttackedDrizzt2", "LOCALS", 0)
+THEN
+	RESPONSE #100
+		Enemy()     		Attack(NearestEnemyOf(Myself))  SetGlobal("k9AttackedDrizzt2", "LOCALS", 1)
+END
+
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),10)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	Detect([GOODCUTOFF])
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),10)
+END
+
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) AreaCheck("AR4200")
+THEN
+	RESPONSE #100
+		EscapeArea()
+END

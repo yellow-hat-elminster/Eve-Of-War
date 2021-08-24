@@ -1,0 +1,78 @@
+IF Global("k9fer","GLOBAL",1)   Global("k9fer2","GLOBAL",0)
+THEN RESPONSE #100
+CreateCreature("k9ferry",[275.1965],SE) 
+CreateCreature("k9mayor",[585.1905],W)
+CreateCreature("k9shaja",[1800.2205],N)
+CreateCreature("k9commma",[1650.1570],SW)
+CreateCreature("k9commm2",[1885.2640],NW)
+CreateCreature("k9commma",[1000.2680],NE)
+CreateCreature("k9commm2",[3675.1765],NW)
+
+CreateCreature("k9commfe",[3150.650],SW)
+CreateCreature("k9commf2",[515.1685],SW)
+CreateCreature("k9commfe",[1990.675],SE)
+CreateCreature("k9commf2",[1030.2100],SW)
+
+CreateCreature("k9aluena",[475.2050],NW)
+CreateCreature("k9delwyn",[400.2070],N)
+CreateCreature("k9atad",[815.2580],NE)
+
+
+ SetGlobal("k9fer","GLOBAL",2) SetGlobal("k9fer2","GLOBAL",1)
+   END
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ IF Global("k9SerpentCowlArrive","GLOBAL",0)
+
+THEN RESPONSE #100
+
+AddMapNoteColor([2477.1721], @765014,SLATE)
+
+AddMapNoteColor([3193.2157], @765017,SLATE)
+
+AddMapNoteColor([1937.1202], @765015,SLATE)
+
+AddMapNoteColor([450.355], @765020,SLATE)
+
+AddMapNoteColor([1525.475], @765016,SLATE)
+
+AddMapNoteColor([3033.357], @765021,SLATE)
+
+AddMapNoteColor([3415.1240], @765018,SLATE)
+
+AddMapNoteColor([990.1350], @765019,SLATE)
+ SetGlobal("k9SerpentCowlArrive","GLOBAL",1)
+
+END
+
+IF  GlobalGT("k9Jashaknow","GLOBAL",4)  Global("k9Jashaknow2","GLOBAL",0)
+THEN RESPONSE #100
+SetGlobal("k9Jashaknow2","GLOBAL",1)   SetGlobal("k9serpentsolved","GLOBAL",1) AddJournalEntry(@665557,QUEST)
+
+END
+
+IF Global("k9shajajournal","GLOBAL",0)  PartyHasItem("k9scrl2i") OR(2) CheckStatGT(Player1Fill, 14, WIS) CheckStatGT(Player1Fill, 14, INT)      Global("k9serpentsolved","GLOBAL",0)
+THEN RESPONSE #100
+SetGlobal("k9shajajournal","GLOBAL",1) IncrementGlobal("k9Jashaknow","GLOBAL",2)  AddJournalEntry(@665556,QUEST)
+END
+
+IF Global("k9shajajournal","GLOBAL",0)  PartyHasItem("k9scrl2i")  CheckStatLT(Player1Fill, 15, WIS) CheckStatLT(Player1Fill, 15, INT)       Global("k9serpentsolved","GLOBAL",0)
+THEN RESPONSE #100
+SetGlobal("k9shajajournal","GLOBAL",1) IncrementGlobal("k9Jashaknow","GLOBAL",1) AddJournalEntry(@665555,QUEST)
+END
+
+

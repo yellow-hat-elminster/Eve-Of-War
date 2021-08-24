@@ -1,0 +1,78 @@
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_DRAW_UPON_HOLY_MIGHT)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SILENCE_15_FOOT)
+	!StateCheck(NearestEnemyOf(Myself),STATE_SILENCED)
+	!Range(NearestEnemyOf(Myself),15)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_SILENCE_15_FOOT)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ANIMATE_DEAD)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_ANIMATE_DEAD)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLD_PERSON) // SPPR208.SPL (Hold Person)
+	!StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+	!StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+ 	HaveSpell(CLERIC_CLOAK_OF_FEAR)
+THEN
+	RESPONSE #50
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON)
+        RESPONSE #50
+                 Spell(Myself, CLERIC_CLOAK_OF_FEAR)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_UNHOLY_BLIGHT)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT)
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ARMOR_OF_FAITH)
+	HaveSpell(CLERIC_HOLY_POWER)
+THEN
+	RESPONSE #50
+		Spell(Myself,CLERIC_ARMOR_OF_FAITH)
+        RESPONSE #50
+                Spell(Myself,CLERIC_HOLY_POWER)
+
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END

@@ -1,0 +1,20 @@
+IF
+	Global("k9_ARwolves","ar1802",0)  	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar1802",1)
+		CreateCreature("ironguar",[1020.1230],NW)
+		CreateCreature("ironguar",[815.1410],NW)
+
+END
+
+IF
+	Global("k9_ARwolves","ar1802",0)     DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar1802",1)
+		CreateCreature("hobelite",[1115.1340],NW)
+		CreateCreature("hobelite",[880.1480],NW)
+
+END
+

@@ -1,0 +1,11 @@
+  //Nashkel Inn additions from Eve of War
+
+IF
+	True() Dead("INNKN2") Global("k9NashkelInn", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9NashkelInn", "GLOBAL", 1)
+CreateCreature("biff2",[445.405],2)
+
+
+END

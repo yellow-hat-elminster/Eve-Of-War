@@ -1,0 +1,7 @@
+IF GlobalGT("Chapter","GLOBAL",2)      Global("k9change3","GLOBAL",0)
+
+THEN RESPONSE #100
+
+ActionOverride("k9acoly2",SetName(@1006)) 
+ActionOverride("keldda",SetName(@1006))   SetGlobal("k9change3","GLOBAL",1)
+END

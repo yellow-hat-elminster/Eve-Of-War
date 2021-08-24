@@ -1,0 +1,9 @@
+IF 
+
+Global("k9MineOwned","GLOBAL",3)
+
+THEN RESPONSE #100
+
+DestroySelf()
+
+END

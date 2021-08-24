@@ -1,0 +1,23 @@
+
+IF
+	Global("KNOW_MIRROR_DOOR","GLOBAL",0)
+	Opened([PC])
+THEN
+	RESPONSE #100
+		SetGlobal("KNOW_MIRROR_DOOR","GLOBAL",1)
+END
+
+IF
+	Global("KNOW_MIRROR_DOOR","GLOBAL",1)    Global("KNOW_MIRROR_DOOR2","GLOBAL",0)
+        THEN  RESPONSE #100	CreateCreature("k9hchild",[430.570],SW)   SetGlobal("KNOW_MIRROR_DOOR2","GLOBAL",1)
+
+	END
+	
+IF
+	Global("KNOW_MIRROR_DOOR","GLOBAL",1)    Global("k9hostilehendern","GLOBAL",0)
+        THEN  RESPONSE #100	   SetGlobal("k9hostilehendern","GLOBAL",1)
+        	
+	END
+
+
+

@@ -1,0 +1,11 @@
+IF Global("smugglermove","GLOBAL",1)
+
+ THEN RESPONSE #100
+ 		ActionOverride("k9smuggl",JumpToPoint([1314.1166])
+                ActionOverride(Player1,JumpToPoint([1314.1166])
+		ActionOverride(Player2,JumpToPoint([1314.1166])
+		ActionOverride(Player3,JumpToPoint([1314.1166])
+		ActionOverride(Player4,JumpToPoint([1314.1166])
+		ActionOverride(Player5,JumpToPoint([1314.1166])
+		ActionOverride(Player6,JumpToPoint([1314.1166])   SetGlobal("SmugglerMove","GLOBAL",2)
+END

@@ -1,0 +1,13 @@
+
+
+ 
+ IF Global("k9darrentalk","GLOBAL",1)   Global("k9markasname","LOCALS",0)   Global("k9markasname2","GLOBAL",1)
+
+THEN RESPONSE #100
+
+
+SetGlobal("k9markasname","LOCALS",1)
+
+ SetName(@19299)
+ END
+

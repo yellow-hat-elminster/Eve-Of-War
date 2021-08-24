@@ -1,0 +1,28 @@
+IF  Global("k9maketimerup78","GLOBAL",0)
+
+THEN RESPONSE #100
+RealSetGlobalTimer("k9chickentimer","GLOBAL",1) SetGlobal("k9maketimerup78","GLOBAL",1)
+END
+
+
+ 
+ IF RealGlobalTimerExpired("k9chickentimer","GLOBAL") See(Player1)
+
+ THEN 
+ 
+ RESPONSE #25
+
+ RealSetGlobalTimer("k9chickentimer","GLOBAL",10)  DisplayStringHead("k9chicke", @666038)
+
+ RESPONSE #25
+
+ RealSetGlobalTimer("k9chickentimer","GLOBAL",14)  DisplayStringHead("k9chicke", @666039)
+
+  RESPONSE #25
+
+ RealSetGlobalTimer("k9chickentimer","GLOBAL",8)   DisplayStringHead("k9chicke", @666040)
+ 
+  RESPONSE #25
+
+ RealSetGlobalTimer("k9chickentimer","GLOBAL",13)   DisplayStringHead("k9chicke", @666041)
+ END

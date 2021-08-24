@@ -1,0 +1,76 @@
+
+
+
+@66031=~Mental Domination
+(Enchantment/Charm)
+
+Level: 4
+Sphere: Thought 
+Range: Visual range of the caster
+Duration: 8 rounds
+Casting Time: 1
+Area of Effect: 1 creature 
+Saving Throw: Neg.
+
+When cast upon a subject, the subject must make a Saving Throw vs. Spell with a -2 penalty in order to avoid the caster entering <PRO_HISHER> mind. The effects of this spell are similar to those of the wizard spell Domination, with a few minor differences. Most notably, this spell gives the caster no access to the subject's thoughts, memory, or sensory apparatus. The priest simply is able to command the subject to perform certain tasks or functions during the spell's duration. To control the subject, the caster must be within range and must be able to see the subject. This control will last until dispelled or for the duration of the spell.~
+
+@66032=~Cure Serious Wounds
+(Necromancy)
+
+Level: 4
+Sphere: Healing
+Range: Touch 
+Duration: Permanent 
+Casting Time: 1
+Area of Effect: 1 creature
+Saving Throw: None 
+
+This spell is a more potent version of the Cure Light Wounds spell. The caster lays <PRO_HISHER> hand upon a creature and heals 17 points of wound or other injury damage to the creature's body. This healing cannot affect noncorporeal, nonliving, or extraplanar creatures.~
+
+
+//String for new abilities
+@66033=~<CHARNAME> has gained a new power.~
+
+@211330=~Burnbones Burning~
+
+@888888=~Chain Continguency - Globe of Invulnerability~
+@888889=~Chain Continguency - Protection From Energy~
+@888890=~Chain Continguency - Shadow Door~
+@888891=~Continguency - Dispel Magic~
+
+@888892=~Chain Continguency - Remove Magic~
+@888893=~Chain Continguency - Horrid Wilting~
+@888894=~Chain Continguency - Death Spell~
+
+@888895=~Chain Continguency - Invisible Stalker~
+@888896=~Chain Continguency - Spider Spawn~
+
+@888897=~Chain Continguency - Animate Dead~
+@888898=~Animate Dead~
+@888899=~Chain Continguency - Mordenkainen's Sword~
+
+@889000=~Spell Trigger - Animate Dead~
+@889001=~Spell Trigger - Invisible Stalker~
+
+@889002=~Spell Sequencer - Remove Magic~
+@889003=~Spell Sequencer - Lightning Bolt~
+
+@889004=~Minor Sequencer - Horror~
+@889005=~Minor Sequencer - Glitterdust~
+
+@889006=~Shapechange: Greater Wolfwere~
+@889007=~Shapechange: Iron Golem~
+
+@889008=~Spell Sequencer - Greater Malison~
+
+
+
+//Banelich spells
+
+@889009=~Negative Energy Fire~
+
+
+
+
+@889014=~Teleport~
+@889015=~Planar Travel~

@@ -1,0 +1,22 @@
+IF
+	Global("k9_ARwolves","ar1804",0)  	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar1804",1)
+ 		CreateCreature("ironguar",[890.1180],NE)
+		CreateCreature("ironguar",[940.1220],NE)
+ 	SetRestEncounterProbabilityDay(14)
+ 	SetRestEncounterProbabilityNight(14)
+
+END
+
+IF
+	Global("k9_ARwolves","ar1804",0)     DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar1804",1)
+ 	SetRestEncounterProbabilityDay(18)
+ 	SetRestEncounterProbabilityNight(18)
+
+END
+

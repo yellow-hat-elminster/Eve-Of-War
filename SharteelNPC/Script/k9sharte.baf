@@ -1,0 +1,40 @@
+IF Global("k9sharteelspawn","GLOBAL",0)    	!BeenInParty("Sharteel")
+
+THEN RESPONSE #100
+
+SetGlobal("k9sharteelspawn","GLOBAL",1)  Lock("Door06")	 SetGlobal("BD_SPAWN_Sharteel","BD0104",1)	CreateCreature("k9sharte",[1225.307],SE)   	CreateCreature("k9sodfis",[1272.400],SE)
+
+END
+
+
+  IF
+	Global("BD_SPAWN_Sharteel","BD0104",0)
+	BeenInParty("Sharteel")
+
+THEN	RESPONSE #100
+		MoveGlobal("bd0104","sharteel",[1225.307])         Lock("Door06")		CreateCreature("k9sodfis",[1272.400],SE)
+		ApplySpellRES("bdresurr","sharteel") // No such index
+		SmallWait(1)
+		ActionOverride("sharteel",Face(SE))
+		ApplySpellRES("bdrejuve","sharteel") // No such index
+		ChangeEnemyAlly("sharteel",NEUTRAL)
+		ChangeSpecifics("sharteel",ALLIES)
+		ActionOverride("sharteel",SetGlobal("bd_joined","locals",0))
+		ActionOverride("sharteel",SetGlobal("bd_retreat","locals",0))
+		ActionOverride("sharteel",SetGlobal("bd_default_loc","locals",0))
+		ActionOverride("sharteel",ChangeAIScript("k9shar",OVERRIDE))
+		ActionOverride("sharteel",ChangeAIScript("DEFAULT",CLASS))
+		ActionOverride("sharteel",ChangeAIScript("",RACE))
+		ActionOverride("sharteel",ChangeAIScript("",GENERAL))
+		ActionOverride("sharteel",ChangeAIScript("",DEFAULT))
+		ActionOverride("sharteel",SetDialog("BDsharte"))
+		SetGlobal("BD_SPAWN_Sharteel","BD0104",1)
+		Continue()
+END
+
+
+IF
+Global("k9shar_unlock_door","GLOBAL",1)
+THEN RESPONSE #100
+Unlock("Door06")   OpenDoor("Door06")  SetGlobal("k9shar_unlock_door","GLOBAL",2)
+END

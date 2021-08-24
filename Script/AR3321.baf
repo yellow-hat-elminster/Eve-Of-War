@@ -1,0 +1,44 @@
+//Town Advisors
+
+
+IF    Global("k9baskor","GLOBAL",1)
+
+THEN RESPONSE #100
+                   CreateCreature("k9baskor",[400.140],16)                  SetGlobal("k9baskor","GLOBAL",2)
+END
+
+
+IF    Global("k9Laspeera","GLOBAL",1)
+
+THEN RESPONSE #100                     CreateCreature("k9tranor",[400.140],16)        SetGlobal("k9Laspeera","GLOBAL",2)
+
+END
+
+
+IF    Global("k9Blentr","GLOBAL",1)
+
+THEN RESPONSE #100       CreateCreature("k9Blentr",[285.210],12)       SetGlobal("k9Blentr","GLOBAL",2)
+
+END
+
+
+IF    Global("k9Filmarya","GLOBAL",1)
+
+THEN RESPONSE #100            CreateCreature("k9Filmara",[860.465],6)         SetGlobal("k9Filmarya","GLOBAL",2)
+
+END
+
+
+IF    Global("k9olbrim","GLOBAL",1)
+
+THEN RESPONSE #100      CreateCreature("k9olbrim",[497.615],12)        SetGlobal("k9olbrim","GLOBAL",2)
+
+
+END
+
+
+IF    Global("k9barant","GLOBAL",1)
+
+THEN RESPONSE #100     CreateCreature("k9barant",[655.580],4)       SetGlobal("k9barant","GLOBAL",2)
+
+END

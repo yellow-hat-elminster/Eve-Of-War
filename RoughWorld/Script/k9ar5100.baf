@@ -1,0 +1,38 @@
+IF
+	Global("k9_ARwolves","ar5100",0)
+	DifficultyGT(EASY)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar5100",1)
+		CreateCreature("gnoll",[2215.1805],S)
+		CreateCreature("gnoll",[2235.1800],S)
+		CreateCreature("gnoll",[2205.1885],S)
+		CreateCreature("gnoll",[2195.1875],S)
+		CreateCreature("flind",[2180.1860],S)
+		CreateCreature("flind",[2185.1800],S)
+		CreateCreature("flind",[880.963],S)
+		CreateCreature("flind",[880.930],S)
+		CreateCreature("flind",[875.860],S)
+		CreateCreature("gnoll",[870.980],S)
+		CreateCreature("gnoll",[850.900],S)
+		Continue()
+END
+
+IF
+	Global("k9_ARwolvesHard","ar5100",0)
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolvesHard","ar5100",1)
+		CreateCreature("gnoll_A",[2150.1870],E)
+		CreateCreature("gnoll_A",[2200.1865],E)
+		CreateCreature("gnoll_E",[870.900],E)
+		CreateCreature("gnoll_E",[1840.930],S)
+		CreateCreature("gnoll_F",[1820.930],S)
+		CreateCreature("gnoll_F",[1845.970],S)
+		CreateCreature("gnoll_F",[2343.1150],W)
+		CreateCreature("gnoll_F",[2285.1260],W)
+
+                Continue()
+
+END

@@ -1,0 +1,94 @@
+IF
+	Global("DukeThanks","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Heard("k9FF0800",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard("FFHUNT",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See([PC])
+	Global("Captured","GLOBAL",0)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Dialogue([PC])
+END
+
+IF
+	Global("Captured","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+
+
+IF
+	!See(NearestEnemyOf(Myself))  Global("k9ar0800East","GLOBAL",1)
+THEN
+
+	RESPONSE #100
+		MoveToPoint([2590.2975])
+		MoveToPoint([3105.2295])
+		MoveToPoint([3070.1335])
+                MoveToPoint([2650.1120])
+                MoveToPoint([2710.930])
+                MoveToPoint([2340.350])
+                MoveToPoint([2120.35])
+		DestroySelf()  SetGlobal("k9ar0800East","GLOBAL",0)
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

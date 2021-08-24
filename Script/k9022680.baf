@@ -1,0 +1,7 @@
+IF GlobalLT("k90226death","GLOBAL",6)
+          THEN RESPONSE #100
+IncrementGlobal("k90226death","GLOBAL",1)
+
+TriggerActivation(Myself,FALSE)
+
+END

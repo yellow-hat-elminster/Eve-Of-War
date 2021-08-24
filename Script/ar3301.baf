@@ -1,0 +1,7 @@
+IF GlobalGT("Chapter","GLOBAL",2)      Global("k9change1","GLOBAL",0)
+
+THEN RESPONSE #100
+
+ActionOverride("taerom",ChangeAnimationNoEffect("k9smith"))
+ActionOverride("taerom",SetName(@1009))    SetGlobal("k9change1","GLOBAL",1)
+END

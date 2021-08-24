@@ -1,0 +1,6 @@
+
+IF Global("k9thiefhelps","GLOBAL",3) Global("k9crazybanana","GLOBAL",0)
+   THEN RESPONSE #100
+EraseJournalEntry(31458)  SetGlobal("k9crazybanana","GLOBAL",1)
+
+END

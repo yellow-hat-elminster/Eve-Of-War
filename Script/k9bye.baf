@@ -1,0 +1,6 @@
+IF GlobalLT("k9bye","GLOBAL",6)
+
+THEN RESPONSE #100
+IncrementGlobal("k9bye","GLOBAL",1) EscapeAreaDestroy(0)
+
+END

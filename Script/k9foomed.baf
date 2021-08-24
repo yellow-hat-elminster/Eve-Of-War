@@ -1,0 +1,81 @@
+IF  Global("k9maketimerup566","GLOBAL",0)
+
+THEN RESPONSE #100
+RealSetGlobalTimer("k9foodmerchanttimer","GLOBAL",1) SetGlobal("k9maketimerup566","GLOBAL",1)
+END
+
+
+ 
+ IF RealGlobalTimerExpired("k9foodmerchanttimer","GLOBAL") See(Player1)
+
+ THEN 
+ 
+ RESPONSE #25
+
+ RealSetGlobalTimer("k9foodmerchanttimer","GLOBAL",10) DisplayStringHead("k9shop05", @666016)   DisplayStringHead("k9shop08", @666016)  DisplayStringHead("k9shop11", @666016)   DisplayStringHead("k9shop14", @666016)
+
+ RESPONSE #25
+
+ RealSetGlobalTimer("k9foodmerchanttimer","GLOBAL",14) DisplayStringHead("k9shop05", @666028)    DisplayStringHead("k9shop08", @666028) DisplayStringHead("k9shop11", @666028) DisplayStringHead("k9shop14", @666028)
+
+  RESPONSE #25
+
+ RealSetGlobalTimer("k9foodmerchanttimer","GLOBAL",8) DisplayStringHead("k9shop05", @666018)   DisplayStringHead("k9shop08", @666018) DisplayStringHead("k9shop11", @666018) DisplayStringHead("k9shop14", @666018)
+ 
+  RESPONSE #25
+
+ RealSetGlobalTimer("k9foodmerchanttimer","GLOBAL",13) DisplayStringHead("k9shop05", @666019)     DisplayStringHead("k9shop08", @666019) DisplayStringHead("k9shop11", @666019) DisplayStringHead("k9shop14", @666019)
+ END
+ 
+ 
+ 
+ 
+  IF
+	StealFailed([ANYONE]) AreaCheck("AR0100")
+THEN
+	RESPONSE #100
+		DialogInterrupt(FALSE)
+		Recoil()
+		SmallWait(6)
+		CreateCreature("FLAMEN",[4275.825],W) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[4275.925],W) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[4275.975],W) // Flaming Fist Enforcer
+END
+
+
+  IF
+	StealFailed([ANYONE]) AreaCheck("AR0800")
+THEN
+	RESPONSE #100
+		DialogInterrupt(FALSE)
+		Recoil()
+		SmallWait(6)
+		CreateCreature("FLAMEN",[1952.1610],E) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[1977.1692],E) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[1907.1593],E) // Flaming Fist Enforcer
+END
+
+
+  IF
+	StealFailed([ANYONE]) AreaCheck("AR1100")
+THEN
+	RESPONSE #100
+		DialogInterrupt(FALSE)
+		Recoil()
+		SmallWait(6)
+		CreateCreature("FLAMEN",[2640.1500],SE) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[2735.1345],SE) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[2615.1495],SE) // Flaming Fist Enforcer
+END
+
+  IF
+	StealFailed([ANYONE])   AreaCheck("AR1200")
+THEN
+	RESPONSE #100
+		DialogInterrupt(FALSE)
+		Recoil()
+		SmallWait(6)
+		CreateCreature("FLAMEN",[3360.1620],SE) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[3260.1660],SE) // Flaming Fist Enforcer
+		CreateCreature("FLAMEN2",[3410.1570],SE) // Flaming Fist Enforcer
+END

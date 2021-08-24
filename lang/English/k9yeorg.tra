@@ -1,0 +1,179 @@
+
+//Yeorg's CRE file
+
+@100000    = ~When asked about his past Yeorg mentions that he is from Caer-Dineval, an otherwise unremarkable fishing village and one of the Ten Towns. Apparently, his purpose for travelling in the Sword Coast is to atone for a mistake he made while serving his patron - Mystra.
+
+When pressed further he describes how his travels to Gullykin have to do with an artifact his master has decided is to be found somewhere in the region. Should he find it he seems hopeful that his past actions will be forgiven. However, he seems otherwise disinterested in discussing any further the details of what transpired to force his journey.~
+@100001    = ~When asked about his past Yeorg is reluctant to delve too much into details. He mentions that he truly is from Caer-Dineval, that at least was the truth. Apart from that he shows little interest in furthering any discussions surrounding his past.
+
+When pressed on his reasons for travelling to Gullykin he declares that he will tolerate no further inquiries into his nature or business. Given what has already transpired you can't help but suspect he is not as independent as he would have you believe, though the exact organization he belongs to remains unclear.~
+
+@101000    = ~Yeorg~
+@102000    = ~Yeorg~
+
+// new Sounds
+
+
+@200001    = ~Perhaps it would be best if you handle this.~
+@201001    = ~Finally, the recognition we deserve.~
+
+@202001    = ~Your behaviour lately has proven to be far too distracting. Don't you think?~
+@203001	   = ~When I said "don't be a hero". That didn't mean be the opposite.~
+@204001	   = ~I'm done with this.~
+
+@221001    = ~Perhaps watching dust settle is fascinating to you, but I've better ways to spend my time.~  [k9yeo010]
+
+@232000    = ~Watch my wrath unfurl!~  [k9yeo003]
+
+@240000    = ~Ugh~ [k9yeo019]
+@241000    = ~Ughhhh.~  [k9yeo001]
+@242000    = ~I *knew* this was not our battle!~ [k9yeo015]
+
+@243001 = ~I never much cared for forests. Too many spiders.~
+@244001 = ~This city seems quite amenable. We should have travelled here sooner.~
+@245001 = ~What a drab place. I'd much prefer a library.~
+
+
+
+
+
+
+//old sounds
+
+@200000    = ~I'll not stay around to see more of your recklessness.~
+@201000	   = ~Finally, some progress.~
+@202000	   = ~I have no time for this endless charity. We have a mission at hand. Let us be done with it already.~
+@203000	   = ~Enough of this idiocy. Change this groups course or I will leave.~
+@204000	   = ~I'm done with this.~
+
+@210000    = ~Listen everyone - I'm in charge now. Anyone stepping out of line will know my fury.~  [k9yeo007]
+
+@220000    = ~My brain feels ready to implode! Shall we rest now?~ [k9yeo008]
+@221000    = ~Perhaps watching dust settle is fascinating to you, but I've better ways to spend my time.~  [k9yeo010]
+
+@230000    = ~I'll bathe in the blood of my enemies!~  [k9yeo002]
+@232000    = ~Watch my wrath unfurl!~  [k9yeo003]
+@233000    = ~Taste the bite of my arcane winds!~                      [k9yeo004]
+@234000    = ~Witness my fiery rain and furious thunder!~            [k9yeo005]
+
+@240000    = ~Ugh~ [k9yeo019]
+@241000    = ~Ughhhh.~  [k9yeo001]
+@242000    = ~I *knew* this was not our battle!~ [k9yeo015]
+
+@243000 = ~Ugh, forests. Burn it down and be done with it.~
+@244000 = ~This city seems quite amenable. We should have travelled here sooner.~
+@245000 = ~Dark and isolated. My ideal environment.~
+
+
+@261000    = ~Heh, heh, heh, heh, heh, ha, ha, ha, ha!~ [k9yeo006]
+@261001    = ~You called?~ [k9yeo012]
+@263000    = ~Your request?~ [k9yeo011]
+@263996    = ~What can I do for you?~ [k9yeo013]
+@263997    = ~Leader?~ [k9yeo014]
+
+@262000    = ~Fine.~ [k9yeo016]
+@271000    = ~Absolutely.~ [k9yeo017]
+@263998    = ~Alright.~ [k9yeo018]
+
+
+
+
+
+
+
+
+//Yeorg's Robes
+
+@300000    = ~Yeorg's Robes~
+@301000    = ~Yeorg's Robes~
+@302000	= ~These robes seem like they are a perfect fit for Yeorg, despite his large stature. How he came about them he won't say. He also doesn't seem too keen about removing them.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 6
+- Armor Class: +2 vs. missile attacks
+- Save vs. Breath: +3
+
+Weight: 4~
+@303000	= ~These robes seem like they are a perfect fit for Yeorg, despite his large stature. How he came about them he won't say. He also doesn't seem too keen about removing them.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: 6
+- Armor Class: +2 vs. missile attacks
+- Save vs. Breath: +3
+
+Weight: 4~
+
+
+//Yeorg's Staff
+
+@309000    = ~Yeorg's Staff~
+@310000    = ~Yeorg's Staff~
+@311000	= ~From what little you have seen of it Yeorg's staff appears to be nothing more than an ordinary staff. Unlike his robes Yeorg seems quite willing to part with it if a better staff comes along.
+
+Combat abilities:
+- Causes panic on target upon each successful hit (save vs spell to negate)
+Damage: 1d6 (crushing)
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4~
+
+@312000	= ~From what little you have seen of it Yeorg's staff appears to be nothing more than an ordinary staff. Unlike his robes Yeorg seems quite willing to part with it if a better staff comes along.
+
+Combat abilities:
+- Causes panic on target upon each successful hit (save vs spell to negate)
+Damage: 1d6 (crushing)
+Speed Factor: 4
+Proficiency Type: Quarterstaff
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 4~
+
+
+//Artifact
+
+
+@313000=~Ancient staff~
+@314000=~Netherese staff~
+@315000=~This staff seems remarkably unique in its construction. At the top of the staff is a strangely suspended crystal ball.~
+@316000=~This staff seems remarkably unique in its construction. Based on your limited knowledge of magic item construction you suspect that this likely has to do with an intent to protect the user from directly touching it. At the top of the staff is a strangely suspended crystal ball. The staff itself gives the impression that it was once a thing of great power, though that is clearly no longer the case. In any case based on the engravings along it its origins appear to be ancient. Certainly it is much older than the ruins you have now found it in.~
+
+
+
+
+//Yeorg's quest
+//Journal Entries.
+
+@347000=~Yeorg's Quest
+I have been asked by a sorcerer named Yeorg to track down an ancient artifact. According to him it is to be found somewhere in the region around Gullykin. He has suggested we search the Firewine Ruins, the Firewine Bridge, and Durlag's Tower for it.~
+@348000=~Yeorg's Quest
+After searching the Firewine Ruins we found no evidence of the artifact Yeorg is looking for.~
+@349000=~Yeorg's Quest
+Yeorg seemed interested by the level of destruction to be seen at the Firewine Bridge. Ultimately, however, he seems to think we are unlikely to find what he seeks in this place.~
+@350000=~Yeorg's Quest
+Yeorg believes that we may have to travel throughout Durlag's Tower in order to find this artifact. Assuming it is even here.~
+@351000=~Yeorg's Quest
+Yeorg believes that we may have to travel throughout Durlag's Tower in order to find this artifact.~
+@352000=~Yeorg's Quest
+Yeorg has found his artifact. It would be best that you leave the tower as soon as possible.~
+
+@352001=~Yeorg's Quest
+It seems as if Yeorg still has other plans. We are to travel with him to the southeast of Baldur's Gate. There he, and he alone, will meet to hand over the artifact.~
+
+@352002=~Yeorg's Quest
+The artifact has been delivered. Yeorg is now free to remain in the party...at least for now.~
+
+@352003=~Yeorg's Quest
+After retrieving the artifact we chose not to escort Yeorg to his contact. He has left the group.~
+
+@352004=~Yeorg's Quest
+Yeorg left the group before we retrieved his artifact.~

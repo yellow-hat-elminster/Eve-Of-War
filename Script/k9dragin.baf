@@ -1,0 +1,11 @@
+IF
+	Global("k9DragonInnSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9DragonInnSpawn","GLOBAL",1)
+		CreateCreature("k9Red",[745.425],NW)
+        	CreateCreature("k9hender",[275.680],SE)
+                  CreateCreature("k9serpbr",[775.300],SE)
+
+END
+

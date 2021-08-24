@@ -1,0 +1,23 @@
+IF
+InParty("k9jenor")
+InParty("Viconia")
+See("k9jenor")
+See("Viconia")
+!ActuallyInCombat()
+Global("k9JenoraViconia","GLOBAL",2)
+!GlobalTimerNotExpired("k9JenoraViconiaTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraViconia","GLOBAL",1)  SetDialog("bk9vicje") ActionOverride("k9jenor",SetDialog("bk9Jenor"))
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraViconiaTalk","GLOBAL",500)  SetGlobal("k9JenoraViconiaRevert","GLOBAL",0)
+
+END
+
+
+IF  Global("k9JenoraViconia","GLOBAL",4)    Global("k9JenoraViconiaRevert","GLOBAL",0)
+THEN RESPONSE #100
+                   SetDialog("BDVICONJ")  SetGlobal("k9JenoraViconiaRevert","GLOBAL",1)
+                   
+END
+

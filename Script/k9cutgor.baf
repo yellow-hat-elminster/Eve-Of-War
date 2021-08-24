@@ -1,0 +1,90 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("Gorion")
+		SetGlobal("TalkedToGorion","GLOBAL",1)
+		SetAreaScript("cutskip1",OVERRIDE)
+		SetGlobal("BD_CUTSCENE_BREAKABLE","GLOBAL",1)
+		SetCutSceneBreakable(TRUE)
+		Wait (2)
+		DisplayStringWait(Myself,31483) // Listen carefully! If we ever become separated, it is imperative that you make your way to the Friendly Arm Inn.
+ 		Wait (1)
+ 	DisplayStringWait(Myself,31484) // There, you will meet Khalid and Jaheira. They have long been my friends, and you can trust them.
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		Wait(1)
+		Wait(12)
+		Wait(4)
+		ActionOverride("GORION",DestroySelf())
+		SetCutSceneBreakable(FALSE)
+		SetGlobal("BD_CUTSCENE_BREAKABLE","GLOBAL",0)
+		SetAreaScript("",OVERRIDE)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ClearAllActions()
+		DayNight(MIDNIGHT)
+		LeaveAreaLUAPanic("AR2700","TRGORION",[2350.1523],E)
+		LeaveAreaLUA("AR2700","TRGORION",[2350.1523],E)
+		ActionOverride(Player2,LeaveAreaLUA("AR2700","TRGORION",[3522.3712],E))
+		ActionOverride(Player3,LeaveAreaLUA("AR2700","TRGORION",[3522.3712],E))
+		ActionOverride(Player4,LeaveAreaLUA("AR2700","TRGORION",[3522.3712],E))
+		ActionOverride(Player5,LeaveAreaLUA("AR2700","TRGORION",[3522.3712],E))
+		ActionOverride(Player6,LeaveAreaLUA("AR2700","TRGORION",[3522.3712],E))
+		Weather(RAIN)
+		MultiPlayerSync()
+		CreateCreature("GORION",[2597.1458],S) // Gorion
+		MultiPlayerSync()
+		FadeFromColor([20.0],0)
+		StartCutScene("Ch1cut02")
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		SmallWait(7)
+		JumpToPoint([302.573])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+		SmallWait(7)
+		JumpToPoint([302.573])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+		SmallWait(7)
+		JumpToPoint([302.573])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player5)
+		SmallWait(7)
+		JumpToPoint([302.573])
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player6)
+		SmallWait(7)
+		JumpToPoint([302.573])
+END

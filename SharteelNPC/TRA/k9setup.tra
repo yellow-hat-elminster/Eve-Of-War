@@ -1,0 +1,42 @@
+
+@99971=~Install Shar-Teel NPC Mod~
+
+
+@665565=~Talk to Shar-Teel
+
+If I want to learn more about Angelo's plans and any remaining followers he might have, Duke Eltan has suggested that I talk to Shar-Teel, the daughter of Angelo. I can find her in the eastern section inside the Flaming Fist headquarters.~
+
+@665566=~Talk to Shar-Teel
+
+Shar-Teel has agreed to join my party.~
+
+@665567=~Talk to Shar-Teel
+
+Given her connection to Angelo it is unlikely that Duke Eltan will ever agree to release Shar-Teel. I need to find something I can use to convince the guard to let her go free. Perhaps the Thieves Guild could be of some use here. They should have someone close to the Sorcerous Sundries that I can speak to.~
+
+@665568=~Talk to Shar-Teel
+
+In exchange for 100 gold Narlen has agreed to provide a forged letter that can be used to set Shar-Teel free. I need to find some official paper for Narlen to use to forge the letter. I should check the palace to see if I can find such a thing.~
+
+@665569=~Talk to Shar-Teel
+
+Narlen gave me the forged letter. Now I just have to convince the guard to let Shar-Teel out.~
+
+@665570=~Talk to Shar-Teel
+
+I told Shar-Teel that I wanted her to join my group - and that I would do what I could to get her out of jail.~
+
+@665571=~Talk to Shar-Teel
+
+Shar-Teel's equipment had been sold off. But the guard was able to provide at least some equipment for her to use.~
+
+
+@99990122=~Blank Paper~
+@99990123=~This is a blank piece of paper that bears the ensignia of the Grand Dukes.~
+
+@99990124=~Letter To The Jailhouse Keeper~
+@99990125=~<DAYANDMONTH>, 1368,
+
+As of this day Shar-Teel shall be remitted into the custody of <CHARNAME>. I leave <CHARNAME> to discuss any further details regarding this arrangement. Please see fit to ensure their wishes are to be adhered to as much as possible.
+
+- Duke Eltan~

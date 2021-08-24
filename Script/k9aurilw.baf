@@ -1,0 +1,19 @@
+IF
+Global("k9aurilswrath","GLOBAL",1) 
+
+THEN RESPONSE #100
+
+SetGlobal("k9aurilswrath","GLOBAL",2)  DisplayString(Player1,@666051)
+
+		CreateCreature("k9wolfwi",[2700.250],N)
+		CreateCreature("k9wolfwi",[2560.250],N)
+		CreateCreature("k9wolfwi",[2600.200],N)
+
+		CreateCreature("k9wolfwi",[4815.1400],E)
+		CreateCreature("k9wolfwi",[4670.1310],E)
+		CreateCreature("k9wolfwi",[4600.1220],E)
+		
+		CreateCreature("k9wolfwi",[385.1760],W)
+		CreateCreature("k9wolfwi",[425.1810],W)
+		CreateCreature("k9wolfwi",[430.1880],W)
+END

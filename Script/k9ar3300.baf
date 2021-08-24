@@ -1,0 +1,7 @@
+IF AreaCheck("AR3300")   Global("k9ar3300doorunlocked","GLOBAL",0)
+
+THEN RESPONSE #100
+
+Unlock("Door3320")  SetGlobal("k9ar3300doorunlocked","GLOBAL",1)
+
+END

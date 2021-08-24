@@ -1,0 +1,9 @@
+IF 
+Global("k9cutsceneBhaalAmel","GLOBAL",1)
+THEN RESPONSE #100
+
+DisplayStringHead("k9gorio2",~Children, run! Get out of here!~)
+SetGlobal("k9cutsceneBhaalAmel","GLOBAL",2)
+	StartCutScene("k9amelc2")
+        END
+        

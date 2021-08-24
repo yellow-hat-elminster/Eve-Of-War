@@ -1,0 +1,129 @@
+IF               Global("k9wolftimer","GLOBAL",0)
+
+THEN RESPONSE #100
+
+RealSetGlobalTimer("k9wolftimers","GLOBAL",60)  SetGlobal("k9wolftimer","GLOBAL",1)
+END
+
+
+
+IF !See("Wolfwegl")  !See("k9wolfdi")   Global("k9wolfdispawn","GLOBAL",0)  RealGlobalTimerExpired("k9wolftimers","GLOBAL")
+
+THEN RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])  SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])   SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])    SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])    SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])    SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])     SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])   SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])    SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])   SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+
+RESPONSE #9
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])  SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+
+
+RESPONSE #10
+
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[30.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[45.0])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.30])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])
+CreateCreatureObjectOffset("k9wolfdi","GreaterWolf",[0.45])    SetGlobal("k9wolfdispawn","GLOBAL",1)
+
+
+END
+

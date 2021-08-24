@@ -1,0 +1,3 @@
+ IF Global("k9serpentrevealz","GLOBAL",0)
+THEN RESPONSE #100   SetGlobal("k9serpentrevealz","GLOBAL",1) HideAreaOnMap("ar9100")
+END

@@ -1,0 +1,60 @@
+
+IF Global("DukeThanks","GLOBAL",1)
+
+THEN RESPONSE #100
+
+DestroySelf()
+END
+
+
+
+IF Global("smugglermove","GLOBAL",1)
+
+ THEN RESPONSE #100     		CutSceneId(Player1) SetGlobal("SmugglerMove","GLOBAL",2)     FadeToColor([0.0],0)
+
+ 		ActionOverride("smuggler",JumpToPoint([685.825])
+                ActionOverride(Player1,JumpToPoint([685.825])
+		ActionOverride(Player2,JumpToPoint([685.825])
+		ActionOverride(Player3,JumpToPoint([685.825])
+		ActionOverride(Player4,JumpToPoint([685.825])
+		ActionOverride(Player5,JumpToPoint([685.825])
+		ActionOverride(Player6,JumpToPoint([685.825])    MoveViewPoint([685.825],INSTANT) Wait(3)  MultiPlayerSync()
+FadeFromColor([7.0],0)   	EndCutSceneMode()
+END
+
+
+IF Global("k9smugglermove","GLOBAL",1)
+
+ THEN RESPONSE #100    CutSceneId(Player1)  SetGlobal("k9SmugglerMove","GLOBAL",2)    FadeToColor([0.0],0)
+ 		ActionOverride("smuggler",JumpToPoint([4371.3412])
+                ActionOverride(Player1,JumpToPoint([4371.3412])
+		ActionOverride(Player2,JumpToPoint([4371.3412])
+		ActionOverride(Player3,JumpToPoint([4371.3412])
+		ActionOverride(Player4,JumpToPoint([4371.3412])
+		ActionOverride(Player5,JumpToPoint([4371.3412])
+		ActionOverride(Player6,JumpToPoint([4371.3412])    MoveViewPoint([4371.3412],INSTANT) Wait(3)   MultiPlayerSync()
+FadeFromColor([7.0],0)   	EndCutSceneMode()      	HideAreaOnMap("AR0800")
+END
+
+
+
+IF
+	See([PC])
+	!Allegiance(Myself,ENEMY) Global("SmugglerMove","GLOBAL",2)    Global("smugglermovers","GLOBAL",0)
+
+THEN
+	RESPONSE #100
+	Wait(11)	Dialogue([PC])    SetGlobal("smugglermovers","GLOBAL",1)
+END
+
+
+
+IF
+	See([PC])
+	!Allegiance(Myself,ENEMY) Global("k9smugglermove","GLOBAL",2)    Global("k9smugglermovers","GLOBAL",0)
+
+THEN
+	RESPONSE #100
+Wait(11)		Dialogue([PC])    SetGlobal("k9smugglermovers","GLOBAL",1)
+END
+

@@ -1,0 +1,19 @@
+
+
+IF
+	OR(2)
+
+
+		SpellCastOnMe([ANYONE],CLERIC_REMOVE_CURSE)
+		SpellCastOnMe([ANYONE],WIZARD_REMOVE_CURSE)
+
+	Global("k9CenteolBye","GLOBAL",0)
+THEN
+	RESPONSE #100
+	        SetPlayerSound(Myself,5463,INITIAL_MEETING)
+		SetGlobal("k9CenteolBye","GLOBAL",1)
+		StartDialogueNoSet([PC])
+END
+
+
+

@@ -1,0 +1,999 @@
+
+
+//Quests
+//Markas
+
+@105=~Commander Darren Has Asked Us to Search for a Lieutenant
+
+It would seem as though the commander of Beregost's watch is looking to have an experienced hand at his side. He seems to have a candidate in mind, and has tasked us with tracking down this adventurer. He should be found in either the Burning Wizard, Feldepost Inn, or Red Sheaf.~
+
+
+@109=~Commander Darren Has Asked Us to Search for a Lieutenant
+
+We found the stranger. Looks like he is in pretty rough shape. We directed him to have a talk with Darren. In the meantime, we should report back to Darren to see what his plans are for him.~
+
+
+@1111=~Commander Darren Has Asked Us to Search for a Lieutenant
+
+Cyrag stormed out of the tavern when we called him out on his weak spirit. Good riddance, this town needs strong leadership and confidence. Not some half-hearted drunk.~
+
+@1114=~Commander Darren Has Asked Us to Search for a Lieutenant
+
+It seems that Cyrag Hammerbone has agreed to join the town watch. Hopefully Darren proves capable of keeping his mind on the task at hand.~
+
+@1115=~I should talk to Commander Darren at a later point. He may have a task for me.~
+
+
+//Kelddath
+@531112=~The Council Advisors
+
+Kelddath seemed impressed that we were able to find anyone willing to help. Help is no doubt in short supply these days, what with the bandit problem and iron crisis. In any case he promptly rewarded us for our efforts.~
+
+@531113=~The Council Advisors
+
+It seems the town governor is looking for advisors to the town council. He has requested that we search for those that we feel would be a suitable fit. He has provided us with a note that has identified several potential candidates.~
+
+@531115=~The Council Advisors
+
+After some discussion I was able to persuade Cyrag Hammerbone to act as an advisor to the town council.~
+
+@531116=~The Council Advisors
+
+We talked with Sir Edward Filmarya, a paladin of Tyr that was studying the prophecies of Alaundo in Candlekeep. He seemed a capable warrior and scholar and so we offered him the opportunity to advise the Beregost town council. He agreed to in order to help them with their current problems.~
+
+@531117=~The Council Advisors
+
+We encountered a ranger outside of the bandit camp named Olbrimsur Thunderwood. He seemed a capable enough warrior in his own right and we offered him the chance to advise the Beregost town council. After we proved to him that we had dealt with nearly a dozen of the hobgoblins that had been plaguing the Uldoon Trail he agreed to assist the town with the understanding that he would only do so until the current crisis with Amn is over.~
+
+@531118=~The Council Advisors
+
+We couldn't help but notice Blentra Whaelbuckler waiting extremely patiently for a meeting with Kelddath. Regardless of her reasons for actually travelling to Beregost, she seemed a capable enough warrior to help lead the town. When we pressed her to see if she would have any interest in advising its town council she agreed to do so.~
+
+@531119=~The Council Advisors
+
+In the Helm and Cloak we encountered a mage claiming to be from Elturel. While it took some convincing on our part, including acquiring some of the scrolls she needed, she has agreed to advise the Beregost town council.~
+
+@531120=~The Council Advisors
+
+In the Helm and Cloak we encountered a mage claiming to be from Elturel. She requested that in exchange for her travelling to Beregost that we provide her with a scroll of Improved Haste, Carrion Summons, and Tensors Transformation. All of these can apparently be purchased from the Sorcerous Sundries.~
+
+@531121=~The Council Advisors
+
+In the Helm and Cloak we encountered a mage claiming to be from Elturel. While it took some convincing on our part, including acquiring some of the scrolls she needed, she has agreed to advise the Beregost town council.~
+
+@531122=~The Council Advisors
+
+We encountered Olbrimsur Thunderwood in the Woods of Sharp Teeth. In exchange for collecting fine steel rings from ten of the hobgoblins more elite members he's agreed to advise Beregost's Town Council. At least until the current crisis is over with Amn.~
+
+@531123=~The Council Advisors
+
+While in the Sorcerous Sundries we encountered a man named Baskor Tranth. Apparently, he's a mage who fears that another mean, Laspeera, might be ploting to kill him. In exchange for addressing this issue we've gotten him to agreed to advise the Beregost Town Council.~
+
+ 
+
+@531124=~Defeat the Cyric worshipers
+
+Kelddath Ormlyr of Beregost has sent for us. Apparently he believes we are needed to address a problem.~
+
+@531125=~Defeat the Cyric worshipers
+
+Kelddath Ormlyr of Beregost has sent for us. Apparently he must believe that we are now ready to address this problem.~
+
+@531126=~Defeat the Cyric worshipers
+
+Kelddath Ormlyr believes that Bassilus was part a group of Cyric worshipers from Zhentil Keep. Reportedly, there is a sect of Cyric worshipers to be found in the Cloudpeak Mountains that may have information about why Bassilus was in the region. Kelddath however believes that we are far too inexperienced to be attempting to attack such a place. He has chosen to hold onto the journal until he is confident that we are able to handle the problem.~
+
+@531127=~Defeat the Cyric worshipers
+
+Kelddath Ormlyr believes that Bassilus was part a group of Cyric worshipers from Zhentil Keep. Reportedly, there is a sect of Cyric worshipers to be found in the Cloudpeak Mountains that may have information about why Bassilus was in the region. They are led by a man named Tynnos Argrim. Kelddath seems to believe that the only safe way to travel to it is to travel straight south of Peak Falls, a waterfall found southwest of Nashkel.~
+
+@531128=~Defeat the Cyric worshipers
+
+We have travelled to their stronghold. After entering it I saw what I think may have been a vision of Cyric, though in all honesty I'm not entirely sure. I declined an offer by this bloodthirsty Cyric to slay every person in the room I found myself in. We are still processing what exactly I saw, though the risk to Beregost at the moment seems minimal.~
+
+
+
+
+@14997=~Defeat the Cyric Worshipers
+
+Kelddath Ormlyr of Beregost has sent for us. Apparently he believes we are needed to address a problem.~
+
+@14998=~Defeat the Cyric Worshipers
+
+Kelddath Ormlyr of Beregost has sent for us. Apparently he must believe that we are now ready to address this problem.~
+
+@14999=~Defeat the Cyric Worshipers
+
+Kelddath Ormlyr believes that Bassilus was part a group of Cyric worshipers from Zhentil Keep. Reportedly, there is a sect of Cyric worshipers to be found in the Cloudpeak Mountains that may have information about why Bassilus was in the region. Kelddath however believes that we are far too inexperienced to be attempting to attack such a place. He has chosen to hold onto the journal until he is confident that we are able to handle the problem.~
+
+@15000=~Defeat the Cyric Worshipers
+
+Kelddath Ormlyr believes that Bassilus was part a group of Cyric worshipers from Zhentil Keep. Reportedly, there is a sect of Cyric worshipers to be found in the Cloudpeak Mountains that may have information about why Bassilus was in the region. They are led by a man named Tynnos Argrim. Kelddath seems to believe that the only safe way to travel to it is to travel straight south of Peak Falls, a waterfall found southwest of Nashkel.~
+
+@15001=~Defeat the Cyric Worshipers
+
+We have travelled to their stronghold. After entering it I saw what I think may have been a vision of Cyric, though in all honesty I'm not entirely sure. I declined an offer by this bloodthirsty Cyric to slay every person in the room I found myself in. We are still processing what exactly I saw, though the risk to Beregost at the moment seems minimal.~
+
+@15002=~Defeat the Cyric Worshipers
+
+At last we are finally free. Had I known that by traveling to Cyric's stronghold we would face incessant waves of trickery and illusion we would have never gone! To think this was all done to clear up the goals of the madman Bassilus. I can only imagine the looks on the faces of Bentley and others at the Friendly Arm Inn when I describe these events to them!~
+
+@15003=~Defeat the Cyric Worshipers
+
+When entering the stronghold I found myself in a tavern where an apparation of Cyric appeared before me. I was offered the chance by Cyric to slay every person in that place. I have since agreed to this. There is something strangely intriguing about what has been offered to me.~
+
+@15004=~Defeat the Cyric Worshipers
+
+I have travelled to their stronghold. After entering it I saw what I think may have been a vision of Bhaal, though in all honesty I'm not entirely sure. I declined an offer by this bloodthirsty apparition to slay every person in the room I found myself in. I'm still processing what exactly I saw, though the risk to Beregost at the moment seems minimal.~
+
+@15005=~Defeat the Cyric Worshipers
+
+When entering the stronghold I found myself in a tavern where a rather ghastly apparation of Bhaal appeared before me. I was offered the chance by Bhaal to slay every person in that place. I accepted the offer. There is something strangely intriguing about what has been offered to me.~
+
+@15006=~Defeat the Cyric Worshipers
+
+When entering the stronghold I found myself in a tavern where a rather ghastly apparation of Bhaal appeared before me. Bhaal spoke to me of my destiny as his <PRO_SONDAUGHTER>. I was then told by Bhaal to slay everyone in the room. This proved to be too enticing of an opportunity to pass on.~
+
+
+@15016=~Defeat the Cyric Worshipers
+
+Apparently, Bassilus had been experimenting with powerful magic in order to create a magical book that would perfectly detail Cyric's life. It's magic however was flawed. Which no doubt leading to Bassilus's madness. Cyric kept hold of the book for himself.~
+
+@15017=~Defeat the Cyric Worshipers
+
+Somehow after entering the stronghold we found our back in Winthrop's Inn. Apparently, our meandering through the stronghold of Cyric has caught his attention. Cyric wished to learn more about me and my reasons for attacking his stronghold. I'm not sure I really gained much from our brief encounter, but during our talk he did mention "my lineage" playing some role in events to come. It's not clear what he meant by that. When I finish up here I should return to Kelddath to inform him of what I've seen.~
+
+
+@15018=~Defeat the Cyric Worshipers
+
+We have the head of Tynoss Argrim. We may want to see if there are any local bounties on him.~
+
+@15019=~Defeat the Cyric Worshipers
+
+Wetold Kelddath everything. As a reward, he gave us a magical ring.~
+
+
+@15020=~Defeat the Cyric Worshipers
+
+We offered the head of Tynoss Argrim to the local bounty hunter in Nashkel. He offered 500 gold for the head. It may not be as much as I was hoping for. But as he put it, coin is coin.~
+
+@150180=~Defeat the Cyric Worshipers
+
+Tynnos Agrim has offered me the chance to leave this place alive. I suspect I have little time to make a decision.~
+
+
+//Negotiations
+
+@15029=~A Friendly Negotiation
+
+We should travel to the Friendly Arm Inn and ask either Gellana or Bentley if it would be possible for them to house some of Beregost's citizens in the event of a war.~
+
+@15030=~A Friendly Negotiation
+
+Bentley agreed to the request, provided he be compensated with 500 gold. I agreed with the request and paid the sum in full. We should now return to Kelddath to inform him of the situation.~
+
+@15031=~A Friendly Negotiation
+
+Bentley agreed to the request, provided he be compensated with 500 gold. I told him we did not have the money.~
+
+@15032=~A Friendly Negotiation
+
+Kelddath was happy to hear about our success at the Friendly Arm Inn. He has compensated us for our time and the cost of the negotiations.~
+
+@15033=~A Friendly Negotiation
+
+Gellana agreed to the request, provided she be compensated with 500 gold. I agreed with the request and paid the sum in full. We should now return to Kelddath to inform him of the situation.~
+
+@15034=~A Friendly Negotiation
+
+Gellana agreed to the request, provided she be compensated with 500 gold. I told her that we do not have the money.~
+
+
+//Gullykin negotiations
+@15035=~A Short Negotiation
+
+We should travel to Gullykin and ask its leader Gandolar Luckyfoot if the community there would be willing to house and assist some of Beregost's citizens in the event of a war.~
+
+@15036=~A Short Negotiation
+
+Gandolar has rather hastily has mentioned that his village has been threatened recently by kobolds. Dealing with this menace might be a way of convincing him to provide assistance to Beregost.~
+
+@15037=~A Short Negotiation
+
+With the kobold situation taken care of Gandolar seemed quite willing to discuss the Beregost situation. After we offered a small amount of gold to pay for the trouble he seemed willing to provide a place for refugees from Beregost. I should report my success to Kelddath immediately.~
+
+@15038=~A Short Negotiation
+
+Kelddath was glad to hear about our success with negotiation the treaty with Gullykin and has compensated us for our time.~
+
+
+
+@15039=~An Island Barter
+
+We should travel to Ulgoth's Beard and ask its leader Shandalar if he would be willing to sign an agreement to assist Beregost's refugees in the event of war.~
+
+@15040=~An Island Barter
+
+Shandalar has requested that we help him with another matter first in exchange for signing the treaty. To gain his support we seem to have little choice over this.~
+
+@15041=~An Island Barter
+
+Shandalar has gotten his cloak back and has signed the treaty. We should share the good news with Kelddath.~
+
+@15042=~An Island Barter
+
+Kelddath recieved the news of Ulgoth's Beard's support with a heavy heart. He gave us some compensation for our time.~
+
+@105042=~An Island Barter
+
+Shandalar has gotten his cloak back. The death of his daughters at my hands has convinced him not to assist Beregost.~
+
+
+
+//Baldur's Gate negotiations
+@15043=~Assisting the Fist
+
+We should travel to Baldur's Gate and inquire with Duke Eltan or Officer Vai about relocating some of Beregost's refugees into Baldur's Gate in the event of war.~
+
+
+@15044=~Assisting the Fist
+
+Officer Vai seemed lukewarm to the idea. She has suggested that she would feel more comfortable about the arrangement if she knew more about reports she has been hearing about refugees coming from the High Moor. When we are ready we should speak to the guard at the Black Dragon Gate - the northern gate out of the city.~
+
+@15045=~Assisting the Fist
+
+We've encountered a group of refugees. They've told me of a woman whose armies have reportedly has been surging across the High Moor. Many have apparently flocked to her banner, and many more have been left homeless in the wake of her crusade. We should return to Baldur's Gate. Officer Vai will want to hear of this.~
+
+@15046=~Assisting the Fist
+
+Officer Vai was disheartened to learn about the situation with refugees in the north. There seems to be little the Flaming Fist can do about that situation - at least for now. After we offered some cash she did agreed to take in citizens of Beregost in the event that there is a war with Amn. We should inform Kelddath about our success.~
+
+@15047=~Assisting the Fist
+
+Some refugees we spoke to seem to indicate that a "lady" was leading a crusade somewhere north of the city. They didn't seem to know much more, though its clear the forces behind this crusade are forcing many from their homes.~
+
+@15048=~Assisting the Fist
+
+I told Kelddath that we were able to ensure Baldur's Gate could provide refuge for Beregost's citizens.~
+
+@15049=~Assisting the Fist
+
+I attempted to convince Officer Vai otherwise, but it seems like my charms were little help compared to the cold truth Baldur's Gate faces. It will cost 10,000 gold to house the refugees of Beregost for any serious length of time. Kelddath should be informed of this news.~
+
+@15050=~Assisting the Fist
+
+I told Kelddath about the large amount of gold that would be needed by Baldur's Gate if the citizens are Beregost wish for sanctuary. Based on his reaction its pretty clear that Beregost is unable to afford to pay this amount. If the town is going to benefit from Baldur's Gate as a safe haven we'll need to find a way to raise the sum.~
+
+
+@15051=~Beregost's Dilemma
+
+Kelddath was not impressed when we told him we were finished with attempting to acquire signatures. He told us to take this more seriously and to seek out more of them.~
+
+@15052=~Beregost's Dilemma
+
+Kelddath seemed disappointed when we told him we were finished with attempting to acquire signatures. He accepted our efforts and provided us with a rather pitiful reward for our work.~
+
+@15053=~Beregost's Dilemma
+
+Kelddath seemed content when we told him we were finished with attempting to acquire signatures. He accepted our efforts and provided us with a small reward for our work.~
+
+@15054=~Beregost's Dilemma
+
+Kelddath seemed very satisfied when we told him we were finished with attempting to acquire signatures. He accepted our efforts and provided us with a decent reward for our work.~
+
+@15055=~Beregost's Dilemma
+
+Kelddath was overjoyed with how we handled this situation. As a reward for our hard work he gave us gold and a spear he had acquired years ago as an adventurer.~
+
+
+
+
+
+//Flaming Fist
+
+@130130=~Flaming Fist Sergeant~
+
+//Nashkel
+
+@130131=~Scouting out Amn
+
+A sergeant of the Flaming Fist in Beregost approached us and seemed particularly interested in what we knew of Amn's troop deployments near Nashkel. Perhaps we should investigate the state of Amn's forces there.~
+
+@130132=~Scouting out Amn
+
+We have arrived in Nashkel. Before we return to Beregost it might be a good idea for you to look around and gain more insight into the status of Amn's reinforcements.~
+
+@130133=~Scouting out Amn
+
+The sergeant didn't seem all too pleased about the situation but still saw fit to reward you for your efforts.~
+
+
+@130134=~News from the Front
+
+Beregost seems like it is ill prepared for an attack. Troops are now helping to improve its stockpiles in the event that they are needed.~
+
+@130135=~News from the Front
+
+The men in Beregost seem to be hearing all kinds of rumors about monsters to the south and east. The Flaming Fist seems like its been having trouble keeping its mens minds on task.~
+
+@130136=~News from the Front
+
+Members of the Flaming Fist in Beregost seem pretty happy that Bassilus is no longer living.~
+
+@130137=~News from the Front
+
+Members of the Flaming Fist in Beregost seem significantly disturbed about the fact that Bassilus has been raising the dead just outside of town. No one seems willing to challenge him.~
+
+@130138=~News from the Front
+
+Members of the Flaming Fist in Beregost seem like they aren't very interested in fighting Amn, particularly in Beregost. Many just want to go home.~
+
+@130139=~News from the Front
+
+Members of the Flaming Fist in Beregost seem overworked. They clearly have very little time to prepare the town for any attack.~
+
+@130140=~News from the Front
+
+It seems as though locals are confused about what happened in Cloakwood Forest. They are still under the impression that the mine was closed as a result of hostile druids.~
+
+@130141=~News from the Front
+
+Apparently, members of the Flaming Fist are still under the impression that the Iron Throne is a reputable organization.~
+
+@130142=~News from the Front
+
+A member of the Flaming Fist I talked to had heard about what happened to Ramazith. It seems he was well liked, particularly by people near the docks, but his behaviour had changed recently.~
+
+@130142=~News from the Front
+
+A member of the Flaming Fist I talked to seemed pretty upset about Ragefast's death. It seems he was once a well respected scholar. Certainly not one to pick a fight.~
+
+@130143=~News from the Front
+
+Angelo, the newest leader of the Flaming Fist, has ordered members of the Flaming Fist in Beregost to begin barricading the town.~
+
+@130144=~News from the Front
+
+Scouts have reported a large movement of Amn's forces into Nashkel. The Flaming Fist initially thought this to be unlikely, what with the Amn currently plagued by uprisings in its south, but it appears as if the leadership of Amn is seriously concerned about Nashkel's security.~
+
+@130145=~[Note for Daveaorn 3]Davaeorn,
+As you have probably heard, the iron poison has begun to take effect around the coast. With the majority of iron imports being disrupted by Tazok, almost all of it comes from the tainted source in Nashkel. A few fortunate uprisings in the south of Amn seem to have ensured that no forces from that nation will be able to take action against our mercenary forces - at least for now. However, the Flaming Fist has caught several of the Blacktalon mercenaries. All of those captured have claimed allegiance with the Zhentarim and have thus shifted any suspicion away from the Iron Throne. I have sent Tranzig to work with the mercenaries in transporting the iron to your base in Cloakwood. He has brought several bags of holding so that he, alone, will make trips into Cloakwood, thereby lessening the chance that Flaming Fist trackers might find your stronghold.
+
+Rieltar
+Tarsakh, 1368~
+
+
+@130146=~News from the Front
+
+Angelo has called up the Flaming Fists reserves. All to be paid for through a new merchant levy. Merchants in the city are understandably not too thrilled about this. But with the Seven Suns and Merchant League in shambles no powerful organizations in the city are in the position to oppose these new measures.~
+
+
+
+
+@130149=~In Dead Trouble
+
+At last I am finally free. Had I known that by traveling to Cyric's stronghold I would face incessant waves of trickery and illusion I would have never gone! To think this was all done to clear up the goals of the madman Bassilus. I can only imagine the looks on the faces of Bentley and others at the Friendly Arm Inn when I describe these events to them.~
+
+@130150=~In Dead Trouble
+
+Apparently something has happened at the Friendly Arm Inn. Many of its patrons and even its owner Bentley are dead. I should speak to Gellana and investigate this matter further.~
+
+
+@130151=~In Dead Trouble
+
+Apparently something has happened at the Friendly Arm Inn. Many of its patrons and even its owner Bentley are dead. I should speak to Gellana and investigate this matter further.~
+
+@130152=~In Dead Trouble
+
+I spoke to Gellana and she asked me to investigate the interior of the inn. I have agreed to do so.~
+
+
+@130164=~The Remorhaz Conundrum
+
+Seems like my Remorhaz hide is more valuable than I thought. A smith in Beregost offered to make me a helm from it. It took some convincing but I managed to get him to reduce his price to 5,500 gold. I agreed to let him make it. I should come back in a few days to see if its ready.~
+
+@130165=~The Remorhaz Conundrum
+
+Seems like my Remorhaz hide is more valuable than I thought. A smith in Beregost offered to make me a helm from it. I tried to convince him to give me a lower price but he refused to go below 7,500 gold. I agreed to let him make it. I should come back in a few days to see if its ready.~
+
+@130166=~The Remorhaz Conundrum
+
+Seems like my Remorhaz hide is more valuable than I thought. A smith in Beregost offered to make me a helm from it. I was rude to him and he subsequently increased the price to 8,500 gold. I still agreed to let him make it, but for this price it better be excellent quality.~
+
+
+@130167=~The Remorhaz Conundrum
+
+I agreed to let the head smithy take a Remorhaz shell off my hands. In exchange he gave me some gold to compensate me for the effort it took to get.~
+
+@130168=~The Remorhaz Conundrum
+
+A smithy in Beregost made me an offer regarding a Remhoraz shell I had in my possession. If I get the chance I may want to consider returning to the Beregost smithy to hear him out again.~
+
+
+@130169=~Remorhaz Redone
+
+I agreed to let the head smithy take a Remorhaz shell off my hands. Seems as though he wasn't able to make another helm with it. In exchange he gave me some gold to compensate me for the effort it took to get.~
+
+@130171=~Watch Sergeant~
+
+@130172=~Watch Trained
+
+I've helped give some pointers to the Beregost town watch. Hopefully this knowledge will filter through their ranks.~
+
+@130173=~Watch Blessed
+
+I gave some of the Beregost town watch a much needed blessing. Hopefully it inspires their confidence in battle.~
+
+@130174=~Watch Blessed
+
+I explained to the Beregost town watch the fate that awaited them should they fail in their duties. They seemed to be far more confident and determined afterwards.~
+
+//Militia Recruitment
+@106=~It seems the bandits have taken a greater toll on the Trade Way than many here seem to want to admit. To retain their numbers local town watch have been reduced to recruiting from tavern regulars.~
+
+
+//Militia drinks
+@107=~Investigate High Alcohol Prices in Beregost
+
+A member of the Town Watch complained to us about the prices of alcohol in the town's various drinking holes.~
+
+@1071=~Investigate High Alcohol Prices in Beregost
+
+Many in the watch are upset over the high prices at the Feldepost Inn.~
+
+@1072=~Investigate High Alcohol Prices in Beregost
+
+We should try to convince the bartender of the Burning Wizard to lower prices for the town watch.~
+
+@1073=~Investigate High Alcohol Prices in Beregost
+
+Members of the watch are looking to get reduced prices at the Red Sheaf.~
+
+@1074=~Investigate High Alcohol Prices in Beregost
+
+We solved the problems plaguing the prices of alcohol in Beregost. Hopefully, things will be smoother from here on out.~
+
+
+
+//Jovial Juggler
+
+@110=~Investigate High Alcohol Prices in Beregost
+
+The bartender in the Jovial Juggler claims he has only raised prices because his competitors have. Perhaps we should pay the other taverns a visit to see what issues they have.~
+
+
+
+
+//Feldepost
+@116=~Investigate High Alcohol Prices in Beregost
+
+We were told by the bartender of the Feldepost Inn that he was expecting a shipment from Baldur's Gate. It seemed as though it had been expected some time ago and has yet to arrive. We should check the ruined caravans north of the town for any evidence of this shipment. Alternative, the bandits may have already taken it to their camp.~
+
+@117=~Investigate High Alcohol Prices in Beregost
+
+We found the shipment. For the most part it looks pretty intact, though its clear some of the bottles were either broken or stolen.~
+
+@118=~Investigate High Alcohol Prices in Beregost
+
+The bartender was pleased to get what was left of the shipment. He's generously offered to give any watch members half off until things settle down.~
+
+
+
+
+//Burning Wizard
+
+@122=~Investigate High Alcohol Prices in Beregost
+
+Having talked to the bartender of the Burning Wizard. It seems after months of bandit raids he is looking for a more local winery or brewery that can meet his needs. If we should find one in our travels we might be able to arrange something.~
+
+
+@123=~Investigate High Alcohol Prices in Beregost
+
+We talked with Alvanhendar. We lied and said we knew the bartender of the Burning Wizard well. Despite catching us in this lie, Alvanhendar was mildly receptive towards allowing the Burning Wizard to purchase wine from his business. I should inform the bartender at the Burning Wizard.~
+
+
+
+@124=~Investigate High Alcohol Prices in Beregost
+
+We talked with Alvanhendar. He was quite receptive towards allowing the Burning Wizard to purchase wine from his business. I should inform the bartender at the Burning Wizard.~
+
+
+@125=~Investigate High Alcohol Prices in Beregost
+
+Having talked to the bartender of the Burning Wizard and let him know about the winery in Gullykin. It may take some time yet but getting wine more locally should help reduce the risk of bandit troubles.~
+
+
+
+
+
+//Red Sheaf
+
+
+@128=~Investigate High Alcohol Prices in Beregost
+
+The bartender at the Red Sheaf mentioned that no one in the town watch is guarding his doorstep. It would be a good idea to talk to the watch's commander about this to see what can be done.~
+
+@129=~Investigate High Alcohol Prices in Beregost
+
+We've talked to Commander Darren. He seemed confused at the fact that no one was guarding the Red Sheaf. He's informed us that he did assign some members of the watch to that location. We should try searching Beregost for them.~
+
+
+@130=~Investigate High Alcohol Prices in Beregost
+
+The bartender of the Red Sheaf was pretty happy to now have some protection at his doorstep.~
+
+
+@131=~Investigate High Alcohol Prices in Beregost
+
+The watch seemed reasonably satisfied with the new discount at the Red Sheaf.~
+
+
+@132=~Investigate High Alcohol Prices in Beregost
+
+The two members of the watch mentioned that one of them is searching for a missing child. Presumably, the child is somewhere in or near Beregost.~
+
+@133=~Investigate High Alcohol Prices in Beregost
+
+We encountered the missing child. She's decided to return home. We should return to the watch members to inform them of this.~
+
+
+@119=~Investigate High Alcohol Prices in Beregost
+
+We brought the child to the watch members. They will be returning to their post now. We should talk to the bartender at the Red Sheaf to let him know.~
+
+@120=~Investigate High Alcohol Prices in Beregost
+
+Now that we have found the girl its time for us to return to the watch members to inform them of the good news.~
+
+@1190=~Investigate High Alcohol Prices in Beregost
+
+We let the watch members know that the child was found and would be returning home. They will be returning to their post now. We should talk to the bartender at the Red Sheaf now to see if he is willing to lower prices for the watch.~
+
+
+@1191=~Investigate High Alcohol Prices in Beregost
+
+We've solved all the problems we can. We should talk to a town watch member and let them know.~
+
+
+
+
+
+
+
+
+//Militia supplier
+@108=~Arrange for Another Supplier to Supply the Town Watch
+
+The iron crisis has made finding equipment difficult for the men. Local metal apparently is unreliable. As a result, most of the town watch are armed with clubs and limited armor.
+
+The watch member we spoke to seemed to think that there is someone in town that can get more reliable equipment. From the sounds of things she goes by the name "Janlynn" and can be found at night in the northwest part of town. Somewhere near a garden.~
+
+@20221=~Arrange for Another Supplier to Supply the Town Watch
+
+Janlynn has agreed to supply the watch. We should see the results of our work fairly shortly.~
+
+@20222=~Arrange for Another Supplier to Supply the Town Watch
+
+The fools in the watch actually trusted me to get them good equipment. A magic item in my hand and they are none the wiser. I should see results fairly shortly.~
+
+@20223=~Arrange for Another Supplier to Supply the Town Watch
+
+The watch need a supplier other than the local smithy. Its been suggested that we approach Janlynn about this. She can be found at night time in a garden in the north-west part of town.~
+
+
+
+
+//Cloakwood Forest
+
+//Centeol
+@66001=~Centeol has been Freed of Her Curse
+
+We encountered a cursed sorcerous called Centeol in Cloakwood Forest. As it turns out a powerful mage by the name of Jon Irenicus had cursed her. By casting a Remove Curse spell on her she was able to break free of Irenicus's curse. She seems to harbor considerable hatred for the man and I am told that it would be wise for me to avoid him.~
+
+
+//Owning the Cloakwood mine
+@66002=~Operating the Cloakwood Mine
+Why flood the mine when we can own it? Production should restart shortly. Every three days we are told that we can expect a shipment of iron ore to have arrived in the city. All shipments will be recieved by a merchant found in the building north-west of the Seven Suns building. If asked he should provide us with an appropriate payment.~
+
+@66003=~Operating the Cloakwood Mine
+Lendal Firehair, a member of the Flaming Fist, challenged our use of slaves in the mines. We won't be stopped that easily.~
+
+
+//merchant FAI
+@66011=~Troubles in the Region
+We helped out a travelling merchant just north of the Friendly Arm Inn. Apparently he was ambushed by a group of bandits. We rendered what assistance we could provide him. It sounds as though these bandits were a mix of humans and hobgoblins, a rare combination in these parts.~
+
+
+
+//Ceremony involving Sarevok (eltan's body brought to ceremony and both dukes are dead)
+@66040=~Tandem in Extremis
+Sarevok fled his swearing in ceremony. Its not clear yet where he has gone, but it has been suggested that members of the Thieves' Guild might know. At the very least its a place to start. Ultimately, it has become apparent that tracking down and killing Sarevok has become our only course of action.~
+
+@66041=~Investigating the Iron Throne
+Alatos seems to share your opinion that something strange is happening from within the Iron Throne. If I should happen to investigate their activities he's asked that I report any findings back to him.~
+
+
+@66042=~Investigating the Iron Throne
+It appears as though the leaders of the Iron Throne are meeting in Candlekeep. That is where I must go.~
+
+@66043=~Investigating the Iron Throne
+It appears as though the leaders of the Iron Throne are meeting in Candlekeep. Alatos will want to be informed of this before I head there.~
+
+
+
+//Attack Duke Eltan
+@66044=~Alatos's Next Plans
+Alatos has proposed a bold plan. With the Iron Throne significantly weakened, and the Dukes otherwise preoccupied with Sarevok, Alatos believes there is an opportunity to significantly weaken the Flaming Fists leadership in order to establish his own Thieves' Guild as a dominant power within the city. With Duke Eltan sick, and Angelo on the run, Alatos believes this is the ideal time to strike.~
+
+@66045=~Alatos's Next Plans
+I have killed Eltan. I should be sure to leave the sword at the scene and return to Alatos.~
+
+@66046=~Alatos's Next Plans
+Alatos seemed rather satisfied that Eltan is dead. He warned us however about the thief warrens. Apparently, it is full of traps.~
+
+@660460=~Alatos's Next Plans
+Black Lily warned us against killing Duke Eltan and framing the Shadow Thieves for the murder. She claimed it could incite a war between Amn and Baldur's Gate.~
+
+@660461=~Alatos's Next Plans
+We may wish to speak with Alatos immediately concerning what I've learned about the Iron Throne.~
+
+@660462=~Alatos's Next Plans
+Alatos has told us to speak to him next only after Sarevok is sworn in.~
+
+@660463=~Alatos's Next Plans
+While he showed great reluctance with giving any names, Alatos has asked that we kill a sickly man in the southwest part of the city. Given what has transpired thus far, I have doubt he is requesting that we kill Duke Eltan. To that end he has given us an item which we are to place at the scene of the murder - a short sword with markings of the Zhentarim engraved along its hilt. I must admit his plan appears well crafted. Any remaining dukes will suspect this as being little more than the delayed work of Sarevok, while Amn will suspect that the Zhentarim have more influence on the city than the leadership of Baldur's Gate is willing to admit.~
+
+@660464=~Alatos's Next Plans
+Alatos requested that I kill Duke Eltan, though he did not name him by name. Ultimately, we rejected his request.~
+
+@660465=~Alatos's Next Plans
+Alatos has apparently fled the Thieves' Guild. Niklos informed us by passing us a note. Apparently, we can find him on the second floor of the Blushing Mermaid.~
+
+
+//Serpent's Cowl
+
+@66047=~Helping the Innocent
+
+It seems like the nearby town of Serpent's Cowl could use your assistance. Reportedly, the town has been covered in an unusual and prolongued blanket of ice and snow - much to the confusion of local residents.~
+
+@66048=~Helping the Innocent
+
+The mayor of Serpent's Cowl has informed us that a merchant named "Shaja" recently arrived in town. I should speak with her when I get the chance. Otherwise I've been told I am free to ask around about town.~
+
+@66053=~Helping the Innocent
+
+Shaja seems somehow familiar to me. But I can't place who she might be.~
+
+@66054=~Helping the Innocent
+
+It seems as though Shaja was at least in part responsible for this disaster. She mentioned that "the frostmaiden" also had a role to play. With her death the town may face a colder than usual winter, but at least Jasha herself will trouble no one any further.~
+
+@66063=~Helping the Innocent
+
+The mayor of Serpent's Cowl has asked that we talk to a local mage about the cause behind this sudden burst of winter. Hendern can proportedly be found either in the local town inn or at his home.~
+
+@66064=~Helping the Innocent
+
+We had a very thorough conversation with Hendern. Whether or not he is responsible for the calamity facing the town remains unclear.~
+
+@66064111=~Helping the Innocent
+
+It's pretty clear that the level of desperation in the town has reached its limits. The mayor suggested that if we're having trouble finding evidence then we should consider trying pickpocketing, spellcasting, and any other investigative methods we can think of.~
+
+
+
+@66065=~Helping the Innocent
+
+We cast Detect Evil on Hendern to determine his intentions. At the very least he appears to not be evil.~
+
+@66066=~Helping the Innocent
+
+We cast Know Alignment on Hendern. He doesn't appear to be evil.~
+
+@66067=~Helping the Innocent
+
+We cast Detect Evil on Shaja to determine her intentions. Our magic has confirmed that she is evil. This by itself however neither proves her guilt or innocence.~
+
+@66068=~Helping the Innocent
+
+We cast Know Alignment on Shaja to determine her intentions. Our magic has confirmed that she is evil. This by itself however neither proves her guilt or innocence.~
+
+@66069=~Helping the Innocent
+
+Belladonna seems to not have much trust in Hendern. She seems to think there is something off about him.~
+
+@66070=~Helping the Innocent
+
+Hendern suggested that Shaja was "far too learned" to be a simple merchant. She may be more knowledgeable than her speech would suggest.~
+
+@665555=~Helping the Innocent
+
+We found a letter in Shaja's pack. It seems pretty incriminating.~
+
+@665556=~Helping the Innocent
+
+We found a letter in Shaja's pack. It seems to connect her to worshipers of Auril. This is very incriminating.~
+
+@665557=~Helping the Innocent
+
+I think we've gathered enough evidence against Shaja. We should talk to the mayor about it.~
+
+@665558=~Helping the Innocent
+
+The mayor seemed satisfied with my evidence and has rewarded us for our hard work.~
+
+@665559=~Helping the Innocent
+
+According to Vendra Shaja always seems to be outside (despite the cold).~
+
+
+@665560=~Helping the Innocent
+
+Telar has speculated to us that Hendern might be one of the faithless.~
+
+ @665561=~Helping the Innocent
+
+The innkeeper told us that Hendern has a special room in the inn. No one is allowed to enter it.~
+
+ @665562=~Helping the Innocent
+
+According to the innkeeper Hendern always orders for two and demands his meals be taken directly to his room.~
+
+@665563=~Helping the Innocent
+
+The innkeeper thinks that it is rather strange that Hendern keeps a room at the inn. Especially given that he has never had any visitors.~
+
+@665564=~Helping the Innocent
+
+Belladonna believes Hendern's behaviour to be quite strange.~
+
+@66064222=~Helping the Innocent
+
+Aluena Halacanter believes that it is likely divine magic that is responsible for this travesty. She believes that an attempt to change the weather for such a prolongued period of time would prove too taxing for any mage.~
+
+
+
+@434343334=~The Harper Scout
+
+We informed a Harper scout about our findings in Serpent's Cowl.~
+
+
+ @66075=~Hendern's Secret
+
+We killed Hendern and discovered he had a child. We may be able to take the child to the local cleric. Perhaps they can care for them.~
+
+ @66076=~Hendern's Secret
+
+We talked to the local cleric about taking the child in. They've agreed to do so.~
+
+ @66077=~Hendern's Secret
+
+Hendern is keeping some kind of secret behind a door in his room. We could try to access it, though it is likely Hendern would not take kindly to such an intrusion.~
+
+@66078=~Hendern's Secret
+
+We talked with the boy. He's to make his way to the temple.~
+
+
+@66079=~Into the Temple
+
+After talking to the grave digger we learned about a hidden entrance into an old Yuan-ti temple found underneath the town. Apparently the locals are concerned about any expedition into it, and as a result it has been sealed off for years. If we wish to explore it we will need to get permission from the mayor.~
+
+@66080=~Into the Temple
+
+We've been given permission by the mayor to explore the old Yuan-ti temple underneath Serpent's Cowl. Once we go in however we won't be able to leave until the temple is cleared of beasts. It might be wise for us to gather what supplies we can before heading in.~
+
+@66081=~Into the Temple
+
+We've entered the temple. We should search around to see if we can find any evidence that the Yuan-ti are still active. 
+
+From talking to the gravedigger it sounds like the townspeople are intent on more permanently sealing off this entrance very soon. Resting in there appears to not be an option.~
+
+@66082=~Into the Temple
+
+We killed the Yuan-ti's leader. Hopefully that will put an end to their plans. We should kill any remaining Yuan-Ti here and then report back to the mayor.~
+
+@66083=~Into the Temple
+
+We discovered a book in the possession of the Yuan-ti leader. Unfortunately, since it's written in the language of the Yuan-Ti it's unlikely that anyone in our party can decipher it. We should report our findings back to the mayor.~
+
+@66084=~Into the Temple
+
+We talked with the mayor. He suggested we ask around town to see if anyone knows the language of the Yuan-ti. It seems like either Venra or Gord might know more.~
+
+@66085=~Into the Temple
+
+Venra didn't seem to know much about the contents of the book. She instead directed us to speak to either Gord or Atad.~
+
+@66086=~Into the Temple
+
+After having Gord review the book we learned some startling news. Apparently the Yuan-ti have been infecting the people of the Sword Coast - including some of the townsfolk of Serpent's Cowl. This corruption seems to grant them the ability to spy on these communities. The ultimate purpose for this spying still remains unclear, though with the temple cleared this threat has hopefully been neutralized.
+
+Even still, it may be prudent to discuss the situation with Telar, the village priest.~
+
+@66087=~Into the Temple
+
+Telar has stated that he will do what he can to remove the corrupting influence of the Yuan-ti. In the meantime, we should report back to the mayor and ask about our reward.~
+
+@66088=~Into the Temple
+
+The mayor was alarmed by what we had to report, but had little in the way to give us for our efforts. It seems what we pillaged from the temple will have to do.~
+
+@66089=~Into the Temple
+
+We informed the mayor of our success in clearing out the temple, though he had little in the way to give us for our efforts. Unfortunately, we also had nothing to report to him that could explain the Yuan-Ti's experiments.~
+
+@66090=~Into the Temple
+
+We informed the mayor of our success in clearing out the temple. Unfortunately, we also had nothing to report to him that could explain the Yuan-Ti's experiments.~
+
+@66091=~Into the Temple
+
+We asked Atad if he could understand anything in the book. He mentioned that he had seen the symbols contained in its cover elsewhere in the forest, and that for the Yuan-Ti they acted as a sign of danger. He also seemd to think from its contents that the Yuan-Ti have afflicted the people of the village with something. Perhaps Gord, the ranger of the village, will know more.~
+
+
+
+@665565=~Talk to Shar-Teel
+
+Duke Eltan has suggested that we talk to Shar-Teel, the daughter of Angelo, if we want to learn more about Angelo's plans and any remaining followers he might have. We can find her in the eastern section of the Flaming Fist headquarters.~
+
+@665566=~Talk to Shar-Teel
+
+We suggested to Shar-Teel that she join our party and she accepted.~
+
+@665567=~Talk to Shar-Teel
+
+Duke Eltan will never agree to release Shar-Teel. We need to find something we can use to convince the guard to let her go free.~
+
+@665568=~Talk to Shar-Teel
+
+In exchange for 100 gold Narlen has agreed to provide a forged letter that can be used to set Shar-Teel free. We need to find some official paper for Narlen to use to forge the letter. We should check the palace to see if we can find such a thing.~
+
+@665569=~Talk to Shar-Teel
+
+Narlen gave me the forged letter. Now we just have to convince the guard to let Shar-Teel out.~
+
+@665570=~Talk to Shar-Teel
+
+We told Shar-Teel that we wanted her to join my group - and that we would do what we could to get her out of jail.~
+
+
+//Banelich
+
+
+@66060=~Dealing with the Dead
+
+We encountered a Banelich and decided to attack it.~
+
+@66061=~Dealing with the Dead
+
+We encountered a Banelich. It informed us that, with the Cyricists defeats, we could use this place. At least for as long as we prove worthy to.~
+
+@66062=~Dealing with the Dead
+
+After coming across the phylactery of a lich we chose to smash it. This appears to have destroyed the lich attached to it.~
+
+
+
+//Tunnel Rat saviour quest
+
+@346000=~Helping Gullykin
+Kelddath has asked that us travel to Gullykin and speak to one "Gandolar Luckyfoot." Hopefully he will be willing to assist Beregost.~
+
+@399999=~Helping Gullykin
+Gandolar has asked us to deal with some kobolds that have been plaguing his village.~
+
+@346001=~Helping Gullykin
+After discussing our situation with Gandolar he has agreed to take in as many refugees as the village can accomodate.~
+
+
+@346002=~Helping Ulgoth's Beard
+We should speak to Shandalar in Ulgoth's Beard. Assisting him may open up an opportunity for Beregost.~
+
+@346003=~Helping Ulgoth's Beard
+Shandalar has agreed to assist Beregost and take in some refugees.~
+
+
+@346007=~Anywhere I go in Baldur's Gate I should expect to see my face on wanted posters accusing me of murdering the Iron Throne leaders.~
+
+@346008=~Your journey has come full circle. You have been asked to travel back to Candlekeep, where you must spy upon the leaders of the Iron Throne. While it troubles you that such evil men now make use of the great library, and you wish the circumstances of your visit would be different, it will still be a pleasure to return to your former home.~   [CHAPTER5]
+
+@356009=~News from the Front
+
+Following the suspicious murder of Scar, Angelo has called up the Flaming Fists reserves.~
+
+
+@444900=~We met a strange woman near the Belching Dragon Tavern in Nashkel. She demanded we give money to appease the Frostmaiden. We chose not to give the her anything.~
+
+@444901=~We met a strange woman near the Belching Dragon Tavern in Nashkel. She demanded we give money to appease the Frostmaiden. We chose to give in to her demands.~
+
+@444902=~We decided that perhaps it would be best that we give the crazy woman some of our coin. The realms being what they are.~
+
+
+
+@66064333=~A Traitor Among Us
+
+Cyric seems to believe that one of the beings he has brought before me is a traitor. I should talk to the different creatures here and gather what evidence I can.~
+
+
+@66064334=~A Traitor Among Us
+
+When talking to the demon we learned that the old man might be a mage of sorts.~
+
+@66064335=~A Traitor Among Us
+
+We talked to the nobleman. It seems like the old man might know more about the magical arts than he is letting on.~
+
+@66064336=~A Traitor Among Us
+
+We talked to the death knight. It seemed to have information about this traitor, but would only reveal it if we freed it from its master.
+
+It sounds as if it has been cursed to serve the nobleman. Perhaps someone else here would know how to lift the curse.~
+
+@66064337=~A Traitor Among Us
+
+The demon seems to have little to say to us. Cyric might know of a way to get it to talk.~
+
+@66064338=~A Traitor Among Us
+
+Apparently the celestial being only came here upon learning of Cyric's plans for us.~
+
+@66064339=~A Traitor Among Us
+
+The celestial just revealed that I am actually the <SONDAUGHTER> of Bhaal, the Lord of Murder. This leaves me with many questions. Would a being like this lie? What does this all mean?~
+
+@66064340=~A Traitor Among Us
+
+The celestial revealed that it was sent here by the Celestial Council.~
+
+@66064341=~A Traitor Among Us
+
+Deception! The "deva" was not the celestial we had been led to believe. Instead they are little more than a puppet to Cyric. A celestial fallen long ago to the whispers of my father.~
+
+@66064342=~A Traitor Among Us
+
+Deception! The "deva" was not the celestial we had been led to believe. Instead they are little more than a puppet to Cyric. A celestial fallen long ago to the whispers of Bhaal, the previous Lord of Murder.~
+
+@66064343=~A Traitor Among Us
+
+The "deva" proposes we form an alliance to overthrow Cyric. Should we tell Cyric we have found the traitor or keep this matter hidden?~
+
+@66064344=~A Traitor Among Us
+
+The old man was able to create a potion for us. It should remove the curse placed on the death knight.~
+
+@66064345=~A Traitor Among Us
+
+The death knight was freed and promptly killed the nobleman. It then vanished without informing us of the traitor. It may simply be that there is no traitor, that Cyric simply intends to toy with us.~
+
+@66064346=~A Traitor Among Us
+
+We accused Cyric of leading us on a wild goose chase. As it turned out, by doing so we passed the first part of his tests.~
+
+@66064347=~A Traitor Among Us
+
+We informed Cyric of the deva's plans. Cyric slew the deva and we continued on to the next test.~
+
+@660643471=~A Traitor Among Us
+
+We informed Cyric of the old man's plans. Cyric slew the old man and we continued on to the next test.~
+
+@66064348=~A Traitor Among Us
+
+We managed to convince the old man to describe his plans to us. It sounds as if he has been plotting Cyric's death for some time.~
+
+@66064350=~The Second Challenge
+
+We passed Cyric's second test. Hopefully, this next test will be the last.~
+
+@66064351=~The Second Challenge
+
+We failed Cyric's second test. He seems rather unamused by our decision to spare those that would seek to do us harm.~
+
+@66064352=~The Second Challenge
+
+We were confronted with a strange challenge for Cyric's second test. Knowing he could not put us in any harms way, he fashioned a test of our combat ability regardless. We were granted control over a demon and set upon by apparations of some of our closest companions.~
+
+@66064349=~An Unholy Alliance
+
+I have agreed to give up the Throne of Bhaal should it come to be that I am the last of the Bhaalspawn. Hopefully, should that happen, the celestial will honour their agreement.~

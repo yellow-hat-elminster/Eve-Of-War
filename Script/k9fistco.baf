@@ -1,0 +1,83 @@
+
+
+
+IF Global("k9FriendlyInnWar","GLOBAL",1)  Global("k9FriendlySergeant","GLOBAL",0)  See(Player1)
+
+THEN
+	RESPONSE #100
+
+MoveToPointNoInterrupt([1770.2240])  MoveToPointNoInterrupt([1750.2240])      DisplayStringHead("k9fist10", @66003) Wait(3)   SetGlobal("k9FriendlySergeant","GLOBAL",1)
+
+END
+
+
+
+IF Global("k9FriendlyInnWar","GLOBAL",1)  Global("k9FriendlySergeant","GLOBAL",1)
+
+THEN
+	RESPONSE #100
+
+MoveToPointNoInterrupt([1760.2300])     MoveToPointNoInterrupt([1750.2300])     DisplayStringHead("k9fist10", @66004)  Wait(3) SetGlobal("k9FriendlySergeant","GLOBAL",2)
+
+END          
+
+
+
+
+IF Global("k9FriendlyInnWar","GLOBAL",1)  Global("k9FriendlySergeant","GLOBAL",2)
+
+THEN
+	RESPONSE #100
+
+MoveToPointNoInterrupt([1770.2240])   MoveToPointNoInterrupt([1750.2240])      DisplayStringHead("k9fist10", @66005) Wait(3) SetGlobal("k9FriendlySergeant","GLOBAL",3)
+
+END
+
+
+
+IF Global("k9FriendlyInnWar","GLOBAL",1)  Global("k9FriendlySergeant","GLOBAL",3)
+
+THEN
+	RESPONSE #100
+
+MoveToPointNoInterrupt([1760.2300])  MoveToPointNoInterrupt([1750.2300])      DisplayStringHead("k9fist10", @66006)  Wait(3)   SetGlobal("k9FriendlySergeant","GLOBAL",4)
+
+END
+
+
+
+
+
+
+IF Global("k9FriendlyInnWar","GLOBAL",1)  Global("k9FriendlySergeant","GLOBAL",4)
+
+THEN
+	RESPONSE #100
+
+MoveToPointNoInterrupt([1770.2240])   MoveToPointNoInterrupt([1750.2240])      DisplayStringHead("k9fist10", @66007) Wait(3) SetGlobal("k9FriendlySergeant","GLOBAL",5)
+
+END
+
+
+
+IF Global("k9FriendlyInnWar","GLOBAL",1)  Global("k9FriendlySergeant","GLOBAL",5)
+
+THEN
+	RESPONSE #100
+
+MoveToPointNoInterrupt([1760.2300])  MoveToPointNoInterrupt([1750.2300])      DisplayStringHead("k9fist10", @66008)  Wait(3)   SetGlobal("k9FriendlySergeant","GLOBAL",6)
+
+END
+
+IF Global("k9FriendlyInnWar","GLOBAL",1)  Global("k9FriendlySergeant","GLOBAL",6)
+
+THEN
+	RESPONSE #100
+
+MoveToPointNoInterrupt([1770.2240])   MoveToPointNoInterrupt([1750.2240])       DisplayStringHead("k9fist10", @66009)  Wait(1)   SetGlobal("k9FriendlySergeant","GLOBAL",7)
+
+END
+
+
+
+

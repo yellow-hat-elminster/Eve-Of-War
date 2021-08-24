@@ -1,0 +1,690 @@
+
+//Bassilus letter
+@3=~Bassilus's Journal~
+@4=~This journal appears to extensively cover Bassilus's time in Zhentil Keep. It discusses life with his family members, his personal thoughts of other Cyric followers, as well as his thoughts on the general inhabitants of the keep. It also chronicles the visions seen by Bassilus regarding the destruction of the keep. In the end he seems to have arrived to the Beregost area as part of a journey undertaken to one of Cyric's strongholds in this region - the Mountain of Skulls. Why his mind set upon this place (rather than any of the other temples of Cyric that surely are scattered throughout the region) is never made entirely clear.
+
+As you near closer to the end of the journal it becomes clear that some dark influence has deeply affected Bassilus. His writings become increasingly more disjointed and paranoid, and he even writes of shadows following his every move. He increasingly seems to be struggling to understand the present and it seems as though some external influence has caused him to believe the keep has been destroyed.
+
+The last entry he wrote is particularly disjointed.
+
+---------------------------------------------------------------
+Family. Are they alive? Are they dead? It does not matter. We are close now. We are together now.
+
+But Zhentil Keep burned! Or...did it? FIRE. SCREAMING. FIGHTING. Nothing could stop them. Nothing did stop them.
+
+Voices speak of my lord Cyric. They speak of raising those that have fallen in his name.
+
+The others say these voices will stop when I reach the waterfall. Brother Thurm says no. Says I must go further south from there.
+
+More to do first though. More to save.
+---------------------------------------------------------------
+
+(This journal seems as though it may be important. You may want to consider discussing its contents with someone more familiar with Bassilus)
+~
+
+//Bodies in Cyric stronghold
+
+@5=~Female Body~
+@6=~As you gaze over the body of this deceased commoner you can't help but notice the strange etchings and markings all along her arms and legs. A more thorough examination of her corpse reveals that these markings appear across her entire body.
+
+Initially you wondered if these markings were given to her in life or after death, however her face confirms your suspicions. Her eyes are tightly closed while her mouth is wide open, suggesting she died while in extruciating pain. Further evidence of bruising along her neck confirms your initial supposition. This woman likely died due to torture, possibly as part of a ritual ceremony.
+
+Given the clear presence of Cyric followers in this area, as well as the bloody mess found outside this cave, you suspect that Cyricists were the cause of her death. The crate you have found her in is packed full of other bodies, suggesting at the very least something truly evil is at work here.~
+
+@7=~Male Body~
+@8=~The body of this man is remarkably preserved compared to the other corpses. There are no strange etchings or markings on him. An infected shoulder wound suggest he died in combat some time ago, perhaps before any experimentation or rituals could be performed on him.~
+
+@9=~You stare over the body of this man and notice a number of intriguing things about him. Though at times they can be difficult to make out, in large part due to bruising, like other victims found in this crate he has strange etchings and markings throughout his body. However, unlike the other victims he appears to not be fully intact.
+
+He is missing an arm and from the looks of things it is nowhere to be found in the rest of the crate. You can't tell if this is a wound he recieved before or after death, though given the unsettling nature of this place you would not be surprised if Cyricists were responsible.~
+
+@10=~The cause of this mans death is immediately clear. His hands and legs have been bound and he appears to have a considerable degree of burns across his body. Given this you suspect that his final moments were spent over an extremely hot fire.
+
+He appears to have been covered in clothing after succumbing to his injuries, though you suspect that this was done just to make grabbing hold of the corpse more tolerable.~
+
+@11=~Peering at this body for too long makes you nauseous. This is largely because it is too difficult to tell exactly what happened to her. It appears as though her arms and hands were sown back onto her after death, though the stitching is uneven and very loose.
+
+Additionally, she also seems to have extensive bruising across her face, arms, and hands.~
+
+
+
+@15009=~Letter~
+@15010=~Cyric's Letter~
+@15011=~Dearest <CHARNAME>,
+
+What a truly odd way of communicating. I suppose I could have just summoned you forth again to tell you this, but what a bother that would be. In any case, I wanted you to know that I've taken the liberty of removing Bassilus's journal from your possession.
+
+Ohh don't be so surprised that I could do such a thing. It was never yours to begin with.
+
+-C~
+@15012=~Dearest <CHARNAME>,
+
+What a truly odd way of communicating. I suppose I could have just summoned you forth again to tell you this, but what a bother that would be. In any case, I wanted you to know that I've taken the liberty of removing Bassilus's journal from your possession.
+
+Ohh don't be so surprised that I could do such a thing. It was never yours to begin with.
+
+-C~
+@66018=~This necklace is is made of silver and is adorned with pearls. The necklace appears to be damaged however, likely as a result of being pulled quickly off someone in the past. The pearls themselves are unharmed, so the necklace still retains a great deal of value, but any reputable merchant would surely suspect it to be a stolen good.
+
+This necklace may be of some use to you in the future. You should probably keep it on your person.~
+
+@66019=~Stolen Pearl Necklace~
+
+
+
+@130153=~Sarevok's Sword of Chaos +5~
+@130154=~Sarevok's Sword of Chaos +5
+
+This two-handed sword grants Sarevok the ability to have a 25% chance to slay any lawful enemy he is attacking.~
+
+@130155=~Steel Dragon Armor~
+@130156=~Dragon armor is a combination of dragon scales and steel that is aligned to cover the vital areas such as the chest, abdomen, and groin. Similar in construction to plate mail it also comprises of chain and leather.
+
+STATISTICS:
+
+Armor Class: -3 (-4 vs. piercing and missile, -5 vs. crushing)
+Requires:
+ 14 Strength
+
+Weight: 25~
+
+@130159=~Remhoraz~
+@130160=~Remorhaz Shell~
+@130161=~This is a portion of the carapace of a dead remorhaz. Their armor is known for its resilience and natural resistances.
+
+STATISTICS:
+
+Weight: 100~
+@130162=~Remorhaz Shell Helm~
+@130163=~Crafted from chitinous scales, this heavy helmet retains some of the natural resistances of the remorhaz from which it was made.
+
+STATISTICS:
+
+Equipped abilities:
+– Protects against critical hits
+– Armor Class: +1
+– Magic Resistance: +5%
+– Magic Damage Resistance: +10%
+
+Weight: 10~
+
+
+
+@130175=~Wayden's Star~
+
+@130176=~It would be hard to imagine a day in a year on Faerun when Wayden Sunscorcher didn't grace the halls of the Temple of Lathander in the City of Splendors. For all his hard, dedicated work to the city the Lords of Waterdeep secretly had this shield crafted for him. Unfortunately, affairs in Waterdeep often lead to valuable ceremonial objects like this getting stolen. It never reached its intended owner, much the the chagrine of the cities establishment.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– No protection against missile and piercing attacks
+- Can memorize two extra 1st and 2nd level divine spells of each level from 1st to 2nd
+
+Requires:
+ 4 Strength
+
+Weight: 2~
+
+//Icarus's Bargain amulet
+@134=~Icarus's Bargain~
+@135=~This beautifully crafted mithral amulet hides its true purpose well. Crafted in 1320 DR by the archmage Jon Icarus it was used during his life as a means of amplifying his power.
+
+Jon Icarus reportedly was slain by a long time rival shortly after this amulet was forged. With his passing its power has since wained. Following his death the amulet likely fell into the hands of Icarus's apprentice, Gera Jannath. How it ended up in its current place however remains largely unclear.
+
+STATISTICS:
+
+Equipped abilities: 
+
+- Improves casting speed by 1
+- Save vs. Spell: +2
+
+Weight: 3~
+
+//Scoundrel's Escape
+@136=~Scoundrel's Escape~
+@137=~The history of Scoundrel's Escape is a long and storied one. Legend says that Harold Sunderhall, a great explorer and adventurer, had this ring crafted for his sister by a master elven smithy sometime around 940 DR. However, the nicks and unevenness of the rings surface suggest that instead its craftsmanship was of a lesser quality. It may be that this particular ring is either a copy or simply that the original ring has been heavily damaged over time.
+
+STATISTICS:
+
+Charge abilities:
+- Can be used once per day with any of the following results:
+  75% chance of casting either Reflective Image, Mirror Image, or Invisibility, as per the namesaked spell
+  25% chance it does nothing
+
+Weight: 0~
+
+
+//Drizzt's Companions Items
+
+@30005=~Aegis-fang +3~
+@30006=~This weapon was made specifically for Wulfgar by Bruenor Battlehammer, and the strongest of its enchantments only function while in the young warrior's hands. Anyone else wields Aegis-Fang as a war hammer +3.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 2d4+3 (crushing)
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 3~
+
+
+@30007=~Battle Axe +3~
+@30008=~This is the axe of Bruenor Battlehammer, and a fine weapon it is. It has a formidable single-edged blade and handles with the efficiency of a hand axe despite its size.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8+3 (slashing)
+Speed Factor: 4
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 6~
+
+
+@30009=~Mithral Field Plate +2~
+@30010=~This is the personal armor of Bruenor Battlehammer, and never a finer kit have you seen. It is truly a marvel of battlefield craftsmanship.
+
+STATISTICS:
+
+Armor Class: -1 (-3 vs. slashing, -2 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 45~
+
+
+
+
+
+@30011=~Tansheron's Bow +3~
+@30012=~The thin, frayed string of this bow appears unusable, but when it is drawn, a solid but invisible arrow becomes tangible. The lich Tansheron gave this bow to his Watcher, the guardian of his keep who stood atop a tower with neither entrance nor exit. When anyone approached, down would fall a never-ending rain of phantom arrows until they were dead or fled. How this bow was wrested from the Watcher's hand is not known, but would probably make a great tavern story.
+
+Note: Avoid equipping normal arrows on your character, else the bow will fire these instead of the phantom arrows.
+
+STATISTICS:
+
+Combat abilities:
+– When no arrows are equipped, the bow fires +3 arrows that receive +3 to hit and deal 1d6 missile damage
+
+THAC0: +3
+Speed Factor: 3
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+@30013=~Ruby Pendant of Beguiling~
+@30014=~A favorite toy of the halfling thief Regis, perfect for making people see his point of view.
+
+STATISTICS:
+
+Charge abilities:
+– Dire Charm once per day (Save vs. Spell negates)
+  Range: 35 ft.
+  Duration: 1 turn
+  Area of Effect: 1 creature
+
+Weight: 1~
+
+@2000=~The Snow Maiden's Reaver +2~
+@2001=~The only material parts of this icy weapon are the hilt, grip, and pommel, wrought from shining silver and steel. It was created in 1099 DR by the chosen of Auril, Ihanora the Merciful. Ihanora roamed the North, leading ruthless attacks against all those who attempted to find solace from the cold or fight its effects. She traveled with a motley crew of yetis, polar worms, frost giants, and a white dragon, freezing everything in her wake. Ihanora was defeated in 1108 DR by the notorious Red Mask Brigade, headed by the ruthless killer known as Bitter Harley.
+
+STATISTICS:
+
+Combat abilities:
+– 2% chance target is turned to solid ice
+
+THAC0: +2
+Damage: 2d4+2 (cold)
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+
+//Potion of Coldbreath
+
+@2026=~Potion of Coldbreath~
+@2027=~The potion of coldbreath magically transforms the throat so that it is capable of breathing a blast of cold outward in an arc. The user does not drink this potion, but instead uses it on an enemy. The effect does 6d10 damage to the target with a Save vs. Breath Weapon for half.
+
+STATISTICS:
+
+Damage: 6d10 (Save vs. Breath for half)
+
+Weight: 1~
+
+@2029=~Potion of Winter Storm~
+@2030=~Once exposed to air, this immediate begins freezing its surroundings, inflicting 5d6 points of damage (Save vs. Breath for half) to all within the immediate area around the potion. It can be hurled up to around 40 ft. Immediately upon hitting the ground the area around it will be hit by a sudden drop in temperature.
+
+STATISTICS:
+
+Damage: 5d6 (Save vs. Breath for half)
+
+Weight: 1~
+
+
+//Frost Reaver +2
+@2031=~The Snow Maiden's Reaver +2~
+@2032=~The only material parts of this icy weapon are the hilt, grip, and pommel, wrought from shining silver and steel. It was created in 1099 DR by the chosen of Auril, Ihanora the Merciful. Ihanora roamed the North, leading ruthless attacks against all those who attempted to find solace from the cold or fight its effects. She traveled with a motley crew of yetis, polar worms, frost giants, and a white dragon, freezing everything in her wake. Ihanora was defeated in 1108 DR by the notorious Red Mask Brigade, headed by the ruthless killer known as Bitter Harley.
+
+STATISTICS:
+
+Combat abilities:
+- 2% chance target is turned to solid ice
+
+THAC0: +2
+Damage: 2d4+2 (cold)
+Speed Factor: 6
+Proficiency Type: Bastard Sword
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+
+
+
+@66035=~Head of Tynnos Argrim~
+
+
+@66036=~The head of Tynnos Argrim.
+
+STATISTICS:
+
+Weight: 5~
+
+
+@999000=~Letter~
+@999001=~Ardenor,
+
+I'll get your damn amulet back to you as soon as I can. Don't want to see you throwing nightmares around without knowing what magics at work here. Hopefully, you'll not hear any more of <CHARNAME> and their group in the meantime.
+
+- Grangor~
+
+@999002=~False Shadow Thieves Blade~
+@999003=~This bloodied short sword has the sign of the Shadow Thieves engraved along its hilt. How Alatos came to be in possession of it you are not certain, but it apparently will be all the proof needed to prove their involvement with the death of Duke Eltan.
+
+STATISTICS:
+
+Damage: 1d6 (piercing)
+Speed Factor: 3
+Proficiency Type: Short Sword
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 3~
+
+
+@99990001=~Golem Wardstone~
+@99990002=~This strange wardstone has a series of lines etched all along its front surface. An etching of a golem can be found on the back of the wardstone.~
+@99990003=~Belt~
+@99990004=~This is just an ordinary belt.~
+@99990005=~Sea Charts~
+@99990006=~These are sea charts for the Sea of Fallen Stars.~
+@99990007=~Unripe Darkberry~
+@99990008=~These are unripe Darkberry. In their present state they are of little use to anyone.~
+@99990009=~Red Helmthorn Berries~
+@99990010=~A tasty treat for adventuring parties. This batch of berries will heal 2hp per use.~
+@99990011=~Broken Mirror~
+@99990012=~This is a broken mirror. It was probably something one of the upper class residents of Baldur's Gate threw away.~
+@99990013=~Chicken~
+@99990014=~This is a common chicken.~
+@99990015=~Chew Toy~
+@99990016=~This looks to be the chew toy for some kind of pet.~
+@99990017=~Candle in Brass Holder~
+@99990018=~This is a candle that has been stuck into a brass candle holder. You can't think of any use it could be to you.~
+@99990019=~Hamster~
+@99990020=~This is a hamster. As nearest as you can tell its not a miniaturized giant space hamster, though it very well could be.~
+@99990021=~Grapes~
+@99990022=~These appear to be ordinary grapes.~
+@99990023=~Metal Ball~
+@99990024=~Apparently amongst the upper classes of Baldur's Gate this ball is used as part of a game. This particular ball was found in a pond, suggesting a poor outcome for its former owner.~
+@99990025=~Broken Flute~
+@99990026=~This flute appears to be pretty heavily damaged.~
+@99990027=~Mug~
+@99990028=~This is a mug. Most adventurers have one on hand to drink their sorrows away.~
+@99990029=~Cat~
+@99990030=~The cat looks up at you and purrs.~
+@99990031=~Pickaxe~
+@99990032=~The dwarves are fond of these weapons for obvious reasons: They are perfect for digging precious gems from the earth. Pickaxes are also ideal for piercing heavy armor, even full plate. The dwarves make their picks from a strong, light alloy of unknown properties. This metal keeps a sharp edge even after vigorous mining or combat.
+
+STATISTICS:
+
+Damage: 2d4 (piercing)
+Speed Factor: 7
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 7 Strength
+
+Weight: 5~
+@99990033=~Torn Map~
+@99990034=~This map is all torn up. It looks to be a map of the area, though in its condition you are unlikely to learn anything from it.~
+@99990035=~Rope~
+@99990036=~This is just a normal rope. You can't think of any use you would have for it.~
+@99990037=~Crusader Pamphlet~
+@99990038=~The words on this pamplet have been largely covered in dirt or washed away. You can make out "For glory and for righteousness!" and "Caelar" but not much else.~
+@99990039=~Butterknife~
+@99990040=~This is a high quality butterknife. If you happen upon any butter you'll scarcely find a better tool to cut it with.~
+@99990041=~Recipe Book~
+@99990042=~This recipe book contains a wide variety of recipes. Apparently this includes everything from apple pies to watermelon sorbets. You have never heard of many of the ingredients listed here. Perhaps at some point in your travels you will come across them. For the time being you are left to ponder how any melon would grow on water.~
+@99990043=~Doll~
+@99990044=~This is a doll that a child would play with.~
+@99990045=~Mirror~
+@99990046=~This is a high quality mirror. For its size it also feels extremely light, suggesting that elven craftsmanship might have been involved in its construction.~
+@99990047=~Goblet~
+@99990048=~This gold goblet shines as you examine it. Rubies have been arranged along the top of the cup, while small emeralds line its base. It is a truly excellently crafted goblet.~
+@99990049=~Stone Statue~
+@99990050=~This stone statue appears to be from a more primative time. Statues like these are easy targets for forgers however.~
+@99990051=~Golden Bowl~
+@99990052=~Only the richest of Baldur's Gate would feast out of this.~
+@99990053=~Vineshade Red Wine - 1328 Vintage~
+@99990054=~This wine originated in Tethyr, from the small town of Vineshade.~
+@99990055=~Telescope~
+@99990056=~While the physics behind a telescope have been well-known for some time, the glass-grinding skills required to actually construct one are still quite specialized. The lenses of this telescope are finely made, however, and its collapsible tubing has obviously been wrought by someone well-versed in the delicate art of jewel-setting and metalwork.
+
+STATISTICS:
+
+Weight: 1~
+@99990057=~Shaped Emerald~
+@99990058=~This emerald has been carefully cut to look like a tear drop. You don't know the purpose for this but the gem itself is quite valuable.~
+@99990059=~Statue~
+@99990060=~This modern statue is well crafted. It depicts Selune, goddess of light, stars, navigation, navigators, wanderers, questers, and goodly lycanthropes.~
+@99990061=~Feather~
+@99990062=~This rather unremarkable feather was likely found on the ground somewhere in the city. Its hard to know for certain, though its wear and dirt suggest that to be the case.~
+@99990063=~Nuts~
+@99990064=~These nuts are too hard to break open to eat.~
+@99990065=~Tadpoles~
+@99990066=~These tadpoles don't look like they would be much use to you.~
+@99990067=~Pipe~
+@99990068=~This is a surprisingly well made pipe. Had he not his own Elminster himself might look to get a few puffs from it.~
+@99990069=~Conch~
+@99990070=~This conch would be of little use to you.~
+@99990071=~Steak~
+@99990072=~These pieces of steak look delicious. Without a means of heating them they would be best to avoid however.~
+@99990073=~Stew bowl~
+@99990074=~There is nothing in this stew bowl. It probably wouldn't be of much use to you.~
+@99990075=~Crate~
+@99990076=~This is a standard shipping crate. Its too bulky to use for storage and you can't think of anything else you could use it for.~
+@99990077=~Piece of cloth~
+@99990078=~This is a torn piece of red cloth.~
+@99990079=~Bird~
+@99990080=~This bird chirps as your hand approaches it.~
+@99990081=~Acorns~
+@99990082=~Though the regions squirrels might like them these acorns are unlikely to be much use for you. They aren't edible.~
+@99990083=~Fine Silk~
+@99990084=~This is extremely fine silk. It was imported from Myratma, one of the best textile cities on the face of Faerun.~
+@99990085=~Teddy Bear~
+@99990086=~This cute teddy bear stares up at you, its beady eyes calling out to you for a home. What adventurer could resist their own teddy?~
+@99990087=~Horn of Silence~
+@99990088=~When this odd horn is blown, no sound issues forth, making most people discard it as being useless. However, if the proper command word is known, the horn is capable of silencing all within the area of effect, providing that they fail a Saving Throw vs. Breath Weapon. This horn may be used three times a day. The most common use of the Horn of Silence is as a weapon against Mages. Fighters often employ the horn, silencing enemy Mages and drastically improving their own chances of success against the frail magic users.
+
+STATISTICS:
+
+Charge abilities:
+– Silence once per day (Save vs. Breath negates)
+  Duration: 1 turn
+  Area of Effect: All in area
+
+Weight: 3~
+@99990089=~Boiled Rabbit's Foot~
+@99990090=~This rabbit's foot looks to be boiled. Whatever it was boiled in seems to have diminished some of its magical properties.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +1
+- Saving Throws: +1
+- Find Traps: +5%
+- Pick Pockets: +5%
+- Move Silently: +5%
+- Hide In Shadows: +5%
+- Detect Illusion: +5%
+- Set Traps: +5%
+- Luck: +1
+
+Weight: 0~
+
+@99990091=~Note from Kelddath~
+@99990092=~Dear <CHARNAME>,
+
+Though I am hesitant to admit so amongst my colleagues, I fear Beregost will face the brunt of any attack carried out by Amn. To that end I am entrusting you here with the safety of its citizens. While I am loathe to admit the present situation could escalate to the extent that Beregost would face an attack by Amn, I can't in good conscious govern without planning for the worst.
+
+As you already know I have asked that you travel to Baldur's Gate, Ulgoth's Beard, Gullykin, and the Friendly Arm Inn. The intent of this travel is to acquire treaties with the communities, with the aim of securing accommodations for refugees from Beregost - should the worst transpire. While I'll admit that acquiring something as formal as a treaty may not always be feasible at present they appear to be our only option. Once at these locations you will seek out one of the following people.
+
+Baldur's Gate: The affairs of Baldur's Gate can be politically difficult at the best of times, and I've always found to get things truly done you need to maintain good relations with the political leaders as well as those who are further down the chain of command. Officer Vai proved herself invaluable to the citizens of Beregost previously, and I suspect she might be just the person needed if refugees from Beregost are forced towards Baldur's Gate. As I understand she can be found in the eastern part of the city.
+
+Ulgoth's Beard: Beregost does little in the way of trade with Ulgoth's Beard, but Thalantyr has explained to me that there is a mage there that serves as the de facto protector of the small town. Shandalar is his name. If you can curry his favour he may prove to be receptive to assisting our small town, should things come to that.
+
+Friendly Arm Inn: The Mirrorshades are an odd bunch. While I'll admit I know little of gnomekind Bentley and his wife have always come across as being compassionate folk. If one of them could be persuaded to assist us with the protection provided by its walls that would be invaluable for our citizens.
+
+Gullykin: The halflings of this village are unknown to me. They tend to keep to themselves I suppose. Still, it is my understanding that the village is lead by one Gandolar Luckyfoot. I'll admit that I know nothing of what needs a small halfling village might have, but with their village so close our town I would appreciate it if you would explore this avenue.~
+
+
+@99990093=~Crate of Wine~
+@99990094=~This crate contains various types of bottles of wine. Glass shards at the bottom of the case suggest that some of the bottles did not survive the trip. The bandits likely indulged themselves in some of the bottles as well.~
+@99990095=~Banelich Hand~
+@99990096=~This is the severed hand of a Banelich. The hand was acquired by <CHARNAME> in the year <YEAR>DR from the Mountain of Skulls.~
+@99990097=~Hound Idol~
+@99990098=~This strange idol doesn't appear to provide any magical benefit. You wonder why someone stached it below the floor's stone slabs.~
+@99990099=~Banelich Phylactery~
+@99990100=~You have surmised that this the phylactery of a lich. You could smash it, if you so chose, though it is likely that action caries great risk.
+
+Note: To smash the phylactery place it in one of your weapon slots. The phylactery will be smashed as soon as your inventory is closed.~
+@99990101=~You smash the phylactery into the stone floor.~  [EFF_M31C]
+
+@99990102=~Ring of the Forest: Veren's Guide~
+@99990103=~Ring of the Forest: Veren's Guide
+Originally created for Veren, a druid of the Misty Forest, this ring has passed amongst a multitude of druids over the last several hundred years. Historical records show that the last known possessor of the ring was Yermon the Wise - a druid of notable amongst the groves of the Northern Sword Coast. How it came to be in the possession of Hendern is unclear.
+
+STATISTICS:
+
+Equipped abilities:
+- Can memorize one extra divine spell at levels 4 and 5
+
+Weight: 0~
+
+@99990104=~Amulet of Nature's Grace~
+@99990105=~Amulet of Nature's Grace
+Amongst the inhabitants of the northern Sword Coast there are tales of Solbar the Great, an adventurer who centuries ago fought against the machinations of the necromancer Telon Hildari. Eventually Solbar succeeded in killing Telon, and it is said that years later Solbar had this amulet crafted to protect his kin from the spells he faced in his youth.
+
+STATISTICS:
+
+Equipped abilities:
+- Grants the wearer immunity to necromancer spells
+
+Weight: 3~
+
+@99990106=~Amulet of the Chased~
+@99990107=~Amulet of the Chased
+Forged nearly 300 years ago, it is said that those who choose to dawn this amulet only do so because of some great feeling of helplessness. They feel as though in some way their life has been threatened, or that they simply need to disappear. In truth, many of the wearers of this amulet merely failed to identify it first before wearing it. Those who could scrap together the coins to remove it's curses did so, and those that couldn't lived out the rest of their lives as a member of the opposite sex.
+
+STATISTICS:
+
+Equipped abilities:
+- Changes the wearer's sex
+- May only be removed with a Remove Curse spell
+
+Weight: 3~
+
+
+@99990108=~Shaka's Blade +2~
+@99990109=~This sword was the weapon of choice of Shaka - a well respected mage and assassin in Tethyr. It has been said that this weapon allowed Shaka to disappear after each successful blow. Whether or not this was ever entirely true is unclear, though users of the weapon have reported seeing such a feat themselves from time to time. The weapon can only be used by characters that have studied the art of thieving and magic.
+ 
+STATISTICS:
+
+Equipped abilities:
+
+- Has a 33% chance of casting invisibility on the user after each hit.
+
+THAC0: +2
+Damage: 1d10+2 (slashing)
+Speed Factor: 2
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+@99990110=~Belt of Personability~
+@99990111=~The Belt of Personability has a long history that dates back to King Arkon II of Amn. Legends state that the king was a powerful orator who sought to maintain peace between his lands and the nation of Tethyr. Not a man with a natural talent of the tongue, Arkon had this belt fashioned to assist him. Over the years the magic that once radiated from the belt has diminished, though for those looking to be well versed in the finer details of nobility and leadership you will find no greater companion.
+
+STATISTICS:
+
+Equipped abilities:
+- Intelligence: +1
+- Wisdom: +1
+- Charisma: +1
+Weight: 2~
+
+
+@99990112=~Belt of the Green Brigade~
+@99990113=~Members of the Green Brigade are given these belts when they reach the highest tier of membership. Formed initially as a mercenary company that operated in the Forest of Wyrms, the Green Brigade was best known for their role as agents of the region tasked with keeping the threat of green dragons at bay. These belts provide protection against breath attacks and acid. Based on the scorch marks on its worn leather, it is obvious that this belt has been heavily used.
+
+STATISTICS:
+
+Equipped abilities:
+- Save vs. Breath: +3
+- Resistance to Acid Damage: +30%
+
+Weight: 2~
+
+@99990114=~Letter to Shaja~
+@99990115=~"Shaja",
+
+If you are reading this I will assume the cart I sent your way has also arrived. If so you'll find all that you'll need for your journey in the cart. As requested, I have included notes taken of the Codicil of White. May they serve you well.
+
+Our master requires that you travel to the small town of Serpent's Cowl. Be mindful that very few travel to Serpent's Cowl each season, and even fewer choose to stay for long. Your arrival is likely to attract suspicion.
+
+I should hope by now you realize the reason our master requires that you travel so far out of the way, yes? Your failure in Nashkel has cast doubt upon how truly devoted you are to our cause. Do not fail us again.
+
+
+- R~
+
+//Keldath items
+
+@99990116=~Amulet~
+@99990117=~Amulet of Memory~
+@99990118=~Originally created in 1342 DR by the elves of Silverymoon, official documentation for this item states that it was originally crafted for "Jeb from Soubar." In truth, "Jeb from Soubar" didn't actually exist. The amulet was actually created at the request of a wealthy, if incompetent, bard. Fearing being left behind in his studies at the Arcane Tower in Luskan the bard had this amulet commissioned - at great expense - in order to expand his mind to handle the great number of spells students were expected to be able to keep memorized. The trick proved successful and the bard graduated at the top of his class.
+
+STATISTICS:
+
+Equipped abilities:
+- Can memorize double the amount of 1st-level wizard spells
+
+Weight: 1~
+
+@99990119=~Spear~
+@99990120=~Spiked Spear +2~
+@99990121=~Originally crafted at the beheast of Teren Obren, a knight of the Order of the Radiant Heart, the weapon was created for Teren in order to provide him with a weapon that could challenge even the greatest swords the order could muster.
+
+While not a weapon for a warrior looking to hide behind a shield, in the years since it's construction the weapon has proven itself to be an incredibly effective weapon in battle.
+
+STATISTICS:
+
+Combat abilities:
+- 1/2 extra attack per round
+- Permanently lowers an opponents AC vs. piercing attacks by 2 with each hit
+
+THAC0: +2
+Damage: 1d8+2 (piercing)
+Speed Factor: 4
+Proficiency Type: Spear
+Type: Two-handed
+Requires:
+ 5 Strength
+
+Weight: 5~
+
+@99990122=~Blank Paper~
+@99990123=~This is a blank piece of paper that bears the ensignia of the Grand Dukes.~
+
+@99990124=~Letter To The Jailhouse Keeper~
+@99990125=~<DAYANDMONTH>, 1368,
+
+As of this day Shar-Teel shall be remitted into the custody of <CHARNAME>. I leave <CHARNAME> to discuss any further details regarding this arrangement. Please see fit to ensure their wishes are to be adhered to as much as possible.
+
+- Duke Eltan~
+
+
+@99990126=~Mug of Ale~
+@99990127=~This ale would quench anyone's thirst.~
+
+@99990128=~Potion of Curse Removal~
+@99990129=~While it cannot restore it to its original self, this potion should cure the demon knight of the curse the nobleman placed on it.~
+
+
+
+@99990130=~Yuan-Ti Tome~
+@99990131=~This tome was picked up in a temple underneath Serpent's Cowl. It was taken from the corpse of the leader of the Yuan-Ti.~
+
+@99990132=~Yuan-Ti Tome~
+@99990133=~Though the intricate illustrations around the tome suggest a spiritual component to it's purpose, the exact text itself remains a mystery to you. As unlikely as it may be, perhaps there is someone in the town that might know more about the language of the Yuan-Ti.~
+
+@99990134=~The Greencloak~
+@99990135=~The Greencloak
+Crafted by none other than Orsar "Greencloak" from the city of Elturel, this cloak was intended to assist him with his experiments in flight. A secret friend of Lord Delht and the city's chief spymaster, Orsar enchanted the cloak himself with several enchantments to aid him in the tasks he is expected to perform. How Baranta got her hands on it is not entirely clear, though it sounds as if selling this rather visible cloak would prove difficult. Especially with spys loyal to Orsar having no doubt a vested interest in ensuring its safe return.
+
+STATISTICS:
+
+Equipped abilities:
+- Invisibility as per the namesake spell once per day
+- Doubles movement rate
+
+Weight: 3~
+
+
+@99990136=~Town Council Note~
+@99990137=~Dear <CHARNAME>,
+
+The death of Lady Craumerdaun has rattled the council as of late. Her knowledge of Amnian politics would have been invaluable in this present situation. Regardless, it falls to me now to ensure that Beregost is well advised how to approach our present predicament. I've always been on to keep an eye out on the happenings in the regions surrounding our quiet town. From this I've come to believe that there are several potential candidates that would be suited for this work.
+
+Beregost: Beregost has precious few people who would be suited to take on this position. However, one recent arrival into town is Blentra Whaelbuckler. She's arrived into town from Cormyr and would be well suited to provide guidance here. I was to talk to her but have yet to find the time. You should be able to find her in the temple's vestibule.
+
+Cyrag Hammerbone is another recent arrival in town. Unfortunately, his affinity for alcohol makes him ill suited as an advisor of the town. He may however prove useful for the militia in another role.
+
+Baldur's Gate: There may be a few potential candidates in this fair city. One of which, Baranta Chansil, in particular may be of use. I'm told she is well versed in the politics and nobility of Baldur's Gate. Her talents with magic likewise could prove useful on any battlefield. In any case, its likely that she will be found in a place well within close reach of the noble houses of the city.
+
+Woods of Sharp Teeth: I'm told that somewhere in these woods the ranger Olbrimsur Thunderwood has been spotted. While I do not know what experience he has at fighting the common man, his campaigns against the goblins and giants in the region are almost legendarily known.
+
+
+Beyond these there may be others that you find that would be equally suited as an advisors. Direct those whom you feel would be appropriate candidates to meet me in the town hall of Beregost at their earliest convenience.~
+
+
+@99990138=~Fine Steel Ring~
+@99990139=~Fine Steel Ring
+Crafted by the finest hobgoblin smiths to be worn by their most elite forces, these rings are typically made of some of their finest steel. A hobgoblin elite earns this ring for life and what lays beyond. It has been suggested that the belief in the sanctity of these rings is so powerful among hobgoblin kind that when one of their elite warriors falls in battle they are stripped of any of their valuable gear except for these rings.
+
+Weight: 0~
+
+@99990140=~Quiver of Plenty~
+@99990141=~Quiver of Plenty
+The history of this magical quiver has been long forgotten, though it likely had something to do with the inexplicable but well documented shortage of competent fletchers during the Time of Troubles.
+
+STATISTICS:
+
+Equipped abilities:
+– Unlimited normal arrows
+
+Weight: 0~
+
+@99990142=~Letter from Niklos~
+@99990143=~<CHARNAME>,
+
+This be no place to talk of such things. But I be knowing where Alatos be. Go to the Blushing Mermaid. Top floor is where Alatos be. Nah a foot from the Fist'il dare go in there. Too many of the upper folks have a hand in the thing hehe. Either way, the man you're looking for can be found there.
+
+- Niklos~

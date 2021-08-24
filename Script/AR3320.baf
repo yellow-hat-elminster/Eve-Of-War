@@ -1,0 +1,35 @@
+//Town Council
+IF
+	 Global("k9BeregostEve98", "GLOBAL", 0)    GlobalGT("Chapter","GLOBAL",2)
+THEN
+	RESPONSE #100
+        SetGlobal("k9BeregostEve98", "GLOBAL", 1)
+
+
+                CreateCreature("Taeromr",[390.175],13)
+                CreateCreature("kelddare",[475.160],3)
+
+END
+                   
+                   
+IF
+	 Global("k9BeregostEve998", "GLOBAL", 0)    GlobalGT("Chapter","GLOBAL",2)       Dead("Melicamp")
+     THEN RESPONSE #100              
+                    CreateCreature("Shadetha",[350.194],13)  SetGlobal("k9BeregostEve998", "GLOBAL", 1)
+
+END
+
+
+IF
+	 Global("k9BeregostEve998", "GLOBAL", 0)    GlobalGT("Chapter","GLOBAL",2)     Global("TransformedChicken","GLOBAL",0)   
+     THEN RESPONSE #100              
+                    CreateCreature("Shadetha",[350.194],13)  SetGlobal("k9BeregostEve998", "GLOBAL", 1)
+
+END
+
+IF
+	 Global("k9BeregostEve998", "GLOBAL", 0)    GlobalGT("Chapter","GLOBAL",2)   !Dead("Melicamp") GlobalGT("TransformedChicken","GLOBAL",0)                
+      THEN RESPONSE #100
+                    CreateCreature("k9melica",[350.194],13)  SetGlobal("k9BeregostEve998", "GLOBAL", 1)
+
+END

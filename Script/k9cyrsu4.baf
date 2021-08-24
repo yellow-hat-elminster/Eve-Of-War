@@ -1,0 +1,10 @@
+IF True() 
+
+THEN RESPONSE #100
+
+		CutSceneId(Player1)
+SetGlobal("k9commonsummon","GLOBAL",2)
+
+ EndCutSceneMode()
+
+ END

@@ -1,0 +1,127 @@
+IF
+	See(NearestEnemyOf(Myself))
+	CheckStatGT(Myself,2,ARMORCLASS)
+	HaveSpell(WIZARD_GHOST_ARMOR)
+	HaveSpell(WIZARD_STONE_SKIN)
+THEN
+	RESPONSE #100
+	 RemoveSpell(WIZARD_STONE_SKIN)
+ RemoveSpell(WIZARD_GHOST_ARMOR)
+           ApplySpell(Myself,WIZARD_STONE_SKIN)
+           ApplySpell(Myself,WIZARD_GHOST_ARMOR)
+
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_EMOTION_HOPELESSNESS)
+ !StateCheck(NearestEnemyOf(Myself),STATE_POISONED) 
+ !StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+   !StateCheck(NearestEnemyOf(Myself),STATE_DISEASED)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_EMOTION_HOPELESSNESS)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HORROR)
+ !StateCheck(NearestEnemyOf(Myself),STATE_POISONED)
+ !StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+   !StateCheck(NearestEnemyOf(Myself),STATE_DISEASED)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_HORROR)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_STINKING_CLOUD) // SPWI213.SPL (Stinking Cloud)
+	!Range(NearestEnemyOf(Myself),12)
+ !StateCheck(NearestEnemyOf(Myself),STATE_POISONED)
+ !StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+  !StateCheck(NearestEnemyOf(Myself),STATE_DISEASED)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_STINKING_CLOUD) // SPWI213.SPL (Stinking Cloud)
+
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SPIDER_SPAWN) 
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SPIDER_SPAWN)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CONTAGION)
+	 !StateCheck(NearestEnemyOf(Myself),STATE_POISONED)
+ !StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+  !StateCheck(NearestEnemyOf(Myself),STATE_DISEASED)
+THEN
+
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CONTAGION)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_GREASE)   	!Range(NearestEnemyOf(Myself),12)
+	 !StateCheck(NearestEnemyOf(Myself),STATE_POISONED)
+ !StateCheck(NearestEnemyOf(Myself),STATE_SLEEPING)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+  !StateCheck(NearestEnemyOf(Myself),STATE_DISEASED)
+
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_GREASE)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SKULL_TRAP)
+	!Range(NearestEnemyOf(Myself),12)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SKULL_TRAP)
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MELF_ACID_ARROW) // SPWI211.SPL (Melf's Acid Arrow)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW) // SPWI211.SPL (Melf's Acid Arrow)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+

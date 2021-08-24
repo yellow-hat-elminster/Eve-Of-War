@@ -1,0 +1,7 @@
+IF See(Player1)  Global("k9bethisee","GLOBAL",0)
+
+THEN RESPONSE #100
+
+   SetGlobal("k9bethisee","GLOBAL",1)
+
+END

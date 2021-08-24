@@ -1,0 +1,15 @@
+IF Global("k9SerpentCowlAttacked","GLOBAL",0)
+	AttackedBy([ANYONE],DEFAULT)   
+THEN
+	RESPONSE #100
+		Enemy()
+		SetGlobal("k9SerpentCowlAttacked","GLOBAL",1)
+END
+
+
+IF Global("k9SerpentCowlAttacked","GLOBAL",1)  Global("k9SerpentCowlAttacked2","LOCALS",0)
+
+THEN RESPONSE #100  SetGlobal("k9SerpentCowlAttacked2","LOCALS",1)
+Enemy()
+
+END

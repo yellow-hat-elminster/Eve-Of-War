@@ -1,0 +1,60 @@
+IF
+	Global("FinalSave","GLOBAL",0)
+	Global("SarevokBehavior","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("FinalSave","GLOBAL",1)
+		SaveGame(0)
+END
+
+IF
+	Global("StartCredits","AR0125",1)
+THEN
+	RESPONSE #100
+		SetGlobal("StartCredits","AR0125",2)
+		SmallWait(15)
+		StartMovie("CREDITS")
+END
+
+IF
+	Global("StartCredits","AR0125",2)
+THEN
+	RESPONSE #100
+		GoToStartScreen()
+END
+
+IF
+	Dead("Sarevok")       	Dead("Galdor")  	Dead("Semaj")     	Dead("Tazok")
+	GlobalTimerExpired("DeathOfSarevok","GLOBAL")
+	Global("EndOfBG1","GLOBAL",0)
+	Global("StartCredits","AR0125",0)
+THEN
+	RESPONSE #100
+		SetGlobal("StartCredits","AR0125",1)
+		SetGlobal("EndOfBG1","GLOBAL",1)
+		TriggerActivation("Door0123",TRUE)
+		SmallWait(15)
+		SaveGame(2)
+		StartMovie("ENDMOVIE")
+END
+
+IF
+	Global("EnteredTempleBhaal","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartMovie("BHAAL")
+		SetGlobal("EnteredTempleBhaal","GLOBAL",1)
+		EraseJournalEntry(31474) // The Undercity  At last I have made my way through the maze and into the Undercity. Sarevok lurks nearby. I must find him and kill him for this to be over.
+		AddJournalEntry(31474,QUEST_DONE) // The Undercity  At last I have made my way through the maze and into the Undercity. Sarevok lurks nearby. I must find him and kill him for this to be over.
+		AddJournalEntry(31475,QUEST) // The Temple of Bhaal  This shall be my final confrontation with Sarevok. I do not intend to let him escape, and I doubt he will surrender. I must make preparations for the difficult battle ahead.
+END
+
+IF
+	Global("SarevokBehavior","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("SarevokBehavior","GLOBAL",2)
+		CreateCreature("Sarevo",[581.437],S) // Sarevok
+END
+
+

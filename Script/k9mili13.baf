@@ -1,0 +1,22 @@
+IF Global("k9postwalk","GLOBAL",1)        Global("k9postwalk2","GLOBAL",0)
+THEN RESPONSE #100
+ 	MoveToPointNoInterrupt([3460.2000])    SetGlobal("k9postwalk2","GLOBAL",1)   Wait(3)
+
+
+ END
+
+ IF   Global("k9postwalk2","GLOBAL",1)
+ THEN RESPONSE #100   	MoveToPointNoInterrupt([3475.2010])
+  SetGlobal("k9postwalk2","GLOBAL",2)
+END
+
+ IF
+	See([PC])
+	!Allegiance(Myself,ENEMY)
+	Range("k9girl",10)   GlobalLT("k9postwalk2","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		Dialogue([PC])
+		SetInterrupt(TRUE)
+END

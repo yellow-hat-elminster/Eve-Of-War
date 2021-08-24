@@ -1,0 +1,421 @@
+BACKUP "k9Daran/backup"
+AUTHOR elminster
+
+VERSION "v1.0"
+
+LANGUAGE
+    ~English~
+    ~English~
+    ~k9Daran/TRA/k9Setup.tra~
+
+BEGIN ~k9Daran~
+
+INCLUDE "k9Daran/library/fl#add_kit_ee.tpa"
+
+ADD_KIT ~k9VermiD~ // this is the internal name of the kit, don't bother if it isn't pretty
+   // This are the proficiency in BG1 style, don't bother with them.
+  ~k9VermiD                1           1           1           1           1           1           1           1~
+   // This are the BG2 proficiencies, pay attention here, use the 2DA table "WEAPPROF"
+   // and look into the column n1 for the order they are displayed in. This is appended column-wise.
+  ~k9VermiD 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+   // minimum stats for the kit. Use low values, otherwise it will be too easy to roll high stats.
+  ~k9VermiD                14       14       9       3       3       3~
+   // these are the stat modifiers at character creation. Both positive an negative values are accepted.
+  ~k9VermiD                0       0       0       0       0       0~
+   // stat requirement to dual-class *TO* this kit (appended to ABDCDSRQ.2DA).
+  ~k9VermiD                0       17      0       0       0       0~
+   // stat requirement to dual-class *FROM* this kit (appended to ABDCSCRQ.2DA).
+  ~k9VermiD                0       15      0       0       0       0~
+   // alignments that can be chooses for this kit. Listed like in ALIGNMNT.2DA and appended to the same file.
+  ~k9VermiD                0       1       1       1       1       1       1       1       1~
+   // append to DUALCLAS.2DA, check the file for reference on the listing of the classes.
+  ~k9VermiD                1       1       1       0       0       0~
+   // path to the CLAB*.2DA file.
+  ~k9Daran\Vermin Slayer\2DA\k9VermiD.2DA~
+    // this are the races that can choose the kit-- for example, K_T_H means thief human
+    // and K_T_D means dwarf thief, so putting those here would make this kit selectable by those classes (from KITTABLE.2DA).
+  ~K_T_D~
+  // this is the usability flag for the class followed by the class number
+  // (see the table KITLIST.2DA for more information)
+  ~0x00080000    4~
+  // this is the name of the LU7C#K.2DA file, needed for HLAs and appended to LUABBR.2DA.
+  ~Th0~
+   // this are the item this kit is going to get at the start of ToB, appended column-wise to 25STWEAP.2DA.
+   // check with NearInfinity, EEKeeper or DLTCEP which items you want since you'll need their code name.
+  ~PLAT05 SHLDBCH HELMLA * RING22 RING09 ELFCLCK ELFBOOT * ELFGLOV * BULL02,40 BULL01,40 BULL03,20 EXTHEAL,2 POTN08,5 POTN14,5 UFLAL4A SLNG02 UMSTR3B~
+  SAY @1 // this is the all-lower case version of the kit-name, TRA'ified strings are also accepted.
+  SAY @2 // this is the capitalized name of the kit.
+  SAY @3 // this is the description of the kit
+                           // (please don't make it as silly as this one, use the vanilla ones as example)
+
+LAF fl#add_kit_ee // launch_action_function start
+  INT_VAR
+    biography = RESOLVE_STR_REF (@4) // This is the biography, you can browse the dialog.tlk
+                      // (with NearInfinity or DLTCEP) for the string you desire or just add your own.
+    briefdesc = RESOLVE_STR_REF (@5)
+
+  STR_VAR
+        // this is the internal name of your kit. #This_is_a_must (unless you want to crash the installation).
+        // all the other stuff in this listing is optional, if it's there, it will be used
+        // and if it isn't, the class default value will be used instead. Remove the whole "example = ~3 8 1 92~" line.
+    kit_name = ~k9VermiD~
+        // this is the backstab progressions rate (one number/level, 40 levels), only for kits that need backstab
+    backstab = ~1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5~
+       // this file (CLSWPBON.2DA) contains three different fields of information, the first one is for the WPSTACK
+       // (the bonus APR from Specialization and higher and from levels 7 and 13 that fighters gain)
+       // if the number is 1, then it'll be enabled, if it's set to 0, it won't, enabled on Warrior classes by default.
+       // the second one is turned by default over Monks, seems like it gives them their custom fists.
+       // the third and last value is the amount of penalty given to the character's
+       // THAC0 when using a weapon they aren't proficient with.
+    clswpbon = ~0 0 2~
+       // the number of weapon slot that are displayed in the inventory
+    numwslot = ~2~
+     // 1st value is the amount of Thieving skills point gained at level one and the 2nd is the amount gained in the following levels.
+    thiefskl = ~40 25~
+       // maximum amount of traps this kit can set (this is optional and only for Thief and Bard kits)
+    traplimt = 7
+     // this is appended column-wise to CLASCOLR.2DA, the colors are listed here in this order:
+     // METAL (metallic parts of the character's equipment), MINOR_CLOTH (same as Minor Color in the inventory screen),
+     // MAIN_CLOTH (same as Major Color in the Inventory Screen), LEATHER (the leather parts of the character's armor),
+     // ARMOR (this one is for the other parts of the armor that aren't METAL nor LETHER).
+    clascolr = ~21 238 41 237 19~
+     // this is the BONUS that is given to each kit/class' thieving abilities at level 1
+     // appended column-wise to CLASISKL.2DA
+     // note that they are 7 values, Pick Pockets, Open Locks, Find Traps
+     // Move Silently, Hide in Shadows, Detect Illusion and Set Traps
+    clasiskl = ~0 0 0 0 0 0 0~
+     // this is appended column-wise to THIEFSCL.2DA, 100 determines that the player can spent Thieving Points
+     // in that thieving ability, and 0 means that they can't.
+     // Seems like it has something to do with percentages, but it's not confirmed yet.
+    thiefscl = ~100 100 100 100 100 100 100 100~
+     // the HP*.2DA table's full name (not including the extension).
+    hpclass = ~HPRog~
+     // appended to CLSRCREQ.2DA, determines which race can select the kit at character creation,
+     // values are either 1 (true/yes) and 0 (false/no), the races go like this:
+     // HUMAN, ELF, HALF_ELF, DWARF, HALFLING, GNOME and HALFORC.
+    clsrcreq = ~0 0 0 1 0 0 0~
+     // this is a bonus to the base THAC0 that is given at level 1 and it's permanent.
+    clasthac = ~0~
+    // this is the Sneak Attack entry, only for IWD:EE.
+    // it's like the backstab.2da, but with a function.
+    sneakatt = ~1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9 10 10 10 10 11~
+    // this is the Crippling Strike entry, only for IWD:EE
+    // it's also like the backstab.2da :)
+    crippstr = ~0 0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4 5 5 5 5 6 6 6 6 7 7 7 7 8 8 8 8 9 9 9 9~
+
+END // end of the LAF (launch_action_function) block.
+
+
+//Hide in Shadows bonus
+
+COPY "k9Daran\Vermin Slayer\SPL\K9VEHID.SPL" "override"
+
+//Move Silently bonus
+
+COPY "k9Daran\Vermin Slayer\SPL\K9VEMOV.SPL" "override"
+
+//Find Traps bonus
+
+COPY "k9Daran\Vermin Slayer\SPL\K9VEFIN.SPL" "override"
+
+//Pick Pocket penalty
+
+COPY "k9Daran\Vermin Slayer\SPL\K9VEPICK.SPL" "override"
+
+//Fighting bonuses vs creatures
+
+COPY "k9Daran\Vermin Slayer\SPL\K9SPVERM.SPL" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VermBE.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VermCC.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VermHU.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VermUD.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VermSP.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VermBU.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VermAN.EFF" "override"
+
+COPY "k9Daran\Vermin Slayer\EFF\k9VSBEDa.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VSCCDa.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VSHUDa.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VSUDDa.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VSSPDa.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VSBUDa.EFF" "override"
+COPY "k9Daran\Vermin Slayer\EFF\k9VSANDa.EFF" "override"
+
+
+//Dialog
+
+//Replace dialogue for Daran    (minor consistency things)
+
+STRING_SET 63567    @11
+STRING_SET 63568    @12
+STRING_SET 63598    @13
+STRING_SET 63610    @14
+STRING_SET 63622    @15
+STRING_SET 64705    @16
+
+
+//Daran
+COMPILE "k9Daran\dialog\k9daran.d"
+COMPILE "k9Daran\dialog\k9daranp.d"
+COMPILE "k9Daran\dialog\k9daranj.d"
+COMPILE "k9Daran\dialog\bdaran.d"
+COMPILE "k9Daran\dialog\k9tiax7.d"
+
+
+
+//BDDEEP
+
+COMPILE "k9Daran\dialog\k9bddeep.d"
+
+APPEND ~PDIALOG.2da~
+~BDDARAN            k9DARANP             k9DARANJ~
+UNLESS~BDDARAN~
+
+APPEND ~Interdia.2da~
+~BDDARAN     BDARAN~
+UNLESS~BDDARAN~
+
+//Script
+
+EXTEND_TOP ~bddaran.bcs~ ~k9Daran\script\k9daran.baf~
+
+
+EXTEND_TOP ~bd1000.bcs~ ~k9Daran\script\k9tiax.baf~
+
+
+COMPILE "k9Daran\script\k9tiax7.baf"
+
+
+
+//Daran CRE file
+
+COPY "k9Daran\CRE\BDDaran.cre" "override"
+    SAY BIO @9
+    
+    
+//Jenora CRE File
+
+COPY "k9Daran\CRE\k9Jenora.cre" "override"
+    SAY NAME1 @35
+    SAY NAME2 @35
+    SAY BIO @36
+
+//Tiax CRE File
+    
+COPY "k9Daran\CRE\k9Tiax7.cre" "override"
+
+//Daran armor
+
+COPY "k9Daran\ITM\k9Daran.itm" "override"
+SAY NAME1 @6
+SAY NAME2 @6
+SAY DESC @7
+
+
+//Portraits
+//Daran
+COPY "k9Daran\Portraits\Daranl.bmp" "override"
+COPY "k9Daran\Portraits\Darans.bmp" "override"
+
+
+//Jenora
+
+COPY "k9Daran\Portraits\HEFC_L.bmp" "override"
+COPY "k9Daran\Portraits\HEFC_S.bmp" "override"
+
+//Serpent's Cowl
+
+//Area files
+COPY "k9Daran\ARE\AR9100.are" "override"
+COPY "k9Daran\ARE\AR9101.are" "override"
+COPY "k9Daran\ARE\AR9102.are" "override"
+COPY "k9Daran\ARE\AR9103.are" "override"
+COPY "k9Daran\ARE\AR9104.are" "override"
+COPY "k9Daran\ARE\AR9105.are" "override"
+COPY "k9Daran\ARE\AR9106.are" "override"
+COPY "k9Daran\ARE\AR9107.are" "override"
+COPY "k9Daran\ARE\AR9108.are" "override"
+COPY "k9Daran\ARE\AR9109.are" "override"
+COPY "k9Daran\ARE\AR9110.are" "override"
+
+
+//Map Icon
+
+
+LAUNCH_ACTION_FUNCTION sc#addWmpAre
+INT_VAR mapIcon = 27
+xCoord = 320
+yCoord = 230
+tTime = 6
+inclSv = 1
+reachable = 1
+visited = 0
+visible = 1
+visibleAdjacent = 1
+STR_VAR areName = "ar9100"
+strName = EVAL "Serpent's Cowl"
+strDesc = EVAL "Serpent's Cowl"
+
+END
+
+
+
+//Ambient Files
+
+COPY "k9Daran\WAV\AM_1000B.WAV" "override"
+COPY "k9Daran\WAV\AM_1000C.WAV" "override"
+COPY "k9Daran\WAV\AM_9100.WAV" "override"
+COPY "k9Daran\WAV\AM_9100N.WAV" "override"
+COPY "k9Daran\WAV\AM_9101.WAV" "override"
+COPY "k9Daran\WAV\AM_9101A.WAV" "override"
+COPY "k9Daran\WAV\AM_9102.WAV" "override"
+COPY "k9Daran\WAV\AM_9103.WAV" "override"
+COPY "k9Daran\WAV\AM_9104.WAV" "override"
+COPY "k9Daran\WAV\AM_9104A.WAV" "override"
+COPY "k9Daran\WAV\AM_9108.WAV" "override"
+COPY "k9Daran\WAV\AM9100B1.WAV" "override"
+COPY "k9Daran\WAV\AM9100B2.WAV" "override"
+COPY "k9Daran\WAV\AM9100B3.WAV" "override"
+COPY "k9Daran\WAV\AM9100B4.WAV" "override"
+COPY "k9Daran\WAV\AM9100B5.WAV" "override"
+COPY "k9Daran\WAV\AM9100B6.WAV" "override"
+COPY "k9Daran\WAV\AM9100B7.WAV" "override"
+COPY "k9Daran\WAV\AM9100B8.WAV" "override"
+COPY "k9Daran\WAV\AM9100B9.WAV" "override"
+COPY "k9Daran\WAV\AM9100C1.WAV" "override"
+COPY "k9Daran\WAV\AM9100C2.WAV" "override"
+COPY "k9Daran\WAV\AM9100C3.WAV" "override"
+COPY "k9Daran\WAV\AM9100C4.WAV" "override"
+COPY "k9Daran\WAV\AM9100D1.WAV" "override"
+COPY "k9Daran\WAV\AM9100D2.WAV" "override"
+COPY "k9Daran\WAV\AM9100D3.WAV" "override"
+COPY "k9Daran\WAV\AM9100D4.WAV" "override"
+COPY "k9Daran\WAV\AM9100D5.WAV" "override"
+COPY "k9Daran\WAV\AM9100D6.WAV" "override"
+COPY "k9Daran\WAV\AM9100D7.WAV" "override"
+COPY "k9Daran\WAV\AM9100D8.WAV" "override"
+COPY "k9Daran\WAV\AM9100D9.WAV" "override"
+COPY "k9Daran\WAV\AM9100E1.WAV" "override"
+COPY "k9Daran\WAV\AM9100E2.WAV" "override"
+COPY "k9Daran\WAV\AM9100E3.WAV" "override"
+COPY "k9Daran\WAV\AM9100E4.WAV" "override"
+COPY "k9Daran\WAV\AM9100E5.WAV" "override"
+COPY "k9Daran\WAV\AM9100E6.WAV" "override"
+COPY "k9Daran\WAV\AM9100E7.WAV" "override"
+COPY "k9Daran\WAV\AM9100E8.WAV" "override"
+COPY "k9Daran\WAV\AM9100F1.WAV" "override"
+COPY "k9Daran\WAV\AM9100F2.WAV" "override"
+COPY "k9Daran\WAV\AM9100F3.WAV" "override"
+COPY "k9Daran\WAV\AM9100F4.WAV" "override"
+COPY "k9Daran\WAV\AM9100F5.WAV" "override"
+COPY "k9Daran\WAV\AM9100F6.WAV" "override"
+COPY "k9Daran\WAV\AM9100F7.WAV" "override"
+COPY "k9Daran\WAV\AM9100G1.WAV" "override"
+COPY "k9Daran\WAV\AM9100G2.WAV" "override"
+COPY "k9Daran\WAV\AM9100G3.WAV" "override"
+COPY "k9Daran\WAV\AM9100G4.WAV" "override"
+COPY "k9Daran\WAV\AM9100G5.WAV" "override"
+COPY "k9Daran\WAV\AM9100I1.WAV" "override"
+COPY "k9Daran\WAV\AM9100I2.WAV" "override"
+COPY "k9Daran\WAV\AM9100I3.WAV" "override"
+COPY "k9Daran\WAV\AM9100I4.WAV" "override"
+COPY "k9Daran\WAV\AM9100K1.WAV" "override"
+COPY "k9Daran\WAV\AM9100K2.WAV" "override"
+COPY "k9Daran\WAV\AM9100K3.WAV" "override"
+COPY "k9Daran\WAV\AM9100K4.WAV" "override"
+COPY "k9Daran\WAV\AM9100K5.WAV" "override"
+COPY "k9Daran\WAV\AM9100K6.WAV" "override"
+COPY "k9Daran\WAV\AM9100K7.WAV" "override"
+COPY "k9Daran\WAV\AM9100K8.WAV" "override"
+COPY "k9Daran\WAV\AM9100M1.WAV" "override"
+COPY "k9Daran\WAV\AM9100M2.WAV" "override"
+COPY "k9Daran\WAV\AM9100M3.WAV" "override"
+COPY "k9Daran\WAV\AM9100M4.WAV" "override"
+COPY "k9Daran\WAV\AM9100M5.WAV" "override"
+COPY "k9Daran\WAV\AM9100M6.WAV" "override"
+COPY "k9Daran\WAV\AM9100M7.WAV" "override"
+COPY "k9Daran\WAV\AM9100M8.WAV" "override"
+COPY "k9Daran\WAV\AM9101B.WAV" "override"
+COPY "k9Daran\WAV\AM9101C1.WAV" "override"
+COPY "k9Daran\WAV\AM9101C2.WAV" "override"
+COPY "k9Daran\WAV\AM9101C3.WAV" "override"
+COPY "k9Daran\WAV\AM9101C4.WAV" "override"
+COPY "k9Daran\WAV\AM9101C5.WAV" "override"
+COPY "k9Daran\WAV\AM9101C6.WAV" "override"
+COPY "k9Daran\WAV\AM9103B.WAV" "override"
+COPY "k9Daran\WAV\AM9103C.WAV" "override"
+COPY "k9Daran\WAV\AM9103DC.WAV" "override"
+COPY "k9Daran\WAV\AM9103DO.WAV" "override"
+COPY "k9Daran\WAV\AM9105B.WAV" "override"
+COPY "k9Daran\WAV\SS_1000G.WAV" "override"
+COPY "k9Daran\WAV\SS_1000H.WAV" "override"
+COPY "k9Daran\WAV\SS_1000I.WAV" "override"
+COPY "k9Daran\WAV\SS_1000J.WAV" "override"
+
+
+//BAM files
+
+COPY "k9Daran\BAM\9101MS1.BAM" "override"
+COPY "k9Daran\BAM\9101MS2.BAM" "override"
+COPY "k9Daran\BAM\9104MS1.BAM" "override"
+COPY "k9Daran\BAM\9105MS1.BAM" "override"
+COPY "k9Daran\BAM\9106MS1.BAM" "override"
+COPY "k9Daran\BAM\9108MS1.BAM" "override"
+COPY "k9Daran\BAM\SMOKE.BAM" "override"
+
+APPEND ~EXTANIM.2da~
+~57939 0 1 1 0 none 0 47 0 0 none none none 14 5 9101MS1 none 0 0 none
+57940 0 1 1 0 none 0 47 0 0 none none none 14 5 9101MS2 none 0 0 none
+57941 0 1 1 0 none 0 47 0 0 none none none 14 5 9104MS1 none 0 0 none
+57942 0 1 1 0 none 0 47 0 0 none none none 14 5 9105MS1 none 0 0 none
+57943 0 1 1 0 none 0 47 0 0 none none none 14 5 9106MS1 none 0 0 none
+57944 0 1 1 0 none 0 47 0 0 none none none 14 5 9108MS1 none 0 0 none
+57945 0 1 1 0 none 0 47 0 0 none none none 14 5 SMOKE none 0 0 none~
+
+
+
+
+
+
+
+
+
+
+//WED files
+COPY "k9Daran\WED\AR9100.WED" "override"
+COPY "k9Daran\WED\AR9101.WED" "override"
+COPY "k9Daran\WED\AR9102.WED" "override"
+COPY "k9Daran\WED\AR9103.WED" "override"
+COPY "k9Daran\WED\AR9104.WED" "override"
+COPY "k9Daran\WED\AR9105.WED" "override"
+COPY "k9Daran\WED\AR9106.WED" "override"
+COPY "k9Daran\WED\AR9107.WED" "override"
+COPY "k9Daran\WED\AR9108.WED" "override"
+COPY "k9Daran\WED\AR9109.WED" "override"
+COPY "k9Daran\WED\AR9110.WED" "override"
+
+
+//TIS files
+COPY "k9Daran\TIS\AR9100.TIS" "override"
+COPY "k9Daran\TIS\AR9101.TIS" "override"
+COPY "k9Daran\TIS\AR9102.TIS" "override"
+COPY "k9Daran\TIS\AR9103.TIS" "override"
+COPY "k9Daran\TIS\AR9104.TIS" "override"
+COPY "k9Daran\TIS\AR9105.TIS" "override"
+COPY "k9Daran\TIS\AR9106.TIS" "override"
+COPY "k9Daran\TIS\AR9107.TIS" "override"
+COPY "k9Daran\TIS\AR9108.TIS" "override"
+COPY "k9Daran\TIS\AR9109.TIS" "override"
+COPY "k9Daran\TIS\AR9110.TIS" "override"
+
+
+APPEND ~ANIMATE.IDS~
+~0xEA40 IC_FIk91
+0xEA50 IC_FIk92
+0xEA60 IC_FIk93
+0xEA70 IC_FIk94
+0xEA80 IC_FIk95
+0xEA90 IC_FIk96
+0xEB40 IC_FIk97~
+
+

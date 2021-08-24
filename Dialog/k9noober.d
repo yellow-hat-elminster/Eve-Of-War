@@ -1,0 +1,1 @@
+ADD_TRANS_ACTION noober BEGIN 0 END BEGIN 0 END ~SetGlobal("k9noober","GLOBAL",1)~

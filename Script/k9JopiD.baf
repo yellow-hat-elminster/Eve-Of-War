@@ -1,0 +1,6 @@
+IF    Die()
+
+THEN
+	RESPONSE #100
+SetGlobal("k9JopiDead", "GLOBAL", 1)
+END

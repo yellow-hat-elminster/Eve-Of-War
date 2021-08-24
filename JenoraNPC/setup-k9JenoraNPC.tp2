@@ -1,0 +1,93 @@
+BACKUP ~k9JenoraNPC/Backup~
+AUTHOR ~elminster (elminster.sage@gmail.com)~
+
+
+VERSION ~v1.0~
+
+LANGUAGE
+    ~English~                                                                           
+    ~English~
+    ~k9JenoraNPC/TRA/k9Setup.tra~
+
+//Jenora
+  BEGIN @99973
+//Jenora CRE File
+//texts can be found under k9setup in the jenoranpc folder
+COPY "k9JenoraNPC\CRE\k9Jenor.cre" "override"
+    SAY NAME1 @57035
+    SAY NAME2 @57035
+    SAY BIO @57036
+    SAY INITIAL_MEETING @57037
+    SAY MORALE @57038
+    SAY HAPPY @57039
+    SAY UNHAPPY_ANNOYED @57040
+    SAY UNHAPPY_SERIOUS @57041
+    SAY UNHAPPY_BREAKING_POINT @57042
+    SAY LEADER @57043
+    SAY TIRED @57044
+    SAY BORED @57045
+    SAY BATTLE_CRY1 @57046
+    SAY BATTLE_CRY2 @57047
+    SAY ATTACK1 @57048
+    SAY ATTACK2 @57049
+    SAY DAMAGE @57050
+    SAY DYING @57051
+    SAY HURT @57052
+    SAY AREA_FOREST @57053
+    SAY AREA_CITY @57054
+    SAY AREA_DUNGEON @57055
+    SAY SELECT_COMMON1 @57056
+    SAY SELECT_COMMON2 @57057
+    SAY SELECT_COMMON3 @57058
+    SAY SELECT_COMMON4 @57059
+    SAY SELECT_COMMON5 @57060
+    SAY SELECT_ACTION1 @57061
+    SAY SELECT_ACTION2 @57062
+    SAY REACT_TO_DIE_GENERAL @57063
+
+//Audio
+
+
+COPY "k9JenoraNPC\WAV" "override"
+
+//Portraits
+COPY "k9JenoraNPC\Portraits\HEFC_L.bmp" "override"
+COPY "k9JenoraNPC\Portraits\HEFC_S.bmp" "override"
+
+//Items
+COPY "k9JenoraNPC\ITM\k9brac18.itm" "override"
+SAY NAME1 @57064
+SAY NAME2 @57064
+SAY DESC @57065
+
+//Script
+
+ EXTEND_TOP ~bd0020.bcs~ ~k9JenoraNPC\script\k9jenspa.baf~
+  EXTEND_TOP ~bd0121.bcs~ ~k9JenoraNPC\script\k9jensor.baf~
+
+EXTEND_BOTTOM ~bdNEERA.bcs~ ~k9JenoraNPC\script\k9nerjen.baf~
+
+
+COMPILE "k9JenoraNPC\script\k9jenora.baf"
+
+ //Dialogs
+//2DA stuff
+
+
+
+COMPILE "k9JenoraNPC\dialog\k9jenor.d"
+COMPILE "k9JenoraNPC\dialog\k9jenorp.d"
+COMPILE "k9JenoraNPC\dialog\k9jenorj.d"
+COMPILE "k9JenoraNPC\dialog\bk9jenor.d"
+COMPILE "k9JenoraNPC\dialog\bk9nerje.d"
+COMPILE "k9JenoraNPC\dialog\k9neerje.d"
+
+APPEND ~BDDIALOG.2da~
+~k9JENOR             k9JENORp         k9JENORj~
+UNLESS ~k9Jeno~
+
+APPEND ~Interdia.2da~
+~k9JENOR              Bk9JENOR~
+UNLESS ~k9Jeno~
+
+

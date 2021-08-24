@@ -1,0 +1,19 @@
+IF
+	Global("k9ghostfinished","GLOBAL",0)
+	Global("k9cyricbanana1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door2300",FALSE)
+		SetGlobal("k9cyricbanana1","GLOBAL",1)
+END
+
+IF Global("k9knockoutbha","GLOBAL",0)
+
+THEN RESPONSE #100
+
+	ApplySpell(Player2,INNATE_K9_SLEEP)
+		ApplySpell(Player3,INNATE_K9_SLEEP)
+		ApplySpell(Player4,INNATE_K9_SLEEP)
+		ApplySpell(Player5,INNATE_K9_SLEEP)
+		ApplySpell(Player6,INNATE_K9_SLEEP)    SetGlobal("k9knockoutbha","GLOBAL",1)
+		END

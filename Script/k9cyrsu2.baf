@@ -1,0 +1,13 @@
+IF
+	Global("k9bhaalknows","GLOBAL",1)     Global("k9bhaalknowsbhaalknows","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)   
+                SetGlobal("k9Celestial","GLOBAL",1)
+                SetGlobal("k9bhaalknowsbhaalknows","GLOBAL",1)
+                CreateVisualEffect("SPSUMP",[1250.440])
+                Wait(2)
+                CreateCreature("k9deva",[1250.440],SW)
+                Wait(3)
+                EndCutSceneMode()
+END

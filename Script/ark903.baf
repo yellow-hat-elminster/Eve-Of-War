@@ -1,0 +1,11 @@
+IF Global("k9CyricSpawnHome","GLOBAL",0)
+
+THEN RESPONSE #100
+
+ClearAllActions()
+StartCutSceneMode()
+StartCutScene("k9cyrsum")
+     SetGlobal("k9CyricSpawnHome","GLOBAL",1)
+END
+
+

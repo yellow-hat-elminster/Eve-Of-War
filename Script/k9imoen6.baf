@@ -1,0 +1,72 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("k9mirrorimageimoen","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_MIRROR_IMAGE) // SPWI112.SPL (Magic Missile)
+		IncrementGlobal("k9mirrorimageimoen","GLOBAL",1)
+END
+
+
+
+IF
+	See("k9Abibla")
+	Global("k9glitterdustimoen","GLOBAL",0)
+THEN
+	RESPONSE #100
+		ForceSpell("k9Abibla",WIZARD_GLITTERDUST) // SPWI112.SPL (Magic Missile)
+		IncrementGlobal("k9glitterdustimoen","GLOBAL",1)
+END
+
+
+IF
+	See("k9Abibla")
+	GlobalLT("k9magicmissileimoen","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ForceSpell("k9Abibla",WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+		IncrementGlobal("k9magicmissileimoen","GLOBAL",1)
+END
+
+IF
+	See("k9Abibla")
+	GlobalLT("k9chromaticimoen","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ForceSpell("k9Abibla",WIZARD_CHROMATIC_ORB) // SPWI112.SPL (Magic Missile)
+		IncrementGlobal("k9chromaticimoen","GLOBAL",1)
+END
+
+
+IF
+	StateCheck(Myself,STATE_PANIC)
+THEN
+	RESPONSE #100
+		RandomWalkContinuous()
+END
+
+
+
+
+
+IF
+See("k9Abibla")
+	InWeaponRange(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate("k9Abibla",30)
+END
+
+IF 
+	InWeaponRange("k9Abibla")
+THEN
+	RESPONSE #100
+		Attack("k9Abibla")
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject("k9Abibla")
+END

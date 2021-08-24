@@ -1,0 +1,30 @@
+
+
+
+IF
+    Global("k9ar4300spawnhard","GLOBAL",0)      AreaCheck("AR4300")
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9ar4300spawnhard","GLOBAL",1)
+		CreateCreature("hobgob",[3225.840],SE)
+		CreateCreature("hobgob",[3265.950],SE)
+		CreateCreature("hobgob",[3250.760],S)
+		CreateCreature("hobgob",[3405.860],S)
+		CreateCreature("wolfdi",[4460.2030],N)
+		CreateCreature("wolfdi",[4480.2060],N)
+		CreateCreature("wolf",[4400.2000],N)
+		CreateCreature("wolf",[4420.2100],N)
+END
+
+IF
+    Global("k9ar4300spawnhardest","GLOBAL",0)      AreaCheck("AR4300")
+	DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9ar4300spawnhardest","GLOBAL",1)
+		CreateCreature("wolfva",[4410.1970],N)
+		CreateCreature("wolfdr",[4480.2007],N)
+END
+
+

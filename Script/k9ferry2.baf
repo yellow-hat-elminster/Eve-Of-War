@@ -1,0 +1,28 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		CutSceneId(Player1)
+		StorePartyLocations()
+		Wait(3)
+		Rest()
+		ActionOverride(Player2,Rest())
+		ActionOverride(Player3,Rest())
+		ActionOverride(Player4,Rest())
+		ActionOverride(Player5,Rest())
+		ActionOverride(Player6,Rest())
+		LeaveAreaLUAPanic("BD2000","TRCDCRYP",[2100.2325],N)
+		LeaveAreaLUA("BD2000","TRCDCRYP",[2100.2325],N)
+		SetMasterArea("ar9100")
+		ActionOverride(Player2,LeaveAreaLUA("BD2000","TRCDCRYP",[2170.2310],N)
+		ActionOverride(Player3,LeaveAreaLUA("BD2000","TRCDCRYP",[2115.2365],N)
+		ActionOverride(Player4,LeaveAreaLUA("BD2000","TRCDCRYP",[2200.2360],N)
+		ActionOverride(Player5,LeaveAreaLUA("BD2000","TRCDCRYP",[2130.2415],N)
+		ActionOverride(Player6,LeaveAreaLUA("BD2000","TRCDCRYP",[2215.2400],N)
+                MultiPlayerSync()
+		MoveViewPoint([2200.2360],INSTANT)
+		Wait(1)
+        	EndCutSceneMode()
+
+END

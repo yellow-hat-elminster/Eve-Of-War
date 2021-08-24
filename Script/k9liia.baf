@@ -1,0 +1,23 @@
+
+IF
+	Global("SarevokBehavior","GLOBAL",10)
+	Global("k9bananalap","GLOBAL",0)
+	Dead("Belt")
+THEN
+	RESPONSE #100
+		Dialogue([PC])   	SetGlobal("k9bananalap","GLOBAL",1)
+END
+
+IF
+	Global("SarevokBehavior","GLOBAL",10)
+	Global("k9bananalap4","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Dialogue([PC])   	SetGlobal("k9bananalap4","GLOBAL",1)
+END
+
+IF Die()
+
+THEN RESPONSE #100
+SetGlobal("k9liiadie","GLOBAL",1)
+END

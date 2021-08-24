@@ -1,0 +1,9 @@
+ IF
+	Global("k9_owned","ar1807",0)     GlobalGT("k9MineOwned","GLOBAL",0) GlobalLT("k9MineOwned","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_owned","ar1807",1)
+ 	SetRestEncounterProbabilityDay(0)     SetAreaRestFlag(1)
+ 	SetRestEncounterProbabilityNight(0)
+
+END

@@ -1,0 +1,7 @@
+IF   Global("k9CyricTalk","GLOBAL",3) AreaCheck("k91004")      Global("k9CyricPortalRoom","GLOBAL",0)
+THEN 
+
+RESPONSE #100
+TextScreen("k9bhatx2") SetGlobal("k9CyricPortalRoom","GLOBAL",1)
+
+END 

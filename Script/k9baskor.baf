@@ -1,0 +1,9 @@
+IF
+
+Global("k9Laspeera","GLOBAL",1)   Global("k9Baskor2","LOCALS",0)
+
+THEN RESPONSE #100
+             SetGlobal("k9Baskor2","LOCALS",1)
+DestroySelf()
+
+END

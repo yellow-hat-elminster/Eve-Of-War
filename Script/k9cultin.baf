@@ -1,0 +1,7 @@
+IF
+      	Global("k9cyricintruder","global",0)
+	See([PC])
+THEN
+	RESPONSE #100
+		DisplayStringHead("k9cult01", @66027) SetGlobal("k9cyricintruder","global",1) Enemy() Shout(5)
+END

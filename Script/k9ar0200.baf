@@ -1,0 +1,20 @@
+IF Global("k9nshops","GLOBAL",0)
+
+THEN RESPONSE #100
+
+CreateCreatureImpassable("Horse",[4005.900],S)
+
+
+
+//Weapons
+CreateCreature("k9SHOP10",[505.1655],SW)
+
+
+//General
+CreateCreature("k9SHOP12",[345.865],SW)
+
+
+
+  SetGlobal("k9nshops","GLOBAL",1)
+
+END

@@ -1,0 +1,28 @@
+IF
+	Global("k9_ARwolves","ar2619",0)  	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar2619",1)
+                CreateCreature("skelwa02",[3085.1215],SW)
+		CreateCreature("skelwa02",[3100.1175],SW)
+		
+                 CreateCreature("skelet_C",[3030.1290],SW)
+		CreateCreature("skelet_C",[3100.1265],SW)
+                 CreateCreature("skelet_C",[3055.1215],SW)
+		CreateCreature("skelet_C",[3150.1225],SW)
+
+END
+
+IF
+	Global("k9_ARwolves","ar2619",0)     DifficultyGT(HARD)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar2619",1)
+                CreateCreature("skelwa03",[3050.1290],SW)
+		CreateCreature("skelwa03",[3290.1295],SW)
+
+                CreateCreature("skelwa03",[2630.915],SW)
+		CreateCreature("skelwa03",[2600.1000],SW)
+
+END
+

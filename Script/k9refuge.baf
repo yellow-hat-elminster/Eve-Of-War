@@ -1,0 +1,8 @@
+
+IF
+	!See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToPoint([440.875]) DestroySelf()
+END
+

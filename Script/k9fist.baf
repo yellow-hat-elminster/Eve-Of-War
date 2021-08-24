@@ -1,0 +1,8 @@
+IF
+	GlobalGT("k9FriendlyInnFight","GLOBAL",0)
+THEN
+	RESPONSE #100
+
+		Attack("k9Fist2")
+END
+

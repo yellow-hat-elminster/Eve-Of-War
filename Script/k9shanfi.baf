@@ -1,0 +1,6 @@
+IF Global("k9ShandalarTalk","GLOBAL",1)   Global("k9ShandalarTalk2","GLOBAL",0)
+
+   THEN RESPONSE #100
+ActionOverride("Shandal2",DialogInterrupt(TRUE))    SetGlobal("k9ShandalarTalk2","GLOBAL",2)
+
+END

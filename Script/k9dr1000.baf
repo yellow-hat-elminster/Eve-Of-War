@@ -1,0 +1,25 @@
+
+
+IF Global("k9bhaalknows", "GLOBAL", 1)      CheckStatGT(Player1,16,WIS)  CheckStatGT(Player1,14,INT)   Global("k9cyrictemple4", "GLOBAL", 0)
+
+ THEN RESPONSE #100
+                    TriggerActivation("Infopoint04",TRUE)                                        SetGlobal("k9cyrictemple4", "GLOBAL", 1)
+ END
+
+
+IF Global("k9bhaalknows", "GLOBAL", 1)     CheckStatGT(Player1,16,WIS)     Global("k9cyrictemple", "GLOBAL", 0)
+
+THEN RESPONSE #100
+
+		TriggerActivation("tran3010",FALSE)  SetGlobal("k9cyrictemple", "GLOBAL", 1)
+END
+
+
+
+IF Global("k9bhaalknows", "GLOBAL", 0)          Global("k9cyrictemple2", "GLOBAL", 0)
+
+THEN RESPONSE #100
+
+		TriggerActivation("Infopoint04",FALSE)  SetGlobal("k9cyrictemple2", "GLOBAL", 1)
+END
+

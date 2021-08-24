@@ -1,0 +1,20 @@
+IF True()
+
+THEN RESPONSE #100
+
+		CreateCreature("GORION",[3103.1410],NE) // Gorion
+		ActionOverride("Gorion",SetDialog("cutgor"))
+		ActionOverride(Player1,ApplySpellRES("ohcut1hp",Myself)) // No such index
+		ActionOverride(Player1,JumpToPoint([3090.1486]))
+		MoveViewPoint([3204.1353],INSTANT)
+		ActionOverride("Sarevok",JumpToPoint([3280.1330]))
+		ActionOverride("Tamoko",JumpToPoint([3241.1272]))
+		ActionOverride("Ogre",JumpToPoint([3173.1281]))
+		ActionOverride("Ogre02",JumpToPoint([3298.1410]))
+		ActionOverride("gsarch01",JumpToPoint([3283.1291]))
+		ActionOverride("gsarch02",JumpToPoint([3229.1366]))
+		SmallWait(5)
+		FadeFromColor([10.0],0)
+		ActionOverride("Sarevok",StartDialog("cutsar",Player1))
+		
+		END

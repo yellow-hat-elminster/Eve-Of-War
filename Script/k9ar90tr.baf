@@ -1,0 +1,8 @@
+   IF
+	Opened([ANYONE]) !Exists("k9lich01")  GlobalLT("k9_phylactery_cast","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CreateVisualEffect("ICRAISEI",[800.370])
+		Wait(2)
+		CreateCreature("k9lich01",[800.370],SW)
+END

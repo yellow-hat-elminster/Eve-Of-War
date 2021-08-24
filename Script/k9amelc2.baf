@@ -1,0 +1,17 @@
+IF True()
+THEN RESPONSE #100
+CutSceneId("k9amel")
+ForceSpell("k9harper",CUTSCENE_POWERWORD_KILL)
+Wait(2)
+ForceSpell("k9harpe2",CUTSCENE_POWERWORD_KILL)
+StartCutScene("k9amelc3")
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("k9gorio2")
+		Wait(1)
+		ForceSpell("k9amel",WIZARD_MAGIC_MISSILE) // SPWI112.SPL (Magic Missile)
+END

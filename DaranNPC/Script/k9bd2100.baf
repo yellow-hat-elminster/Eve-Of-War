@@ -1,0 +1,5 @@
+IF InParty("Safana") InParty("BDDaran") Global("k9safanadaran","GLOBAL",1)
+
+THEN RESPONSE #100  SetGlobal("k9safanadaran","GLOBAL",2)
+
+END

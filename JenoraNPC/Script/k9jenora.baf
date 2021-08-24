@@ -1,0 +1,246 @@
+IF
+
+Global("k9Jenoraspawn","GLOBAL",2)  See(Player1)
+
+THEN RESPONSE #100
+   SetGlobal("k9Jenoraspawn","GLOBAL",3)
+  StartDialogNoSet([PC])
+              
+              END
+              
+  IF
+	Global("k9JenorJoined","GLOBAL",1)    Global("k9JenorTalk","GLOBAL",0)
+	See(Player1)
+THEN
+	RESPONSE #100
+		IncrementGlobal("k9JenorTalk","GLOBAL",1)    SetDialog("k9JenorJ")
+		StartDialogueNoSet([PC])
+END
+
+
+ IF
+
+Global("k9NeeraJenoraDelay","GLOBAL",0)      InParty("Neera")
+
+THEN RESPONSE #100
+
+SetGlobalTimer("k9JenoraNeeraTalk","GLOBAL",1400)  SetGlobal("k9NeeraJenoraDelay","GLOBAL",1)
+END
+
+
+
+IF
+InParty("k9jenor")  
+InParty("Neera")
+See("k9jenor")
+See("Neera")
+!ActuallyInCombat()
+Global("k9JenoraNeera","GLOBAL",0) 
+!GlobalTimerNotExpired("k9JenoraNeeraTalk","GLOBAL")
+!AreaCheck("BD2000") !AreaCheck("BD2100") !AreaCheck("BD7200") !AreaCheck("BD7100") !AreaCheck("BD3000") !AreaCheck("BD7300")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraNeera","GLOBAL",1)  SetDialog("bk9Jenor")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraNeeraTalk","GLOBAL",1400)
+
+END
+
+IF  
+
+Global("k9JenoraNeera","GLOBAL",2)    Global("k9JenoraNeeraCheck","GLOBAL",0)
+THEN RESPONSE #100
+ SetDialog("k9JenorJ")  SetGlobal("k9JenoraNeeraCheck","GLOBAL",1)
+ END
+
+
+IF
+InParty("k9jenor")  
+InParty("Neera")
+See("k9jenor")
+See("Neera")
+!ActuallyInCombat()
+Global("k9JenoraNeera","GLOBAL",2)
+!GlobalTimerNotExpired("k9JenoraNeeraTalk","GLOBAL")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraNeera","GLOBAL",1)  SetDialog("bk9Jenor")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraNeeraTalk","GLOBAL",1700)
+
+END
+
+IF  
+
+Global("k9JenoraNeera","GLOBAL",4)    Global("k9JenoraNeeraCheck2","GLOBAL",0)
+THEN RESPONSE #100
+ SetDialog("k9JenorJ")  SetGlobal("k9JenoraNeeraCheck2","GLOBAL",1)
+ END
+ 
+ 
+
+
+ IF
+
+Global("k9DornJenoraDelay","GLOBAL",0)   InParty("Dorn")
+
+THEN RESPONSE #100
+
+SetGlobalTimer("k9JenoraDornTalk","GLOBAL",1400)  SetGlobal("k9DornJenoraDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("k9jenor")  
+InParty("Dorn")
+See("k9jenor")
+See("Dorn")
+!ActuallyInCombat()
+Global("k9JenoraDorn","GLOBAL",0)
+!GlobalTimerNotExpired("k9JenoraDornTalk","GLOBAL")
+!AreaCheck("BD2000") !AreaCheck("BD2100") !AreaCheck("BD7200") !AreaCheck("BD7100") !AreaCheck("BD3000") !AreaCheck("BD7300")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraDorn","GLOBAL",1)  SetDialog("bk9Jenor")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraDornTalk","GLOBAL",1100)
+
+END
+
+
+ IF
+
+Global("k9ViconiaJenoraDelay","GLOBAL",0)   InParty("Viconia")
+
+THEN RESPONSE #100
+
+SetGlobalTimer("k9JenoraViconiaTalk","GLOBAL",2000)  SetGlobal("k9ViconiaJenoraDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("k9jenor")  
+InParty("Viconia")
+See("k9jenor")
+See("Viconia")
+!ActuallyInCombat()
+Global("k9JenoraViconia","GLOBAL",0)
+!GlobalTimerNotExpired("k9JenoraViconiaTalk","GLOBAL")
+!AreaCheck("BD2000") !AreaCheck("BD2100") !AreaCheck("BD7200") !AreaCheck("BD7100") !AreaCheck("BD3000") !AreaCheck("BD7300")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraViconia","GLOBAL",1)  SetDialog("bk9Jenor")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraViconiaTalk","GLOBAL",1100)
+
+END
+
+
+IF
+
+Global("k9MinscJenoraDelay","GLOBAL",0) InParty("Minsc")
+
+THEN RESPONSE #100
+
+SetGlobalTimer("k9JenoraMinscTalk","GLOBAL",1100)  SetGlobal("k9MinscJenoraDelay","GLOBAL",1)
+END
+
+
+ IF
+InParty("k9jenor")  
+InParty("Minsc")
+See("k9jenor")
+See("Minsc")
+!ActuallyInCombat()
+Global("k9JenoraMinsc","GLOBAL",0)
+!GlobalTimerNotExpired("k9JenoraMinscTalk","GLOBAL")
+!AreaCheck("BD2000") !AreaCheck("BD2100") !AreaCheck("BD7200") !AreaCheck("BD7100") !AreaCheck("BD3000") !AreaCheck("BD7300")
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraMinsc","GLOBAL",1)  SetDialog("bk9Jenor")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraMinscTalk","GLOBAL",1100)
+
+END
+
+
+IF
+AreaCheck("BD1000")
+Global("k9CaelarJenora","GLOBAL",0)
+Global("k9CaelarJenoraTimer","GLOBAL",0)
+THEN RESPONSE #100
+SetGlobalTimer("k9JenoraAsksTimer","GLOBAL",180) SetGlobal("k9CaelarTalkJenoraStuff","GLOBAL",1) SetGlobal("k9CaelarJenoraAsk","GLOBAL",1)  SetGlobal("k9CaelarJenoraTimer","GLOBAL",1)  SetGlobal("k9CaelarJenora","GLOBAL",1)
+END
+
+
+IF
+GlobalTimerExpired("k9JenoraAsksTimer","GLOBAL") !ActuallyInCombat()
+Global("k9CaelarTalkJenoraStuff","GLOBAL",1) Global("k9CaelarJenoraAsk","GLOBAL",1)
+THEN RESPONSE #100
+ SetGlobal("k9CaelarTalkJenoraStuff","GLOBAL",2)    SetDialog("k9JenorJ")  StartDialogueNoSet([PC])
+
+END
+
+
+IF
+AreaCheck("BD7100")
+Global("k9CaelarJenora","GLOBAL",2)
+Global("k9CaelarJenoraTimer","GLOBAL",1)
+THEN RESPONSE #100
+SetGlobalTimer("k9JenoraAsksTimer","GLOBAL",180)  SetGlobal("k9CaelarJenoraTimer","GLOBAL",2)
+END
+
+IF
+GlobalTimerExpired("k9JenoraAsksTimer","GLOBAL") Global("k9CaelarJenoraTimer","GLOBAL",2)
+THEN RESPONSE #100
+ SetGlobal("k9CaelarJenoraTimer","GLOBAL",3)  SetGlobal("k9CaelarJenora","GLOBAL",3)  SetDialog("k9JenorJ")  StartDialogueNoSet([PC])
+
+END
+
+
+
+  IF
+
+Global("k9CorwinJenoraDelay","GLOBAL",0)   InParty("Corwin")
+
+THEN RESPONSE #100
+
+SetGlobalTimer("k9JenoraCorwinTalk","GLOBAL",1300)  SetGlobal("k9CorwinJenoraDelay","GLOBAL",1)
+END
+
+
+
+ IF
+InParty("k9jenor")  
+InParty("Corwin")
+See("k9jenor")
+See("Corwin")
+!ActuallyInCombat()
+Global("k9JenoraCorwin","GLOBAL",0)
+!GlobalTimerNotExpired("k9JenoraCorwinTalk","GLOBAL")
+
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraCorwin","GLOBAL",1)  SetDialog("bk9Jenor")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraCorwinTalk","GLOBAL",1100)
+
+END
+
+
+ IF
+InParty("k9jenor")  
+InParty("Corwin")
+See("k9jenor")
+See("Corwin")
+!ActuallyInCombat()
+Global("k9JenoraCorwin","GLOBAL",2)
+!GlobalTimerNotExpired("k9JenoraCorwinTalk","GLOBAL")
+
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9JenoraCorwin","GLOBAL",1)  SetDialog("bk9Jenor")
+		StartDialogueNoSet([PC]) SetGlobalTimer("k9JenoraCorwinTalk","GLOBAL",1100)
+
+END

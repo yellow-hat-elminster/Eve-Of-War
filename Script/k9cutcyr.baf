@@ -1,0 +1,45 @@
+
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ActionOverride("k9CYRIC",ForceSpell(Player1,DRYAD_TELEPORT)) // SPWI995.SPL (Dimension Door)
+		ActionOverride("k9CYRIC",ForceSpell(Player2,DRYAD_TELEPORT)) // SPWI995.SPL (Dimension Door)
+		ActionOverride("k9CYRIC",ForceSpell(Player3,DRYAD_TELEPORT)) // SPWI995.SPL (Dimension Door)
+		ActionOverride("k9CYRIC",ForceSpell(Player4,DRYAD_TELEPORT)) // SPWI995.SPL (Dimension Door)
+		ActionOverride("k9CYRIC",ForceSpell(Player5,DRYAD_TELEPORT)) // SPWI995.SPL (Dimension Door)
+		ActionOverride("k9CYRIC",ForceSpell(Player6,DRYAD_TELEPORT)) // SPWI995.SPL (Dimension Door)
+		StorePartyLocations()
+		Wait(3)
+		Rest()
+		ActionOverride(Player2,Rest())
+		ActionOverride(Player3,Rest())
+		ActionOverride(Player4,Rest())
+		ActionOverride(Player5,Rest())
+		ActionOverride(Player6,Rest())
+		LeaveAreaLUAPanic("k91000","TRCDCRYP",[4422.351],S)
+		LeaveAreaLUA("k91000","TRCDCRYP",[4422.351],S)
+		SetMasterArea("k9AR23")
+		ActionOverride(Player2,LeaveAreaLUA("k91000","TRCDCRYP",[4422.351],S)
+		ActionOverride(Player3,LeaveAreaLUA("k91000","TRCDCRYP",[4422.351],S)
+		ActionOverride(Player4,LeaveAreaLUA("k91000","TRCDCRYP",[4422.351],S)
+		ActionOverride(Player5,LeaveAreaLUA("k91000","TRCDCRYP",[4422.351],S)
+		ActionOverride(Player6,LeaveAreaLUA("k91000","TRCDCRYP",[4422.351],S)
+                MultiPlayerSync()
+		MoveViewPoint([4422.351],INSTANT)
+		ApplySpell(Player1,INNATE_K9_DISPEL)
+		ApplySpell(Player2,INNATE_K9_DISPEL)
+		ApplySpell(Player3,INNATE_K9_DISPEL)
+		ApplySpell(Player4,INNATE_K9_DISPEL)
+		ApplySpell(Player5,INNATE_K9_DISPEL)
+		ApplySpell(Player6,INNATE_K9_DISPEL)
+		ApplySpell(Player1,INNATE_K9_SLEEP)
+		Wait(1)
+        	EndCutSceneMode()
+END
+
+
+
+

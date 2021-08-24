@@ -1,0 +1,7 @@
+IF
+	See([PC])
+	!Allegiance(Myself,ENEMY)  Global("CDLetterCheckscrl2z","GLOBAL",1) AreaCheck("AR1900") Global("k9taugostalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+		Dialogue([PC])  SetGlobal("k9taugostalk","GLOBAL",1)
+END

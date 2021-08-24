@@ -1,0 +1,9 @@
+IF 
+
+PartyHasItem("scrl2j")  Global("k9bhaalknows", "GLOBAL", 0)
+
+THEN RESPONSE #100
+
+SetGlobal("k9bhaalknows", "GLOBAL", 1)
+
+END

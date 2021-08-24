@@ -1,0 +1,42 @@
+IF PartyHasItem("k9misc2m")      Allegiance(Myself,ENEMY)
+
+THEN RESPONSE #100
+
+  ChangeEnemyAlly(Myself,NEUTRAL)
+
+END
+
+IF !PartyHasItem("k9misc2m")      !Allegiance(Myself,ENEMY)
+
+THEN RESPONSE #100
+
+Enemy()
+
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	InWeaponRange(LastSeenBy(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+
+	 TakePartyItemNum("k9misc2m",1)	Attack(NearestEnemyOf(Myself))
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		MoveToObject(LastSeenBy(Myself))
+END
+

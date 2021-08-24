@@ -1,0 +1,40 @@
+IF
+	Global("k9_ARwolves","ar1600",0)
+	DifficultyGT(EASY)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar1600",1)
+		CreateCreature("wyverba",[1290.1440],SW)
+		CreateCreature("wyverba",[1225.1480],SW)
+
+		CreateCreature("spidgi",[540.2570],E)
+		CreateCreature("spidgi",[670.2630],E)
+		CreateCreature("SPIDSM01",[3200.1470],E)
+		CreateCreature("SPIDSM01",[3290.1420],E)
+ 		CreateCreature("SPIDSM01",[3290.1410],E)
+		CreateCreature("SPIDSM01",[3290.1450],E)
+
+		CreateCreature("spidgi",[1540.2370],E)
+		CreateCreature("spidgi",[1670.2330],E)
+END
+
+IF
+	Global("k9_ARwolvesHard","ar1600",0)
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolvesHard","ar1600",1)
+        	CreateCreature("wyvernbi",[1375.1375],SW)
+        	CreateCreature("wyvern",[1110.1490],SW)
+		CreateCreature("wyvern",[1360.1440],SW)
+
+        	CreateCreature("spidhu",[3240.1470],E)
+        	CreateCreature("spidhu",[3240.1435],E)
+		CreateCreature("spidph",[3290.1475],E)
+
+        	CreateCreature("spidhu",[1640.2370],E)
+        	CreateCreature("spidhu",[1640.2335],E)
+		CreateCreature("spidphas",[1690.2375],E)
+
+		
+END

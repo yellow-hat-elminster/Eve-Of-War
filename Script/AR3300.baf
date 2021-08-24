@@ -1,0 +1,239 @@
+//Militia headquarters
+IF
+	GlobalGT("Chapter","GLOBAL",0) Global("k9BeregostEve1", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9BeregostEve1", "GLOBAL", 1)
+
+                CreateCreature("k9milit4",[915.1273],2)
+                CreateCreature("k9milif4",[821.1228],2)
+
+
+
+END
+
+
+
+//Chapter 2 militia (after having been to Nashkel)
+
+IF
+	Global("k9trainber", "GLOBAL", 0) Global("Chapter","GLOBAL",2)
+THEN
+	RESPONSE #100
+        SetGlobal("k9trainber", "GLOBAL", 1)
+	CreateCreature("k9milser",[1587.1714],12)
+	
+	CreateCreature("k9mili2",[1793.1697],4)
+	CreateCreature("k9mili3",[1793.1750],4)
+	CreateCreature("k9mili4",[1738.1659],4)
+	CreateCreature("k9mili5",[1738.1714],4)
+	CreateCreature("k9mili6",[1738.1769],4)
+
+END
+
+
+//Chapter 3 militia
+IF
+	GlobalGT("Chapter","GLOBAL",2) Global("k9BeregostEve3", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+                SetGlobal("k9BeregostEve3", "GLOBAL", 1)
+
+//Beregost Militia
+//Near Feldpost
+		CreateCreature("k9milit",[1550.2745],14)
+		CreateCreature("k9militf",[1463.2810],14)
+
+//Near Burning Wizard
+		CreateCreature("k9milit2",[2636.2220],1)
+		CreateCreature("k9milif2",[2541.2194],1)
+
+//Near Smithy
+		CreateCreature("k9milit3",[4559.2866],0)
+		CreateCreature("k9milif3",[4676.2870],0)
+
+//Corner north of Feldpost
+
+                CreateCreature("k9mili",[2008.2029],2)
+//Jovial Juggler
+		CreateCreature("k9milit5",[3685.3700],2)
+		CreateCreature("k9milif5",[3773.3730],2)
+		
+//Searching for kid
+		CreateCreature("k9milit6",[2545.2990],0)
+		CreateCreature("k9milif6",[2490.3000],0)
+
+
+END
+
+IF Global("k9kidmissing","GLOBAL",1) Global("k9kidmissingspawn","GLOBAL",0)
+
+  THEN RESPONSE #100  		CreateCreature("k9girl",[1065.2990],SE)    SetGlobal("k9kidmissingspawn","GLOBAL",1)
+
+    		END
+
+
+
+
+//Beer
+IF
+	Global("k9Beregostpints1", "GLOBAL", 0)
+	Global("k9feldpostpint", "GLOBAL", 1)
+	Global("k9sheafpint", "GLOBAL", 1)
+        Global("k9jugglerpint", "GLOBAL", 1)
+	Global("k9wizardpint", "GLOBAL", 1)
+THEN
+	RESPONSE #100
+        SetGlobal("k9Beregostpints1", "GLOBAL", 1)
+        SetGlobal("k9pints", "GLOBAL", 2)
+        AddJournalEntry(@1190,QUEST)
+
+END
+
+
+
+ IF
+Global("k9BegegostNote", "GLOBAL", 0)   Global("k9bethisee","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("k9BegegostNote", "GLOBAL", 1)
+
+
+AddMapNoteColor([1550.1050], @101,DEFAULT)
+
+END
+
+
+
+
+//Chapter 5 fist
+
+IF
+	GlobalGT("Chapter","GLOBAL",5) !Exists("k9fisser")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fisser",[1975.2540],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb1")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb1",[1730.55],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb2")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb2",[5045.1775],11)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb3")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb3",[1730.55],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb4")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb4",[962.1133],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb5")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb5",[1730.55],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb6")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb6",[1730.55],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb7")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb7",[5080.1784],11)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb8")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb8",[2628.2093],0)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fistb9")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fistb9",[1416.2679],6)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4) !Exists("k9fisb10")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fisb10",[3635.964],0)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",5) !Exists("k9fisb11")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fisb11",[1730.55],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",5) !Exists("k9fisb12")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fisb12",[1730.55],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",5) !Exists("k9fisb13")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fisb13",[1730.55],2)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",5) !Exists("k9fisb14")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fisb14",[5073.1780],12)
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",5) !Exists("k9fisb15")
+THEN
+	RESPONSE #100
+                CreateCreature("k9fisb15",[5073.1780],12)
+
+END
+
+

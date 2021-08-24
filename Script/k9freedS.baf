@@ -1,0 +1,11 @@
+
+ 
+ 
+ IF 	Entered([ANYONE])   
+
+THEN RESPONSE #100
+
+SetGlobal("k9snakefreedom","GLOBAL",1)  CreateCreatureImpassableAllowOverlap("k9grave",[2050.1320],E)
+  ActionOverride("k9grave",StartDialogueNoSet([PC]))
+ 
+ END

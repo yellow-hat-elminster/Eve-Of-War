@@ -1,0 +1,19 @@
+IF Global("k9druidrest","GLOBAL",0)
+
+THEN RESPONSE #100
+Wait(10)
+ SetGlobal("k9druidrest","GLOBAL",1)
+END
+
+IF Global("k9druidrest","GLOBAL",1)   !ActuallyInCombat()  AreaCheck("AR1602")
+
+THEN RESPONSE #100
+ SetGlobal("k9druidrest","GLOBAL",2)
+END
+
+IF Global("k9druidrest","GLOBAL",3)  Global("k9druidresttop","GLOBAL",0)
+
+THEN RESPONSE #100
+SetAreaRestFlag(1)        SetGlobal("k9druidresttop","GLOBAL",1)
+END
+

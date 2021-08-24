@@ -1,0 +1,18 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+
+                ActionOverride("k9CYRIC",ReallyForceSpell("k9deva",CLERIC_FINGER_OF_DEATH))
+                 Wait(1)
+                  ActionOverride("k9deva",Kill("k9deva"))
+                Wait(3)
+                 SetGlobal("k9cyrictest1", "GLOBAL", 3) DisplayStringHead("k9cyric", @640052)
+                  Wait(2)
+                  DisplayStringHead("k9cyric", @640053)
+                   Wait(3)
+                  DisplayStringHead("k9cyric", @640054)
+                   Wait(4)
+StartCutScene("k9cyrte2")
+END

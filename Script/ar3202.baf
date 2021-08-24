@@ -1,0 +1,12 @@
+IF
+	GlobalGT("Chapter","GLOBAL",2) Global("TransformedChicken","GLOBAL",1)   Global("k9TransformedChicken","GLOBAL",0)
+        
+        THEN
+	RESPONSE #100
+        SetGlobal("k9TransformedChicken","GLOBAL",1)
+
+	ActionOverride("Melicamp",DestroySelf())
+
+
+
+END

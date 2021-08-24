@@ -1,0 +1,11 @@
+IF Global("k9cursedemonknight","GLOBAL",3)
+
+THEN RESPONSE #100
+
+SetGlobal("k9cursedemonknight","GLOBAL",4)
+  	ActionOverride("k9nobl9",DestroyItem("k9ring92"))
+ AttackOneRound("k9nobl9")
+  Kill("k9nobl9")
+  Wait(2)
+ Dialogue([PC]) 
+END

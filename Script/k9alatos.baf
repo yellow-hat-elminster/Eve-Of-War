@@ -1,0 +1,6 @@
+
+IF    Global("k9alatosfind","GLOBAL",1)
+
+THEN RESPONSE #100       CreateCreature("k9alatos",[755.685],8)       SetGlobal("k9alatosfind","GLOBAL",2)
+
+END

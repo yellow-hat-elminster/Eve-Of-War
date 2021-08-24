@@ -1,0 +1,194 @@
+
+
+
+
+IF
+	StateCheck(Myself,STATE_SILENCED)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_VOCALIZE)
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+THEN
+	RESPONSE #100
+
+ RemoveSpell(WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+
+           ApplySpell(Myself,WIZARD_PROTECTION_FROM_MAGIC_WEAPONS)
+
+
+END
+
+IF         HaveSpell(WIZARD_STONE_SKIN)
+
+THEN RESPONSE #100
+                       	 RemoveSpell(WIZARD_STONE_SKIN)
+                       ApplySpell(Myself,WIZARD_STONE_SKIN)
+END
+
+
+IF         HaveSpell(WIZARD_ANIMATE_DEAD)
+
+THEN RESPONSE #100
+
+                       Spell(Myself,WIZARD_ANIMATE_DEAD)
+END
+
+
+IF
+ See(Player1)
+	HaveSpell(WIZARD_DISINTEGRATE)
+
+THEN
+	RESPONSE #100
+	DisplayStringHead("k9grango", @67000)	Spell(Player1,WIZARD_DISINTEGRATE)
+END
+
+IF
+ See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DISPEL_MAGIC)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DISPEL_MAGIC)
+END
+
+
+
+IF
+ See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_GREATER_MALISON)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_GREATER_MALISON)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_DOMINATION)
+ !StateCheck(NearestEnemyOf(Myself),STATE_BLIND)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)     !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+  !StateCheck(NearestEnemyOf(Myself),STATE_CHARMED)
+    !StateCheck(NearestEnemyOf(Myself),STATE_CONFUSED)
+
+
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_DOMINATION)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_CHAOS)
+ !StateCheck(NearestEnemyOf(Myself),STATE_BLIND)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)     !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+  !StateCheck(NearestEnemyOf(Myself),STATE_CHARMED)
+    !StateCheck(NearestEnemyOf(Myself),STATE_CONFUSED)
+
+
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_CHAOS)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HOLD_PERSON)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+  !StateCheck(NearestEnemyOf(Myself),STATE_BLIND)      !StateCheck(NearestEnemyOf(Myself),STATE_CHARMED)       !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+    !StateCheck(NearestEnemyOf(Myself),STATE_CONFUSED)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_HOLD_PERSON)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_HORROR)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+  !StateCheck(NearestEnemyOf(Myself),STATE_BLIND)      !StateCheck(NearestEnemyOf(Myself),STATE_CHARMED)       !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+    !StateCheck(NearestEnemyOf(Myself),STATE_CONFUSED)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_HORROR)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_GLITTERDUST)
+        !StateCheck(NearestEnemyOf(Myself),STATE_CHARMED)  !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+    !StateCheck(NearestEnemyOf(Myself),STATE_CONFUSED)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)
+   !StateCheck(NearestEnemyOf(Myself),STATE_BLIND)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_GLITTERDUST) 
+
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SPOOK)
+ !StateCheck(NearestEnemyOf(Myself),STATE_BLIND)
+ !StateCheck(NearestEnemyOf(Myself),STATE_PANIC)     !StateCheck(NearestEnemyOf(Myself),STATE_HELPLESS)
+  !StateCheck(NearestEnemyOf(Myself),STATE_CHARMED)
+    !StateCheck(NearestEnemyOf(Myself),STATE_CONFUSED)
+
+
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SPOOK)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_SLOW)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_SLOW)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_TELEPORT_FIELD)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_TELEPORT_FIELD)
+END
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_POLYMORPH_OTHER)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_POLYMORPH_OTHER)
+END
+
+
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_MAGIC_MISSILE)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(WIZARD_INVISIBILITY)
+THEN
+	RESPONSE #100
+
+           Spell(Myself,WIZARD_INVISIBILITY)   EscapeArea()
+
+END

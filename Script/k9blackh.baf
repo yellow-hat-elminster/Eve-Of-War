@@ -1,0 +1,40 @@
+
+IF
+	Heard("k9tynnos",99)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Heard([ANYONE],99)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+
+
+IF
+
+	See(NearestEnemyOf(Myself))          HaveSpell(ASSASSIN_POISON)
+THEN
+	RESPONSE #100
+		Spell(Myself,ASSASSIN_POISON)
+
+END
+
+
+
+IF
+
+	Exists(NearestEnemyOf(Myself))
+
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+

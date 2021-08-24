@@ -1,0 +1,59 @@
+
+
+IF Die()
+
+THEN RESPONSE #100
+
+IncrementGlobal("k9drizztcdie","GLOBAL",1)
+END
+
+IF GlobalGT("k9drizztcdie","GLOBAL",1)
+
+THEN RESPONSE #100
+                   SetGlobal("k9AttackedDrizzt","GLOBAL",1)     DisplayStringHead("Drizzt", @666046)
+EscapeArea()
+
+END
+
+IF
+	GlobalGT("Chapter","GLOBAL",4)  AreaCheck("AR4200")
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Global("k9AttackedDrizzt","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("k9AttackedDrizzt","GLOBAL",1)
+END
+
+IF
+	Global("k9AttackedDrizzt","GLOBAL",1)
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		StartDialogueNoSet([PC])
+END
+
+
+
+
+IF
+	AttackedBy([PC],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100 		SetGlobal("k9AttackedDrizzt","GLOBAL",1)
+END
+
+
+
+IF
+Global("AttackedDrizzt", "GLOBAL", 1)     Global("k9AttackedDrizzt2", "LOCALS", 0)
+THEN
+	RESPONSE #100
+		Enemy()     		Attack(NearestEnemyOf(Myself))     SetGlobal("k9AttackedDrizzt2", "LOCALS", 1)
+END
+

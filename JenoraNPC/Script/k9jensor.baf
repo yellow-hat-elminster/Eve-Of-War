@@ -1,0 +1,7 @@
+  IF Global("k9Jenoraspawn","GLOBAL",1) THEN
+  
+  RESPONSE #100
+  
+  SetGlobal("k9Jenoraspawn","GLOBAL",2)
+
+  END

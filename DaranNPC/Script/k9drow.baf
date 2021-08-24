@@ -1,0 +1,4 @@
+IF OR(2) InParty("Baeloth")  InParty("Viconia")  !InParty("BDDaran") Global("k9drowjoined","global",0)
+THEN RESPONSE #100                SetGlobal("k9drowjoined","global",1)
+
+END

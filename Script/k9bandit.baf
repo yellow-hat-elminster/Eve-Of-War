@@ -1,0 +1,42 @@
+IF Global("k9banditspawn","GLOBAL",0)
+
+THEN RESPONSE #100
+
+SetGlobal("k9banditspawn","GLOBAL",1)
+
+//Various creatures
+                 CreateCreature("k9kobolc",[1762.456],0)
+                 CreateCreature("k9kobold",[1722.454],0)
+                 CreateCreature("k9kobold",[1800.447],0)
+
+                 CreateCreature("k9orc2a",[1703.1059],16)
+                 CreateCreature("k9orc1a",[1723.1024],16)
+                 CreateCreature("k9orc1a",[1649.1067],16)
+                 
+
+                 CreateCreature("k9ogrec",[2973.1130],0)
+                 CreateCreature("k9ogre",[2904.1137],0)
+                 CreateCreature("k9ogre",[3010.1103],0)
+
+                 CreateCreature("k9gob06",[2587.1180],0)
+                 CreateCreature("k9gob05",[2529.1146],0)
+                 CreateCreature("k9gob05",[2670.1179],0)
+                 
+                 
+                 
+                 //female bandits
+                 
+                CreateCreature("k9blackf",[3684.1244],10)
+                CreateCreature("k9blackf",[3925.1162],12)
+                CreateCreature("k9blackf",[2105.1162],4)
+                CreateCreature("k9blackf",[1090.1310],4)
+                CreateCreature("k9blackf",[1357.1555],12)
+                CreateCreature("k9blackf",[3362.1138],4)
+                CreateCreature("k9blackf",[4287.1092],4)
+                CreateCreature("k9blackf",[3841.900],4)
+                CreateCreature("k9blackf",[3262.991],4)
+                CreateCreature("k9blackf",[1205.1114],4)
+                CreateCreature("k9blackf",[4648.391],14)
+                CreateCreature("k9blackf",[4200.800],14)
+
+END

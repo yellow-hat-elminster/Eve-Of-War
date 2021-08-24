@@ -1,0 +1,83 @@
+IF GlobalGT("Chapter","GLOBAL",2)
+
+THEN
+
+RESPONSE #100
+SetGlobal("k9trainber","GLOBAL",3)
+DestroySelf()
+
+END
+
+
+
+
+ IF Global("k9milsertalkedfighter","GLOBAL",1)      Global("k9fighteronce","GLOBAL",0)
+
+THEN
+	RESPONSE #100
+
+Wait(3) DisplayStringHead("k9milser", @130185) SetGlobal("k9milsertalkedfighter","GLOBAL",2)   SetGlobal("k9fighteronce","GLOBAL",1)
+
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IF Global("k9BeregostMiltalk","GLOBAL",0)  Global("k9berSer","GLOBAL",0)  See(Player1)
+
+THEN
+	RESPONSE #100
+
+ DisplayStringHead("k9milser", @130179) Wait(5)   SetGlobal("k9berSer","GLOBAL",1)  SetGlobal("k9BeregostMiltalk","GLOBAL",1)
+
+END
+
+
+
+IF Global("k9BeregostMiltalk","GLOBAL",1)  Global("k9berSer","GLOBAL",1)
+
+THEN
+	RESPONSE #100
+
+DisplayStringHead("k9milser", @130180)  Wait(5) SetGlobal("k9berSer","GLOBAL",2)
+
+END          
+
+
+
+
+IF Global("k9BeregostMiltalk","GLOBAL",1)  Global("k9berSer","GLOBAL",2)
+
+THEN
+	RESPONSE #100
+
+ DisplayStringHead("k9milser", @130181) Wait(5) SetGlobal("k9berSer","GLOBAL",3)
+
+END
+
+
+
+IF Global("k9BeregostMiltalk","GLOBAL",1)  Global("k9berSer","GLOBAL",3)
+
+THEN
+	RESPONSE #100
+
+  DisplayStringHead("k9milser", @130182)  Wait(5)   SetGlobal("k9berSer","GLOBAL",4)
+
+END
+
+
+

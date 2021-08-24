@@ -1,0 +1,9 @@
+IF Global("k9NarlenSpawn","GLOBAL",0) 
+
+THEN RESPONSE #100
+
+SetGlobal("k9NarlenSpawn","GLOBAL",1) 
+
+CreateCreature("k9narlen",[710.90],S)
+
+END

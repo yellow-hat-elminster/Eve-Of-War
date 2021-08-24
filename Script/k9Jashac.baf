@@ -1,0 +1,6 @@
+IF
+	See(NearestEnemyOf(Myself)) GlobalLT("k9JashaColdSummon","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),CLERIC_AERIAL_SERVANT) IncrementGlobal("k9JashaColdSummon","GLOBAL",1)
+END

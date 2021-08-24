@@ -1,0 +1,59 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		LeaveAreaLUAPanic("AR4810","TRBRACAP",[280.490],N)
+		ActionOverride("Brage",DestroySelf())
+		LeaveAreaLUA("AR4810","TRBRACAP",[280.490],N)
+		SetMasterArea("AR4800")
+		MultiPlayerSync()
+		CreateCreature("BRAGE2",[290.480],N) // Brage
+		MultiPlayerSync()
+		ActionOverride("Brage",MoveToPoint([280.460]))
+		MoveToPoint([280.460])
+		ActionOverride("Hick",Dialogue([PC]))
+		EndCutSceneMode()
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player2)
+		LeaveAreaLUA("AR4810","TRBRACAP",[383.508],N)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player3)
+	LeaveAreaLUA("AR4810","TRBRACAP",[383.508],N)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player4)
+	LeaveAreaLUA("AR4810","TRBRACAP",[383.508],N)
+        END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player5)
+		LeaveAreaLUA("AR4810","TRBRACAP",[383.508],N)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player6)
+			LeaveAreaLUA("AR4810","TRBRACAP",[383.508],N)
+END
+
+

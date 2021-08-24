@@ -1,0 +1,681 @@
+ //best
+
+IF
+	HasDLC("SOD")
+        Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",2)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+        
+         Global("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		CopyGroundPilesTo("BD0120",[949.1686])
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		AdvanceTime(TEN_DAYS)
+		ApplySpellRES("bdrejuve",Player1) // No such index
+		ApplySpellRES("bdrejuve",Player2) // No such index
+		ApplySpellRES("bdrejuve",Player3) // No such index
+		ApplySpellRES("bdrejuve",Player4) // No such index
+		ApplySpellRES("bdrejuve",Player5) // No such index
+		ApplySpellRES("bdrejuve",Player6) // No such index
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9best","GLOBAL",1)
+		TextScreen("k9best")
+		FadeToColor([1.0],0)
+		Wait(3)
+ 		StartMovie("SODCIN01")
+		FadeToColor([1.0],0)
+		Wait(1)
+		MoveToCampaign("SoD")
+		MultiPlayerSync()
+		SetCursorState(TRUE)
+		EndCutSceneMode()
+END
+
+
+//good
+IF
+	HasDLC("SOD")   Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",2)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+        
+        GlobalLT("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		CopyGroundPilesTo("BD0120",[949.1686])
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		AdvanceTime(TEN_DAYS)
+		ApplySpellRES("bdrejuve",Player1) // No such index
+		ApplySpellRES("bdrejuve",Player2) // No such index
+		ApplySpellRES("bdrejuve",Player3) // No such index
+		ApplySpellRES("bdrejuve",Player4) // No such index
+		ApplySpellRES("bdrejuve",Player5) // No such index
+		ApplySpellRES("bdrejuve",Player6) // No such index
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9good","GLOBAL",1)
+		TextScreen("k9good")
+		FadeToColor([1.0],0)
+		Wait(3)
+ 		StartMovie("SODCIN01")
+		FadeToColor([1.0],0)
+		Wait(1)
+		MoveToCampaign("SoD")
+		MultiPlayerSync()
+		SetCursorState(TRUE)
+		EndCutSceneMode()
+END
+
+//good 2
+IF
+	HasDLC("SOD")
+        Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",2)
+   OR(5)     Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+
+        Global("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		CopyGroundPilesTo("BD0120",[949.1686])
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		AdvanceTime(TEN_DAYS)
+		ApplySpellRES("bdrejuve",Player1) // No such index
+		ApplySpellRES("bdrejuve",Player2) // No such index
+		ApplySpellRES("bdrejuve",Player3) // No such index
+		ApplySpellRES("bdrejuve",Player4) // No such index
+		ApplySpellRES("bdrejuve",Player5) // No such index
+		ApplySpellRES("bdrejuve",Player6) // No such index
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9good2","GLOBAL",1)
+		TextScreen("k9good2")
+		FadeToColor([1.0],0)
+		Wait(3)
+ 		StartMovie("SODCIN01")
+		FadeToColor([1.0],0)
+		Wait(1)
+		MoveToCampaign("SoD")
+		MultiPlayerSync()
+		SetCursorState(TRUE)
+		EndCutSceneMode()
+END
+
+//middle
+IF
+	HasDLC("SOD")   Global("k9textshowfinal","GLOBAL",0)           Global("k9EltanMurdered","GLOBAL",2)
+      GlobalGT("k9beregostprepared","GLOBAL",2)    
+        GlobalLT("k9beregostprepared","GLOBAL",5)
+
+        Global("k9BeregostHelp","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		CopyGroundPilesTo("BD0120",[949.1686])
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		AdvanceTime(TEN_DAYS)
+		ApplySpellRES("bdrejuve",Player1) // No such index
+		ApplySpellRES("bdrejuve",Player2) // No such index
+		ApplySpellRES("bdrejuve",Player3) // No such index
+		ApplySpellRES("bdrejuve",Player4) // No such index
+		ApplySpellRES("bdrejuve",Player5) // No such index
+		ApplySpellRES("bdrejuve",Player6) // No such index
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9middle","GLOBAL",1)
+		TextScreen("k9middle")
+		FadeToColor([1.0],0)
+		Wait(3)
+ 		StartMovie("SODCIN01")
+		FadeToColor([1.0],0)
+		Wait(1)
+		MoveToCampaign("SoD")
+		MultiPlayerSync()
+		SetCursorState(TRUE)
+		EndCutSceneMode()
+END
+
+//bad
+IF
+	HasDLC("SOD")  Global("k9textshowfinal","GLOBAL",0)           Global("k9EltanMurdered","GLOBAL",2)
+  OR(5)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		CopyGroundPilesTo("BD0120",[949.1686])
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		AdvanceTime(TEN_DAYS)
+		ApplySpellRES("bdrejuve",Player1) // No such index
+		ApplySpellRES("bdrejuve",Player2) // No such index
+		ApplySpellRES("bdrejuve",Player3) // No such index
+		ApplySpellRES("bdrejuve",Player4) // No such index
+		ApplySpellRES("bdrejuve",Player5) // No such index
+		ApplySpellRES("bdrejuve",Player6) // No such index
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9bad","GLOBAL",1)
+                TextScreen("k9bad")
+		FadeToColor([1.0],0)
+		Wait(3)
+ 		StartMovie("SODCIN01")
+		FadeToColor([1.0],0)
+		Wait(1)
+		MoveToCampaign("SoD")
+		MultiPlayerSync()
+		SetCursorState(TRUE)
+		EndCutSceneMode()
+END
+
+//worst
+IF
+	HasDLC("SOD")   Global("k9textshowfinal","GLOBAL",0)          Global("k9EltanMurdered","GLOBAL",2)
+        Global("k9magicteach","GLOBAL",0)
+        Global("k9defenceteach","GLOBAL",0)
+        Global("k9moraleteach","GLOBAL",0)
+        Global("k9politicsteach","GLOBAL",0)
+        Global("k9scoutteach","GLOBAL",0)
+       
+          GlobalLT("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		CopyGroundPilesTo("BD0120",[949.1686])
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		AdvanceTime(TEN_DAYS)
+		ApplySpellRES("bdrejuve",Player1) // No such index
+		ApplySpellRES("bdrejuve",Player2) // No such index
+		ApplySpellRES("bdrejuve",Player3) // No such index
+		ApplySpellRES("bdrejuve",Player4) // No such index
+		ApplySpellRES("bdrejuve",Player5) // No such index
+		ApplySpellRES("bdrejuve",Player6) // No such index
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9worst","GLOBAL",1)
+		TextScreen("k9worst")
+		FadeToColor([1.0],0)
+		Wait(3)
+ 		StartMovie("SODCIN01")
+		FadeToColor([1.0],0)
+		Wait(1)
+		MoveToCampaign("SoD")
+		MultiPlayerSync()
+		SetCursorState(TRUE)
+		EndCutSceneMode()
+END
+
+
+//best no SOD
+IF
+	!HasDLC("SOD")         Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",2)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+        
+         Global("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		SaveGame(2)
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9best","GLOBAL",1)
+                TextScreen("k9best")
+		MultiPlayerSync()
+		SetCursorState(FALSE)
+		EndCutSceneMode()
+		GoToStartScreen()
+END
+
+//good no SOD
+IF
+	!HasDLC("SOD")         Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",2)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+        
+        GlobalLT("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		SaveGame(2)
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9good","GLOBAL",1)
+		TextScreen("k9good")
+		MultiPlayerSync()
+		SetCursorState(FALSE)
+		EndCutSceneMode()
+		GoToStartScreen()
+END
+
+//good2 no SOD
+IF
+	!HasDLC("SOD")           Global("k9textshowfinal","GLOBAL",0)
+        Global("k9EltanMurdered","GLOBAL",2)
+   OR(5)     Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+
+        Global("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		SaveGame(2)
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9good2","GLOBAL",1)
+		TextScreen("k9good2")
+		MultiPlayerSync()
+		SetCursorState(FALSE)
+		EndCutSceneMode()
+		GoToStartScreen()
+END
+
+
+//middle no SOD
+IF
+	!HasDLC("SOD")
+      Global("k9textshowfinal","GLOBAL",0)           Global("k9EltanMurdered","GLOBAL",2)
+      GlobalGT("k9beregostprepared","GLOBAL",2)    
+        GlobalLT("k9beregostprepared","GLOBAL",5)
+
+        Global("k9BeregostHelp","GLOBAL",4)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		SaveGame(2)
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9middle","GLOBAL",1)
+		TextScreen("k9middle")
+		MultiPlayerSync()
+		SetCursorState(FALSE)
+		EndCutSceneMode()
+		GoToStartScreen()
+END
+
+
+
+//bad no SOD
+IF
+	!HasDLC("SOD")          Global("k9textshowfinal","GLOBAL",0)           Global("k9EltanMurdered","GLOBAL",2)
+  OR(5)
+        Global("k9magicteach","GLOBAL",1)
+        Global("k9defenceteach","GLOBAL",1)
+        Global("k9moraleteach","GLOBAL",1)
+        Global("k9politicsteach","GLOBAL",1)
+        Global("k9scoutteach","GLOBAL",1)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		SaveGame(2)
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		 SetGlobal("k9textshowfinal","GLOBAL",1)
+ 		SetGlobal("k9bad","GLOBAL",1)
+		TextScreen("k9bad")
+                MultiPlayerSync()
+		SetCursorState(FALSE)
+		EndCutSceneMode()
+		GoToStartScreen()
+END
+
+
+
+//worst no SOD
+IF
+	!HasDLC("SOD")   Global("k9textshowfinal","GLOBAL",0)          Global("k9EltanMurdered","GLOBAL",2)
+        Global("k9magicteach","GLOBAL",0)
+        Global("k9defenceteach","GLOBAL",0)
+        Global("k9moraleteach","GLOBAL",0)
+        Global("k9politicsteach","GLOBAL",0)
+        Global("k9scoutteach","GLOBAL",0)
+       
+          GlobalLT("k9BeregostHelp","GLOBAL",8)
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		SetGlobal("EndOfBG1","GLOBAL",2)
+		SetGlobal("SOD_fromimport","GLOBAL",1)
+		SetGlobal("PartyCured","GLOBAL",1)
+		Wait(1)
+		ApplySpellRES("clearcld",Myself) // No such index
+		Wait(4)
+		FadeToColor([30.0],0)
+		Wait(1)
+		ApplySpellRES("bdresurr",Player2) // No such index
+		ApplySpellRES("bdresurr",Player3) // No such index
+		ApplySpellRES("bdresurr",Player4) // No such index
+		ApplySpellRES("bdresurr",Player5) // No such index
+		ApplySpellRES("bdresurr",Player6) // No such index
+		ApplySpellRES("bddispel",Player1) // No such index
+		ApplySpellRES("bddispel",Player2) // No such index
+		ApplySpellRES("bddispel",Player3) // No such index
+		ApplySpellRES("bddispel",Player4) // No such index
+		ApplySpellRES("bddispel",Player5) // No such index
+		ApplySpellRES("bddispel",Player6) // No such index
+		SaveGame(2)
+		Wait(1)
+		StartMovie("ENDMOVIE")
+		FadeToColor([1.0],0)
+		Wait(1)
+		StartMovie("endcrdit")
+		FadeToColor([1.0],0)
+		Wait(3)
+		SetGlobal("k9textshowfinal","GLOBAL",1)
+		SetGlobal("k9worst","GLOBAL",1)
+		TextScreen("k9worst")
+		MultiPlayerSync()
+		SetCursorState(FALSE)
+		EndCutSceneMode()
+		GoToStartScreen()
+END
+

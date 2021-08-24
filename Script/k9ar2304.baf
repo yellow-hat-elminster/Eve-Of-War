@@ -1,0 +1,6 @@
+IF        OR(2)      Global("k9bhaalaccept", "GLOBAL", 2) Global("k9cyricaccept", "GLOBAL", 2) Global("k9friendlydeadspawn","GLOBAL",0)
+        THEN RESPONSE #100
+		CreateCreature("k9frdea2",[305.305],W)   SetGlobal("k9friendlydeadspawn","GLOBAL",1)
+        	CreateCreature("k9frdea2",[480.365],E)
+        	
+ 	END

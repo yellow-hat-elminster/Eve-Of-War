@@ -1,0 +1,7 @@
+IF !PartyHasItem("Blun40")         Global("k9fishadd","GLOBAL",0)
+
+THEN RESPONSE #100
+
+AddStoreItem("k9bellad","blun40",1,1)  SetGlobal("k9fishadd","GLOBAL",1)
+
+END

@@ -1,0 +1,13 @@
+IF 
+
+Global("k9ark904entered","GLOBAL",0)
+
+THEN RESPONSE #100
+
+SetGlobal("k9ark904entered","GLOBAL",1)
+
+ClearAllActions()
+StartCutSceneMode()
+StartCutScene("k9cyrsu3")
+
+END

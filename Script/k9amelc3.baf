@@ -1,0 +1,4 @@
+IF True()
+THEN RESPONSE #100
+DisplayStringHead(Myself,~Enough of this. The children are ours Gorion!~)
+END

@@ -1,0 +1,29 @@
+IF
+	See(NearestEnemyOf(Myself)) Global("k9barking1","GLOBAL",0)  RandomNum(3,1)
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9barking1","GLOBAL",1)   	DisplayStringHead("k9blackh",@66021)
+
+END
+
+IF
+	See(NearestEnemyOf(Myself)) Global("k9barking2","GLOBAL",0)  RandomNum(3,2)
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9barking2","GLOBAL",1)   	DisplayStringHead("k9blackh",@66022)
+
+END
+
+IF
+	See(NearestEnemyOf(Myself)) Global("k9barking3","GLOBAL",0)  RandomNum(3,3)
+THEN
+
+RESPONSE #100
+
+SetGlobal("k9barking3","GLOBAL",1)   	DisplayStringHead("k9blackh",@66023)
+
+END

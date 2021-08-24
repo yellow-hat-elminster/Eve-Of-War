@@ -1,0 +1,7 @@
+IF Heard([ANYONE],99) THEN
+
+RESPONSE #100
+
+Enemy()
+
+END

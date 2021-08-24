@@ -1,0 +1,30 @@
+IF
+	Global("k9_ARwolves","ar5402",0)
+	DifficultyGT(EASY)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolves","ar5402",1)
+		CreateCreature("kobold",[2600.1365],E)
+		CreateCreature("kobold",[2615.1350],E)
+		CreateCreature("kobolda",[2575.1360],E)
+		CreateCreature("kobolda",[2625.1360],E)
+
+	
+	
+
+END
+
+IF
+	Global("k9_ARwolvesHard","ar5402",0)
+	DifficultyGT(NORMAL)
+THEN
+	RESPONSE #100
+		SetGlobal("k9_ARwolvesHard","ar5402",1)
+		CreateCreature("kobcomm",[2605.1340],E)
+		CreateCreature("kobcomm",[2625.1330],E)
+		CreateCreature("kobcomm",[2110.280],S)
+		CreateCreature("kobcomm",[2130.270],S)
+		CreateCreature("kobcomm",[3750.1180],N)
+		CreateCreature("kobcomm",[3775.1200],N)
+		CreateCreature("kobcap01",[3785.1220],N)    
+END

@@ -1,0 +1,16 @@
+//Burning Wizard
+IF
+	GlobalGT("Chapter","GLOBAL",0) Global("k9BeregostEve99", "GLOBAL", 0)
+THEN
+	RESPONSE #100
+        SetGlobal("k9BeregostEve99", "GLOBAL", 1)
+
+                CreateCreature("k9acolyt",[274.183],2)
+                CreateCreature("k9injure",[245.213],7)
+
+                CreateCreature("k9miliBW",[200.300],7)
+                CreateCreature("k9miliBW",[101.229],14)
+                CreateCreature("k9miliBW",[72.276],12)
+
+
+END

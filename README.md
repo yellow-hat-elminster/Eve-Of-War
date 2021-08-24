@@ -271,7 +271,7 @@ Is a fighter/thief dwarf you can find in the first chapter. This will let him jo
 
 **Jenora**
 
-She's a Fighter/Mage/Cleric and a follower of Azuth. She'll talk a bit with Jaheira about her god and magic. Mostly she is just there to give neutral parties an option.
+She's a Fighter/Mage/Cleric and a follower of Azuth. She'll talk a bit with Jaheira about her god and magic. Mostly she is just there to give neutral parties an option. You can find her standing in line outside the Sorcerous Sundries.
 
 **Shar-Teel**
 

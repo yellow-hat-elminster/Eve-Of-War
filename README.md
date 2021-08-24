@@ -115,7 +115,7 @@ _Nashkel_
 
 - Jasha Istor will approach any party trying to enter the Belching Dragon Tavern and demand that they pay her off (she is an Icepriest of Auril). She offers temple services and you can also donate to her (through dialogue options) in order to lower your reputation.
 
-- A low reputation character can also buy specialty goods from her (including the Snow Maiden's Reaver that exclusively does cold damage that is normally found in Icewind Dale and Icewind Dale Enhanced Edition).
+- A low reputation character can also buy specialty goods from her. This includes the Snow Maiden's Reaver, a weapon that exclusively does cold damage. You can also find this weapon in Icewind Dale and Icewind Dale Enhanced Edition.
 
 - As chapters progress, the mayor will comment on events as they unfold.
 

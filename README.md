@@ -222,13 +222,13 @@ These restrictions will end at the end of Sarevok's coronation ceremony.
 
 This component renames the description you get for your given level of reputation to one of the following
 
-Savior
-Hero
-Adventurer
-Medler
-Ruffian
-Thug
-Sadist
+- Savior
+- Hero
+- Adventurer
+- Medler
+- Ruffian
+- Thug
+- Sadist
 
 
 **Reputation Rebalanced Component (BGEE Original Campaign Only)**
@@ -292,7 +292,7 @@ The more advisors Beregost has, the better position it is in should war break ou
 
 
 
-_Military Men/Women_
+**_Military Men/Women_**
 
 
 _Sir Edward Filmarya (Pal 10, Hm, LG)_
@@ -319,7 +319,7 @@ She’s currently residing in the vestibule in the temple area, waiting to meet 
 
 
 
-_Non-Military_
+**_Non-Military_**
 
 
 _Baranta Chansil (CG hf W14)_

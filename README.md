@@ -1,3 +1,5 @@
+(This Readme is clearly a work in progress)
+
 **What does this mod do?**
 
 This is an extensive mod that makes changes to the main quest of Baldur’s Gate Enhanced Edition. It offers components that incorporates sourcebook material into the game - making it more in line with what sourcebooks like Volo’s Guide to the Sword Coast and Lands of Intrigue have to say about these areas.

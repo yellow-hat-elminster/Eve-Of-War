@@ -343,7 +343,7 @@ Innocence Re-Conceived Component (BGEE Original Campaign Only)
 
 Changes who the game considers to be "innocent", meaning that killing people found in obscure locations (defined as being either a diagonal location or more than one (e,w,s,n) area away from an urban area) will not result in a reputation loss.
 
-Also makes it so that if you are a paladin that kills an innocent person you lose your paladin status. Rangers however do not face this restriction.
+Also makes it so that if you are a paladin that kills an innocent person you lose your paladin status. Rangers however do not face this restriction. **WARNING: DO NOT USE IF YOU INTEND TO USE DORN OR ARE PLAYING A BLACKGUARD**
 
 
 Only Autosaves

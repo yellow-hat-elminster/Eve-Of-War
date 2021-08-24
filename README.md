@@ -66,7 +66,7 @@ With the main component of this mod installed you can now do the following.
 **Baldur’s Gate**
 - Rashad, Eltan’s healer, now actually disappears into the sewers at night. This is to make it consistent with the text in the game (which describes him doing this). 
 
-##Side Components
+## Side Components
 
 **Cloakwood**
 

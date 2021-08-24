@@ -48,7 +48,7 @@ END
 
 
 IF ~~ THEN BEGIN checkingin
-SAY ~We're doing as well as can be expected. All things considered anyways.~ IF ~~ THEN EXIT
+SAY ~We're doing as well as can be expected. All things considered, anyways.~ IF ~~ THEN EXIT
 END
 
 

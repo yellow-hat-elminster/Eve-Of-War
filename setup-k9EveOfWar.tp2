@@ -2,7 +2,7 @@ BACKUP ~k9EveOfWar/Backup~
 AUTHOR ~elminster (elminster.sage@gmail.com)~
 
 
-VERSION ~v1.11~
+VERSION ~v1.13~
 
 LANGUAGE
     ~English~                                                                           
@@ -24,13 +24,17 @@ BEGIN @99997
 GROUP @99999
 
 
-//Ceremony in Baldur's Gate
+
 	                                             
 //Non-EE installs
         ACTION_IF GAME_IS ~bg1 totsc bgt tutu tutu_totsc~ THEN BEGIN
 		FAIL @99970
 
 	END
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Ceremony in Baldur's Gate
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 COMPILE ~k9EveOfWar/Dialog/k9deltan.d~
@@ -60,84 +64,26 @@ COPY ~k9EveOfWar/CRE/Baldur's Gate/k9mage.cre~ ~override/k9mage.cre~
 COPY ~k9EveOfWar/Portraits/schaell.BMP~ ~override/schaell.BMP~
 COPY ~k9EveOfWar/Portraits/schaelm.BMP~ ~override/schaelm.BMP~
 
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Sarevok Ceremony - Grand dukes are both dead but Eltan lives
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL @66040 USING ~k9EveOfWar\Lang\English\k9journa.tra~
 
 
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
 //Candlekeep book return
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 COMPILE ~k9EveOfWar/Dialog/k9keeper.d~
 
 
-//Candlekeep return (chapter 6)
-
-COMPILE ~k9EveOfWar/Dialog/k9attcan.d~
-
-
-//Thief alternative for getting to chapter 6   and Thieves attack on duke eltan in chapter 7 (alatos orders)
-COMPILE ~k9EveOfWar/Dialog/k9thiefn.d~
-
-COMPILE ~k9EveOfWar/Dialog/k9alatos.d~
-
-COMPILE ~k9EveOfWar/Script/ar0608.baf~
-COMPILE ~k9EveOfWar/Script/k9eltan.baf~
-COMPILE ~k9EveOfWar/Script/ar0615.baf~
-COPY ~k9EveOfWar/CRE/Baldur's Gate/k9alatos.cre~ ~override/k9alatos.cre~
-
- 
-
-
-EXTEND_TOP ~ar0115.bcs~ ~k9EveOfWar/Script/k9alatos.baf~
-
-
-//Black Lily
-COPY ~k9EveOfWar/CRE/Baldur's Gate/k9blackl.cre~ ~override/k9blackl.cre~
-
-COMPILE ~k9EveOfWar/Dialog/k9blilly.d~
-
-EXTEND_TOP ~ar1100.bcs~ ~k9EveOfWar/Script/k9ar110.baf~
-
-
-//Rashad changes
-
-COMPILE ~k9EveOfWar/Script/k9rashad.baf~
-COPY ~k9EveOfWar/CRE/Baldur's Gate/k9rashad.cre~ ~override/k9rashad.cre~
-COPY ~k9EveOfWar/CRE/Baldur's Gate/rashad.cre~ ~override/rashad.cre~
-
-//Notification For Alatos
-
-EXTEND_TOP ~baldur.bcs~ ~k9EveOfWar/Script/k9ar800.baf~
-
-
-
-
-//Alatos letter
-
-COPY ~k9EveOfWar/ITM/k9scrl2I.itm~ ~override/k9scrlAL.itm~
-   SAY NAME1 @99990142
-   SAY NAME2 @99990142
-   SAY DESC @99990143
-   
-
-COPY ~k9EveOfWar/ITM/k9alatos.itm~ ~override/k9alatos.itm~
-    SAY NAME1 @999002
-    SAY NAME2 @999002
-    SAY DESC @999003
-    SAY UNIDENTIFIED_DESC @999003
-
-ADD_JOURNAL @66040 USING ~k9EveOfWar\Lang\English\k9journa.tra~
-
-ADD_JOURNAL @66041 @66042 @66043 USING ~k9EveOfWar\Lang\English\k9journa.tra~
-
-ADD_JOURNAL @66044 @66045 @66046 @660460 @660461 @660462 @660463 @660464 USING ~k9EveOfWar\Lang\English\k9journa.tra~
-
-EXTEND_TOP ~Scar.bcs~ ~k9EveOfWar/Script/k9scar.baf~
-COMPILE ~k9EveOfWar/Dialog/k9rashad.d~
-
-COPY ~k9EveOfWar/2DA/CHPTXT6.2DA~ ~override/CHPTXT6.2DA~
-	REPLACE ~15840~ @346008
-	
-COPY ~k9EveOfWar/WAV/CHAPTER5.wav~ ~override/CHAPTER5.wav~
-EXTEND_TOP ~AR2626.bcs~ ~k9EveOfWar/Script/k9candle.baf~
-
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Candlekeep Attacking in the Prologue
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
 //Gorion script
 
@@ -210,33 +156,100 @@ COPY ~k9EveOfWar/CRE/Candlekeep/WINTHR2.cre~ ~override/WINTHR2.cre~
 EXTEND_TOP ~AR2626.bcs~ ~k9EveOfWar/Script/k9ar26.baf~
 COMPILE ~k9EveOfWar/Script/k9cutgor.baf~
 
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Candlekeep return if you attacked anyone in the prologue (chapter 6)
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+COMPILE ~k9EveOfWar/Dialog/k9attcan.d~
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+//Alatos's Next Plans (alternative to helping Duke Eltan in Chapters 5 and 7)
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL @66041 @66042 @66043 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @66044 @66045 @66046 @660460 @660461 @660462 @660463 @660464 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+
+
+COMPILE ~k9EveOfWar/Dialog/k9thiefn.d~
+
+COMPILE ~k9EveOfWar/Dialog/k9alatos.d~
+
+COMPILE ~k9EveOfWar/Script/ar0608.baf~
+COMPILE ~k9EveOfWar/Script/k9eltan.baf~
+COMPILE ~k9EveOfWar/Script/ar0615.baf~
+COPY ~k9EveOfWar/CRE/Baldur's Gate/k9alatos.cre~ ~override/k9alatos.cre~
+
+
+EXTEND_TOP ~ar0115.bcs~ ~k9EveOfWar/Script/k9alatos.baf~
+
+
+//Black Lily
+COPY ~k9EveOfWar/CRE/Baldur's Gate/k9blackl.cre~ ~override/k9blackl.cre~
+
+COMPILE ~k9EveOfWar/Dialog/k9blilly.d~
+
+EXTEND_TOP ~ar1100.bcs~ ~k9EveOfWar/Script/k9ar110.baf~
+
+
+//Rashad, Eltan's healer, leaves at night time (which the game always described)
+
+COMPILE ~k9EveOfWar/Script/k9rashad.baf~
+COPY ~k9EveOfWar/CRE/Baldur's Gate/k9rashad.cre~ ~override/k9rashad.cre~
+COPY ~k9EveOfWar/CRE/Baldur's Gate/rashad.cre~ ~override/rashad.cre~
+
+//Notification For Alatos
+
+EXTEND_TOP ~baldur.bcs~ ~k9EveOfWar/Script/k9ar800.baf~
+
+
+
+
+//Alatos letter
+
+COPY ~k9EveOfWar/ITM/k9scrl2I.itm~ ~override/k9scrlAL.itm~
+   SAY NAME1 @99990142
+   SAY NAME2 @99990142
+   SAY DESC @99990143
+   
+
+COPY ~k9EveOfWar/ITM/k9alatos.itm~ ~override/k9alatos.itm~
+    SAY NAME1 @999002
+    SAY NAME2 @999002
+    SAY DESC @999003
+    SAY UNIDENTIFIED_DESC @999003
+
+
+
+
+
+EXTEND_TOP ~Scar.bcs~ ~k9EveOfWar/Script/k9scar.baf~
+COMPILE ~k9EveOfWar/Dialog/k9rashad.d~
+
+COPY ~k9EveOfWar/2DA/CHPTXT6.2DA~ ~override/CHPTXT6.2DA~
+	REPLACE ~15840~ @346008
+
+COPY ~k9EveOfWar/WAV/CHAPTER5.wav~ ~override/CHAPTER5.wav~
+EXTEND_TOP ~AR2626.bcs~ ~k9EveOfWar/Script/k9candle.baf~
+
+
   
 
+////////////////////////////////////////////////////////////////////////////////////
+//Chickenator (this stems from a forum joke and I'm not sure it is actually used)
+////////////////////////////////////////////////////////////////////////////////////
 
-//Chickenator
 COPY ~k9EveOfWar/ITM/k9chickn.itm~ ~override/k9chickn.itm~
 COPY ~k9EveOfWar/PRO/k9chic.pro~ ~override/k9chic.pro~
 ADD_PROJECTILE      ~k9EveOfWar\PRO\k9chic.PRO~
 
 
-
+////////////////////////////////////////////////////////////////////////////////////
 //Treaty Negotiations
-
-COMPILE ~k9EveOfWar/Dialog/k9benneg.d~
-COMPILE ~k9EveOfWar/Dialog/k9vai.d~
-COMPILE ~k9EveOfWar/Dialog/k9gategu.d~
-COMPILE ~k9EveOfWar/Dialog/k9refuge.d~
-COMPILE ~k9EveOfWar/Dialog/k9refug2.d~
-COMPILE ~k9EveOfWar/Dialog/k9refug3.d~
-COMPILE ~k9EveOfWar/Dialog/k9refug4.d~ 
-COMPILE ~k9EveOfWar/Dialog/k9refug5.d~
-COMPILE ~k9EveOfWar/Dialog/k9refug6.d~
-COMPILE ~k9EveOfWar/Dialog/k9noober.d~
-
-//Gullykin
-
-COMPILE ~k9EveOfWar/Dialog/k9gandol.d~
-COMPILE ~k9EveOfWar/Script/k9ar4000.baf~
+////////////////////////////////////////////////////////////////////////////////////
 ADD_JOURNAL @15029 @15030 @15031 @15032 @15033 @15034 @15029 @15029 USING ~k9EveOfWar\Lang\English\k9journa.tra~
 
 ADD_JOURNAL @15035 @15036 @15037 @15038 USING ~k9EveOfWar\Lang\English\k9journa.tra~
@@ -252,24 +265,9 @@ ADD_JOURNAL @15051 @15052 @15053 @15054 @15055 USING ~k9EveOfWar\Lang\English\k9
 ADD_JOURNAL @346000 @399999 @346001 @346002 @346003 USING ~k9EveOfWar\Lang\English\k9journa.tra~
 
 
-COPY ~k9EveOfWar/CRE/Baldur's Gate/k9vai.cre~ ~override/k9vai.cre~
-EXTEND_TOP ~AR3304.bcs~ ~k9EveOfWar/Script/k9vai.baf~
-EXTEND_TOP ~AR0800.bcs~ ~k9EveOfWar/Script/k9vai.baf~
-EXTEND_TOP ~AR3300.bcs~ ~k9EveOfWar/Script/k9ar3300.baf~
-EXTEND_TOP ~AR0100.bcs~ ~k9EveOfWar/Script/k9BGNort.baf~
-
-
-COMPILE ~k9EveOfWar/Script/k9cutvai.baf~
-COMPILE ~k9EveOfWar/Script/k9vai2.baf~
-COMPILE ~k9EveOfWar/Script/k9refuge.baf~
-COMPILE ~k9EveOfWar/Script/k9refug2.baf~
-
-
-// Ulgoths beard
-
-COMPILE ~k9EveOfWar/Dialog/k9shand.d~
-
-EXTEND_TOP ~AR1000.bcs~ ~k9EveOfWar/Script/k9shanfi.baf~
+////////////////////////////////////////////////////////////////////////////////
+//Kelddath gives quest
+////////////////////////////////////////////////////////////////////////////////
 
 //Note from Kelddath
 COPY ~k9EveOfWar/ITM/k9scrl2z.itm~ ~override/k9scrl2z.itm~
@@ -292,6 +290,36 @@ COPY ~k9EveOfWar/ITM/k9sper05.itm~ ~override/k9sper05.itm~
     SAY NAME1 @99990119
     SAY NAME2 @99990120
     SAY DESC @99990121
+    
+
+////////////////////////////////////////////////////////////////////////////////
+//Baldur's Gate Treaty
+////////////////////////////////////////////////////////////////////////////////
+
+COMPILE ~k9EveOfWar/Dialog/k9benneg.d~
+COMPILE ~k9EveOfWar/Dialog/k9vai.d~
+COMPILE ~k9EveOfWar/Dialog/k9gategu.d~
+COMPILE ~k9EveOfWar/Dialog/k9refuge.d~
+COMPILE ~k9EveOfWar/Dialog/k9refug2.d~
+COMPILE ~k9EveOfWar/Dialog/k9refug3.d~
+COMPILE ~k9EveOfWar/Dialog/k9refug4.d~ 
+COMPILE ~k9EveOfWar/Dialog/k9refug5.d~
+COMPILE ~k9EveOfWar/Dialog/k9refug6.d~
+COMPILE ~k9EveOfWar/Dialog/k9noober.d~
+
+
+
+COPY ~k9EveOfWar/CRE/Baldur's Gate/k9vai.cre~ ~override/k9vai.cre~
+EXTEND_TOP ~AR3304.bcs~ ~k9EveOfWar/Script/k9vai.baf~
+EXTEND_TOP ~AR0800.bcs~ ~k9EveOfWar/Script/k9vai.baf~
+EXTEND_TOP ~AR3300.bcs~ ~k9EveOfWar/Script/k9ar3300.baf~
+EXTEND_TOP ~AR0100.bcs~ ~k9EveOfWar/Script/k9BGNort.baf~
+
+
+COMPILE ~k9EveOfWar/Script/k9cutvai.baf~
+COMPILE ~k9EveOfWar/Script/k9vai2.baf~
+COMPILE ~k9EveOfWar/Script/k9refuge.baf~
+COMPILE ~k9EveOfWar/Script/k9refug2.baf~
 
 //Refugee area
 
@@ -495,26 +523,33 @@ COPY ~k9EveOfWar/PVRZ/A910000.PVRZ~ ~override/A910000.PVRZ~
 COPY ~k9EveOfWar/PNG/AR9100.PNG~ ~override/AR9100.PNG~
 
 
+////////////////////////////////////////////////////////////////////////////////
+//Gullykin
+////////////////////////////////////////////////////////////////////////////////
+COMPILE ~k9EveOfWar/Dialog/k9gandol.d~
+COMPILE ~k9EveOfWar/Script/k9ar4000.baf~
 
 
 
+////////////////////////////////////////////////////////////////////////////////
+// Ulgoths beard
+////////////////////////////////////////////////////////////////////////////////
 
 
+COMPILE ~k9EveOfWar/Dialog/k9shand.d~
+
+EXTEND_TOP ~AR1000.bcs~ ~k9EveOfWar/Script/k9shanfi.baf~
 
 
-//Beregost
-//Militia headquarters
+////////////////////////////////////////////////////////////////////////////////
+//Beregost Militia headquarters
+////////////////////////////////////////////////////////////////////////////////
 
 COPY ~k9EveOfWar/ARE/AR3347.are~ ~override/AR3347.are~
 COPY ~k9EveOfWar/ARE/AR3348.are~ ~override/AR3348.are~
 
 
-//Sarevok Ceremony - Grand dukes are both dead but Eltan lives
 
-
-ADD_JOURNAL @66040 USING ~k9EveOfWar\Lang\English\k9journa.tra~
-
-ADD_JOURNAL @66041 @66042 @66043 USING ~k9EveOfWar\Lang\English\k9journa.tra~
 
 
 //Militia training
@@ -1241,13 +1276,16 @@ COPY_EXISTING ~AR0002.are~ ~override~
 
 
 
-
-//Jovial Juggler
+//////////////////////////////////////////////////////////////////////////////////
+//Jovial Juggler Dialog
+//////////////////////////////////////////////////////////////////////////////////
 
 COMPILE ~k9EveOfWar/Dialog/k9jovjug.d~
 COPY_EXISTING ~k9EveOfWar/STO/INN3304.sto~ ~override/INN3304.sto~
 
-//Feldpost Inn
+//////////////////////////////////////////////////////////////////////////////////
+//Feldpost Inn Bandit Crate
+//////////////////////////////////////////////////////////////////////////////////
 
 COMPILE ~k9EveOfWar/Dialog/k9felpos.d~
 
@@ -1259,7 +1297,12 @@ COPY ~k9EveOfWar/ITM/k9winecr.itm~ ~override/k9winecr.itm~
 //Crate location
 EXTEND_TOP ~AR1900.bcs~ ~k9EveOfWar/Script/k9ar1900.baf~
 
+
+
+//////////////////////////////////////////////////////////////////////////////////
 //Burning Wizard
+//////////////////////////////////////////////////////////////////////////////////
+
 
 COMPILE ~k9EveOfWar/Dialog/k9burwiz.d~
 COMPILE ~k9EveOfWar/Dialog/k9alvan.d~
@@ -1271,8 +1314,11 @@ COPY ~k9EveOfWar/CRE/militia/k9girl.cre~ ~override/k9girl.cre~
 COMPILE ~k9EveOfWar/Dialog/k9girl.d~
 COMPILE ~k9EveOfWar/Script/k9girl.baf~
 
+//////////////////////////////////////////////////////////////////////////////////
+//Scouting out Amn
+//////////////////////////////////////////////////////////////////////////////////
 
-//Beregost Fist from chapter 5 and 6
+
 
 COPY ~k9EveOfWar/CRE/Beregost Fist/k9fisser.cre~ ~override/k9fisser.cre~
     SAY NAME1 @130130
@@ -1285,9 +1331,10 @@ COMPILE ~k9EveOfWar/Script/k9berffs.baf~
 STRING_SET 6493    @130145
 
 
-// Flaming Fist Sergeant dialogue
+//////////////////////////////////////////////////////////////////////////////////
+//Beregost Flaming Fist in chapters 5 and 6
+//////////////////////////////////////////////////////////////////////////////////
 
-COMPILE ~k9EveOfWar/Dialog/k9berffs.d~
 
 COPY ~k9EveOfWar/CRE/Beregost Fist/k9fistb1.cre~ ~override/k9fistb1.cre~
 COPY ~k9EveOfWar/CRE/Beregost Fist/k9fistb2.cre~ ~override/k9fistb2.cre~

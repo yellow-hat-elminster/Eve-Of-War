@@ -1,15 +1,15 @@
 (This Readme is clearly a work in progress)
 
-**What does this mod do?**
+# What does this mod do?
 
 This is an extensive mod that makes changes to the main quest of Baldur’s Gate Enhanced Edition. It offers components that incorporates sourcebook material into the game - making it more in line with what sourcebooks like Volo’s Guide to the Sword Coast and Lands of Intrigue have to say about these areas.
 
 It also provides additional areas and joinable NPCs and has components that make rule changes.
 
 
-**Main Component**
+# Main Components
 
-**Story Changes**
+## Story Changes
 With the main component of this mod installed you can now do the following.
 
 - Attack people in the prologue in Candlekeep (Gorion with flee with you...although his teleportation is a bit bugged at the moment). This will have consequences down the line of course.
@@ -23,7 +23,7 @@ With the main component of this mod installed you can now do the following.
 - If you are working with Alatos, you can instead kill Duke Eltan and frame it on the Shadow Thieves. This sets the region on the path to war.
 
 
-
+## Area Specific Changes
 **Friendly Arm Inn**
 
 - The Friendly Arm Inn's courtyard has been converted into a makeshift warcamp. Flaming Fist troops can be found training in it (chapter 5 or later).
@@ -66,7 +66,7 @@ With the main component of this mod installed you can now do the following.
 **Baldur’s Gate**
 - Rashad, Eltan’s healer, now actually disappears into the sewers at night. This is to make it consistent with the text in the game (which describes him doing this). 
 
-**Side Components**
+##Side Components
 
 **Cloakwood**
 
@@ -180,18 +180,18 @@ Archaeological Site/Brage Area
 - You can cast Remove Curse on Brage. This will cause him to come to his senses. You can also now return him to the garrison instead of just taking him to the temple.
 
 
-Install Fog
+**Install Fog**
 
 - This adds fog to different areas of the game (namely coastal areas).
 
-Install Yeorg NPC
+**Install Yeorg NPC**
 
 - This installs a dragon disciple joinable NPC. You can find him in Gullykin in the northeastern tent. This also changes Gullykin and the Firewine Bridge to be wild magic areas (which is consistent with how they are reflected in Volo’s Guide to the Sword Coast).  
 
  
  
 
-**Rough World Components**
+## Rough World Components
  
  
 **Scaled Spawning (BGEE Original Campaign Only)**
@@ -262,10 +262,10 @@ This changes reputation in a couple of ways
 
 
 
-**Lists of Quests**
+# Lists of Quests 
 **SPOILERS: This section gets into some of the detail behind the quests and therefore it will have spoilers**
 
-**MAIN QUESTS**
+## MAIN QUESTS 
 **Convincing Cyrag to become a watch lieutenant**
 
 - You unlock this quest by talking to Commander Darren. Cyrag is either going to be in the Burning Wizard, Feldpost Inn, or Red Sheaf. You’ll need to buy him an ale (through the innkeeper’s store) before he’ll talk to you though.
@@ -347,12 +347,12 @@ The Friendly Arm Inn requires a substantial gold investment to acquire its suppo
 While Baldur’s Gate, the most important partner, requires that you take part in a small quest to investigate reports of an army spreading across the regions north of Baldur’s Gate. Which ties in to the events of Siege of Dragonspear.
 
 
-**BGEE Main Quest Outcomes**
+##BGEE Main Quest Outcomes
 
 
 
 
-**Special Thanks**
-Anyways, special thanks to Cuv and Ardanis for helping me figure out some of the Weidu stuff behind the mod. Also Cahir for his unwavering support to see this released. 
+##Special Thanks 
+Special thanks to Cuv and Ardanis for helping me figure out some of the Weidu stuff behind the mod. Also Cahir for his unwavering support to see this released. 
 
 

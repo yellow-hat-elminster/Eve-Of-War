@@ -1,26 +1,26 @@
-# k9EveOfWar 
+**Eve Of War **
 
-What does this mod do?
+**What does this mod do?**
 
 This is an extensive mod that makes changes to the main quest of Baldur’s Gate Enhanced Edition. It offers components that incorporates sourcebook material into the game - making it more in line with what sourcebooks like Volo’s Guide to the Sword Coast and Lands of Intrigue have to say about these areas.
 
 It also provides additional areas and joinable NPCs and has components that make rule changes.
 
 
-Main Component
+**Main Component**
 
-Story Changes
+**Story Changes**
 With the main component of this mod installed you can now do the following.
 
-Attack people in the prologue in Candlekeep (Gorion with flee with you...although his teleportation is a bit bugged at the moment). This will have consequences down the line of course.
-Alternatively, you can attack Gorion himself and he will have some choice words for you.
-Take control of the Cloakwood Mines and run it as a slaver (which has its own risks)
-Side with Alatos, the leader of Baldur's Gate Thieves Guild, instead of having to work for Duke Eltan. This does require you to do the Halruaan ship quest first.
-This also removes the auto-kill given to Duke Eltan in the game. So you can reject his “request” and not die instantaneously.
-Use Balduran’s Logbook to enter Candlekeep instead of the book you are normally given.
-You don't lose the game if the two grand dukes are killed in the ceremony, provided you've saved Eltan.
-You can either bring Duke Eltan’s body to the ceremony or bring him to the harbor master for safe keeping.
-If you are working with Alatos, you can instead kill Duke Eltan and frame it on the Shadow Thieves. This sets the region on the path to war.
+- Attack people in the prologue in Candlekeep (Gorion with flee with you...although his teleportation is a bit bugged at the moment). This will have consequences down the line of course.
+- Alternatively, you can attack Gorion himself and he will have some choice words for you.
+- Take control of the Cloakwood Mines and run it as a slaver (which has its own risks)
+- Side with Alatos, the leader of Baldur's Gate Thieves Guild, instead of having to work for Duke Eltan. This does require you to do the Halruaan ship quest first.
+- This also removes the auto-kill given to Duke Eltan in the game. So you can reject his “request” and not die instantaneously.
+- Use Balduran’s Logbook to enter Candlekeep instead of the book you are normally given.
+- You don't lose the game if the two grand dukes are killed in the ceremony, provided you've saved Eltan.
+- You can either bring Duke Eltan’s body to the ceremony or bring him to the harbor master for safe keeping.
+- If you are working with Alatos, you can instead kill Duke Eltan and frame it on the Shadow Thieves. This sets the region on the path to war.
 
 
 

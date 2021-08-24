@@ -122,7 +122,7 @@ _Nashkel_
 
 _Carnival and Nashkel Mines_
 
-- The probability of it snowing is increased to 50 percent (this is to represent Auril’s influence over the region).
+- The probability of it snowing is increased to 50 percent.
 
 
 **Werewolf Island Improvements**

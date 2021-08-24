@@ -33,15 +33,13 @@ With the main component of this mod installed you can now do the following.
 
 - Adds a town watch headquarters to Beregost and labels the Travenhurst Manor as the Town Council building.
 
-Starting in chapter 3, Kelddath Ormlyr, Taerom, and a Familiar (representing Thalantyr) are now added around the table in the Town Council buildings first floor.
+- Starting in chapter 3, Kelddath Ormlyr, Taerom, and a Familiar (representing Thalantyr) are now added around the table in the Town Council buildings first floor.
 
 - Adds a town watch to the streets of Beregost (this rolls out over the course of the first 3 chapters).
 
-If you travel to Beregost in chapter 2, warriors and clerics have an opportunity to teach new recruits new methods/bless them
+- If you travel to Beregost in chapter 2, warriors and clerics have an opportunity to teach new recruits new methods/bless them
 
-- Adds Cyrag (a drunk Blade) to the towns inns (his location will vary to a degree depending upon the time of day).
-
-He can become a lieutenant in the militia
+- Adds Cyrag to the towns inns (his location will vary to a degree depending upon the time of day).  
 
 - Adds a thief named Bethi at night time to one of the gardens in the north-west corner of Beregost. She sells you iron goods that won't break as well as some specialty items from Waterdeep.
 
@@ -66,96 +64,7 @@ He can become a lieutenant in the militia
 
 
 **Baldur’s Gate**
-Rashad, Eltan’s healer, now actually disappears into the sewers at night. This is to make it consistent with the text in the game (which describes him doing this). 
-
-
-**Lists of Quests**
-**SPOILERS: This section gets into some of the detail behind the quests and therefore it will have spoilers**
-
-**MAIN QUESTS**
-**Convincing Cyrag to become a watch lieutenant**
-
-You unlock this quest by talking to Commander Darren. Cyrag is either going to be in the Burning Wizard, Feldpost Inn, or Red Sheaf. You’ll need to buy him an ale (through the innkeeper’s store) before he’ll talk to you though.
-
-
-**Dealing with the high alcohol prices in Beregost**
-Bandit raids in particular have tested the region's supply lines. By chapter 2, the town watch is beginning to feel the effects of this. With little in the way of pay, high prices have kept them from enjoying the local establishments. You are tasked with addressing the issue.
-
-
-**Resupplying the town watch**
-
-The town watch in Beregost are poorly trained and poorly armed. Particularly given the iron crisis at hand. In this short quest you are tasked to help change that. You can help them out or  give them more expensive equipment that won’t rust (or give them very cheap equipment).
-
- 
-**Finding Advisors for Beregost**
-
-According to the sourcebooks there are supposed to be 5 council members, but Thalantyr, Kelddath, and Taerom are the only ones confirmed in the books as being members. If one assumes Gerard Travenhurst is a member that makes 4.
-
-Originally, this component was just going to be about finding another council member. But its actually morphed into you finding advisors for Beregost to assist them should fighting break out.
-
-Anyways, for anyone curious these are your options. Their exact locations will not be advertised in game, with the exception of the few in beregost. It'll largely be up to people to find them. For most you'll get a general description for where they were last seen.
-
-The more advisors Beregost has, the better position it is in should war break out.
-
-
-
-_Military Men/Women_
-
-
-_Sir Edward Filmarya (Pal 10, Hm, LG)_
-
-Paladin of an order of Tyr based out of Leilon. He's been sent by his order to research the teachings of Alaundo - including the prophecies of Bhaal - in order to prepare his order for what is feared to be a great upcoming evil. When you return to Candlekeep in chapter 6 you can ask him questions about his research and see if he would be willing to put his studies aside in order to join the town council in Beregost. How well you are received by the people of Candlekeep will impact how likely he is to agree to this.
-
-_Olbrimsur Thunderwood (LG, hm, R10)_
-
-A ranger from Berdusk known for this expeditions against goblins, giants, and other beasts. He’s not really adapt at fighting human combatants, or at handling defensive matters, but his campaigns against the goblins and giants in the region are almost legendarily known.
-
-He can currently be found fighting a band of hobgoblins somewhere in the Wood of Sharp Teeth (actually in the southern part of the bandit camp map).
-
-
-_Cyrag Hammerbone (TN dm, F/T 7)_
-
-Cyrag can be asked to step in and join the council as well. He’s a dwarf with a military background (fought in Second Dragonspear War), but is still less experienced than some of the other characters available for the position. You can find him making his way throughout the taverns of Beregost.
-
-
-_Blentra Whaelbuckler (CG hf F9)_
-
-An adventurer that hails from Cormyr. She’s in Beregost currently looking at establishing a new inn, the Frozen Tulip. As a former knight of Cormyr she has extensive experience in military campaigns, having served in the fleets of Cormyr against some of the fiercest pirates that operate near Cormyr. She’s looking for a break however and a new place to settle down. As a member of the Harpers (which is revealed if she is spoken to with Jaheira in your group) she also has some connections to offer the town.
-
-She’s currently residing in the vestibule in the temple area, waiting to meet with Kelddath to approve her license to operate in town.
-
-
-
-_Non-Military_
-
-
-_Baranta Chansil (CG hf W14)_
-
-A bright, very enthusiastic mage originally from Elturel. She’s come to Baldur’s Gate to expand on her knowledge of magic and purchase more advanced spells. She has little experience however in military matters, having spent much of her time dealing with administrative matters in Elturel. She is however well versed with the nobility in Baldur’s Gate and keeps in regular contact with some of its more powerful noble houses.
-
-In any case, you can find her in Baldur’s Gate in the Helm and Cloak.
-
-
-_Baskor Tranth (NG hm M9)_
-
-Originally from Suzail, Baskor’s drinking caught up with him and after a visit from the authorities (and out of an unhealthy amount of paranoia) he chose to leave town. He’s since made his way to Baldur’s Gate - in the hope of acquiring more combat spells through which he can protect himself from his enemies.
-
-He can be found in Baldur’s Gate’s Sorcerous Sundries, trying to convince a child to steal Halbazzer Drin’s spellbook.
-
-
-**Gaining Treaties for Refugees**
-
-As tensions rise it becomes clear that Beregost is poorly defended. You are tasked by Kelddath to gain assurances with the other communities so that refugees from Beregost can flee to these communities freely.
-
-In the case of Gullykin and Ulgoth’s Beard, merely completing existing quests will convince the rulers of these communities to provide assistance.
-
-The Friendly Arm Inn requires a substantial gold investment to acquire its support.
-
-While Baldur’s Gate, the most important partner, requires that you take part in a small quest to investigate reports of an army spreading across the regions north of Baldur’s Gate. Which ties in to the events of Siege of Dragonspear.
-
-
-**Outcomes**
-
+- Rashad, Eltan’s healer, now actually disappears into the sewers at night. This is to make it consistent with the text in the game (which describes him doing this). 
 
 **Side Components**
 
@@ -222,7 +131,7 @@ _Werewolf Island_
 
 - Karoug is now able to be hit by any magical weapon. The Cold Iron restriction is removed. He instead has 50% magic resistance like other Greater Wolfweres. Instead of doing 1d12 damage with 3 attacks per round he has two 1d6 slashing attacks and a 2d6 piercing attack. He will also randomly summon 2d6 Dire Wolves in the event that his allies are killed and now regenerates at 8hp/second. 
 
-These changes are to make him more in-line with what is found in PnP (as well as the 9th level Shapechange mage spell). Non-ship wolfweres now have 10% magic resistance to keep them consistent with PnP. Daese and other wolfweres within the ship have 25%.
+- These changes are to make him more in-line with what is found in PnP (as well as the 9th level Shapechange mage spell). Non-ship wolfweres now have 10% magic resistance to keep them consistent with PnP. Daese and other wolfweres within the ship have 25%.
 
 
 **Bandit Camp PnP Improvements**
@@ -273,11 +182,11 @@ Archaeological Site/Brage Area
 
 Install Fog
 
-This adds fog to different areas of the game (namely coastal areas).
+- This adds fog to different areas of the game (namely coastal areas).
 
 Install Yeorg NPC
 
-This installs a dragon disciple joinable NPC. You can find him in Gullykin in the northeastern tent. This also changes Gullykin and the Firewine Bridge to be wild magic areas (which is consistent with how they are reflected in Volo’s Guide to the Sword Coast).  
+- This installs a dragon disciple joinable NPC. You can find him in Gullykin in the northeastern tent. This also changes Gullykin and the Firewine Bridge to be wild magic areas (which is consistent with how they are reflected in Volo’s Guide to the Sword Coast).  
 
  
  
@@ -287,12 +196,12 @@ This installs a dragon disciple joinable NPC. You can find him in Gullykin in th
  
 **Scaled Spawning (BGEE Original Campaign Only)**
 
-Scaled spawning adds new creatures (including creatures that you would otherwise not encounter in BG1) along the main (critical) path of the game. This is in part based on your difficulty level. This also does not change the AI for these creatures (so if you want a challenge there you might want to look into something like SCS). These are all just one-time encounters (they won't respawn).
+- Scaled spawning adds new creatures (including creatures that you would otherwise not encounter in BG1) along the main (critical) path of the game. This is in part based on your difficulty level. This also does not change the AI for these creatures (so if you want a challenge there you might want to look into something like SCS). These are all just one-time encounters (they won't respawn).
 
 
 **Sparse Resting (BGEE Original Campaign Only)**
 
-Sparse Resting changes the probability of successfully resting in some areas based on your difficulty setting. In some cases it may now be extremely difficult to successfully rest. It will also open up the option to rest in other areas (that previously blocked resting).
+- Sparse Resting changes the probability of successfully resting in some areas based on your difficulty setting. In some cases it may now be extremely difficult to successfully rest. It will also open up the option to rest in other areas (that previously blocked resting).
 
 
 **Chapter 7 Hardcore Component (BGEE Original Campaign Only)**
@@ -306,7 +215,7 @@ These restrictions will end at the end of Sarevok's coronation ceremony.
 
 **Improved Beggars Component (BGEE Original Campaign Only)**
 
-Beggars now have flies flying overtop of their heads. Extremely low reputation parties can give them a donation and (provided they acted respectfully when doing so) can get a small reputation increase.
+- Beggars now have flies flying overtop of their heads. Extremely low reputation parties can give them a donation and (provided they acted respectfully when doing so) can get a small reputation increase.
 
 
 **New Reputation Names Component**
@@ -334,25 +243,116 @@ This changes reputation in a couple of ways
 **Innocence Re-Conceived Component (BGEE Original Campaign Only)**
 
 **WARNING: DO NOT USE IF YOU INTEND TO USE DORN OR ARE PLAYING A BLACKGUARD**
-Changes who the game considers to be "innocent", meaning that killing people found in obscure locations (defined as being either a diagonal location or more than one (e,w,s,n) area away from an urban area) will not result in a reputation loss.
+- Changes who the game considers to be "innocent", meaning that killing people found in obscure locations (defined as being either a diagonal location or more than one (e,w,s,n) area away from an urban area) will not result in a reputation loss.
 
-Also makes it so that if you are a paladin that kills an innocent person you lose your paladin status. Rangers however do not face this restriction. 
+- Also makes it so that if you are a paladin that kills an innocent person you lose your paladin status. Rangers however do not face this restriction. 
 
 **Note: I do not recommend you install the Fixed Insane Difficulty and Only Autosaves components after you have already started a game. The results could be very mixed if you do so.**
 
 **Only Autosaves**
 
 
-This Component makes it so that you cannot save the game. You must rely on autosaves (and your own wit) to make your way through it.
+- This Component makes it so that you cannot save the game. You must rely on autosaves (and your own wit) to make your way through it.
 
 
 **Fixed Insane Difficulty**
 
-This component turns Legacy of Bhaal into effectively a game where you are permanently playing on the insane difficulty setting.
+- This component turns Legacy of Bhaal into effectively a game where you are permanently playing on the insane difficulty setting.
 
 
 
 
-Anyways, special thanks to Cuv and Ardanis for helping me figure out the Weidu stuff behind the mod. Special thanks to Etamin for their work on the Polish translation.
+**Lists of Quests**
+**SPOILERS: This section gets into some of the detail behind the quests and therefore it will have spoilers**
+
+**MAIN QUESTS**
+**Convincing Cyrag to become a watch lieutenant**
+
+- You unlock this quest by talking to Commander Darren. Cyrag is either going to be in the Burning Wizard, Feldpost Inn, or Red Sheaf. You’ll need to buy him an ale (through the innkeeper’s store) before he’ll talk to you though.
+
+
+**Dealing with the high alcohol prices in Beregost**
+- Bandit raids in particular have tested the region's supply lines. By chapter 2, the town watch is beginning to feel the effects of this. With little in the way of pay, high prices have kept them from enjoying the local establishments. You are tasked with addressing the issue.
+
+
+**Resupplying the town watch**
+
+- The town watch in Beregost are poorly trained and poorly armed. Particularly given the iron crisis at hand. In this short quest you are tasked to help change that. You can help them out or  give them more expensive equipment that won’t rust (or give them very cheap equipment).
+
+ 
+**Finding Advisors for Beregost**
+
+- According to the sourcebooks there are supposed to be 5 council members, but Thalantyr, Kelddath, and Taerom are the only ones confirmed in the books as being members. If one assumes Gerard Travenhurst is a member that makes 4.
+
+Originally, this component was just going to be about finding another council member. But its actually morphed into you finding advisors for Beregost to assist them should fighting break out.
+
+Anyways, for anyone curious these are your options. Their exact locations will not be advertised in game, with the exception of the few in beregost. It'll largely be up to people to find them. For most you'll get a general description for where they were last seen.
+
+The more advisors Beregost has, the better position it is in should war break out.
+
+
+
+_Military Men/Women_
+
+
+_Sir Edward Filmarya (Pal 10, Hm, LG)_
+
+Paladin of an order of Tyr based out of Leilon. He's been sent by his order to research the teachings of Alaundo - including the prophecies of Bhaal - in order to prepare his order for what is feared to be a great upcoming evil. When you return to Candlekeep in chapter 6 you can ask him questions about his research and see if he would be willing to put his studies aside in order to join the town council in Beregost. How well you are received by the people of Candlekeep will impact how likely he is to agree to this.
+
+_Olbrimsur Thunderwood (LG, hm, R10)_
+
+A ranger from Berdusk known for this expeditions against goblins, giants, and other beasts. He’s not really adapt at fighting human combatants, or at handling defensive matters, but his campaigns against the goblins and giants in the region are almost legendarily known.
+
+He can currently be found fighting a band of hobgoblins somewhere in the Wood of Sharp Teeth (actually in the southern part of the bandit camp map).
+
+
+_Cyrag Hammerbone (TN dm, F/T 7)_
+
+Cyrag can be asked to step in and join the council as well. He’s a dwarf with a military background (fought in Second Dragonspear War), but is still less experienced than some of the other characters available for the position. You can find him making his way throughout the taverns of Beregost.
+
+
+_Blentra Whaelbuckler (CG hf F9)_
+
+An adventurer that hails from Cormyr. She’s in Beregost currently looking at establishing a new inn, the Frozen Tulip. As a former knight of Cormyr she has extensive experience in military campaigns, having served in the fleets of Cormyr against some of the fiercest pirates that operate near Cormyr. She’s looking for a break however and a new place to settle down. As a member of the Harpers (which is revealed if she is spoken to with Jaheira in your group) she also has some connections to offer the town.
+
+She’s currently residing in the vestibule in the temple area, waiting to meet with Kelddath to approve her license to operate in town.
+
+
+
+_Non-Military_
+
+
+_Baranta Chansil (CG hf W14)_
+
+A bright, very enthusiastic mage originally from Elturel. She’s come to Baldur’s Gate to expand on her knowledge of magic and purchase more advanced spells. She has little experience however in military matters, having spent much of her time dealing with administrative matters in Elturel. She is however well versed with the nobility in Baldur’s Gate and keeps in regular contact with some of its more powerful noble houses.
+
+In any case, you can find her in Baldur’s Gate in the Helm and Cloak.
+
+
+_Baskor Tranth (NG hm M9)_
+
+Originally from Suzail, Baskor’s drinking caught up with him and after a visit from the authorities (and out of an unhealthy amount of paranoia) he chose to leave town. He’s since made his way to Baldur’s Gate - in the hope of acquiring more combat spells through which he can protect himself from his enemies.
+
+He can be found in Baldur’s Gate’s Sorcerous Sundries, trying to convince a child to steal Halbazzer Drin’s spellbook.
+
+
+**Gaining Treaties for Refugees**
+
+As tensions rise it becomes clear that Beregost is poorly defended. You are tasked by Kelddath to gain assurances with the other communities so that refugees from Beregost can flee to these communities freely.
+
+In the case of Gullykin and Ulgoth’s Beard, merely completing existing quests will convince the rulers of these communities to provide assistance.
+
+The Friendly Arm Inn requires a substantial gold investment to acquire its support.
+
+While Baldur’s Gate, the most important partner, requires that you take part in a small quest to investigate reports of an army spreading across the regions north of Baldur’s Gate. Which ties in to the events of Siege of Dragonspear.
+
+
+**BGEE Main Quest Outcomes**
+
+
+
+
+**Special Thanks**
+Anyways, special thanks to Cuv and Ardanis for helping me figure out some of the Weidu stuff behind the mod. Also Cahir for his unwavering support to see this released. 
 
 

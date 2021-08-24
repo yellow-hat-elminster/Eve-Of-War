@@ -68,8 +68,9 @@ END
 
 IF Global("k9kidmissing","GLOBAL",1) Global("k9kidmissingspawn","GLOBAL",0)
 
-  THEN RESPONSE #100  		CreateCreature("k9girl",[1065.2990],SE)    SetGlobal("k9kidmissingspawn","GLOBAL",1)
-
+  THEN RESPONSE #33  		CreateCreature("k9girl",[1065.2990],SE)    SetGlobal("k9kidmissingspawn","GLOBAL",1)
+  THEN RESPONSE #33  		CreateCreature("k9girl",[700.2490],SE)    SetGlobal("k9kidmissingspawn","GLOBAL",1)
+    THEN RESPONSE #33  		CreateCreature("k9girl",[4380.3480],SW)    SetGlobal("k9kidmissingspawn","GLOBAL",1)
     		END
 
 

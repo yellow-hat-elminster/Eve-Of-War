@@ -22,12 +22,12 @@ With the main component of this mod installed you can now do the following.
 
 
 
-Friendly Arm Inn
+**Friendly Arm Inn**
 
 - The Friendly Arm Inn's courtyard has been converted into a makeshift warcamp. Flaming Fist troops can be found training in it (chapter 5 or later).
 
 
-Beregost
+**Beregost**
 
 - Adds a town watch headquarters to Beregost and labels the Travenhurst Manor as the Town Council building.
 
@@ -55,44 +55,37 @@ He can become a lieutenant in the militia
  
 
 
-High Hedge
-
+**High Hedge**
 - An Aquatic Elf can now be found near a pond in the north-west corner of the map. She can be pressed about what she knows about Thalantyr. She is based on a mention in Volo's Guide to the Sword Coast of Thalantyr talking to someone underneath the surface of the water.
 
 
-South of High Hedge
-
+**South of High Hedge**
 - You can find a journal on Bassilus now. You can either read the journal and travel to the Mountain of Skulls (a Cyric Stronghold in the Cloudpeaks), or you can talk to Kelddath to learn more about what he knows about Bassilus beforehand. This is part of a quest that involves wiping out any followers of Cyric in the region.
 
 
-Baldur’s Gate
-
+**Baldur’s Gate**
 Rashad, Eltan’s healer, now actually disappears into the sewers at night. This is to make it consistent with the text in the game (which describes him doing this). 
 
 
-Lists of Quests
+**Lists of Quests**
+**SPOILERS: This section gets into some of the detail behind the quests and therefore it will have spoilers**
 
-SPOILERS: This section gets into some of the detail behind the quest and therefore it will have spoilers
-
-
-MAIN QUESTS
-
-Convincing Cyrag to become a watch lieutenant
+**MAIN QUESTS**
+**Convincing Cyrag to become a watch lieutenant**
 
 You unlock this quest by talking to Commander Darren. Cyrag is either going to be in the Burning Wizard, Feldpost Inn, or Red Sheaf. You’ll need to buy him an ale (through the innkeeper’s store) before he’ll talk to you though.
 
 
-Dealing with the high alcohol prices in Beregost
-
+**Dealing with the high alcohol prices in Beregost**
 Bandit raids in particular have tested the region's supply lines. By chapter 2, the town watch is beginning to feel the effects of this. With little in the way of pay, high prices have kept them from enjoying the local establishments. You are tasked with addressing the issue.
 
 
-Resupplying the town watch
+**Resupplying the town watch**
 
 The town watch in Beregost are poorly trained and poorly armed. Particularly given the iron crisis at hand. In this short quest you are tasked to help change that. You can help them out or  give them more expensive equipment that won’t rust (or give them very cheap equipment).
 
  
-Finding Advisors for Beregost
+**Finding Advisors for Beregost**
 
 According to the sourcebooks there are supposed to be 5 council members, but Thalantyr, Kelddath, and Taerom are the only ones confirmed in the books as being members. If one assumes Gerard Travenhurst is a member that makes 4.
 
@@ -104,27 +97,26 @@ The more advisors Beregost has, the better position it is in should war break ou
 
 
 
-Military Men/Women
+_Military Men/Women_
 
 
-Sir Edward Filmarya (Pal 10, Hm, LG)
+_Sir Edward Filmarya (Pal 10, Hm, LG)_
 
 Paladin of an order of Tyr based out of Leilon. He's been sent by his order to research the teachings of Alaundo - including the prophecies of Bhaal - in order to prepare his order for what is feared to be a great upcoming evil. When you return to Candlekeep in chapter 6 you can ask him questions about his research and see if he would be willing to put his studies aside in order to join the town council in Beregost. How well you are received by the people of Candlekeep will impact how likely he is to agree to this.
 
-
-Olbrimsur Thunderwood (LG, hm, R10)
+_Olbrimsur Thunderwood (LG, hm, R10)_
 
 A ranger from Berdusk known for this expeditions against goblins, giants, and other beasts. He’s not really adapt at fighting human combatants, or at handling defensive matters, but his campaigns against the goblins and giants in the region are almost legendarily known.
 
 He can currently be found fighting a band of hobgoblins somewhere in the Wood of Sharp Teeth (actually in the southern part of the bandit camp map).
 
 
-Cyrag Hammerbone (TN dm, F/T 7).
+_Cyrag Hammerbone (TN dm, F/T 7)_
 
 Cyrag can be asked to step in and join the council as well. He’s a dwarf with a military background (fought in Second Dragonspear War), but is still less experienced than some of the other characters available for the position. You can find him making his way throughout the taverns of Beregost.
 
 
-Blentra Whaelbuckler (CG hf F9)
+_Blentra Whaelbuckler (CG hf F9)_
 
 An adventurer that hails from Cormyr. She’s in Beregost currently looking at establishing a new inn, the Frozen Tulip. As a former knight of Cormyr she has extensive experience in military campaigns, having served in the fleets of Cormyr against some of the fiercest pirates that operate near Cormyr. She’s looking for a break however and a new place to settle down. As a member of the Harpers (which is revealed if she is spoken to with Jaheira in your group) she also has some connections to offer the town.
 
@@ -132,24 +124,24 @@ She’s currently residing in the vestibule in the temple area, waiting to meet 
 
 
 
-Non-Military
+_Non-Military_
 
 
-Baranta Chansil (CG hf W14),
+_Baranta Chansil (CG hf W14)_
 
 A bright, very enthusiastic mage originally from Elturel. She’s come to Baldur’s Gate to expand on her knowledge of magic and purchase more advanced spells. She has little experience however in military matters, having spent much of her time dealing with administrative matters in Elturel. She is however well versed with the nobility in Baldur’s Gate and keeps in regular contact with some of its more powerful noble houses.
 
 In any case, you can find her in Baldur’s Gate in the Helm and Cloak.
 
 
-Baskor Tranth (NG hm M9).
+_Baskor Tranth (NG hm M9)_
 
 Originally from Suzail, Baskor’s drinking caught up with him and after a visit from the authorities (and out of an unhealthy amount of paranoia) he chose to leave town. He’s since made his way to Baldur’s Gate - in the hope of acquiring more combat spells through which he can protect himself from his enemies.
 
 He can be found in Baldur’s Gate’s Sorcerous Sundries, trying to convince a child to steal Halbazzer Drin’s spellbook.
 
 
-Gaining Treaties for Refugees
+**Gaining Treaties for Refugees**
 
 As tensions rise it becomes clear that Beregost is poorly defended. You are tasked by Kelddath to gain assurances with the other communities so that refugees from Beregost can flee to these communities freely.
 
@@ -160,50 +152,49 @@ The Friendly Arm Inn requires a substantial gold investment to acquire its suppo
 While Baldur’s Gate, the most important partner, requires that you take part in a small quest to investigate reports of an army spreading across the regions north of Baldur’s Gate. Which ties in to the events of Siege of Dragonspear.
 
 
-Outcomes
+**Outcomes**
 
 
+**Side Components**
 
-Side Components
-
-Cloakwood
+**Cloakwood**
 
 - You can now cast "Remove Curse" on Centeol, which causes her to transform back into a sorceress. This presents an alternative to outright killing her.
 
 - Characters can now choose to take control of the mine instead of flooding it. This gives you a varying degree of income that you can pick up every three days from a store in the south-west of Baldur's Gate.
 
-Owning a mine of slaves has its risks though. Not everyone might be in favour of its existence or in you being its new owner.
+- Owning a mine of slaves has its risks though. Not everyone might be in favour of its existence or in you being its new owner.
 
-Merchant North of Friendly Arm Inn Encounter
+
+**Merchant North of Friendly Arm Inn Encounter**
 
 
 - On the northern edge of the map along the road you can run into a caravan (a merchant with a dead horse and a dead woman found down the road from him). You can claim you are a bandit and then threaten to take his goods. This is taking advantage of the unused banmer.dlg file from the original game (chapter 3). If you have taken the goods then when you encounter the bandits in either Peldvale or Larswood you can use it to convince them of your worth.
 
 
-Sarevok Final Battle Improvements
+**Sarevok Final Battle Improvements**
 
 - Sarevok has been updated to more accurately reflect the ability of a level 15 fighter. His equipment is now more in-line with what you might expect a level 15 fighter to have in the case of BG2EE (which I think is fair given that his father is wealthy and he is an experienced adventurer).  
 
 - (if you have the bandit camp component installed) Grangor will appear in the final battle if Ardenor (in the bandit camp) was killed. He is a level 11 wizard and casts spells appropriate for that level. This is to represent the fact that canonically he and Ardenor are close friends (Ardenor used to be a human but was resurrected in his current form by Grangor).
 
 
-Add Remorhaz to Ice Island
+**Add Remorhaz to Ice Island**
 
- Ice Island
+_Ice Island_
 
 - The Ice Island now has remorhaz that appear instead of ankhegs. You can go the smithy in Beregost to make a special armor out of their shell.
 
 
-Drizzt and His Companions
+**Drizzt and His Companions**
 
-South South of High Hedge
+_South South of High Hedge_
 
 - On higher difficulty levels Drizzt and his full group of companions (who have been largely adjusted to fit their descriptions in the Heroes Lorebook) can be found here. Remember though, if you attack one you attack them all!
 
+**Nashkel PnP Additions**
 
-Nashkel PnP Additions
-
-Nashkel
+_Nashkel_
 
 -The Inn in Nashkel has been renamed the Northern Light Inn. Its owner is now a mage by the name of Reis Kensiddar.
 
@@ -213,26 +204,26 @@ Nashkel
 
 - Jasha Istor will approach any party trying to enter the Belching Dragon Tavern and demand that they pay her off (she is an Icepriest of Auril). She offers temple services and you can also donate to her (through dialogue options) in order to lower your reputation.
 
-A low reputation character can also buy specialty goods from her (including the Snow Maiden's Reaver that exclusively does cold damage that is normally found in Icewind Dale and Icewind Dale Enhanced Edition).
+- A low reputation character can also buy specialty goods from her (including the Snow Maiden's Reaver that exclusively does cold damage that is normally found in Icewind Dale and Icewind Dale Enhanced Edition).
 
 - As chapters progress, the mayor will comment on events as they unfold.
 
 
-Carnival and Nashkel Mines
+_Carnival and Nashkel Mines_
 
 - The probability of it snowing is increased to 50 percent (this is to represent Auril’s influence over the region).
 
 
-Werewolf Island Improvements
+**Werewolf Island Improvements**
 
-Werewolf Island
+_Werewolf Island_
 
 - Karoug is now able to be hit by any magical weapon. The Cold Iron restriction is removed. He instead has 50% magic resistance like other Greater Wolfweres. Instead of doing 1d12 damage with 3 attacks per round he has two 1d6 slashing attacks and a 2d6 piercing attack. He will also randomly summon 2d6 Dire Wolves in the event that his allies are killed and now regenerates at 8hp/second. 
 
 These changes are to make him more in-line with what is found in PnP (as well as the 9th level Shapechange mage spell). Non-ship wolfweres now have 10% magic resistance to keep them consistent with PnP. Daese and other wolfweres within the ship have 25%.
 
 
-Bandit Camp PnP Improvements
+**Bandit Camp PnP Improvements**
 
 - The Chill in the camp have been updated to more accurately reflect how they are depicted in Gold and Glory. Their portion of the camp now contains a mix of goblins, hobgoblins, orcs, and ogres.
 
@@ -243,30 +234,29 @@ Bandit Camp PnP Improvements
 - As per PnP (Gold and Glory) Ardenor Crush now is wearing Gauntlets of Ogre Strength. He now has comparable Thac0 and abilities to a level 10 fighter (which is consistent with how he is described in Gold and Glory). I've updated his thac0, health and saving throws accordingly.
 
 
-Taugosz Alternative Encounter
+**Taugosz Alternative Encounter**
 
 - Taugosz will approach the party after they enter the tent and retrieve the letters. He will inquire as to what they were doing in it.
 
+**Firewine Ruins PnP Corrections**
 
-Firewine Ruins PnP Corrections
-
-Firewine Ruins
+_Firewine Ruins_
 
 - The Firewine Ruins now have more magical creatures, to reflect the descriptions provided in Volo's guide. This means lesser clay golems. If you have a specific wardstone in your inventory you can pass by these golems without having them attack you.
 
 The wardstone is found in the inventory of a junk dealer in Baldur's Gate (in the east-central section). The junk dealer is also given several items as well for sale.
 
 
-New Merchants Mod
+**New Merchants Mod**
 
-This adds street merchants throughout Baldur’s Gate and Beregost. They will yell various things out about what they are selling.
+- This adds street merchants throughout Baldur’s Gate and Beregost. They will yell various things out about what they are selling.
 
-Some of these sell trivial, unusable luxury items, while others sell weapons, potions, and armor. Most of what they sell is not something they can use. But they occasionally will have useful items.   
+- Some of these sell trivial, unusable luxury items, while others sell weapons, potions, and armor. Most of what they sell is not something they can use. But they occasionally will have useful items.   
 
 
-Alternative Dialog
+**Alternative Dialog**
 
-Cloakwood Forest
+_Cloakwood Forest_
 
 There are additional dialogue options for druid and avenger characters.
 
@@ -290,20 +280,20 @@ This installs a dragon disciple joinable NPC. You can find him in Gullykin in th
  
  
 
-Rough World Components
+**Rough World Components**
  
  
-Scaled Spawning (BGEE Original Campaign Only)
+**Scaled Spawning (BGEE Original Campaign Only)**
 
 Scaled spawning adds new creatures (including creatures that you would otherwise not encounter in BG1) along the main (critical) path of the game. This is in part based on your difficulty level. This also does not change the AI for these creatures (so if you want a challenge there you might want to look into something like SCS). These are all just one-time encounters (they won't respawn).
 
 
-Sparse Resting (BGEE Original Campaign Only)
+**Sparse Resting (BGEE Original Campaign Only)**
 
 Sparse Resting changes the probability of successfully resting in some areas based on your difficulty setting. In some cases it may now be extremely difficult to successfully rest. It will also open up the option to rest in other areas (that previously blocked resting).
 
 
-Chapter 7 Hardcore Component (BGEE Original Campaign Only)
+**Chapter 7 Hardcore Component (BGEE Original Campaign Only)**
 
 The chapter 7 hardcore component does three things
 1. It makes it so that when you hit chapter 7 you lose access to all areas within the City of Baldur's Gate (as well as the farm area). The only way to access the city (and to leave as well) is to pay a smuggler to bring you into and out of the city. The smuggler can be found near the bridge in the bridge area.
@@ -312,12 +302,12 @@ The chapter 7 hardcore component does three things
 
 These restrictions will end at the end of Sarevok's coronation ceremony.
 
-Improved Beggars Component (BGEE Original Campaign Only)
+**Improved Beggars Component (BGEE Original Campaign Only)**
 
 Beggars now have flies flying overtop of their heads. Extremely low reputation parties can give them a donation and (provided they acted respectfully when doing so) can get a small reputation increase.
 
 
-New Reputation Names Component
+**New Reputation Names Component**
 
 This component renames the description you get for your given level of reputation to one of the following
 
@@ -330,7 +320,7 @@ Thug
 Sadist
 
 
-Reputation Rebalanced Component (BGEE Original Campaign Only)
+**Reputation Rebalanced Component (BGEE Original Campaign Only)**
 
 This changes reputation in a couple of ways
 - Higher and lower reputation characters get better prices in stores. A character with around 10 reputation for instance would pay more for a good than one with 1 or 20.
@@ -339,25 +329,27 @@ This changes reputation in a couple of ways
 - The reaction modifier for players with higher reputation is improved. Players with 20 reputation now will get +7 to reaction instead of +4. This essentially makes the progression more even than in the vanilla game (at least compared to how low reputation's are handled).
 - Very low reputation characters will pay less to see a reputation improvement from donating to a church.
 
-Innocence Re-Conceived Component (BGEE Original Campaign Only)
+**Innocence Re-Conceived Component (BGEE Original Campaign Only)**
 
+**WARNING: DO NOT USE IF YOU INTEND TO USE DORN OR ARE PLAYING A BLACKGUARD**
 Changes who the game considers to be "innocent", meaning that killing people found in obscure locations (defined as being either a diagonal location or more than one (e,w,s,n) area away from an urban area) will not result in a reputation loss.
 
-Also makes it so that if you are a paladin that kills an innocent person you lose your paladin status. Rangers however do not face this restriction. **WARNING: DO NOT USE IF YOU INTEND TO USE DORN OR ARE PLAYING A BLACKGUARD**
+Also makes it so that if you are a paladin that kills an innocent person you lose your paladin status. Rangers however do not face this restriction. 
 
+**Note: I do not recommend you install the Fixed Insane Difficulty and Only Autosaves components after you have already started a game. The results could be very mixed if you do so.**
 
-Only Autosaves
+**Only Autosaves**
 
 
 This Component makes it so that you cannot save the game. You must rely on autosaves (and your own wit) to make your way through it.
 
 
-Fixed Insane Difficulty
+**Fixed Insane Difficulty**
 
 This component turns Legacy of Bhaal into effectively a game where you are permanently playing on the insane difficulty setting.
 
 
-Note: I do not recommend you install the Fixed Insane Difficulty and Only Autosaves components after you have already started a game. The results could be very mixed if you do so.
+
 
 Anyways, special thanks to Cuv and Ardanis for helping me figure out the Weidu stuff behind the mod. Special thanks to Etamin for their work on the Polish translation.
 

@@ -1105,11 +1105,7 @@ COPY_EXISTING ~ar3307.are~ ~override~
     fj_dlg_resref     = k9modest
   END
 
-
-//Modest Portraits
-COPY ~k9EveOfWar/Portraits/k9modeL.bmp~ ~override/k9modeL.bmp~
-COPY ~k9EveOfWar/Portraits/k9modeM.bmp~ ~override/k9modeM.bmp~
-COPY ~k9EveOfWar/Portraits/k9modeS.bmp~ ~override/k9modeS.bmp~
+ 
 
 //Modest Armor
 

@@ -2,7 +2,7 @@ BACKUP ~k9EveOfWar/Backup~
 AUTHOR ~elminster (elminster.sage@gmail.com)~
 
 
-VERSION ~v1.133~
+VERSION ~v1.14~
 
 LANGUAGE
     ~English~                                                                           
@@ -828,8 +828,7 @@ COPY ~k9EveOfWar/CRE/militia/k9injure.cre~ ~override/k9injure.cre~
 
 // Beregost Town Council
 
-// Kelddath Ormlyr (this is just to give the original a script name)
-COPY ~k9EveOfWar/CRE/acolytes/keldda.cre~ ~override/keldda.cre~
+// Kelddath Ormlyr (this is just to give the original a script name) 
  COPY ~k9EveOfWar/CRE/acolytes/k9acoly2.cre~ ~override/k9acoly2.cre~
 
 // Kelddath Ormlyr
@@ -858,8 +857,7 @@ COMPILE ~k9EveOfWar/Dialog/k9melica.d~
 COMPILE ~k9EveOfWar/Script/ar3202.baf~
 
 
-// Taerom Fuiruim (this is just to give the original a script name)
-COPY ~k9EveOfWar/CRE/smithy/taerom.cre~ ~override/taerom.cre~
+// Taerom Fuiruim (this is just to give the original a script name) 
 
 //head smith
 COPY ~k9EveOfWar/CRE/smithy/k9smith.cre~ ~override/k9smith.cre~
@@ -1105,7 +1103,7 @@ COPY_EXISTING ~ar3307.are~ ~override~
     fj_dlg_resref     = k9modest
   END
 
- 
+
 
 //Modest Armor
 

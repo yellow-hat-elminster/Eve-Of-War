@@ -1,10 +1,10 @@
-  EXTEND_TOP OUBLEK 9
+  EXTEND_BOTTOM OUBLEK 9
 
 + ~PartyHasItem("k9misc15")~+ ~I have the head of Tynnos Argrim here, the leader of the Cloudpeak Cyricists. Do you know of any bounties on this man?~ GOTO k92
   END
   
   
-    EXTEND_TOP OUBLEK 10
+    EXTEND_BOTTOM OUBLEK 10
 
 + ~PartyHasItem("k9misc15")~+ ~I have the head of Tynnos Argrim here, the leader of the Cloudpeak Cyricists. Do you know of any bounties on this man?~ GOTO k94
   END
@@ -28,7 +28,7 @@ You've been an honorable sort so far. So I'll take you at your word and offer yo
    ++ ~I'll think about it.~ EXIT
   END
 
-  
+
     IF  ~~ THEN BEGIN k94
   SAY ~Aye. But not for you. Not for a bounty as unlikely as that one. It's probably not even his head. A thief like you would say anything for coin. Now go away. I have other things to do.~ IF ~~ THEN EXIT
   END

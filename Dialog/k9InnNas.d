@@ -1,4 +1,4 @@
-EXTEND_TOP INNKN2 0
+EXTEND_BOTTOM INNKN2 0
   +~CheckStatGT(Player1Fill,14,CHR) Global("k9NasInn", "GLOBAL", 0)~+ ~What made a mage like yourself set about to live in this remote place?~  GOTO k93
   +~CheckStatLT(Player1Fill,15,CHR) Global("k9NasInn", "GLOBAL", 0)~+ ~What made a mage like yourself set about to live in this remote place?~  GOTO k94
   END

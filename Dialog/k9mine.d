@@ -1,7 +1,7 @@
 
 
 
-EXTEND_TOP Minec2 8
+EXTEND_BOTTOM Minec2 8
   +~~+ ~Why would I want to flood the mine when I can operate it? Get back to work!~  GOTO k913
 END
 

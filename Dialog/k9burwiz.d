@@ -1,7 +1,7 @@
 //Burning Wizard bartender
 //AR3307
 //Level 1 dialogue
-EXTEND_TOP BART13 0
+EXTEND_BOTTOM BART13 0
 
   IF ~Global("k9Wizardpint", "GLOBAL", 0) GlobalLT("k9pints", "GLOBAL", 2) Global("k9militiapint", "GLOBAL", 1) Global("k9burwiz","GLOBAL",0)~ THEN REPLY ~Hello friend. I couldn't help but hear from the town's watch that your mead here is very expensive. Any reasons for that?~ GOTO 2
   IF ~Global("k9burwiz","GLOBAL",2)~ THEN REPLY ~I visited the winery in Gullykin. They can supply you with the local wine you'll need.~ GOTO 4

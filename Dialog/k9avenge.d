@@ -1,5 +1,5 @@
 
-EXTEND_TOP Laskal 3
+EXTEND_BOTTOM Laskal 3
   +~Kit(Player1Fill,beastfriend)~+ ~I despise them. They would defile the land and leave this forest ruined. If you stand against them then know you have an ally.~  GOTO k96
     +~Class(Player1Fill,druid) !Kit(Player1Fill,beastfriend)~+ ~They have done great harm to the land. I am here to investigate them. Perhaps they can be convinced to leave this place peacefull.~  GOTO k97
 END
@@ -28,7 +28,7 @@ END
 
 END
 
-EXTEND_TOP Aldeth 5
+EXTEND_BOTTOM Aldeth 5
   +~Kit(Player1Fill,beastfriend)~+ ~You call them barbarians? You are mistaken. This conversation is over. You will not be leaving these woods.~  GOTO 6
     +~Class(Player1Fill,druid) !Kit(Player1Fill,beastfriend)~+ ~I'm afraid Aldeth that we must side with my druid brethren. Your actions here have been inexcusable and I cannot allow you to escape justice.~  GOTO 6
 END
@@ -36,7 +36,7 @@ END
 
 
 
-EXTEND_TOP Izefia 2
+EXTEND_BOTTOM Izefia 2
   +~Kit(Player1Fill,beastfriend)~+ ~You speak to me like this? You trot through these woods like a bear through a salmon stream. Begone from my sight!~  GOTO k96
 END
 
@@ -56,11 +56,11 @@ END
 
 
 
-EXTEND_TOP Takiyah 2
+EXTEND_BOTTOM Takiyah 2
   +~Kit(Player1Fill,beastfriend)~+ ~I seek to destroy that which defiles nature, the Iron Throne.~  GOTO 4
 END
 
-EXTEND_TOP Amaran 0
+EXTEND_BOTTOM Amaran 0
   +~Kit(Player1Fill,beastfriend)~+ ~I seek to destroy the Iron Throne. It is my understanding that you also seek their deaths.~  GOTO k96
 END
 

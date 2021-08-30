@@ -1,4 +1,4 @@
-EXTEND_TOP Alvahe 0
+EXTEND_BOTTOM Alvahe 0
 
   IF ~Global("k9burwiz","GLOBAL",1) ~ THEN REPLY ~Hello friend. I see that you have quite a bit of wine produced here. There is a tavern in Beregost called the Burning Wizard that is looking for a new supplier. I was wondering if you'd be interested.~ GOTO k92
 

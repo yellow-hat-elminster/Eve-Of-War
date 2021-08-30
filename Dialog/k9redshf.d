@@ -1,7 +1,7 @@
 //Red Sheaf
 
 
-EXTEND_TOP BART3 0
+EXTEND_BOTTOM BART3 0
 
   IF ~Global("k9Sheafpint", "GLOBAL", 0) !Global("k9darrensheaf","GLOBAL",1) GlobalLT("k9pints", "GLOBAL", 2) Global("k9militiapint", "GLOBAL", 1)~ THEN REPLY ~I've heard prices on your alcohol have soared. If you don't mind me asking, why is this?~  GOTO 2
   END

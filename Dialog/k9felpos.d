@@ -1,5 +1,5 @@
 
-EXTEND_TOP BART5 0
+EXTEND_BOTTOM BART5 0
 
   IF ~Global("k9Feldpostpint", "GLOBAL", 0) GlobalLT("k9pints", "GLOBAL", 2) Global("k9militiapint", "GLOBAL", 1) Global("k9felpos","GLOBAL",0)~ THEN REPLY ~Greetings. I've heard that the town watch has been finding the prices for a pint here too expensive. Care to explain why that is?~ GOTO k92
    IF ~Global("k9Feldpostpint", "GLOBAL", 0) GlobalLT("k9pints", "GLOBAL", 2) Global("k9militiapint", "GLOBAL", 1) Global("k9felpos","GLOBAL",1) PartyHasItem("k9winecr")~ THEN REPLY ~I found that shipment.~ GOTO k94

@@ -1,4 +1,4 @@
-EXTEND_TOP BART4 0
+EXTEND_BOTTOM BART4 0
  IF ~Global("k9Jugglerpint", "GLOBAL", 0)  GlobalLT("k9pints", "GLOBAL", 2) Global("k9militiapint", "GLOBAL", 1)~ THEN REPLY ~The town watch seem to think the prices on alcohol around here are intolerable. Is it true what they are saying?~  GOTO k91
  END
 

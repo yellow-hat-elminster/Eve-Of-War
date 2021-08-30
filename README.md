@@ -66,7 +66,7 @@ With the main component of this mod installed you can now do the following.
 **Baldur’s Gate**
 - Rashad, Eltan’s healer, now actually disappears into the sewers at night. This is to make it consistent with the text in the game (which describes him doing this). 
 
-## Side Components
+# Side Components
 
 **Cloakwood**
 
@@ -191,7 +191,7 @@ Archaeological Site/Brage Area
  
  
 
-## Rough World Components
+# Rough World Components
  
  
 **Scaled Spawning (BGEE Original Campaign Only)**
@@ -259,8 +259,27 @@ This changes reputation in a couple of ways
 
 - This component turns Legacy of Bhaal into effectively a game where you are permanently playing on the insane difficulty setting.
 
+# Siege of Dragonspear Components
 
+**Serpent's Cowl**
 
+- Provides a new town that can be explored. This can be visited by talking to Jeb at the end of the Bridgefort chapter. He's found hanging around near the river.
+
+**Daran Highhammer**
+
+Is a fighter/thief dwarf you can find in the first chapter. This will let him join your party.
+
+**Jenora**
+
+She's a Fighter/Mage/Cleric and a follower of Azuth. She'll talk a bit with Neera about her god and magic. Mostly she is just there to give neutral parties another option. You can find her standing in line outside the Sorcerous Sundries.
+
+**Shar-Teel**
+
+You can pick her up from the Flaming Fist jail. She's a very effective fighter who can be dual classed into a thief. She also has some fun banter.
+
+**Tiax**
+
+This is a very basic component that will allow Tiax to join you in the camp (but only in the first camp area). 
 
 # Lists of Quests 
 **SPOILERS: This section gets into some of the detail behind the quests and therefore it will have spoilers**

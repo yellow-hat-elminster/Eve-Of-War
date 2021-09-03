@@ -374,4 +374,4 @@ While Baldur’s Gate, the most important partner, requires that you take part i
 ##Special Thanks 
 Special thanks to Cuv and Ardanis for helping me figure out some of the Weidu stuff behind the mod. Also Cahir for his unwavering support to see this released. 
 
-Also Lolien for the portrait for Yeorg
+Also Lolien for the portrait for Yeorg and Isandir for the portrait for Jenora

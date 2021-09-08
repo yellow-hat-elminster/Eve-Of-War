@@ -15,7 +15,7 @@ END
 APPEND KELDDA
 
 IF ~~ BEGIN k9madeup
-SAY ~Hello, friend. Our high priest is indisposed at the moment. If you wish to discuss matters related to Bassilus or the defence of Beregost, you may find him at our town hall. Otherwise, I would be more than happy to assist you myself with any healing or resurrection needs you might have. I'm also told there are several outstanding bounties. Should you have sufficient proof of their completion I would be happy to pay you.~ IF ~~  GOTO 0
+SAY ~Our high priest is indisposed at the moment. If you wish to discuss matters related to Bassilus or the defence of Beregost, you may find him at our town hall. Otherwise, I would be more than happy to assist you myself with any healing or resurrection needs you might have. I'm also told there are several outstanding bounties. Should you have sufficient proof of their completion I would be happy to pay you.~ IF ~~  GOTO 0
 END
 
 

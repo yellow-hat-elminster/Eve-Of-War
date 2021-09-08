@@ -24,7 +24,7 @@ END
 
 
 IF ~~ THEN BEGIN 3
-SAY ~Hmm... as I recall the villages warriors left several nights ago and are not expected to return for some time. Something about the "stickling" of some goblin tribe or somesuch. The kobolds around the village have become a bit of a problem and I haven't the skills to fight off the little beasties. So I'll clearly need an escort for this search. 
+SAY ~Hmm... as I recall, the villages warriors left several nights ago and are not expected to return for some time. Something about the "stickling" of some goblin tribe or somesuch. The kobolds around the village have become a bit of a problem and I haven't the skills to fight off the little beasties. So I'll clearly need an escort for this search. 
 
 I don't suppose your party would be willing to help?~
         ++ ~Certainly. Any thoughts on where we should be looking?~ GOTO 4

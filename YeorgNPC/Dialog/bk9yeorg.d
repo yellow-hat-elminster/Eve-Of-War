@@ -38,9 +38,9 @@ See("k9Yeorg")
 Global("k9YeorgEldoth","GLOBAL",0)~ THEN Bk9Yeorg k9YeorgEldoth1
 ~Jack of all trades indeed. It is such a pity really. You have the attitude to be successful, you just lack the ability.~
 DO ~SetGlobal("k9YeorgEldoth","GLOBAL",1)~
-== BELDOT ~With a tongue like that I'd have thought you a woman. Hmm...an ugly one admittedly.~
+== BELDOT ~With a tongue like that I'd have thought you a woman. Hmm...an ugly one, admittedly.~
 == BK9YEORG ~...~
-== BELDOT ~I think that settles things rather nicely. In fact I should think we should be getting on with much more productive things. Yes?~
+== BELDOT ~I think that settles things rather nicely. In fact, I should think we should be getting on with much more productive things. Yes?~
 EXIT
 
 
@@ -64,7 +64,7 @@ See("Kagain")
 See("k9Yeorg")
 !ActuallyInCombat()
 Global("k9YeorgKagain","GLOBAL",0)~ THEN BKAGAI k9YeorgKagain1
-~What are YOU looking at? I swear <CHARNAME> only seems ta find the weird ones.~
+~What are YOU looking at? I swear, <CHARNAME> only seems t'find the weird ones.~
 DO ~SetGlobal("k9YeorgKagain","GLOBAL",1)~
 == BK9YEORG ~I was just admiring your stature. You carry yourself well dwarf.~
 == BKAGAI ~Keep yer eyes to the road and to the business at hand.~

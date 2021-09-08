@@ -127,7 +127,7 @@ IF ~~ EXIT
 END
 
 IF ~~ THEN BEGIN DurlagBanter4
-SAY ~It is possible, though unlikely. I do not know the life span of a dwarf, but if he is still alive he would now be feeble and probably insane.~
+SAY ~It is possible, though unlikely. I do not know the life span of a dwarf, but if he is still alive he would now be a feeble old man.~
 IF ~~ EXIT
 END
 
@@ -199,14 +199,14 @@ SAY ~Hmm... a more complete explanation would be that 200 years ago two powerful
  END
 
 IF ~~ THEN BEGIN FirewineBBanter32
-SAY ~The result of this, of course, was the scattered remains you see here, along with the scattering of wild magic areas around the immediate area. The knowledge of who exactly fought this duel seems to have been lost over the centuries. What has been clear however is that since that day many adventurers have claimed to have found magical items scattered amongst what remains of the towns bridge and ruins. Remains no doubt of the possessions of these mages. That is the reason for my interest in this area.~
+SAY ~The result of this, of course, was the scattered remains you see here. Along with the scattering of wild magic areas around the immediate area. The knowledge of who exactly fought this duel seems to have been lost over the centuries. What has been clear however is that since that day many adventurers have claimed to have found magical items scattered amongst what remains of the towns bridge and ruins. Remains no doubt of the possessions of these mages. That is the reason for my interest in this area.~
 IF ~~ THEN REPLY ~And what exactly is it you are looking for?~ GOTO FirewineBBanter3
 IF ~OR(2) InParty("Minsc") InParty("Yeslick")~ THEN REPLY ~How do you know all this?~ GOTO FirewineBBanter4
 IF ~~ THEN REPLY ~I'll keep this in mind.~ EXIT
 END
 
 IF ~~ THEN BEGIN FirewineBBanter2
-SAY ~Myself? I know as much as what Volo and other writers have written about the area. It is said that 200 years ago two powerful mages fought a duel here. Each drew upon their most powerful knowledge, so much so that as the battle raged on they were forced to take more and more dangerous risks with their spellcasting. Eventually facing defeat one of them decided to draw magic in its rawest form. Raw magic being something so unstable that most mortals would dare not think of using it.~  IF ~~ THEN GOTO FirewineBBanter33
+SAY ~Myself? I know as much as what Volo and other writers have written about the area. It is said that 200 years ago two powerful mages fought a duel here. Each drew upon their most powerful knowledge, so much so that as the battle raged on they were forced to take more and more dangerous risks with their spellcasting. Eventually, facing defeat one of them decided to draw magic in its rawest form. Raw magic being something so unstable that most mortals would dare not think of using it.~  IF ~~ THEN GOTO FirewineBBanter33
 END
 
 

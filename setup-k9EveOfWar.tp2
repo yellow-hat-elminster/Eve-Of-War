@@ -14,8 +14,8 @@ LANGUAGE
     ~k9EveOfWar/Lang/English/k9items.tra~
     ~k9EveOfWar/Lang/English/k9areas.tra~
     ~k9EveOfWar/Lang/English/k9journa.tra~
-    ~k9EveOfWar\DaranNPC/TRA/k9Setup.tra~
-    ~k9EveOfWar\JenoraNPC/TRA/k9Setup.tra~
+    ~k9EveOfWar/DaranNPC/TRA/k9Setup.tra~
+    ~k9EveOfWar/JenoraNPC/TRA/k9Setup.tra~
     ~k9EveOfWar/Lang/English/k9yeorg.tra~
     ~k9EveOfWar/SharteelNPC/tra/k9Setup.tra~
     ~k9EveOfWar/RoughWorld/Lang/English/k9Setup.tra~
@@ -68,7 +68,7 @@ COPY ~k9EveOfWar/Portraits/schaelm.BMP~ ~override/schaelm.BMP~
 //Sarevok Ceremony - Grand dukes are both dead but Eltan lives
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL @66040 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @66040 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 
@@ -170,8 +170,8 @@ COMPILE ~k9EveOfWar/Dialog/k9attcan.d~
 //Alatos's Next Plans (alternative to helping Duke Eltan in Chapters 5 and 7)
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL @66041 @66042 @66043 USING ~k9EveOfWar\Lang\English\k9journa.tra~
-ADD_JOURNAL @66044 @66045 @66046 @660460 @660461 @660462 @660463 @660464 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @66041 @66042 @66043 USING ~k9EveOfWar/Lang/English/k9journa.tra~
+ADD_JOURNAL @66044 @66045 @66046 @660460 @660461 @660462 @660463 @660464 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 COMPILE ~k9EveOfWar/Dialog/k9thiefn.d~
@@ -244,25 +244,25 @@ EXTEND_TOP ~AR2626.bcs~ ~k9EveOfWar/Script/k9candle.baf~
 
 COPY ~k9EveOfWar/ITM/k9chickn.itm~ ~override/k9chickn.itm~
 COPY ~k9EveOfWar/PRO/k9chic.pro~ ~override/k9chic.pro~
-ADD_PROJECTILE      ~k9EveOfWar\PRO\k9chic.PRO~
+ADD_PROJECTILE      ~k9EveOfWar/PRO/k9chic.PRO~
 
 
 ////////////////////////////////////////////////////////////////////////////////////
 //Treaty Negotiations
 ////////////////////////////////////////////////////////////////////////////////////
-ADD_JOURNAL @15029 @15030 @15031 @15032 @15033 @15034 @15029 @15029 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @15029 @15030 @15031 @15032 @15033 @15034 @15029 @15029 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
-ADD_JOURNAL @15035 @15036 @15037 @15038 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @15035 @15036 @15037 @15038 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
-ADD_JOURNAL @15039 @15040 @15041 @15042 @105042 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @15039 @15040 @15041 @15042 @105042 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
-ADD_JOURNAL @15043 @15044 @15045 @15046 @15047 @15048 @15049 @15050  USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @15043 @15044 @15045 @15046 @15047 @15048 @15049 @15050  USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
-ADD_JOURNAL @15051 @15052 @15053 @15054 @15055 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @15051 @15052 @15053 @15054 @15055 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
  //Scrapped quests (that I may reuse)
 
-ADD_JOURNAL @346000 @399999 @346001 @346002 @346003 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @346000 @399999 @346001 @346002 @346003 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -468,19 +468,19 @@ END
 
 //Ambient Files
 
-COPY "k9EveOfWar\WAV\AM_1000B.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_1000C.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_1000B.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_1000C.WAV" "override"
 
 
 //BAM files
 
-COPY "k9EveOfWar\BAM\9101MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9101MS2.BAM" "override"
-COPY "k9EveOfWar\BAM\9104MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9105MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9106MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9108MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\SMOKE.BAM" "override"
+COPY "k9EveOfWar/BAM/9101MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9101MS2.BAM" "override"
+COPY "k9EveOfWar/BAM/9104MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9105MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9106MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9108MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/SMOKE.BAM" "override"
 
 APPEND ~EXTANIM.2da~
 ~57939 0 1 1 0 none 0 47 0 0 none none none 14 5 9101MS1 none 0 0 none
@@ -495,15 +495,15 @@ APPEND ~EXTANIM.2da~
 
 
 //WED files
-COPY "k9EveOfWar\WED\AR9100.WED" "override"
+COPY "k9EveOfWar/WED/AR9100.WED" "override"
 
 
 //TIS files
-COPY "k9EveOfWar\TIS\AR9100.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9100.TIS" "override"
 
 //MOS
 
-COPY "k9EveOfWar\MOS\AR9100.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9100.MOS" "override"
 
 APPEND ~ANIMATE.IDS~
 ~0xEA45 IC_FIk91~
@@ -553,16 +553,16 @@ COPY ~k9EveOfWar/ARE/AR3348.are~ ~override/AR3348.are~
 
 
 //Militia training
-ADD_JOURNAL @130172 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @130172 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 //Militia Blessing
 
-ADD_JOURNAL @130173 @130174 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @130173 @130174 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 //Taverns Prices
 
-ADD_JOURNAL @1074 @107 @110   @1073  @1071 @116 @117 @118   @119 @1190 @1191 @120  @1072 @122 @123 @124 @125     @128 @129 @130 @131 @132 @133  USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @1074 @107 @110   @1073  @1071 @116 @117 @118   @119 @1190 @1191 @120  @1072 @122 @123 @124 @125     @128 @129 @130 @131 @132 @133  USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 
@@ -572,41 +572,41 @@ ADD_JOURNAL @1074 @107 @110   @1073  @1071 @116 @117 @118   @119 @1190 @1191 @12
 
 //Militia supplier
 
-ADD_JOURNAL @108 @20221 @20222 @20223 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @108 @20221 @20222 @20223 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 //Modest lieutenant
 
-ADD_JOURNAL @105 @109 @1111 @1114  USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @105 @109 @1111 @1114  USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 // town council advisor
 
-ADD_JOURNAL @531112 @531113 @531115 @531116 @531117 @531118 @531119 @531120 @531121 @531122 @531123 @531124 @531125 @531126 @531127 @531128 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @531112 @531113 @531115 @531116 @531117 @531118 @531119 @531120 @531121 @531122 @531123 @531124 @531125 @531126 @531127 @531128 USING ~k9EveOfWar/Lang/English/k9journa.tra~
             
 
 //Cyric worshipers
 
-ADD_JOURNAL @14997 @14998 @14999 @15000 @15001 @15002 @15003 @15004 @15005 @15006 @15016 @15017 @15018  @15019  @15020 @150180 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @14997 @14998 @14999 @15000 @15001 @15002 @15003 @15004 @15005 @15006 @15016 @15017 @15018  @15019  @15020 @150180 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 //Banelich
-ADD_JOURNAL  @66060 @66061  @66062  USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL  @66060 @66061  @66062  USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 //Death at friendly arm
 
-ADD_JOURNAL @130149 @130150 @130151 @130152 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @130149 @130150 @130151 @130152 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 //Buildup of Amn troops (chapter 6 or later)
 
 
-ADD_JOURNAL @130131 @130132 @130133 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @130131 @130132 @130133 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 //Soldier accounts
 
 
-ADD_JOURNAL @130133 @130134 @130135 @130136 @130137 @130138 @130139 @130140 @130141 @130142 @130143 @130144 @130146 @356009 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @130133 @130134 @130135 @130136 @130137 @130138 @130139 @130140 @130141 @130142 @130143 @130144 @130146 @356009 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 
@@ -1894,7 +1894,7 @@ COPY ~k9EveOfWar/SPL/k9firebl.spl~ ~override/k9firebl.spl~
     
 COPY ~k9EveOfWar/SPL/k9fireb2.spl~ ~override/k9fireb2.spl~
 
-ADD_PROJECTILE      ~k9EveOfWar\PRO\k9SPFIRE.PRO~
+ADD_PROJECTILE      ~k9EveOfWar/PRO/k9SPFIRE.PRO~
 
 COPY ~k9EveOfWar/BAM/bdsfiret.bam~ ~override/bdsfiret.bam~
 COPY ~k9EveOfWar/BAM/BDSFIREH.bam~ ~override/BDSFIREH.bam~
@@ -2058,9 +2058,9 @@ ADD_SPELL "k9EveOfWar/SPL/k9evil2.spl" 4  1  INNATE_K9_EVIL2
   SAY NAME1 ~Mental Domination~
 
 
-ADD_JOURNAL @66064333  @66064334 @66064335 @66064336 @66064337 @66064338 @66064339 @66064340 @66064341 @66064342 @66064343 @66064344 @66064345 @66064346 @66064347 @66064348 USING ~k9EveOfWar\Lang\English\k9journa.tra~
-ADD_JOURNAL @66064349 USING ~k9EveOfWar\Lang\English\k9journa.tra~
- ADD_JOURNAL @66064350  @66064351 @66064352 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @66064333  @66064334 @66064335 @66064336 @66064337 @66064338 @66064339 @66064340 @66064341 @66064342 @66064343 @66064344 @66064345 @66064346 @66064347 @66064348 USING ~k9EveOfWar/Lang/English/k9journa.tra~
+ADD_JOURNAL @66064349 USING ~k9EveOfWar/Lang/English/k9journa.tra~
+ ADD_JOURNAL @66064350  @66064351 @66064352 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
  COMPILE ~k9EveOfWar/Dialog/k9oldman.d~
@@ -2691,11 +2691,11 @@ COMPILE ~k9EveOfWar/Script/k9amband.baf~
 
 //Centeol Remove Curse
 
-ADD_JOURNAL @66001 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @66001 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 //Cloakwood Mines Journal
 
-ADD_JOURNAL @66002 @66003 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @66002 @66003 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 BEGIN @99993
@@ -2713,7 +2713,7 @@ COPY ~k9EveOfWar/ITM/k9amul11.itm~ ~override/k9amul11.itm~
 
 //Merchant near FAI
 
-ADD_JOURNAL @66011 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @66011 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 
@@ -2758,6 +2758,12 @@ BEGIN @99989
 GROUP @99994
 
 //Remorhaz in Ice Island
+//Remorhaz helm
+
+
+ADD_JOURNAL @130164 @130165 @130166 @130167 @130168 @1301660 USING ~k9EveOfWar/Lang/English/k9journa.tra~
+
+ADD_JOURNAL @130169 USING  ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 COPY ~k9EveOfWar/BAM/MREMA1.bam~ ~override/MREMA1.bam~
@@ -2787,8 +2793,8 @@ COPY ~k9EveOfWar/CRE/Ice Island/Remorha.cre~ ~override/Remorha.cre~
     SAY NAME1 @130159
     SAY NAME2 @130159
 
-COPY ~k9EveOfWar/BAM/Remorhaz Items/cdrelm.bam~ ~override/cdrelm.bam~
-COPY ~k9EveOfWar/BAM/Remorhaz Items/cdrem.bam~ ~override/cdrem.bam~
+
+
 COPY ~k9EveOfWar/BAM/Remorhaz Items/cdremg.bam~ ~override/cdremg.bam~
 
     //Remorhaz items
@@ -2799,12 +2805,14 @@ COPY ~k9EveOfWar/ITM/cdrem.itm~ ~override/cdrem.itm~
     SAY NAME1 @130160
     SAY NAME2 @130160
     SAY DESC @130161
+COPY ~k9EveOfWar/BAM/Remorhaz Items/cdrem.bam~ ~override/cdrem.bam~
 
-
-COPY ~k9EveOfWar/ITM/cdRelm.itm~ ~override/cdRelm.itm~
+COPY ~k9EveOfWar/ITM/k9cdRelm.itm~ ~override/k9cdRelm.itm~
     SAY NAME1 @130162
     SAY NAME2 @130162
     SAY DESC @130163
+COPY ~k9EveOfWar/BAM/Remorhaz Items/cdrelm.bam~ ~override/cdrelm.bam~
+
     
 COMPILE ~k9EveOfWar/Dialog/k9garan.d~
 COMPILE ~k9EveOfWar/Dialog/k9smith.d~
@@ -2819,12 +2827,7 @@ APPEND ~ANIMATE.IDS~
 ~0xEA40 IC_REMORHAZ~
 
 
-//Remorhaz helm
 
-
-ADD_JOURNAL @130164 @130165 @130166 @130167 @130168 USING ~k9EveOfWar\Lang\English\k9journa.tra~
-
-ADD_JOURNAL @130169 USING  ~k9EveOfWar\Lang\English\k9journa.tra~
 
  BEGIN @99987
 GROUP @99994
@@ -2923,7 +2926,7 @@ GROUP @99994
 
 //Jasha
 
-ADD_JOURNAL @444900 @444901 @444902 USING  ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @444900 @444901 @444902 USING  ~k9EveOfWar/Lang/English/k9journa.tra~
 
 COPY ~k9EveOfWar/CRE/Nashkel/k9Jasha.cre~ ~override/k9Jasha.cre~
     SAY NAME1 @2002
@@ -2949,7 +2952,7 @@ COPY ~k9EveOfWar/ITM/k9potnfr.itm~ ~override/k9potnfr.itm~
     SAY NAME2 @2026
     SAY DESC @2027
 
-ADD_PROJECTILE      ~k9EveOfWar\PRO\k9ColdBA.PRO~
+ADD_PROJECTILE      ~k9EveOfWar/PRO/k9ColdBA.PRO~
 
 
 COPY ~k9EveOfWar/ITM/k9oilfro.itm~ ~override/k9oilfro.itm~
@@ -4020,7 +4023,7 @@ COMPILE ~k9EveOfWar/YeorgNPC/Dialog/gandolD.d~
 
 //Journal Entries    yeorg quest
 
-ADD_JOURNAL @347000 @348000 @349000 @350000 @351000 @352000 @352001 @352002 @352003 @352004 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ADD_JOURNAL @347000 @348000 @349000 @350000 @351000 @352000 @352001 @352002 @352003 @352004 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
 
@@ -4180,79 +4183,79 @@ COPY_EXISTING ~AR0513.are~ ~override/AR0513.are~
         ACTION_IF GAME_IS ~BG2 BG2EE IWDEE~ THEN BEGIN
 		FAIL @9999967
 	END
-EXTEND_TOP ~AR0123.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar0123.baf~
-EXTEND_TOP ~AR0146.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar0146.baf~
-EXTEND_TOP ~AR1600.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar1600.baf~
-EXTEND_TOP ~AR1700.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar1700.baf~
-EXTEND_TOP ~AR1800.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar1800.baf~
-EXTEND_TOP ~AR1802.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar1802.baf~
-EXTEND_TOP ~AR1804.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar1804.baf~
-EXTEND_TOP ~AR2100.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2100.baf~
-EXTEND_TOP ~AR2200.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2200.baf~
-EXTEND_TOP ~AR2300.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2300.baf~
-EXTEND_TOP ~AR2615.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2615.baf~
-EXTEND_TOP ~AR2619.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2619.baf~
-EXTEND_TOP ~AR2700.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2700.baf~
-EXTEND_TOP ~AR2800.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2800.baf~
-EXTEND_TOP ~AR3800.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar3800.baf~
-EXTEND_TOP ~Baldur.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar4300.baf~
-EXTEND_TOP ~AR5100.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar5100.baf~
-EXTEND_TOP ~AR5402.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar5402.baf~
-EXTEND_TOP ~AR5403.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar5403.baf~
-EXTEND_TOP ~AR5404.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar5404.baf~
-EXTEND_TOP ~AR5506.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar5506.baf~
+EXTEND_TOP ~AR0123.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar0123.baf~
+EXTEND_TOP ~AR0146.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar0146.baf~
+EXTEND_TOP ~AR1600.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar1600.baf~
+EXTEND_TOP ~AR1700.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar1700.baf~
+EXTEND_TOP ~AR1800.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar1800.baf~
+EXTEND_TOP ~AR1802.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar1802.baf~
+EXTEND_TOP ~AR1804.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar1804.baf~
+EXTEND_TOP ~AR2100.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2100.baf~
+EXTEND_TOP ~AR2200.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2200.baf~
+EXTEND_TOP ~AR2300.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2300.baf~
+EXTEND_TOP ~AR2615.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2615.baf~
+EXTEND_TOP ~AR2619.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2619.baf~
+EXTEND_TOP ~AR2700.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2700.baf~
+EXTEND_TOP ~AR2800.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2800.baf~
+EXTEND_TOP ~AR3800.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar3800.baf~
+EXTEND_TOP ~Baldur.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar4300.baf~
+EXTEND_TOP ~AR5100.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar5100.baf~
+EXTEND_TOP ~AR5402.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar5402.baf~
+EXTEND_TOP ~AR5403.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar5403.baf~
+EXTEND_TOP ~AR5404.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar5404.baf~
+EXTEND_TOP ~AR5506.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar5506.baf~
 
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9shamb.cre~ ~override/k9shamb.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9shamb.cre~ ~override/k9shamb.cre~
 
 
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9korde.cre~ ~override/k9korde.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9korde.cre~ ~override/k9korde.cre~
     SAY NAME1 @9999972
     SAY NAME2 @9999972
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9korde2.cre~ ~override/k9korde2.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9korde2.cre~ ~override/k9korde2.cre~
     SAY NAME1 @9999972
     SAY NAME2 @9999972
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9korme9.cre~ ~override/k9korme9.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9korme9.cre~ ~override/k9korme9.cre~
     SAY NAME1 @9999973
     SAY NAME2 @9999973
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9rsgob.cre~ ~override/k9rsgob.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9hobgob.cre~ ~override/k9hobgob.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9rsgob.cre~ ~override/k9rsgob.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9hobgob.cre~ ~override/k9hobgob.cre~
     SAY NAME1 #6318
     SAY NAME2 #6318
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9orc01.cre~ ~override/k9orc01.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9orc01.cre~ ~override/k9orc01.cre~
     SAY NAME1 @9999974
     SAY NAME2 @9999974
 
- COMPILE ~k9EveOfWar\RoughWorld/Dialog/k9aoln.d~
- COMPILE ~k9EveOfWar\RoughWorld/Dialog/k9drasus.d~
+ COMPILE ~k9EveOfWar/RoughWorld/Dialog/k9aoln.d~
+ COMPILE ~k9EveOfWar/RoughWorld/Dialog/k9drasus.d~
 
 
 //small spider
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG1.BAM~ ~override/MSPSG1.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG2.BAM~ ~override/MSPSG2.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG11.BAM~ ~override/MSPSG11.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG12.BAM~ ~override/MSPSG12.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG13.BAM~ ~override/MSPSG13.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG14.BAM~ ~override/MSPSG14.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG15.BAM~ ~override/MSPSG15.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG21.BAM~ ~override/MSPSG21.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG22.BAM~ ~override/MSPSG22.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG23.BAM~ ~override/MSPSG23.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG24.BAM~ ~override/MSPSG24.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG25.BAM~ ~override/MSPSG25.BAM~
-COPY ~k9EveOfWar\RoughWorld/BAM/MSPSG26.BAM~ ~override/MSPSG26.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG1.BAM~ ~override/MSPSG1.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG2.BAM~ ~override/MSPSG2.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG11.BAM~ ~override/MSPSG11.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG12.BAM~ ~override/MSPSG12.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG13.BAM~ ~override/MSPSG13.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG14.BAM~ ~override/MSPSG14.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG15.BAM~ ~override/MSPSG15.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG21.BAM~ ~override/MSPSG21.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG22.BAM~ ~override/MSPSG22.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG23.BAM~ ~override/MSPSG23.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG24.BAM~ ~override/MSPSG24.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG25.BAM~ ~override/MSPSG25.BAM~
+COPY ~k9EveOfWar/RoughWorld/BAM/MSPSG26.BAM~ ~override/MSPSG26.BAM~
 
-COPY ~k9EveOfWar\RoughWorld/CRE/SPIDSM01.cre~ ~override/SPIDSM01.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/SPIDSM01.cre~ ~override/SPIDSM01.cre~
     SAY NAME1 @9999975
     SAY NAME2 @9999975
 
     //small spider items
-COPY ~k9EveOfWar\RoughWorld/ITM/spidsw1.itm~ ~override/spidsw1.itm~
+COPY ~k9EveOfWar/RoughWorld/ITM/spidsw1.itm~ ~override/spidsw1.itm~
 
 
 
@@ -4273,18 +4276,18 @@ APPEND ~ANIMATE.IDS~
         ACTION_IF GAME_IS ~BG2 BG2EE IWDEE~ THEN BEGIN
 		FAIL @9999967
 	END
-EXTEND_TOP ~AR1601.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar1601.baf~
-EXTEND_TOP ~AR1602.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar1602.baf~
-EXTEND_TOP ~AR2215.bcs~ ~k9EveOfWar\RoughWorld/Script/k9ar2215.baf~
-EXTEND_TOP ~BALDUR.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arrest.baf~
+EXTEND_TOP ~AR1601.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar1601.baf~
+EXTEND_TOP ~AR1602.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar1602.baf~
+EXTEND_TOP ~AR2215.bcs~ ~k9EveOfWar/RoughWorld/Script/k9ar2215.baf~
+EXTEND_TOP ~BALDUR.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arrest.baf~
 
 
 BEGIN @99977
 GROUP @99968
 //Baldur's Gate chapter 7 (city disappearing on map)
 
-EXTEND_BOTTOM ~Baldur.bcs~ ~k9EveOfWar\RoughWorld/Script/k9baldur.baf~
- COMPILE ~k9EveOfWar\RoughWorld/Script/k9ar0800.baf~
+EXTEND_BOTTOM ~Baldur.bcs~ ~k9EveOfWar/RoughWorld/Script/k9baldur.baf~
+ COMPILE ~k9EveOfWar/RoughWorld/Script/k9ar0800.baf~
 
  //Bridge script to make AR0800 appear
 COPY_EXISTING ~AR0900.are~ ~override~
@@ -4311,92 +4314,92 @@ COPY_EXISTING ~AR0900.are~ ~override~
 END
 
 //Smuggler
-COPY ~k9EveOfWar\RoughWorld/CRE/SMUGGL.cre~ ~override/SMUGGL.CRE~
- COMPILE ~k9EveOfWar\RoughWorld/Dialog/k9smuggl.d~
- COMPILE ~k9EveOfWar\RoughWorld/Script/k9smuggl.baf~
+COPY ~k9EveOfWar/RoughWorld/CRE/SMUGGL.cre~ ~override/SMUGGL.CRE~
+ COMPILE ~k9EveOfWar/RoughWorld/Dialog/k9smuggl.d~
+ COMPILE ~k9EveOfWar/RoughWorld/Script/k9smuggl.baf~
 
  STRING_SET 27437    @9999979
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0100.cre~ ~override/k9FF0100.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0101.cre~ ~override/k9FF0101.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0100.cre~ ~override/k9FF0100.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0101.cre~ ~override/k9FF0101.cre~
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0200.cre~ ~override/k9FF0200.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0201.cre~ ~override/k9FF0201.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0202.cre~ ~override/k9FF0202.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0200.cre~ ~override/k9FF0200.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0201.cre~ ~override/k9FF0201.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0202.cre~ ~override/k9FF0202.cre~
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0300.cre~ ~override/k9FF0300.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0301.cre~ ~override/k9FF0301.cre~
-
-
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0600.cre~ ~override/k9FF0600.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0601.cre~ ~override/k9FF0601.cre~
-
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0700.cre~ ~override/k9FF0700.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0701.cre~ ~override/k9FF0701.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0702.cre~ ~override/k9FF0702.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0703.cre~ ~override/k9FF0703.cre~
-
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0800.cre~ ~override/k9FF0800.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0801.cre~ ~override/k9FF0801.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF0802.cre~ ~override/k9FF0802.cre~
-
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1100.cre~ ~override/k9FF1100.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1101.cre~ ~override/k9FF1101.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1102.cre~ ~override/k9FF1102.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0300.cre~ ~override/k9FF0300.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0301.cre~ ~override/k9FF0301.cre~
 
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1200.cre~ ~override/k9FF1200.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1201.cre~ ~override/k9FF1201.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1202.cre~ ~override/k9FF1202.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0600.cre~ ~override/k9FF0600.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0601.cre~ ~override/k9FF0601.cre~
 
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1300.cre~ ~override/k9FF1300.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/k9FF1301.cre~ ~override/k9FF1301.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0700.cre~ ~override/k9FF0700.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0701.cre~ ~override/k9FF0701.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0702.cre~ ~override/k9FF0702.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0703.cre~ ~override/k9FF0703.cre~
 
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0100.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0101.baf~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0800.cre~ ~override/k9FF0800.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0801.cre~ ~override/k9FF0801.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF0802.cre~ ~override/k9FF0802.cre~
 
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0200.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0201.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0202.baf~
-
-
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0300.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0301.baf~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1100.cre~ ~override/k9FF1100.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1101.cre~ ~override/k9FF1101.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1102.cre~ ~override/k9FF1102.cre~
 
 
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0600.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0601.baf~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1200.cre~ ~override/k9FF1200.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1201.cre~ ~override/k9FF1201.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1202.cre~ ~override/k9FF1202.cre~
 
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0700.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0701.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0702.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0703.baf~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1300.cre~ ~override/k9FF1300.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/k9FF1301.cre~ ~override/k9FF1301.cre~
 
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0800.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0801.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF0802.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0100.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0101.baf~
 
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1100.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1101.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1102.baf~
-
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1200.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1201.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1202.baf~
-
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1300.baf~
-COMPILE ~k9EveOfWar\RoughWorld/Script/k9FF1301.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0200.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0201.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0202.baf~
 
 
-EXTEND_TOP ~AR0100.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF01.baf~
-EXTEND_BOTTOM ~AR0200.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF02.baf~
-EXTEND_TOP ~AR0300.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF03.baf~
-EXTEND_TOP ~AR0600.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF06.baf~
-EXTEND_TOP ~AR0700.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF07.baf~
-EXTEND_TOP ~AR0800.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF08.baf~
-EXTEND_TOP ~AR1100.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF11.baf~
-EXTEND_TOP ~AR1200.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF12.baf~
-EXTEND_TOP ~AR1300.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF13.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0300.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0301.baf~
+
+
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0600.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0601.baf~
+
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0700.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0701.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0702.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0703.baf~
+
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0800.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0801.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF0802.baf~
+
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1100.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1101.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1102.baf~
+
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1200.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1201.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1202.baf~
+
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1300.baf~
+COMPILE ~k9EveOfWar/RoughWorld/Script/k9FF1301.baf~
+
+
+EXTEND_TOP ~AR0100.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF01.baf~
+EXTEND_BOTTOM ~AR0200.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF02.baf~
+EXTEND_TOP ~AR0300.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF03.baf~
+EXTEND_TOP ~AR0600.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF06.baf~
+EXTEND_TOP ~AR0700.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF07.baf~
+EXTEND_TOP ~AR0800.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF08.baf~
+EXTEND_TOP ~AR1100.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF11.baf~
+EXTEND_TOP ~AR1200.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF12.baf~
+EXTEND_TOP ~AR1300.bcs~ ~k9EveOfWar/RoughWorld/Script/k9arFF13.baf~
 
 
 
@@ -4405,29 +4408,29 @@ EXTEND_TOP ~AR1300.bcs~ ~k9EveOfWar\RoughWorld/Script/k9arFF13.baf~
 BEGIN @99979
 GROUP @99968
 
-COPY ~k9EveOfWar\RoughWorld/CRE/beggba.cre~ ~override/beggba.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGBAX_A.cre~ ~override/BEGBAX_A.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGBAX_B.cre~ ~override/BEGBAX_B.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGBAX_C.cre~ ~override/BEGBAX_C.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGBAX_D.cre~ ~override/BEGBAX_D.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGGBA_A.cre~ ~override/BEGGBA_A.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGGBA_B.cre~ ~override/BEGGBA_B.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGGBA_C.cre~ ~override/BEGGBA_C.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGGBA_D.cre~ ~override/BEGGBA_D.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGGBAX.cre~ ~override/BEGGBAX.cre~
-COPY ~k9EveOfWar\RoughWorld/CRE/BEGGNA.cre~ ~override/BEGGNA.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/beggba.cre~ ~override/beggba.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGBAX_A.cre~ ~override/BEGBAX_A.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGBAX_B.cre~ ~override/BEGBAX_B.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGBAX_C.cre~ ~override/BEGBAX_C.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGBAX_D.cre~ ~override/BEGBAX_D.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGGBA_A.cre~ ~override/BEGGBA_A.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGGBA_B.cre~ ~override/BEGGBA_B.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGGBA_C.cre~ ~override/BEGGBA_C.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGGBA_D.cre~ ~override/BEGGBA_D.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGGBAX.cre~ ~override/BEGGBAX.cre~
+COPY ~k9EveOfWar/RoughWorld/CRE/BEGGNA.cre~ ~override/BEGGNA.cre~
 
-COPY ~k9EveOfWar\RoughWorld/VVC/k9flies.VVC~ ~override/k9flies.VVC~
-COPY ~k9EveOfWar\RoughWorld/EFF/k9flies.EFF~ ~override/k9flies.EFF~
+COPY ~k9EveOfWar/RoughWorld/VVC/k9flies.VVC~ ~override/k9flies.VVC~
+COPY ~k9EveOfWar/RoughWorld/EFF/k9flies.EFF~ ~override/k9flies.EFF~
 
-COMPILE ~k9EveOfWar\RoughWorld/Dialog/k9beggar.d~
+COMPILE ~k9EveOfWar/RoughWorld/Dialog/k9beggar.d~
 
 
 //Renamed Reputation
 BEGIN @99985
 GROUP @99968
 
-COPY ~k9EveOfWar\RoughWorld/2da/reptxt.2da~ ~override/reptxt.2da~
+COPY ~k9EveOfWar/RoughWorld/2da/reptxt.2da~ ~override/reptxt.2da~
         REPLACE ~99999~ @9999980
         REPLACE ~99998~ @9999981
         REPLACE ~99997~ @9999982
@@ -4444,10 +4447,10 @@ COPY ~k9EveOfWar\RoughWorld/2da/reptxt.2da~ ~override/reptxt.2da~
 //Reputation Rebalanced
 BEGIN @99967
 GROUP @99968
-COPY ~k9EveOfWar\RoughWorld/2da/rmodrep.2da~ ~override/rmodrep.2da~
-COPY ~k9EveOfWar\RoughWorld/2da/repstart.2da~ ~override/repstart.2da~
-COPY ~k9EveOfWar\RoughWorld/2da/reputati.2da~ ~override/reputati.2da~
-COPY ~k9EveOfWar\RoughWorld/2da/repmodst.2da~ ~override/repmodst.2da~
+COPY ~k9EveOfWar/RoughWorld/2da/rmodrep.2da~ ~override/rmodrep.2da~
+COPY ~k9EveOfWar/RoughWorld/2da/repstart.2da~ ~override/repstart.2da~
+COPY ~k9EveOfWar/RoughWorld/2da/reputati.2da~ ~override/reputati.2da~
+COPY ~k9EveOfWar/RoughWorld/2da/repmodst.2da~ ~override/repmodst.2da~
 
 
 //Innocence Reconcieved
@@ -4462,8 +4465,8 @@ COPY_EXISTING ~Brevli.cre~ ~override/Brevli.cre~
   END
   BUT_ONLY_IF_IT_CHANGES
 
- COMPILE ~k9EveOfWar\RoughWorld/Script/k9fallen.baf~
- EXTEND_BOTTOM ~Shout.bcs~  ~k9EveOfWar\RoughWorld/Script/k9innoce.baf~
+ COMPILE ~k9EveOfWar/RoughWorld/Script/k9fallen.baf~
+ EXTEND_BOTTOM ~Shout.bcs~  ~k9EveOfWar/RoughWorld/Script/k9innoce.baf~
 
 //change to paladin
 COPY_EXISTING ~laurel.cre~ ~override/laurel.cre~
@@ -4535,13 +4538,13 @@ BEGIN @9999968
 GROUP @99968
 
 
-COPY_EXISTING_REGEXP GLOB ~.*\.cre~ override
+COPY_EXISTING_REGEXP GLOB ~.*/.cre~ override
 WRITE_LONG 0x10 (THIS | BIT22)
 BUT_ONLY
 
 BEGIN @9999970
 GROUP @99968
-COPY_EXISTING_REGEXP GLOB ~.*\.are~ override
+COPY_EXISTING_REGEXP GLOB ~.*/.are~ override
 WRITE_SHORT 0x0014 (THIS & BIT0)
 BUT_ONLY
 
@@ -4554,7 +4557,7 @@ GROUP @99976
   //Serpent's Cowl
 
 //Area files
-COPY "k9EveOfWar\ARE\AR9100.are" "override"
+COPY "k9EveOfWar/ARE/AR9100.are" "override"
  PATCH_IF (SOURCE_SIZE > 0x11b) BEGIN  // checking for valid ARE resource
     LPF fj_are_structure
       INT_VAR
@@ -4664,7 +4667,7 @@ COPY "k9EveOfWar\ARE\AR9100.are" "override"
     END
      END
 
- COPY "k9EveOfWar\ARE\AR9101.are" "override"
+ COPY "k9EveOfWar/ARE/AR9101.are" "override"
   PATCH_IF (SOURCE_SIZE > 0x11b) BEGIN  // checking for valid ARE resource
     LPF fj_are_structure
       INT_VAR
@@ -4708,8 +4711,8 @@ COPY "k9EveOfWar\ARE\AR9100.are" "override"
         fj_name               = "Desk"      // region name
     END
 END
-COPY "k9EveOfWar\ARE\AR9102.are" "override"
-COPY "k9EveOfWar\ARE\AR9103.are" "override"
+COPY "k9EveOfWar/ARE/AR9102.are" "override"
+COPY "k9EveOfWar/ARE/AR9103.are" "override"
   PATCH_IF (SOURCE_SIZE > 0x11b) BEGIN  // checking for valid ARE resource
     LPF fj_are_structure
       INT_VAR
@@ -4776,13 +4779,13 @@ COPY "k9EveOfWar\ARE\AR9103.are" "override"
 
 
 
-COPY "k9EveOfWar\ARE\AR9104.are" "override"
-COPY "k9EveOfWar\ARE\AR9105.are" "override"
-COPY "k9EveOfWar\ARE\AR9106.are" "override"
-COPY "k9EveOfWar\ARE\AR9107.are" "override"
-COPY "k9EveOfWar\ARE\AR9108.are" "override"
-COPY "k9EveOfWar\ARE\AR9109.are" "override"
-COPY "k9EveOfWar\ARE\AR9110.are" "override"
+COPY "k9EveOfWar/ARE/AR9104.are" "override"
+COPY "k9EveOfWar/ARE/AR9105.are" "override"
+COPY "k9EveOfWar/ARE/AR9106.are" "override"
+COPY "k9EveOfWar/ARE/AR9107.are" "override"
+COPY "k9EveOfWar/ARE/AR9108.are" "override"
+COPY "k9EveOfWar/ARE/AR9109.are" "override"
+COPY "k9EveOfWar/ARE/AR9110.are" "override"
   PATCH_IF (SOURCE_SIZE > 0x11b) BEGIN  // checking for valid ARE resource
     LPF fj_are_structure
       INT_VAR
@@ -4827,7 +4830,7 @@ COPY "k9EveOfWar\ARE\AR9110.are" "override"
     END
 
 
-COPY "k9EveOfWar\ARE\ARk935.are" "override"
+COPY "k9EveOfWar/ARE/ARk935.are" "override"
   PATCH_IF (SOURCE_SIZE > 0x11b) BEGIN  // checking for valid ARE resource
     LPF fj_are_structure
       INT_VAR
@@ -5145,13 +5148,13 @@ LPF fj_are_structure
         END
       END
 //Journal entries
- ADD_JOURNAL @66047 @66048 @66053  @66054 @66063 @66064 @66065 @66066 @66067 @66068 @66069 @66070 @665555 @665556 @665557 @665558 @665559 @665560 @665561 @665562 @665563 @665564 @66064111  @66064222 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ ADD_JOURNAL @66047 @66048 @66053  @66054 @66063 @66064 @66065 @66066 @66067 @66068 @66069 @66070 @665555 @665556 @665557 @665558 @665559 @665560 @665561 @665562 @665563 @665564 @66064111  @66064222 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
- ADD_JOURNAL @66075 @66076 @66077 @66078 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+ ADD_JOURNAL @66075 @66076 @66077 @66078 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
-  ADD_JOURNAL @66079 @66080 @66081 @66082 @66083 @66084 @66085 @66086 @66087 @66088 @66089  @66090 @66091 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+  ADD_JOURNAL @66079 @66080 @66081 @66082 @66083 @66084 @66085 @66086 @66087 @66088 @66089  @66090 @66091 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
-  ADD_JOURNAL @434343334 USING ~k9EveOfWar\Lang\English\k9journa.tra~
+  ADD_JOURNAL @434343334 USING ~k9EveOfWar/Lang/English/k9journa.tra~
 
 
  //Dialog
@@ -5192,7 +5195,7 @@ LPF fj_are_structure
 
 
 
-EXTEND_TOP ~bd2000.bcs~ ~k9EveOfWar\Script\k9ferry.baf~
+EXTEND_TOP ~bd2000.bcs~ ~k9EveOfWar/Script/k9ferry.baf~
   EXTEND_BOTTOM ~Bd1000.bcs~ ~k9EveOfWar/Script/k9serpen.baf~
  EXTEND_BOTTOM ~AR9109.bcs~ ~k9EveOfWar/Script/k9gord.baf~
  EXTEND_BOTTOM ~AR9103.bcs~ ~k9EveOfWar/Script/k9chaunt.baf~
@@ -5488,489 +5491,489 @@ END
 
 //Ambient Files
 
-COPY "k9EveOfWar\WAV\AM_1000B.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_1000C.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9100.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9100N.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9101.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9101A.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9102.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9103.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9104.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9104A.WAV" "override"
-COPY "k9EveOfWar\WAV\AM_9108.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B6.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B7.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B8.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100B9.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100C1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100C2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100C3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100C4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D6.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D7.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D8.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100D9.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E6.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E7.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100E8.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100F1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100F2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100F3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100F4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100F5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100F6.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100F7.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100G1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100G2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100G3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100G4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100G5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100I1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100I2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100I3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100I4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K6.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K7.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100K8.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M6.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M7.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9100M8.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9101B.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9101C1.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9101C2.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9101C3.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9101C4.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9101C5.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9101C6.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9103B.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9103C.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9103DC.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9103DO.WAV" "override"
-COPY "k9EveOfWar\WAV\AM9105B.WAV" "override"
-COPY "k9EveOfWar\WAV\SS_1000G.WAV" "override"
-COPY "k9EveOfWar\WAV\SS_1000H.WAV" "override"
-COPY "k9EveOfWar\WAV\SS_1000I.WAV" "override"
-COPY "k9EveOfWar\WAV\SS_1000J.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_1000B.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_1000C.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9100.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9100N.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9101.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9101A.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9102.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9103.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9104.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9104A.WAV" "override"
+COPY "k9EveOfWar/WAV/AM_9108.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B6.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B7.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B8.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100B9.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100C1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100C2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100C3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100C4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D6.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D7.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D8.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100D9.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E6.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E7.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100E8.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100F1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100F2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100F3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100F4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100F5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100F6.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100F7.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100G1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100G2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100G3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100G4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100G5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100I1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100I2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100I3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100I4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K6.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K7.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100K8.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M6.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M7.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9100M8.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9101B.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9101C1.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9101C2.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9101C3.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9101C4.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9101C5.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9101C6.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9103B.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9103C.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9103DC.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9103DO.WAV" "override"
+COPY "k9EveOfWar/WAV/AM9105B.WAV" "override"
+COPY "k9EveOfWar/WAV/SS_1000G.WAV" "override"
+COPY "k9EveOfWar/WAV/SS_1000H.WAV" "override"
+COPY "k9EveOfWar/WAV/SS_1000I.WAV" "override"
+COPY "k9EveOfWar/WAV/SS_1000J.WAV" "override"
 
 
 //BAM files
 
-COPY "k9EveOfWar\BAM\9101MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9101MS2.BAM" "override"
-COPY "k9EveOfWar\BAM\9104MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9105MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9106MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\9108MS1.BAM" "override"
-COPY "k9EveOfWar\BAM\SMOKE.BAM" "override"
-COPY "k9EveOfWar\BAM\FIRE_4BL.BAM" "override"
-COPY "k9EveOfWar\BAM\3501MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9101MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9101MS2.BAM" "override"
+COPY "k9EveOfWar/BAM/9104MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9105MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9106MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/9108MS1.BAM" "override"
+COPY "k9EveOfWar/BAM/SMOKE.BAM" "override"
+COPY "k9EveOfWar/BAM/FIRE_4BL.BAM" "override"
+COPY "k9EveOfWar/BAM/3501MS1.BAM" "override"
 
 
-COPY ~k9EveOfWar\BAM/MYU1A1.BAM~    ~override/MYU1A1.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1A1.BAM~    ~override/MYU1A1.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1A1E.BAM~   ~override/MYU1A1E.BAM~
+COPY ~k9EveOfWar/BAM/MYU1A1E.BAM~   ~override/MYU1A1E.BAM~
 
-COPY ~k9EveOfWar\BAM/MYU1A2.BAM~    ~override/MYU1A2.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1A2.BAM~    ~override/MYU1A2.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1A2E.BAM~   ~override/MYU1A2E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1A2E.BAM~   ~override/MYU1A2E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1A3.BAM~    ~override/MYU1A3.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1A3.BAM~    ~override/MYU1A3.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1A3E.BAM~   ~override/MYU1A3E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1A3E.BAM~   ~override/MYU1A3E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1A4.BAM~    ~override/MYU1A4.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1A4.BAM~    ~override/MYU1A4.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1A4E.BAM~   ~override/MYU1A4E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1A4E.BAM~   ~override/MYU1A4E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AA1.BAM~   ~override/MYU1AA1.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1AA1.BAM~   ~override/MYU1AA1.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AA1E.BAM~  ~override/MYU1AA1E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1AA1E.BAM~  ~override/MYU1AA1E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1AA2.BAM~   ~override/MYU1AA2.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1AA2.BAM~   ~override/MYU1AA2.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AA2E.BAM~  ~override/MYU1AA2E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1AA2E.BAM~  ~override/MYU1AA2E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1AA3.BAM~   ~override/MYU1AA3.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1AA3.BAM~   ~override/MYU1AA3.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AA3E.BAM~  ~override/MYU1AA3E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1AA3E.BAM~  ~override/MYU1AA3E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1AA4.BAM~   ~override/MYU1AA4.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1AA4.BAM~   ~override/MYU1AA4.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AA4E.BAM~  ~override/MYU1AA4E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1AA4E.BAM~  ~override/MYU1AA4E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1AGH.BAM~   ~override/MYU1AGH.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1AGH.BAM~   ~override/MYU1AGH.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AGHE.BAM~  ~override/MYU1AGHE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1AGHE.BAM~  ~override/MYU1AGHE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1AGU.BAM~   ~override/MYU1AGU.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1AGU.BAM~   ~override/MYU1AGU.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AGUE.BAM~  ~override/MYU1AGUE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1AGUE.BAM~  ~override/MYU1AGUE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1ASC.BAM~   ~override/MYU1ASC.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1ASC.BAM~   ~override/MYU1ASC.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1ASCE.BAM~  ~override/MYU1ASCE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1ASCE.BAM~  ~override/MYU1ASCE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1ASD.BAM~   ~override/MYU1ASD.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1ASD.BAM~   ~override/MYU1ASD.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1ASDE.BAM~  ~override/MYU1ASDE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1ASDE.BAM~  ~override/MYU1ASDE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1ASL.BAM~   ~override/MYU1ASL.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1ASL.BAM~   ~override/MYU1ASL.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1ASLE.BAM~  ~override/MYU1ASLE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1ASLE.BAM~  ~override/MYU1ASLE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1AWK.BAM~   ~override/MYU1AWK.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1AWK.BAM~   ~override/MYU1AWK.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1AWKE.BAM~  ~override/MYU1AWKE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1AWKE.BAM~  ~override/MYU1AWKE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CA1.BAM~   ~override/MYU1CA1.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CA1.BAM~   ~override/MYU1CA1.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CA1E.BAM~  ~override/MYU1CA1E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CA1E.BAM~  ~override/MYU1CA1E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CA2.BAM~   ~override/MYU1CA2.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CA2.BAM~   ~override/MYU1CA2.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CA2E.BAM~  ~override/MYU1CA2E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CA2E.BAM~  ~override/MYU1CA2E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CA3.BAM~   ~override/MYU1CA3.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CA3.BAM~   ~override/MYU1CA3.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CA3E.BAM~  ~override/MYU1CA3E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CA3E.BAM~  ~override/MYU1CA3E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CA4.BAM~   ~override/MYU1CA4.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CA4.BAM~   ~override/MYU1CA4.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CA4E.BAM~  ~override/MYU1CA4E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CA4E.BAM~  ~override/MYU1CA4E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CGH.BAM~   ~override/MYU1CGH.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CGH.BAM~   ~override/MYU1CGH.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CGHE.BAM~  ~override/MYU1CGHE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CGHE.BAM~  ~override/MYU1CGHE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CGU.BAM~   ~override/MYU1CGU.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CGU.BAM~   ~override/MYU1CGU.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CGUE.BAM~  ~override/MYU1CGUE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CGUE.BAM~  ~override/MYU1CGUE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CSC.BAM~   ~override/MYU1CSC.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CSC.BAM~   ~override/MYU1CSC.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CSCE.BAM~  ~override/MYU1CSCE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CSCE.BAM~  ~override/MYU1CSCE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CSD.BAM~   ~override/MYU1CSD.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CSD.BAM~   ~override/MYU1CSD.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CSDE.BAM~  ~override/MYU1CSDE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CSDE.BAM~  ~override/MYU1CSDE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CSL.BAM~   ~override/MYU1CSL.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CSL.BAM~   ~override/MYU1CSL.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CSLE.BAM~  ~override/MYU1CSLE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CSLE.BAM~  ~override/MYU1CSLE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1CWK.BAM~   ~override/MYU1CWK.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1CWK.BAM~   ~override/MYU1CWK.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1CWKE.BAM~  ~override/MYU1CWKE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1CWKE.BAM~  ~override/MYU1CWKE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1DE.BAM~    ~override/MYU1DE.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1DE.BAM~    ~override/MYU1DE.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1DEE.BAM~   ~override/MYU1DEE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1DEE.BAM~   ~override/MYU1DEE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1GH.BAM~    ~override/MYU1GH.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1GH.BAM~    ~override/MYU1GH.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1GHE.BAM~   ~override/MYU1GHE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1GHE.BAM~   ~override/MYU1GHE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1GU.BAM~    ~override/MYU1GU.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1GU.BAM~    ~override/MYU1GU.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1GUE.BAM~   ~override/MYU1GUE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1GUE.BAM~   ~override/MYU1GUE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SA1.BAM~   ~override/MYU1SA1.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SA1.BAM~   ~override/MYU1SA1.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SA1E.BAM~  ~override/MYU1SA1E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SA1E.BAM~  ~override/MYU1SA1E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SA2.BAM~   ~override/MYU1SA2.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SA2.BAM~   ~override/MYU1SA2.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SA2E.BAM~  ~override/MYU1SA2E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SA2E.BAM~  ~override/MYU1SA2E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SA3.BAM~   ~override/MYU1SA3.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SA3.BAM~   ~override/MYU1SA3.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SA3E.BAM~  ~override/MYU1SA3E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SA3E.BAM~  ~override/MYU1SA3E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SA4.BAM~   ~override/MYU1SA4.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SA4.BAM~   ~override/MYU1SA4.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SA4E.BAM~  ~override/MYU1SA4E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SA4E.BAM~  ~override/MYU1SA4E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SC.BAM~    ~override/MYU1SC.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1SC.BAM~    ~override/MYU1SC.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1SCE.BAM~   ~override/MYU1SCE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SCE.BAM~   ~override/MYU1SCE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SD.BAM~    ~override/MYU1SD.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1SD.BAM~    ~override/MYU1SD.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1SDE.BAM~   ~override/MYU1SDE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SDE.BAM~   ~override/MYU1SDE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SGH.BAM~   ~override/MYU1SGH.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SGH.BAM~   ~override/MYU1SGH.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SGHE.BAM~  ~override/MYU1SGHE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SGHE.BAM~  ~override/MYU1SGHE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SGU.BAM~   ~override/MYU1SGU.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SGU.BAM~   ~override/MYU1SGU.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SGUE.BAM~  ~override/MYU1SGUE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SGUE.BAM~  ~override/MYU1SGUE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SL.BAM~    ~override/MYU1SL.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1SL.BAM~    ~override/MYU1SL.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1SLE.BAM~   ~override/MYU1SLE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SLE.BAM~   ~override/MYU1SLE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SSC.BAM~   ~override/MYU1SSC.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SSC.BAM~   ~override/MYU1SSC.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SSCE.BAM~  ~override/MYU1SSCE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SSCE.BAM~  ~override/MYU1SSCE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SSD.BAM~   ~override/MYU1SSD.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SSD.BAM~   ~override/MYU1SSD.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SSDE.BAM~  ~override/MYU1SSDE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SSDE.BAM~  ~override/MYU1SSDE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SSL.BAM~   ~override/MYU1SSL.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SSL.BAM~   ~override/MYU1SSL.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SSLE.BAM~  ~override/MYU1SSLE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SSLE.BAM~  ~override/MYU1SSLE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1SWK.BAM~   ~override/MYU1SWK.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1SWK.BAM~   ~override/MYU1SWK.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1SWKE.BAM~  ~override/MYU1SWKE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU1SWKE.BAM~  ~override/MYU1SWKE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU1TW.BAM~    ~override/MYU1TW.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1TW.BAM~    ~override/MYU1TW.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1TWE.BAM~   ~override/MYU1TWE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU1TWE.BAM~   ~override/MYU1TWE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU1WK.BAM~    ~override/MYU1WK.BAM~         
+COPY ~k9EveOfWar/BAM/MYU1WK.BAM~    ~override/MYU1WK.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU1WKE.BAM~   ~override/MYU1WKE.BAM~
+COPY ~k9EveOfWar/BAM/MYU1WKE.BAM~   ~override/MYU1WKE.BAM~
 
-COPY ~k9EveOfWar\BAM/MYU2A1.BAM~    ~override/MYU2A1.BAM~
+COPY ~k9EveOfWar/BAM/MYU2A1.BAM~    ~override/MYU2A1.BAM~
 
-COPY ~k9EveOfWar\BAM/MYU2A1E.BAM~   ~override/MYU2A1E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2A1E.BAM~   ~override/MYU2A1E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2A2.BAM~    ~override/MYU2A2.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2A2.BAM~    ~override/MYU2A2.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2A2E.BAM~   ~override/MYU2A2E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2A2E.BAM~   ~override/MYU2A2E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2A3.BAM~    ~override/MYU2A3.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2A3.BAM~    ~override/MYU2A3.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2A3E.BAM~   ~override/MYU2A3E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2A3E.BAM~   ~override/MYU2A3E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2A4.BAM~    ~override/MYU2A4.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2A4.BAM~    ~override/MYU2A4.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2A4E.BAM~   ~override/MYU2A4E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2A4E.BAM~   ~override/MYU2A4E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AA1.BAM~   ~override/MYU2AA1.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2AA1.BAM~   ~override/MYU2AA1.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AA1E.BAM~  ~override/MYU2AA1E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2AA1E.BAM~  ~override/MYU2AA1E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2AA2.BAM~   ~override/MYU2AA2.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2AA2.BAM~   ~override/MYU2AA2.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AA2E.BAM~  ~override/MYU2AA2E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2AA2E.BAM~  ~override/MYU2AA2E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2AA3.BAM~   ~override/MYU2AA3.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2AA3.BAM~   ~override/MYU2AA3.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AA3E.BAM~  ~override/MYU2AA3E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2AA3E.BAM~  ~override/MYU2AA3E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2AA4.BAM~   ~override/MYU2AA4.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2AA4.BAM~   ~override/MYU2AA4.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AA4E.BAM~  ~override/MYU2AA4E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2AA4E.BAM~  ~override/MYU2AA4E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2AGH.BAM~   ~override/MYU2AGH.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2AGH.BAM~   ~override/MYU2AGH.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AGHE.BAM~  ~override/MYU2AGHE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2AGHE.BAM~  ~override/MYU2AGHE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2AGU.BAM~   ~override/MYU2AGU.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2AGU.BAM~   ~override/MYU2AGU.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AGUE.BAM~  ~override/MYU2AGUE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2AGUE.BAM~  ~override/MYU2AGUE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2ASC.BAM~   ~override/MYU2ASC.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2ASC.BAM~   ~override/MYU2ASC.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2ASCE.BAM~  ~override/MYU2ASCE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2ASCE.BAM~  ~override/MYU2ASCE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2ASD.BAM~   ~override/MYU2ASD.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2ASD.BAM~   ~override/MYU2ASD.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2ASDE.BAM~  ~override/MYU2ASDE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2ASDE.BAM~  ~override/MYU2ASDE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2ASL.BAM~   ~override/MYU2ASL.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2ASL.BAM~   ~override/MYU2ASL.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2ASLE.BAM~  ~override/MYU2ASLE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2ASLE.BAM~  ~override/MYU2ASLE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2AWK.BAM~   ~override/MYU2AWK.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2AWK.BAM~   ~override/MYU2AWK.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2AWKE.BAM~  ~override/MYU2AWKE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2AWKE.BAM~  ~override/MYU2AWKE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CA1.BAM~   ~override/MYU2CA1.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CA1.BAM~   ~override/MYU2CA1.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CA1E.BAM~  ~override/MYU2CA1E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CA1E.BAM~  ~override/MYU2CA1E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CA2.BAM~   ~override/MYU2CA2.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CA2.BAM~   ~override/MYU2CA2.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CA2E.BAM~  ~override/MYU2CA2E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CA2E.BAM~  ~override/MYU2CA2E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CA3.BAM~   ~override/MYU2CA3.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CA3.BAM~   ~override/MYU2CA3.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CA3E.BAM~  ~override/MYU2CA3E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CA3E.BAM~  ~override/MYU2CA3E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CA4.BAM~   ~override/MYU2CA4.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CA4.BAM~   ~override/MYU2CA4.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CA4E.BAM~  ~override/MYU2CA4E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CA4E.BAM~  ~override/MYU2CA4E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CGH.BAM~   ~override/MYU2CGH.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CGH.BAM~   ~override/MYU2CGH.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CGHE.BAM~  ~override/MYU2CGHE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CGHE.BAM~  ~override/MYU2CGHE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CGU.BAM~   ~override/MYU2CGU.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CGU.BAM~   ~override/MYU2CGU.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CGUE.BAM~  ~override/MYU2CGUE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CGUE.BAM~  ~override/MYU2CGUE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CSC.BAM~   ~override/MYU2CSC.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CSC.BAM~   ~override/MYU2CSC.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CSCE.BAM~  ~override/MYU2CSCE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CSCE.BAM~  ~override/MYU2CSCE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CSD.BAM~   ~override/MYU2CSD.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CSD.BAM~   ~override/MYU2CSD.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CSDE.BAM~  ~override/MYU2CSDE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CSDE.BAM~  ~override/MYU2CSDE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CSL.BAM~   ~override/MYU2CSL.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CSL.BAM~   ~override/MYU2CSL.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CSLE.BAM~  ~override/MYU2CSLE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CSLE.BAM~  ~override/MYU2CSLE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2CWK.BAM~   ~override/MYU2CWK.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2CWK.BAM~   ~override/MYU2CWK.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2CWKE.BAM~  ~override/MYU2CWKE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2CWKE.BAM~  ~override/MYU2CWKE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2DE.BAM~    ~override/MYU2DE.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2DE.BAM~    ~override/MYU2DE.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2DEE.BAM~   ~override/MYU2DEE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2DEE.BAM~   ~override/MYU2DEE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2GH.BAM~    ~override/MYU2GH.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2GH.BAM~    ~override/MYU2GH.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2GHE.BAM~   ~override/MYU2GHE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2GHE.BAM~   ~override/MYU2GHE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2GU.BAM~    ~override/MYU2GU.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2GU.BAM~    ~override/MYU2GU.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2GUE.BAM~   ~override/MYU2GUE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2GUE.BAM~   ~override/MYU2GUE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SA1.BAM~   ~override/MYU2SA1.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SA1.BAM~   ~override/MYU2SA1.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SA1E.BAM~  ~override/MYU2SA1E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SA1E.BAM~  ~override/MYU2SA1E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SA2.BAM~   ~override/MYU2SA2.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SA2.BAM~   ~override/MYU2SA2.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SA2E.BAM~  ~override/MYU2SA2E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SA2E.BAM~  ~override/MYU2SA2E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SA3.BAM~   ~override/MYU2SA3.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SA3.BAM~   ~override/MYU2SA3.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SA3E.BAM~  ~override/MYU2SA3E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SA3E.BAM~  ~override/MYU2SA3E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SA4.BAM~   ~override/MYU2SA4.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SA4.BAM~   ~override/MYU2SA4.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SA4E.BAM~  ~override/MYU2SA4E.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SA4E.BAM~  ~override/MYU2SA4E.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SC.BAM~    ~override/MYU2SC.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2SC.BAM~    ~override/MYU2SC.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2SCE.BAM~   ~override/MYU2SCE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SCE.BAM~   ~override/MYU2SCE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SD.BAM~    ~override/MYU2SD.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2SD.BAM~    ~override/MYU2SD.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2SDE.BAM~   ~override/MYU2SDE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SDE.BAM~   ~override/MYU2SDE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SGH.BAM~   ~override/MYU2SGH.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SGH.BAM~   ~override/MYU2SGH.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SGHE.BAM~  ~override/MYU2SGHE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SGHE.BAM~  ~override/MYU2SGHE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SGU.BAM~   ~override/MYU2SGU.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SGU.BAM~   ~override/MYU2SGU.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SGUE.BAM~  ~override/MYU2SGUE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SGUE.BAM~  ~override/MYU2SGUE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SL.BAM~    ~override/MYU2SL.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2SL.BAM~    ~override/MYU2SL.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2SLE.BAM~   ~override/MYU2SLE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SLE.BAM~   ~override/MYU2SLE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SSC.BAM~   ~override/MYU2SSC.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SSC.BAM~   ~override/MYU2SSC.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SSCE.BAM~  ~override/MYU2SSCE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SSCE.BAM~  ~override/MYU2SSCE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SSD.BAM~   ~override/MYU2SSD.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SSD.BAM~   ~override/MYU2SSD.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SSDE.BAM~  ~override/MYU2SSDE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SSDE.BAM~  ~override/MYU2SSDE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SSL.BAM~   ~override/MYU2SSL.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SSL.BAM~   ~override/MYU2SSL.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SSLE.BAM~  ~override/MYU2SSLE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SSLE.BAM~  ~override/MYU2SSLE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2SWK.BAM~   ~override/MYU2SWK.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2SWK.BAM~   ~override/MYU2SWK.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2SWKE.BAM~  ~override/MYU2SWKE.BAM~       
+COPY ~k9EveOfWar/BAM/MYU2SWKE.BAM~  ~override/MYU2SWKE.BAM~       
 
-COPY ~k9EveOfWar\BAM/MYU2TW.BAM~    ~override/MYU2TW.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2TW.BAM~    ~override/MYU2TW.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2TWE.BAM~   ~override/MYU2TWE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2TWE.BAM~   ~override/MYU2TWE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU2WK.BAM~    ~override/MYU2WK.BAM~         
+COPY ~k9EveOfWar/BAM/MYU2WK.BAM~    ~override/MYU2WK.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU2WKE.BAM~   ~override/MYU2WKE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU2WKE.BAM~   ~override/MYU2WKE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3A1.BAM~    ~override/MYU3A1.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3A1.BAM~    ~override/MYU3A1.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3A1E.BAM~   ~override/MYU3A1E.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3A1E.BAM~   ~override/MYU3A1E.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3CA.BAM~    ~override/MYU3CA.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3CA.BAM~    ~override/MYU3CA.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3CAE.BAM~   ~override/MYU3CAE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3CAE.BAM~   ~override/MYU3CAE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3DE.BAM~    ~override/MYU3DE.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3DE.BAM~    ~override/MYU3DE.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3DEE.BAM~   ~override/MYU3DEE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3DEE.BAM~   ~override/MYU3DEE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3GH.BAM~    ~override/MYU3GH.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3GH.BAM~    ~override/MYU3GH.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3GHE.BAM~   ~override/MYU3GHE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3GHE.BAM~   ~override/MYU3GHE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3GU.BAM~    ~override/MYU3GU.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3GU.BAM~    ~override/MYU3GU.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3GUE.BAM~   ~override/MYU3GUE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3GUE.BAM~   ~override/MYU3GUE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3SC.BAM~    ~override/MYU3SC.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3SC.BAM~    ~override/MYU3SC.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3SCE.BAM~   ~override/MYU3SCE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3SCE.BAM~   ~override/MYU3SCE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3SD.BAM~    ~override/MYU3SD.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3SD.BAM~    ~override/MYU3SD.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3SDE.BAM~   ~override/MYU3SDE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3SDE.BAM~   ~override/MYU3SDE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3SL.BAM~    ~override/MYU3SL.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3SL.BAM~    ~override/MYU3SL.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3SLE.BAM~   ~override/MYU3SLE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3SLE.BAM~   ~override/MYU3SLE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3SP.BAM~    ~override/MYU3SP.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3SP.BAM~    ~override/MYU3SP.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3SPE.BAM~   ~override/MYU3SPE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3SPE.BAM~   ~override/MYU3SPE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3TW.BAM~    ~override/MYU3TW.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3TW.BAM~    ~override/MYU3TW.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3TWE.BAM~   ~override/MYU3TWE.BAM~        
+COPY ~k9EveOfWar/BAM/MYU3TWE.BAM~   ~override/MYU3TWE.BAM~        
 
-COPY ~k9EveOfWar\BAM/MYU3WK.BAM~    ~override/MYU3WK.BAM~         
+COPY ~k9EveOfWar/BAM/MYU3WK.BAM~    ~override/MYU3WK.BAM~         
 
-COPY ~k9EveOfWar\BAM/MYU3WKE.BAM~   ~override/MYU3WKE.BAM~
+COPY ~k9EveOfWar/BAM/MYU3WKE.BAM~   ~override/MYU3WKE.BAM~
 
 
 
@@ -6003,48 +6006,48 @@ APPEND ~EXTANIM.2da~
 
 
 //WED files
-COPY "k9EveOfWar\WED\AR9100.WED" "override"
-COPY "k9EveOfWar\WED\AR9101.WED" "override"
-COPY "k9EveOfWar\WED\AR9102.WED" "override"
-COPY "k9EveOfWar\WED\AR9103.WED" "override"
-COPY "k9EveOfWar\WED\AR9104.WED" "override"
-COPY "k9EveOfWar\WED\AR9105.WED" "override"
-COPY "k9EveOfWar\WED\AR9106.WED" "override"
-COPY "k9EveOfWar\WED\AR9107.WED" "override"
-COPY "k9EveOfWar\WED\AR9108.WED" "override"
-COPY "k9EveOfWar\WED\AR9109.WED" "override"
-COPY "k9EveOfWar\WED\AR9110.WED" "override"
-COPY "k9EveOfWar\WED\ARk935.WED" "override"
+COPY "k9EveOfWar/WED/AR9100.WED" "override"
+COPY "k9EveOfWar/WED/AR9101.WED" "override"
+COPY "k9EveOfWar/WED/AR9102.WED" "override"
+COPY "k9EveOfWar/WED/AR9103.WED" "override"
+COPY "k9EveOfWar/WED/AR9104.WED" "override"
+COPY "k9EveOfWar/WED/AR9105.WED" "override"
+COPY "k9EveOfWar/WED/AR9106.WED" "override"
+COPY "k9EveOfWar/WED/AR9107.WED" "override"
+COPY "k9EveOfWar/WED/AR9108.WED" "override"
+COPY "k9EveOfWar/WED/AR9109.WED" "override"
+COPY "k9EveOfWar/WED/AR9110.WED" "override"
+COPY "k9EveOfWar/WED/ARk935.WED" "override"
 
 //TIS files
-COPY "k9EveOfWar\TIS\AR9100.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9101.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9102.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9103.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9104.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9105.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9106.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9107.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9108.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9109.TIS" "override"
-COPY "k9EveOfWar\TIS\AR9110.TIS" "override"
-COPY "k9EveOfWar\TIS\ARk935.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9100.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9101.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9102.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9103.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9104.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9105.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9106.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9107.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9108.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9109.TIS" "override"
+COPY "k9EveOfWar/TIS/AR9110.TIS" "override"
+COPY "k9EveOfWar/TIS/ARk935.TIS" "override"
 
 
 //MOS
 
-COPY "k9EveOfWar\MOS\AR9100.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9101.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9102.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9103.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9104.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9105.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9106.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9107.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9108.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9109.MOS" "override"
-COPY "k9EveOfWar\MOS\AR9110.MOS" "override"
-COPY "k9EveOfWar\MOS\ARk935.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9100.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9101.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9102.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9103.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9104.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9105.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9106.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9107.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9108.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9109.MOS" "override"
+COPY "k9EveOfWar/MOS/AR9110.MOS" "override"
+COPY "k9EveOfWar/MOS/ARk935.MOS" "override"
 
 
 APPEND ~ANIMATE.IDS~
@@ -6196,7 +6199,7 @@ COPY ~k9EveOfWar/PNG/ARk935.PNG~ ~override/ARk935.PNG~
   BEGIN @99974
 GROUP @99976
 
-INCLUDE "k9EveOfWar\DaranNPC/library/fl#add_kit_ee.tpa"
+INCLUDE "k9EveOfWar/DaranNPC/library/fl#add_kit_ee.tpa"
 
 ADD_KIT ~k9VermiD~ // this is the internal name of the kit, don't bother if it isn't pretty
    // This are the proficiency in BG1 style, don't bother with them.
@@ -6217,7 +6220,7 @@ ADD_KIT ~k9VermiD~ // this is the internal name of the kit, don't bother if it i
    // append to DUALCLAS.2DA, check the file for reference on the listing of the classes.
   ~k9VermiD                1       1       1       0       0       0~
    // path to the CLAB*.2DA file.
-  ~k9EveOfWar\DaranNPC\Vermin Slayer\2DA\k9VermiD.2DA~
+  ~k9EveOfWar/DaranNPC/Vermin Slayer/2DA/k9VermiD.2DA~
     // this are the races that can choose the kit-- for example, K_T_H means thief human
     // and K_T_D means dwarf thief, so putting those here would make this kit selectable by those classes (from KITTABLE.2DA).
   ~K_T_D~
@@ -6294,38 +6297,38 @@ END // end of the LAF (launch_action_function) block.
 
 //Hide in Shadows bonus
 
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\SPL\K9VEHID.SPL" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/SPL/K9VEHID.SPL" "override"
 
 //Move Silently bonus
 
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\SPL\K9VEMOV.SPL" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/SPL/K9VEMOV.SPL" "override"
 
 //Find Traps bonus
 
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\SPL\K9VEFIN.SPL" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/SPL/K9VEFIN.SPL" "override"
 
 //Pick Pocket penalty
 
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\SPL\K9VEPICK.SPL" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/SPL/K9VEPICK.SPL" "override"
 
 //Fighting bonuses vs creatures
 
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\SPL\K9SPVERM.SPL" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VermBE.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VermCC.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VermHU.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VermUD.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VermSP.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VermBU.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VermAN.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/SPL/K9SPVERM.SPL" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VermBE.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VermCC.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VermHU.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VermUD.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VermSP.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VermBU.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VermAN.EFF" "override"
 
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VSBEDa.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VSCCDa.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VSHUDa.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VSUDDa.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VSSPDa.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VSBUDa.EFF" "override"
-COPY "k9EveOfWar\DaranNPC\Vermin Slayer\EFF\k9VSANDa.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VSBEDa.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VSCCDa.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VSHUDa.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VSUDDa.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VSSPDa.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VSBUDa.EFF" "override"
+COPY "k9EveOfWar/DaranNPC/Vermin Slayer/EFF/k9VSANDa.EFF" "override"
 
 
 //Dialog
@@ -6341,70 +6344,70 @@ STRING_SET 64705    @55016
 
 //BDDEEP
 
-COMPILE "k9EveOfWar\DaranNPC\dialog\k9bddeep.d"
+COMPILE "k9EveOfWar/DaranNPC/dialog/k9bddeep.d"
 
 //Daran
-COMPILE "k9EveOfWar\DaranNPC\dialog\k9daran.d"
-COMPILE "k9EveOfWar\DaranNPC\dialog\BDdaranp.d"
-COMPILE "k9EveOfWar\DaranNPC\dialog\BDdaranj.d"
-COMPILE "k9EveOfWar\DaranNPC\dialog\bdaran.d"
+COMPILE "k9EveOfWar/DaranNPC/dialog/k9daran.d"
+COMPILE "k9EveOfWar/DaranNPC/dialog/BDdaranp.d"
+COMPILE "k9EveOfWar/DaranNPC/dialog/BDdaranj.d"
+COMPILE "k9EveOfWar/DaranNPC/dialog/bdaran.d"
 
  //Safana
-COMPILE "k9EveOfWar\DaranNPC\dialog\k9safanj.d"
+COMPILE "k9EveOfWar/DaranNPC/dialog/k9safanj.d"
 //Jaheira
 
-COMPILE "k9EveOfWar\DaranNPC\dialog\k9jaheij.d"
+COMPILE "k9EveOfWar/DaranNPC/dialog/k9jaheij.d"
  //Script
 
-EXTEND_TOP ~bddaran.bcs~ ~k9EveOfWar\DaranNPC\script\k9daran.baf~
-EXTEND_TOP ~bd1000.bcs~ ~k9EveOfWar\DaranNPC\script\k9drow.baf~
-EXTEND_TOP ~bd2000.bcs~ ~k9EveOfWar\DaranNPC\script\k9bd2000.baf~
-EXTEND_TOP ~bd2100.bcs~ ~k9EveOfWar\DaranNPC\script\k9bd2100.baf~
+EXTEND_TOP ~bddaran.bcs~ ~k9EveOfWar/DaranNPC/script/k9daran.baf~
+EXTEND_TOP ~bd1000.bcs~ ~k9EveOfWar/DaranNPC/script/k9drow.baf~
+EXTEND_TOP ~bd2000.bcs~ ~k9EveOfWar/DaranNPC/script/k9bd2000.baf~
+EXTEND_TOP ~bd2100.bcs~ ~k9EveOfWar/DaranNPC/script/k9bd2100.baf~
 
 
 //Audio
 
 
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_01.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_02.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_03.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_04.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_05.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_06.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_07.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_08.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_09.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_10.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_11.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_12.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_13.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_14.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_15.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_16.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_17.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_18.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_19.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_20.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_21.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_22.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_23.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_24.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_25.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_26.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_27.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_28.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_29.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_30.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_31.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_32.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_33.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_34.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_35.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_36.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_37.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_38.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_39.wav" "override"
-COPY "k9EveOfWar\DaranNPC\WAV\DMF_40.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_01.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_02.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_03.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_04.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_05.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_06.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_07.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_08.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_09.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_10.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_11.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_12.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_13.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_14.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_15.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_16.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_17.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_18.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_19.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_20.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_21.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_22.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_23.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_24.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_25.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_26.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_27.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_28.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_29.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_30.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_31.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_32.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_33.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_34.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_35.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_36.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_37.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_38.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_39.wav" "override"
+COPY "k9EveOfWar/DaranNPC/WAV/DMF_40.wav" "override"
 
 
 APPEND ~PDIALOG.2da~
@@ -6419,13 +6422,13 @@ UNLESS~BDDARA~
 
 //Portraits
 //Daran
-COPY "k9EveOfWar\DaranNPC\Portraits\Daranl.bmp" "override"
-COPY "k9EveOfWar\DaranNPC\Portraits\Darans.bmp" "override"
+COPY "k9EveOfWar/DaranNPC/Portraits/Daranl.bmp" "override"
+COPY "k9EveOfWar/DaranNPC/Portraits/Darans.bmp" "override"
 
 
 //Daran CRE file
 
-COPY "k9EveOfWar\DaranNPC\CRE\BDDaran.cre" "override"
+COPY "k9EveOfWar/DaranNPC/CRE/BDDaran.cre" "override"
     SAY BIO @55009
     SAY INITIAL_MEETING @55035
     SAY MORALE @55042
@@ -6456,7 +6459,7 @@ COPY "k9EveOfWar\DaranNPC\CRE\BDDaran.cre" "override"
     SAY REACT_TO_DIE_GENERAL @55056
 //Daran armor
 
-COPY "k9EveOfWar\DaranNPC\ITM\k9Daran.itm" "override"
+COPY "k9EveOfWar/DaranNPC/ITM/k9Daran.itm" "override"
 SAY NAME1 @55006
 SAY NAME2 @55006
 SAY DESC @55007
@@ -6467,7 +6470,7 @@ SAY DESC @55007
   GROUP @99976
 //Jenora CRE File
 //texts can be found under k9setup in the jenoranpc folder
-COPY "k9EveofWar\JenoraNPC\CRE\k9Jenor.cre" "override"
+COPY "k9EveofWar/JenoraNPC/CRE/k9Jenor.cre" "override"
     SAY NAME1 @57035
     SAY NAME2 @57035
     SAY BIO @57036
@@ -6502,29 +6505,29 @@ COPY "k9EveofWar\JenoraNPC\CRE\k9Jenor.cre" "override"
 //Audio
 
 
-COPY "k9EveofWar\JenoraNPC\WAV" "override"
+COPY "k9EveofWar/JenoraNPC/WAV" "override"
 
 //Portraits
-COPY "k9EveofWar\JenoraNPC\Portraits\k9JenorL.bmp" "override"
-COPY "k9EveofWar\JenoraNPC\Portraits\k9JenorS.bmp" "override"
+COPY "k9EveofWar/JenoraNPC/Portraits/k9JenorL.bmp" "override"
+COPY "k9EveofWar/JenoraNPC/Portraits/k9JenorS.bmp" "override"
 
 //Items
-COPY "k9EveofWar\JenoraNPC\ITM\k9brac18.itm" "override"
+COPY "k9EveofWar/JenoraNPC/ITM/k9brac18.itm" "override"
 SAY NAME1 @57064
 SAY NAME2 @57064
 SAY DESC @57065
 
 //Script
 
- EXTEND_TOP ~bd0020.bcs~ ~k9EveofWar\JenoraNPC\script\k9jenspa.baf~
-  EXTEND_TOP ~bd0121.bcs~ ~k9EveofWar\JenoraNPC\script\k9jensor.baf~
+ EXTEND_TOP ~bd0020.bcs~ ~k9EveofWar/JenoraNPC/script/k9jenspa.baf~
+  EXTEND_TOP ~bd0121.bcs~ ~k9EveofWar/JenoraNPC/script/k9jensor.baf~
 
-EXTEND_BOTTOM ~bdNEERA.bcs~ ~k9EveofWar\JenoraNPC\script\k9nerjen.baf~
-EXTEND_BOTTOM ~bdVICONI.bcs~ ~k9EveofWar\JenoraNPC\script\k9vicjen.baf~
-EXTEND_BOTTOM ~bdVOGHIL.bcs~ ~k9EveofWar\JenoraNPC\script\k9vogjen.baf~
+EXTEND_BOTTOM ~bdNEERA.bcs~ ~k9EveofWar/JenoraNPC/script/k9nerjen.baf~
+EXTEND_BOTTOM ~bdVICONI.bcs~ ~k9EveofWar/JenoraNPC/script/k9vicjen.baf~
+EXTEND_BOTTOM ~bdVOGHIL.bcs~ ~k9EveofWar/JenoraNPC/script/k9vogjen.baf~
 
- EXTEND_TOP ~bdcut61.bcs~ ~k9EveOfWar\JenoraNPC\script\k9final.baf~
-COMPILE "k9EveofWar\JenoraNPC\script\k9jenora.baf"
+ EXTEND_TOP ~bdcut61.bcs~ ~k9EveOfWar/JenoraNPC/script/k9final.baf~
+COMPILE "k9EveofWar/JenoraNPC/script/k9jenora.baf"
 
  
 
@@ -6533,14 +6536,14 @@ COMPILE "k9EveofWar\JenoraNPC\script\k9jenora.baf"
 
 
 
-COMPILE "k9EveofWar\JenoraNPC\dialog\k9jenor.d"
-COMPILE "k9EveofWar\JenoraNPC\dialog\k9jenorp.d"
-COMPILE "k9EveofWar\JenoraNPC\dialog\k9jenorj.d"
-COMPILE "k9EveofWar\JenoraNPC\dialog\bk9jenor.d"
-COMPILE "k9EveofWar\JenoraNPC\dialog\bk9nerje.d"
-COMPILE "k9EveofWar\JenoraNPC\dialog\k9neerje.d"
-COMPILE "k9EveofWar\JenoraNPC\dialog\bk9vicje.d"
-COMPILE "k9EveofWar\JenoraNPC\dialog\bk9vogje.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/k9jenor.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/k9jenorp.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/k9jenorj.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/bk9jenor.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/bk9nerje.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/k9neerje.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/bk9vicje.d"
+COMPILE "k9EveofWar/JenoraNPC/dialog/bk9vogje.d"
 
 
 APPEND ~BDDIALOG.2da~
@@ -6557,13 +6560,13 @@ UNLESS ~k9Jeno~
     //Tiax
   BEGIN @99972
 GROUP @99976
- EXTEND_TOP ~bd1000.bcs~ ~k9EveOfWar\TiaxNPC\script\k9tiax.baf~
-COMPILE "k9EveOfWar\TiaxNPC\script\k9tiax7.baf"
-COMPILE "k9EveOfWar\TiaxNPC\dialog\k9tiax7.d"
+ EXTEND_TOP ~bd1000.bcs~ ~k9EveOfWar/TiaxNPC/script/k9tiax.baf~
+COMPILE "k9EveOfWar/TiaxNPC/script/k9tiax7.baf"
+COMPILE "k9EveOfWar/TiaxNPC/dialog/k9tiax7.d"
 
 //Tiax CRE File
 
-COPY "k9EveOfWar\TIAXNPC\CRE\k9Tiax7.cre" "override"
+COPY "k9EveOfWar/TIAXNPC/CRE/k9Tiax7.cre" "override"
 
 
     //Shar Teel
@@ -6573,35 +6576,35 @@ GROUP @99976
 
 
 //creature files
-COPY "k9EveOfWar\SharteelNPC\CRE\k9sharte.cre" "override"
+COPY "k9EveOfWar/SharteelNPC/CRE/k9sharte.cre" "override"
 
-COPY "k9EveOfWar\SharteelNPC\CRE\k9sodfis.cre" "override"
+COPY "k9EveOfWar/SharteelNPC/CRE/k9sodfis.cre" "override"
 
-COPY "k9EveOfWar\SharteelNPC\CRE\k9narlen.cre" "override"
+COPY "k9EveOfWar/SharteelNPC/CRE/k9narlen.cre" "override"
 
 
  //scripts
-  EXTEND_TOP ~bd0020.bcs~ ~k9EveOfWar\SharteelNPC\script\k9narspa.baf~
- EXTEND_TOP ~bd0104.bcs~ ~k9EveOfWar\SharteelNPC\script\k9sharte.baf~
- EXTEND_TOP ~bdcut61.bcs~ ~k9EveOfWar\SharteelNPC\script\k9final2.baf~
-   COMPILE "k9EveOfWar\SharteelNPC\script\k9shar.baf"
-  COMPILE "k9EveOfWar\SharteelNPC\script\k9narlen.baf"
+  EXTEND_TOP ~bd0020.bcs~ ~k9EveOfWar/SharteelNPC/script/k9narspa.baf~
+ EXTEND_TOP ~bd0104.bcs~ ~k9EveOfWar/SharteelNPC/script/k9sharte.baf~
+ EXTEND_TOP ~bdcut61.bcs~ ~k9EveOfWar/SharteelNPC/script/k9final2.baf~
+   COMPILE "k9EveOfWar/SharteelNPC/script/k9shar.baf"
+  COMPILE "k9EveOfWar/SharteelNPC/script/k9narlen.baf"
  
  
- EXTEND_BOTTOM ~bdCORWIN.bcs~ ~k9EveOfWar\SharteelNPC\script\k9corsha.baf~
- EXTEND_BOTTOM ~bdDORN.bcs~ ~k9EveOfWar\SharteelNPC\script\k9dorsha.baf~
+ EXTEND_BOTTOM ~bdCORWIN.bcs~ ~k9EveOfWar/SharteelNPC/script/k9corsha.baf~
+ EXTEND_BOTTOM ~bdDORN.bcs~ ~k9EveOfWar/SharteelNPC/script/k9dorsha.baf~
  
 
  //Dialog
- COMPILE "k9EveOfWar\SharteelNPC\dialog\bdsharte.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\bdshartj.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\bdshartp.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\bk9shart.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\k9bdelta.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\k9sodfis.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\k9sodnar.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\bk9corsh.d"
- COMPILE "k9EveOfWar\SharteelNPC\dialog\bk9dorsh.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/bdsharte.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/bdshartj.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/bdshartp.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/bk9shart.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/k9bdelta.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/k9sodfis.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/k9sodnar.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/bk9corsh.d"
+ COMPILE "k9EveOfWar/SharteelNPC/dialog/bk9dorsh.d"
 
  //stores
 
@@ -6622,7 +6625,7 @@ UNLESS ~BDEDWI~
 
 
 
-ADD_JOURNAL @665565 @665566 @665567 @665568 @665569 @665570 @665571 USING ~k9EveOfWar/k9EveOfWar\SharteelNPC/tra/k9Setup.tra~
+ADD_JOURNAL @665565 @665566 @665567 @665568 @665569 @665570 @665571 USING ~k9EveOfWar/k9EveOfWar/SharteelNPC/tra/k9Setup.tra~
 
 
 
@@ -6658,13 +6661,13 @@ COPY_EXISTING ~BD0103.are~ ~override/BD0103.are~
   END
 
 
-  COPY "k9EveOfWar\SharteelNPC\ITM\k9eltlet.itm" "override"
+  COPY "k9EveOfWar/SharteelNPC/ITM/k9eltlet.itm" "override"
 SAY NAME1 @99990122
 SAY NAME2 @99990122
 SAY UNIDENTIFIED_DESC  @99990123
 SAY DESC @99990123
 
-  COPY "k9EveOfWar\SharteelNPC\ITM\k9eltle2.itm" "override"
+  COPY "k9EveOfWar/SharteelNPC/ITM/k9eltle2.itm" "override"
 SAY NAME1 @99990124
 SAY NAME2 @99990124
 SAY UNIDENTIFIED_DESC  @99990125

@@ -828,10 +828,10 @@ COPY ~k9EveOfWar/CRE/militia/k9injure.cre~ ~override/k9injure.cre~
 
 // Beregost Town Council
 
-// Kelddath Ormlyr (this is just to give the original a script name) 
+// Kelddath Ormlyr (this file might not be used)
  COPY ~k9EveOfWar/CRE/acolytes/k9acoly2.cre~ ~override/k9acoly2.cre~
 
-// Kelddath Ormlyr
+// Kelddath Ormlyr (town council Kelddath)
 COPY ~k9EveOfWar/CRE/town council/kelddare.cre~ ~override/kelddare.cre~
     SAY NAME1 @1008
     SAY NAME2 @1008
@@ -857,7 +857,7 @@ COMPILE ~k9EveOfWar/Dialog/k9melica.d~
 COMPILE ~k9EveOfWar/Script/ar3202.baf~
 
 
-// Taerom Fuiruim (this is just to give the original a script name) 
+// Taerom Fuiruim (this is just to give the original a script name)
 
 //head smith
 COPY ~k9EveOfWar/CRE/smithy/k9smith.cre~ ~override/k9smith.cre~

@@ -5,7 +5,7 @@ CHAIN IF ~Global("k9JenoraNeera","GLOBAL",5)~ THEN bk9NerJe 0
 DO ~SetGlobal("k9JenoraNeera","GLOBAL",6)~
 = ~When it comes to my wild magic how much do you think I should try to limit myself to? The odd falling cow - maybe a wayward polymorph spell here and there...~
 == bk9Jenor ~I think you can do better.~
-== bk9NerJe  ~OHH COME ON. It's not like I'm *trying* to tear a hole in the weave. Besides, I'm a BETTER mage than you. What do you even know?~
+== bk9NerJe  ~OHH COME ON. It's not like I'm *trying* to tear a hole in the Weave. Besides, I'm a BETTER mage than you. What do you even know?~
 == bk9Jenor ~What knowledge in the arcane that I may lack I have made up for in other areas. Studying history, the art of fighting, the teachings of Azuth. Open your mind to new ideas Neera. Wild magic does not have to be the only way you cast spells. I can teach you otherwise.~
 EXIT
 

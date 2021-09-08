@@ -95,7 +95,7 @@ BEGIN k9modesthelped
 	SAY ~I think I made my instructions here quite clear. Go find the man I asked you to find. He should be in one of the taverns here in town.~ IF ~~ THEN EXIT
 END
 
-IF ~Global("ModestHelped","GLOBAL",1) NumTimesTalkedToGT(0)~ THEN
+IF ~Global("ModestHelped","GLOBAL",1) Global("k9darrentalk", "GLOBAL", 2) NumTimesTalkedToGT(0)~ THEN
 BEGIN k9modesthelped
 	SAY ~Ahh good to see you again. As I'm sure you are already aware, I spoke with Cyrag Hammerbone. 
 

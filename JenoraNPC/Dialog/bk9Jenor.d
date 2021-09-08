@@ -5,7 +5,7 @@ CHAIN IF ~Global("k9JenoraNeera","GLOBAL",1)~ THEN bk9Jenor 0
 DO ~SetGlobal("k9JenoraNeera","GLOBAL",2)~
 == BDNEERAJ ~I learned to cast when I lived in the High Forest. Had a mentor there, Frixis, taught me about reading and controlling magic. Kind of a boring old coot really. Never really understood why it was we were always studying, when magic just seems so easy. Ya know?~
 =  ~Anyways, there was kind of an accident. It wasn't really my fault. Well, ok, kind of I suppose. My magic just can be a bit rough at times. Anyways, old Frixis, wasn't having any of it. Had to get out of there.~
-== bk9Jenor ~I understand. The temptation to draw directly upon the weave is present for all mages, but we must remember to trust in the wisdom of Azuth and seek to better understand the weave. To ignore our boundaries would be foolhardy - if not dangerous.~
+== bk9Jenor ~I understand. The temptation to draw directly upon the Weave is present for all mages, but we must remember to trust in the wisdom of Azuth and seek to better understand the Weave. To ignore our boundaries would be foolhardy - if not dangerous.~
 == BDNEERAJ ~Ugh, I DON'T need a lecture. Can we just drop this?~
 EXIT
 
@@ -19,7 +19,7 @@ DO ~SetGlobal("k9JenoraNeera","GLOBAL",4)~
 = ~Karsus was an extraordinary mage for his time you see, and like many mages before him he let this power control his actions. He felt strongly in his worth in becoming a god and with that goal in mind he created and cast a spell that would drain the powers of a god into him. The goddess that he chose for this was the first incarnation of the goddess of magic - Mystryl.~
 == BDNEERAJ ~You really aren't going to drop this whole lecturing thing. Now aren't you? Fine, I'll play along. Let me guess, something went wrong. Now every new mage from here to Calimshan has to hear about it.~
 == bk9Jenor ~You are quite correct.~
-= ~You see, Karsus's spell succeeded for but a brief moment. However, the consequences were devastating. Mystryl was forced to sacrifice herself to save the weave. Karsus was petrified and fell to the ground. Some say that at Karse lies his final resting place.~
+= ~You see, Karsus's spell succeeded for but a brief moment. However, the consequences were devastating. Mystryl was forced to sacrifice herself to save the Weave. Karsus was petrified and fell to the ground. Some say that at Karse lies his final resting place.~
 == BDNEERAJ ~So I should avoid casting spells that will cause the end of the world. Got it.~
 EXIT
 

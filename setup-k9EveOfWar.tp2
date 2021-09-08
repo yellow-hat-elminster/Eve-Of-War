@@ -2,7 +2,7 @@ BACKUP ~k9EveOfWar/Backup~
 AUTHOR ~elminster (elminster.sage@gmail.com)~
 
 
-VERSION ~v1.15~
+VERSION ~v1.2~
 
 LANGUAGE
     ~English~                                                                           
@@ -2813,7 +2813,7 @@ COPY ~k9EveOfWar/ITM/k9cdRelm.itm~ ~override/k9cdRelm.itm~
     SAY DESC @130163
 COPY ~k9EveOfWar/BAM/Remorhaz Items/cdrelm.bam~ ~override/cdrelm.bam~
 
-    
+
 COMPILE ~k9EveOfWar/Dialog/k9garan.d~
 COMPILE ~k9EveOfWar/Dialog/k9smith.d~
 

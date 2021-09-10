@@ -3,7 +3,7 @@
 IF ~~ THEN
 BEGIN 0
 	SAY ~You told me you were going to show me spells. When do I get to see those?~
-	  IF ~~ THEN EXTERN ~k9baskor~ 1
+	  IF ~~ THEN EXTERN ~k9baskor~ 2
 END
 
 

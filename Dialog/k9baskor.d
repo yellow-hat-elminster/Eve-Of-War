@@ -81,7 +81,7 @@ END
 
 IF ~True()~ THEN
 BEGIN 10
-	SAY ~...Kid, we've been over this already. Just grab the book and get out. No sense taking so long about it.~
+	SAY ~...Kid, we've been over this already. Just grab the book and get out. How many times do I need to tell you this?~
 	  IF ~~ THEN EXTERN ~k9kid2~ 0
 END
 

@@ -1,7 +1,7 @@
 //Town Advisors
 
 
-IF    Global("k9baskor","GLOBAL",1)
+IF    Global("k9baskor","GLOBAL",1)  
 
 THEN RESPONSE #100
                    CreateCreature("k9baskor",[400.140],16)                  SetGlobal("k9baskor","GLOBAL",2)

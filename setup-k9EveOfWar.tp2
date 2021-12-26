@@ -2583,9 +2583,9 @@ COMPILE ~k9EveOfWar/Script/k9cyricr.baf~
 
 
 
-
-BEGIN @999670
-GROUP @99999
+//Siege of Dragonspear Aftermath is not yet complete. But for the time being I'm just going to leave its components numbers here.
+//BEGIN @999670
+//GROUP @99999
 
 //Siege of Dragonspear Aftermath
 COMPILE ~k9EveOfWar/Dialog/k9sodcom.d~

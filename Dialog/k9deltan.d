@@ -20,12 +20,12 @@ REPLACE_TRANS_ACTION DELTAN BEGIN 3 END BEGIN 0 END ~ActionOverride(Player3,Make
 
 
 
-ALTER_TRANS DELTAN BEGIN 3 END BEGIN 0 END BEGIN "EPILOGUE"  ~GOTO 17~ END
+ALTER_TRANS DELTAN BEGIN 3 END BEGIN 0 END BEGIN "EPILOGUE"  ~GOTO k9spared~ END
 
 APPEND DELTAN
 
 
-IF WEIGHT #-99 ~~ THEN BEGIN 17
+IF WEIGHT #-99 ~~ THEN BEGIN k9spared~
 SAY ~Hmm...a less forgiving man would have killed you for that. Don't return here unless you have something useful to tell me.~ IF ~~ THEN EXIT
 
 END

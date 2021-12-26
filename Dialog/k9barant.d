@@ -5,7 +5,7 @@ BEGIN k9barant
  END
  
 IF ~Global("k9BeregostSearch","GLOBAL",0)~ THEN BEGIN k9barant
-SAY ~~Uhh...hello? You don't look the sort that frequents these parts. Can I help you?~
+SAY ~Uhh...hello? You don't look the sort that frequents these parts. Can I help you?~
 ++ ~What makes you think we don't fit in here?~ GOTO 15
 ++ ~Well to tell you the truth you don't sound like you are from around here either. Where do you hail from?~ GOTO 16
 ++ ~Nope. In fact I think we'll be on our way.~ EXIT

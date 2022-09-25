@@ -1,3 +1,7 @@
+I'm keeping this on Github solely just to maintain it somewhere.
+
+I have provided a different link for it on the main thread on the Beamdog forums. 
+
 Anyone who wants to rehost this, make changes to it, pull things from it to use it in their mods, take inspiration from this, or use any of its content is free to do so. I'm no longer supporting this and have abandoned this project.
 
 This mod is not in any state to be used as is. It is not EE Trilogy compatible.
